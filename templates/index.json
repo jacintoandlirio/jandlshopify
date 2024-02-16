@@ -59,31 +59,12 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_PmjzjA": {
-          "type": "slide",
-          "settings": {
-            "image_link": "",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_7mMHRC",
         "slide_g8xtrX",
-        "slide_c6PyWd",
-        "slide_PmjzjA"
+        "slide_c6PyWd"
       ],
       "settings": {
         "layout": "full_bleed",

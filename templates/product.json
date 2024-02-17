@@ -165,7 +165,7 @@
           "settings": {
             "image": "{{ product.metafields.custom.product_use_img_3.value }}",
             "caption": "",
-            "heading": "{{ product.metafields.custom.featuretitle1.value }}{{ product.metafields.custom.featuretitle1.value }}",
+            "heading": "{{ product.metafields.custom.featuretitle1.value }}",
             "text": "<p>{{ product.metafields.custom.featuredescription1 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
@@ -261,7 +261,6 @@
         "slide_fzfmpH",
         "slide_8YxED4"
       ],
-      "disabled": true,
       "settings": {
         "top": "",
         "top_custom": false,

@@ -163,7 +163,7 @@
         "row_LXNXQA": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.featuretitle1.value }}",
             "text": "<p>{{ product.metafields.custom.featuredescription1 | metafield_tag }}<\/p>",

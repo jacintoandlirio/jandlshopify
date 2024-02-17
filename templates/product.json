@@ -163,30 +163,33 @@
         "row_LXNXQA": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featuretitle1.value }}{{ product.metafields.custom.featuretitle1.value }}",
+            "text": "<p>{{ product.metafields.custom.featuredescription1 | metafield_tag }}<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_36bwLG": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
             "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "heading": "{{ product.metafields.custom.featuretitle2.value }}",
+            "text": "<p>{{ product.metafields.custom.featuredescription2 | metafield_tag }}<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_3Lqb8m": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featuretitle3.value }}",
+            "text": "<p>{{ product.metafields.custom.featuredescription3 | metafield_tag }}<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }

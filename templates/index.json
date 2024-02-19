@@ -3,18 +3,18 @@
     "slideshow_ri7rcw": {
       "type": "slideshow",
       "blocks": {
-        "slide_g8xtrX": {
+        "slide_7mMHRC": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_coverPhoto_2.png",
-            "image_link": "https:\/\/jacintoandlirio.com\/products\/bucket-list-zippered-checkbook-wallet-essentials-purse-with-retractable-wristlet",
+            "image": "shopify:\/\/shop_images\/02-coverPhotozOptimized.jpg",
+            "image_link": "shopify:\/\/collections\/travel-accessories",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify:\/\/collections\/travel-accessories",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "top-left",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -43,7 +43,7 @@
         }
       },
       "block_order": [
-        "slide_g8xtrX",
+        "slide_7mMHRC",
         "slide_c6PyWd"
       ],
       "settings": {
@@ -92,12 +92,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
-            "image_link": "",
+            "image_link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
             "heading": "OUR STORY",
             "heading_size": "h1",
             "subheading": "Through the creation of well-designed, functional and Philippine-inspired plant leather goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission-- social impact in livelihood, environmental protection and product innovation.",
-            "button_label": "Button label",
-            "link": "",
+            "button_label": "Watch here",
+            "link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -426,7 +426,7 @@
             "title": "Product",
             "text": "<p>Choose from our extensive line of water hyacinth vegan leathergoods  which can be customized into different kinds of products from bags, wallets, travel accessories, hotel in room accessories, restaurant accessories, media kits, PR Kits, new hire kits, real estate turn over kit and more!<\/p>",
             "link_label": "Learn more",
-            "link": ""
+            "link": "shopify:\/\/collections"
           }
         },
         "column_xrmgTF": {
@@ -563,6 +563,72 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_4kpYXJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_7meDxG": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Review our products in Amazon",
+            "text": "<h3><\/h3><p>Are you an Amazon shopper?If yes, we need your help! If you've purchased any J&L product before from any of our sales channels, please help us share Filipino craftsmanship to the world by ADDING A REVIEW IN OUR AMAZON STORE.<\/p><p>1. Click the product in our <a href=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\">Amazon store.<\/a><br\/>2. Select the J&L product you bought.<br\/>3. Click <strong>Write a customer review<\/strong>.<br\/>4. Select star rating and\/or add text, photo, and video.<br\/>5. Click submit.<\/p>",
+            "button_label": "Add a review",
+            "button_link": "https:\/\/www.amazon.com\/handmade\/JacintoandLirio"
+          }
+        },
+        "row_7H4gdQ": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Join our Employee Perks Program",
+            "text": "<p>Add exclusive perks for your employees with Jacinto & Lirio. Email us at stories@jacintoandlirio.com to discuss the details.<\/p>",
+            "button_label": "Let's collaborate",
+            "button_link": "shopify:\/\/pages\/j-l-with-p-g"
+          }
+        },
+        "row_tyXbAG": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_qMXdc6": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_7meDxG",
+        "row_7H4gdQ",
+        "row_tyXbAG",
+        "row_qMXdc6"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -576,6 +642,7 @@
     "multicolumn_gmzhh3",
     "image_banner_bjWjq4",
     "image_with_text_UYUL3C",
-    "featured_blog_K9DnLq"
+    "featured_blog_K9DnLq",
+    "multirow_4kpYXJ"
   ]
 }

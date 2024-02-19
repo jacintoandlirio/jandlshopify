@@ -165,8 +165,8 @@
           "settings": {
             "image": "{{ product.metafields.custom.product_use_img_1.value }}",
             "caption": "",
-            "heading": "{{ product.metafields.custom.featuretitle1.value }}",
-            "text": "<p>{{ product.metafields.custom.featuredescription1 | metafield_tag }}<\/p>",
+            "heading": "",
+            "text": "<p><\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -176,8 +176,8 @@
           "settings": {
             "image": "{{ product.metafields.custom.product_use_img_2.value }}",
             "caption": "Caption",
-            "heading": "{{ product.metafields.custom.featuretitle2.value }}",
-            "text": "<p>{{ product.metafields.custom.featuredescription2 | metafield_tag }}<\/p>",
+            "heading": "",
+            "text": "<p><\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -187,8 +187,8 @@
           "settings": {
             "image": "{{ product.metafields.custom.product_use_img_3.value }}",
             "caption": "",
-            "heading": "{{ product.metafields.custom.featuretitle3.value }}",
-            "text": "<p>{{ product.metafields.custom.featuredescription3 | metafield_tag }}<\/p>",
+            "heading": "",
+            "text": "<p><\/p>",
             "button_label": "",
             "button_link": ""
           }

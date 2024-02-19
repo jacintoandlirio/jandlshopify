@@ -176,7 +176,7 @@
       },
       "8194784159926722659": {
         "type": "shopify:\/\/apps\/gg-product-page-slider-gallery\/blocks\/app-embed-block\/09c0440b-b921-435c-a2f5-3fc8f53b0424",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }

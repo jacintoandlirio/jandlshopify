@@ -3,25 +3,6 @@
     "slideshow_ri7rcw": {
       "type": "slideshow",
       "blocks": {
-        "slide_7mMHRC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/J_L-Collection-Gadget-Travel-Accessories.jpg",
-            "image_link": "shopify:\/\/collections\/travel-accessories",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections\/travel-accessories",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_g8xtrX": {
           "type": "slide",
           "settings": {
@@ -62,7 +43,6 @@
         }
       },
       "block_order": [
-        "slide_7mMHRC",
         "slide_g8xtrX",
         "slide_c6PyWd"
       ],

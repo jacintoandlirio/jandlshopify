@@ -581,6 +581,7 @@
         "row_7H4gdQ": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/viber_image_2021-06-30_11-37-45_7b623fe1-89c8-4490-86c1-6cbc424b8641.jpg",
             "caption": "",
             "heading": "Join our Employee Perks Program",
             "text": "<p>Add exclusive perks for your employees with Jacinto & Lirio. Email us at stories@jacintoandlirio.com to discuss the details.<\/p>",
@@ -591,21 +592,23 @@
         "row_tyXbAG": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Become_a_J_L_Affiliate_3179e0e8-689e-4ecc-9641-95b04f9d69f5.jpg",
             "caption": "",
             "heading": "Do you want to be a J&L Affiliate?",
             "text": "<p>We want you to become a part of our community by becoming an official J&L Affiliate in our Shopee, Lazada, Zalora, Amazon, Etsy and Ebay Online Shop :)<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/j-l-affiliate-channels"
           }
         },
         "row_qMXdc6": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/The_Sketchbook_-_Oct_3_page-0001_8640e71e-7c08-4526-a892-dc2b0dab1bd7.jpg",
             "caption": "",
             "heading": "FREE Printables!",
             "text": "<p>We officially launch “The Sketchbook”, a series where we will be releasing a free set of printables designed by our very own! Use these printables to spice up things with your own Jacinto & Lirio’s journal or planner and unleash the creativity within you!<br\/><\/p><p><\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Print",
+            "button_link": "https:\/\/drive.google.com\/file\/d\/13QhalygYPF_o12g4GIyoxEstyEzAdNSi\/view?fbclid=IwAR2ugbdXhifISgf2wB6t9LZ-gV164ZTUJdfPBsQzLqY1vEEA4ru7Qvk9OkI "
           }
         }
       },

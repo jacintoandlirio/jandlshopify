@@ -570,6 +570,7 @@
         "row_7meDxG": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/layout_3_-_Amazon.gif",
             "caption": "",
             "heading": "Review our products in Amazon",
             "text": "<h3><\/h3><p>Are you an Amazon shopper?If yes, we need your help! If you've purchased any J&L product before from any of our sales channels, please help us share Filipino craftsmanship to the world by ADDING A REVIEW IN OUR AMAZON STORE.<\/p><p>1. Click the product in our <a href=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\">Amazon store.<\/a><br\/>2. Select the J&L product you bought.<br\/>3. Click <strong>Write a customer review<\/strong>.<br\/>4. Select star rating and\/or add text, photo, and video.<br\/>5. Click submit.<\/p>",
@@ -590,9 +591,9 @@
         "row_tyXbAG": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "",
+            "heading": "Do you want to be a J&L Affiliate?",
+            "text": "<p>We want you to become a part of our community by becoming an official J&L Affiliate in our Shopee, Lazada, Zalora, Amazon, Etsy and Ebay Online Shop :)<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }

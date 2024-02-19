@@ -426,7 +426,7 @@
             "title": "Product",
             "text": "<p>Choose from our extensive line of water hyacinth vegan leathergoods  which can be customized into different kinds of products from bags, wallets, travel accessories, hotel in room accessories, restaurant accessories, media kits, PR Kits, new hire kits, real estate turn over kit and more!<\/p>",
             "link_label": "Learn more",
-            "link": "shopify:\/\/collections"
+            "link": "shopify:\/\/collections\/all"
           }
         },
         "column_xrmgTF": {
@@ -474,7 +474,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "SHOW FULL GIFTING STEP BY STEP",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",

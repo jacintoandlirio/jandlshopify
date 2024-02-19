@@ -1015,6 +1015,8 @@ class VariantSelects extends HTMLElement {
   }
 
   updateMedia() {
+
+    // Selected Variants Code
     const variantValues = this.currentVariant.options
     const mediaGallery = document.querySelector(`[id^="MediaGallery-${this.dataset.section}"]`)
     if (mediaGallery.hasAttribute("media-grouping-enabled")) {
@@ -1022,6 +1024,8 @@ class VariantSelects extends HTMLElement {
       variantValues.forEach(value => { mediaGallery.querySelectorAll(`[data-media-group="${value}"]`).forEach(el => el.classList.remove('hide-media')) })
       mediaGallery.querySelectorAll('slider-component').forEach(slider => { slider.initPages() })
     }
+
+    // Selected variants code end.
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
 

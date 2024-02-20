@@ -3535,6 +3535,10 @@ h1{
   
 h2, h3{ font-family: "luna itc";
       font-size: 30px;}
+title{
+  font-family:"luna itc";
+}
+
 h4{font-family: "Alfon regular";
   font-size: 30px;}
 

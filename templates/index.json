@@ -155,6 +155,9 @@
         "slide_WwXVtG",
         "slide_WkE9Cy"
       ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",

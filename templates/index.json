@@ -760,6 +760,9 @@
         "row_tyXbAG",
         "row_qMXdc6"
       ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -778,6 +781,9 @@
     },
     "featured_blog_hbVnVc": {
       "type": "featured-blog",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",

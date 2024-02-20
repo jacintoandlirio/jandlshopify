@@ -275,6 +275,7 @@
         "row_efJ8Fh": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_11.value }}",
             "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",

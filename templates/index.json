@@ -667,6 +667,9 @@
         "text_qQewTj",
         "button_xgFpnE"
       ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",
         "height": "adapt",
@@ -685,6 +688,9 @@
     },
     "featured_blog_K9DnLq": {
       "type": "featured-blog",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",

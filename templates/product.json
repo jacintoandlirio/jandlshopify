@@ -144,7 +144,9 @@
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36
+        "padding_top": 36,
+        "enable_group_media": false,
+        "media_grouping_option": "Color"
       }
     },
     "custom_liquid_MGyNjt": {
@@ -163,10 +165,10 @@
         "row_LXNXQA": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
+            "image": "{{ product.metafields.custom.lorikeet_img_1.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_1.value }}",
-            "text": "{{ product.metafields.custom.feature_description_1 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_1 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }

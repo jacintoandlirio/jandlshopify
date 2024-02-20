@@ -187,7 +187,7 @@
         "row_3Lqb8m": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_3.value }}",
             "text": "{{ product.metafields.custom.feature_description_3 | metafield_tag }}",
@@ -220,9 +220,10 @@
         "row_MmNPXD": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
-            "text": "<p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

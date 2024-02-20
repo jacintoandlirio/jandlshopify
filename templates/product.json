@@ -286,6 +286,7 @@
         "row_qgYah9": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_12.value }}",
             "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",

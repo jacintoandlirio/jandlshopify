@@ -176,7 +176,7 @@
         "row_36bwLG": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
+            "image": "{{ product.metafields.custom.lorikeet_img_2.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_2.value }}",
             "text": "{{ product.metafields.custom.feature_description_2 | metafield_tag }}",

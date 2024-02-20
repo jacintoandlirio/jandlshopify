@@ -146,7 +146,7 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "enable_group_media": true,
-        "media_grouping_option": "Color"
+        "media_grouping_option": "color"
       }
     },
     "custom_liquid_MGyNjt": {

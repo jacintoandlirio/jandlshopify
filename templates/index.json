@@ -476,7 +476,7 @@
         "column_e8CY9K"
       ],
       "custom_css": [
-        "h2{font-family:\"luna itc\"; font-size: 55px;}"
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
       ],
       "settings": {
         "title": "Hassle free corporate giveaways",
@@ -497,6 +497,9 @@
     },
     "featured_collection_CF9MQG": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "title": "Sample Corporate gift sets.",
         "heading_size": "h1",
@@ -525,6 +528,9 @@
     },
     "featured_collection_QTYr94": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "title": "Sample Customization.",
         "heading_size": "h1",

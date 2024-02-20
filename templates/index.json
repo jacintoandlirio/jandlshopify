@@ -21,30 +21,10 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_c6PyWd": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/viber_image_2023-08-01_15-52-56-321_e64e7451-6e0e-4f49-b7ba-046dd4c9e120.jpg",
-            "image_link": "https:\/\/jacintoandlirio.com\/pages\/institutional-partner",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_7mMHRC",
-        "slide_c6PyWd"
+        "slide_7mMHRC"
       ],
       "custom_css": [
 

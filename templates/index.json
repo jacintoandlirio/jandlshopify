@@ -559,6 +559,9 @@
     },
     "featured_collection_qUfw8P": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "title": "Packaging",
         "heading_size": "h1",
@@ -587,6 +590,9 @@
     },
     "featured_collection_ybEK8q": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
       "settings": {
         "title": "Sample Personalization Options",
         "heading_size": "h1",

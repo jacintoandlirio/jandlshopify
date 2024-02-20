@@ -209,6 +209,7 @@
         "row_7HEd7J": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_5.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.featured_title_5.value }}",
             "text": "{{ product.metafields.custom.featured_description_5 | metafield_tag }}",

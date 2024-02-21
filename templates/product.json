@@ -181,6 +181,7 @@
         "heading_PBVmiQ",
         "text_aMH7YJ"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.custom.primary_lorikeet_img.value }}",
         "height": "adapt",
@@ -213,6 +214,7 @@
         },
         "row_AhwLN8": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_14.value }}",
             "caption": "",

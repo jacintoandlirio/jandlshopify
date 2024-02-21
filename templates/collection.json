@@ -6,7 +6,7 @@
         "slide_iDJ6ze": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shop_banner_1.jpg",
+            "image": "{{ collection.metafields.custom.imagebanner1.value }}",
             "image_link": "",
             "heading": "",
             "heading_size": "h1",

@@ -57,12 +57,12 @@
             "page": ""
           }
         },
-        "collapsible_tab_C9dk6J": {
+        "collapsible_tab_TRdX7q": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Package Contents",
-            "icon": "shirt",
-            "content": "{{ product.metafields.custom.package_contents | metafield_tag }}",
+            "heading": "Specifications",
+            "icon": "clipboard",
+            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
             "page": ""
           }
         },
@@ -75,12 +75,12 @@
             "page": ""
           }
         },
-        "collapsible_tab_TRdX7q": {
+        "collapsible_tab_C9dk6J": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Specifications",
-            "icon": "clipboard",
-            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
+            "heading": "Package Contents",
+            "icon": "shirt",
+            "content": "{{ product.metafields.custom.package_contents | metafield_tag }}",
             "page": ""
           }
         },
@@ -124,9 +124,9 @@
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
         "collapsible_tab_A8kRt8",
-        "collapsible_tab_C9dk6J",
-        "collapsible_tab_BNcJ3p",
         "collapsible_tab_TRdX7q",
+        "collapsible_tab_BNcJ3p",
+        "collapsible_tab_C9dk6J",
         "collapsible_tab_gwTwWg",
         "collapsible_tab_qwQNcQ",
         "description",

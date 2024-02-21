@@ -159,6 +159,44 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_8qyXgp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PBVmiQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.primary_lorikeet_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_aMH7YJ": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.primary_lorikeet_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PBVmiQ",
+        "text_aMH7YJ"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.primary_lorikeet_img.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_zzx9BX": {
       "type": "multirow",
       "blocks": {
@@ -669,6 +707,7 @@
   "order": [
     "main",
     "custom_liquid_MGyNjt",
+    "image_with_text_8qyXgp",
     "multirow_zzx9BX",
     "ss_instafeed_2_YM3pFm",
     "ss_instafeed_2_MVYNzr",

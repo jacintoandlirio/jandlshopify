@@ -161,9 +161,10 @@
     },
     "image_banner_pPezFi": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_6054.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 50,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -380,7 +381,7 @@
           "type": "row",
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
-            "caption": "",
+            "caption": "{{ product.metafields.custom.feature_title_number_9.value }}",
             "heading": "{{ product.metafields.custom.feature_title_12.value }}",
             "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
             "button_label": "",

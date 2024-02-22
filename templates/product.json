@@ -346,8 +346,20 @@
             "button_link": ""
           }
         },
+        "row_xpbzYV": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
+            "caption": "{{ product.metafields.custom.feature_title_number_8.value }}",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "row_wrxMC9": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "{{ product.metafields.custom.feature_title_number_8.value }}",
@@ -357,19 +369,9 @@
             "button_link": ""
           }
         },
-        "row_xpbzYV": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
-            "caption": "{{ product.metafields.custom.feature_title_number_9.value }}",
-            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
-            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_efJ8Fh": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
             "caption": "{{ product.metafields.custom.feature_title_number_10.value }}",
@@ -413,8 +415,8 @@
         "row_MmNPXD",
         "row_pUKjfB",
         "row_h4ciiC",
-        "row_wrxMC9",
         "row_xpbzYV",
+        "row_wrxMC9",
         "row_efJ8Fh",
         "row_qgYah9",
         "row_maJKiP"

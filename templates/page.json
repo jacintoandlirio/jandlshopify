@@ -49,10 +49,19 @@
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "card_styles": "none",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_liquid_U6QhYK": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_Ed4C3K{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collage_Ed4C3K": {
@@ -61,7 +70,6 @@
         "image_wQmJxL": {
           "type": "image",
           "settings": {
-            "image": "{{ page.metafields.custom.corporate_img.value }}"
           }
         },
         "product_Cqi7Cm": {
@@ -92,6 +100,15 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_liquid_nEQQhT": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collage_CHjhm8": {
@@ -130,6 +147,15 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_liquid_PK7jC9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collage_CUUKjf": {
@@ -175,8 +201,11 @@
     "main",
     "custom_liquid_mdnBMa",
     "collage_cFDLCD",
+    "custom_liquid_U6QhYK",
     "collage_Ed4C3K",
+    "custom_liquid_nEQQhT",
     "collage_CHjhm8",
+    "custom_liquid_PK7jC9",
     "collage_CUUKjf"
   ]
 }

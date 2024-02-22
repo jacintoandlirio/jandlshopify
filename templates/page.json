@@ -22,6 +22,7 @@
         "image_aXMxhQ": {
           "type": "image",
           "settings": {
+            "image": "{{ page.metafields.custom.corporate_img.value }}"
           }
         },
         "product_nUprAK": {

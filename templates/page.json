@@ -76,14 +76,14 @@
         "product_Cqi7Cm": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "colored-logo-or-name-print",
             "second_image": false
           }
         },
         "collection_TUwwPw": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "personalization"
           }
         }
       },

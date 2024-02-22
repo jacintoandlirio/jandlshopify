@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "h2{font-family:\"luna itc\"; }"
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -124,14 +127,14 @@
         "product_Fkw6jE": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "foil-stamp-1",
             "second_image": false
           }
         },
         "collection_DrADHV": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "customizations"
           }
         }
       },

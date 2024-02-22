@@ -10,7 +10,7 @@
     "custom_liquid_mdnBMa": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n#color-scheme-1 gradient isolate{\ndisplay: none;\n}\n\n<\/style>",
+        "custom_liquid": "<style>\n#page-width section-template--22140844540221__collage_cFDLCD-padding{\ndisplay: none;\n}\n\n<\/style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

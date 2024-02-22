@@ -207,31 +207,10 @@
             "heading": "{{ product.metafields.custom.feature_main_title.value }}",
             "heading_size": "h0"
           }
-        },
-        "text_9xXrbt": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_U9Qhr6": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "heading_jqexm3",
-        "text_9xXrbt",
-        "button_U9Qhr6"
+        "heading_jqexm3"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -251,7 +230,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_1.value }}",
             "caption": "{{ product.metafields.custom.feature_title_number.value }}",
             "heading": "{{ product.metafields.custom.feature_title_1.value }}",
-            "text": "{{ product.metafields.custom.feature_description_1 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_1 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -383,7 +362,6 @@
         },
         "row_qgYah9": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
             "caption": "",

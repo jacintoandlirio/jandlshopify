@@ -348,6 +348,7 @@
         },
         "row_maJKiP": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_13.value }}",

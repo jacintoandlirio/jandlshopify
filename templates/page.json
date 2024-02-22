@@ -70,6 +70,7 @@
         "image_wQmJxL": {
           "type": "image",
           "settings": {
+            "image": "{{ page.metafields.custom.corporate_personalization.value }}"
           }
         },
         "product_Cqi7Cm": {

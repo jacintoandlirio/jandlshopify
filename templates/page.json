@@ -175,14 +175,14 @@
         "product_FCR7DX": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "kraft-box-packaging-with-side-opening",
             "second_image": false
           }
         },
         "collection_rwwicT": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "packaging-1"
           }
         }
       },

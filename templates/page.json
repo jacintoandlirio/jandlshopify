@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 50px;}"
+        "h1 {font-family: \"luna itc\"; font-size: 50px; text-align: center;}"
       ],
       "settings": {
         "padding_top": 28,

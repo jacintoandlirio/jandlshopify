@@ -105,7 +105,7 @@
     "custom_liquid_nEQQhT": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\nshopify-section-template--22140844540221__collage_CHjhm8{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

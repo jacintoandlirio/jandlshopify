@@ -28,14 +28,14 @@
         "product_nUprAK": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "conference-bag",
             "second_image": false
           }
         },
         "collection_HfRy69": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "corporate-gift-sets"
           }
         }
       },
@@ -45,7 +45,7 @@
         "collection_HfRy69"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Choose a water hyacinth product",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",
@@ -154,7 +154,7 @@
     "custom_liquid_PK7jC9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.corporate_packaging == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CHjhm8{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.corporate_packaging == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CUUKjf{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

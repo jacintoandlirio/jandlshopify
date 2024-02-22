@@ -118,6 +118,7 @@
         "image_KMfEeJ": {
           "type": "image",
           "settings": {
+            "image": "{{ page.metafields.custom.corporate_custom.value }}"
           }
         },
         "product_Fkw6jE": {
@@ -165,6 +166,7 @@
         "image_bbbjHM": {
           "type": "image",
           "settings": {
+            "image": "{{ page.metafields.custom.corporate_packaging.value }}"
           }
         },
         "product_FCR7DX": {

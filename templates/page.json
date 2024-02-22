@@ -10,7 +10,7 @@
     "custom_liquid_mdnBMa": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>",
+        "custom_liquid": "{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -60,6 +60,7 @@
         "image_wQmJxL": {
           "type": "image",
           "settings": {
+            "image": "{{ page.metafields.custom.corporate_img.value }}"
           }
         },
         "product_Cqi7Cm": {

@@ -200,6 +200,9 @@
         "product_FCR7DX",
         "collection_rwwicT"
       ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+      ],
       "settings": {
         "heading": "Choose packaging",
         "heading_size": "h1",

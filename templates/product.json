@@ -162,7 +162,7 @@
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

@@ -241,7 +241,7 @@
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text,\n.isolate collapse-padding, .scroll-trigger, \n.animate--slide-in:last-child(-n + 9){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4),\n.isolate:nth-last-child(-n + 4), \ncollapse-padding:nth-last-child(-n + 4), \n.scroll-trigger:nth-last-child(-n + 4), \n.animate--slide-in:nth-last-child(-n + 4){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -263,7 +263,6 @@
         },
         "row_AhwLN8": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_14.value }}",
             "caption": "",
@@ -309,10 +308,10 @@
         "row_Emb3Cq": {
           "type": "row",
           "settings": {
-            "caption": "",
-            "heading": "{{ product.metafields.custom.featured_title_5.value }}",
-            "text": "{{ product.metafields.custom.featured_description_5 | metafield_tag }}",
-            "button_label": "",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
             "button_link": ""
           }
         },
@@ -333,14 +332,13 @@
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_7.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_7 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
         },
         "row_gahm6j": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
             "caption": "",
@@ -352,7 +350,6 @@
         },
         "row_ce6cDN": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
@@ -364,7 +361,6 @@
         },
         "row_MixyED": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
             "caption": "",

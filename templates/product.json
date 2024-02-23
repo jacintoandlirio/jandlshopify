@@ -241,7 +241,7 @@
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.multirow__inner page-width:nth-child(9){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.multirow__inner page-width:nth-child(10){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.multirow__inner:nth-child(9), .page-width:nth-child(9){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.multirow__inner:nth-child(10), .page-width:nth-child(10){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

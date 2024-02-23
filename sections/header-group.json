@@ -8,7 +8,7 @@
         "header {font-size: 45px;}"
       ],
       "settings": {
-        "logo_position": "top-center",
+        "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",

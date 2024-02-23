@@ -1,7 +1,7 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/J_Logo.png",
-    "logo_width": 300,
+    "logo_width": 250,
     "type_header_font": "montserrat_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -228,7 +228,7 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#f0d7a6",
           "background_gradient": "",
           "text": "#926f2b",
           "button": "#ffffff",

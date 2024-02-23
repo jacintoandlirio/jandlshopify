@@ -247,7 +247,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_1.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_1.value }}",
-            "text": "{{ product.metafields.custom.feature_description_1 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_1 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -803,6 +803,15 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_ReQTqT": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -816,6 +825,7 @@
     "rich_text_UPR7FN",
     "image_banner_hRLMci",
     "ss_instafeed_2_MVYNzr",
-    "related-products"
+    "related-products",
+    "custom_liquid_ReQTqT"
   ]
 }

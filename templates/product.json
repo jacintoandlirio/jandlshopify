@@ -49,7 +49,6 @@
         },
         "collapsible_tab_A8kRt8": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Features (prototype)",
             "icon": "dryer",

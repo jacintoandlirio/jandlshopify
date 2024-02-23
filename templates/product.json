@@ -159,15 +159,6 @@
         "padding_bottom": 52
       }
     },
-    "custom_liquid_BMzEeU": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.multirow__inner page-width:nth-child(9){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_banner_pPezFi": {
       "type": "image-banner",
       "disabled": true,
@@ -245,6 +236,15 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "custom_liquid_BMzEeU": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.multirow__inner page-width:nth-child(9){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.multirow__inner page-width:nth-child(10){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multirow_zzx9BX": {
@@ -826,10 +826,10 @@
   "order": [
     "main",
     "custom_liquid_MGyNjt",
-    "custom_liquid_BMzEeU",
     "image_banner_pPezFi",
     "image_with_text_8qyXgp",
     "rich_text_f3zyNh",
+    "custom_liquid_BMzEeU",
     "multirow_zzx9BX",
     "ss_instafeed_2_YM3pFm",
     "rich_text_UPR7FN",

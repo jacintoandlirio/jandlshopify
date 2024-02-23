@@ -241,7 +241,7 @@
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text,\n.isolate collapse-padding, .scroll-trigger, \n.animate--slide-in:last-child(-n + 9){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:last-child(-n + 1),\n.isolate collapse-padding:last-child(-n + 1), .scroll-trigger:last-child(-n + 1), \n.animate--slide-in:last-child(-n + 1){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

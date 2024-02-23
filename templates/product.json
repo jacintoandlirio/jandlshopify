@@ -315,7 +315,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "{{ product.metafields.custom.feature_title_number_5.value }}",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
-            "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -538,6 +538,29 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "rich_text_UPR7FN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KdCCTD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KdCCTD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "ss_instafeed_2_MVYNzr": {
@@ -774,6 +797,7 @@
     "rich_text_f3zyNh",
     "multirow_zzx9BX",
     "ss_instafeed_2_YM3pFm",
+    "rich_text_UPR7FN",
     "ss_instafeed_2_MVYNzr",
     "related-products"
   ]

@@ -159,6 +159,15 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_BMzEeU": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_pPezFi": {
       "type": "image-banner",
       "disabled": true,
@@ -247,7 +256,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_1.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_1.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_1 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_1 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -817,6 +826,7 @@
   "order": [
     "main",
     "custom_liquid_MGyNjt",
+    "custom_liquid_BMzEeU",
     "image_banner_pPezFi",
     "image_with_text_8qyXgp",
     "rich_text_f3zyNh",

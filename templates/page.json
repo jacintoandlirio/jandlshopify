@@ -47,6 +47,9 @@
         "product_nUprAK",
         "collection_HfRy69"
       ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+      ],
       "settings": {
         "heading": "Choose a water hyacinth product",
         "heading_size": "h1",
@@ -192,7 +195,7 @@
         "collection_rwwicT"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Choose packaging",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",

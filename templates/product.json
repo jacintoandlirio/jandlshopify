@@ -309,6 +309,17 @@
             "button_link": ""
           }
         },
+        "row_7LKrwE": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featured_title_6.value }}",
+            "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
         "row_MmNPXD": {
           "type": "row",
           "settings": {
@@ -316,6 +327,39 @@
             "caption": "{{ product.metafields.custom.feature_title_number_5.value }}",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
             "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_E8qjFE": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_8.value }}",
+            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pyxRxd": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_Xyjz4q": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -328,7 +372,11 @@
         "row_3Lqb8m",
         "row_6xMqxK",
         "row_7HEd7J",
-        "row_MmNPXD"
+        "row_7LKrwE",
+        "row_MmNPXD",
+        "row_E8qjFE",
+        "row_pyxRxd",
+        "row_Xyjz4q"
       ],
       "settings": {
         "image_height": "medium",

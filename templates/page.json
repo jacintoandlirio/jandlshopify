@@ -98,6 +98,9 @@
         "product_Cqi7Cm",
         "collection_TUwwPw"
       ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+      ],
       "settings": {
         "heading": "Choose sample personalization options",
         "heading_size": "h1",
@@ -145,6 +148,9 @@
         "image_KMfEeJ",
         "product_Fkw6jE",
         "collection_DrADHV"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
       ],
       "settings": {
         "heading": "Choose customization",

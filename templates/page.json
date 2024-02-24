@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
         "h1 {font-family: \"luna itc\"; font-size: 50px; text-align: center;}"
       ],

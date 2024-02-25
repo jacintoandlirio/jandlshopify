@@ -213,6 +213,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_GL4Whn": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -224,6 +233,7 @@
     "custom_liquid_nEQQhT",
     "collage_CHjhm8",
     "custom_liquid_PK7jC9",
-    "collage_CUUKjf"
+    "collage_CUUKjf",
+    "custom_liquid_GL4Whn"
   ]
 }

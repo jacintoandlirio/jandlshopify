@@ -32,9 +32,12 @@
         "text_DGd8w4",
         "heading_66PNyw"
       ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px; text-align: center;}"
+      ],
       "settings": {
         "image": "{{ page.metafields.custom.corp_gifting_banner.value }}",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,

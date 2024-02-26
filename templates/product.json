@@ -353,7 +353,7 @@
         "row_ce6cDN": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_10.value }}",
             "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",

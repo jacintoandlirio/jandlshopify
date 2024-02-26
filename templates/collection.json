@@ -47,6 +47,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".facets small-hide {background-color: #CCAF68;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,

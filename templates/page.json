@@ -3,10 +3,20 @@
     "multicolumn_h9cijn": {
       "type": "multicolumn",
       "blocks": {
+        "column_8RBEKx": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.vynil.value }}",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_UpWALp": {
           "type": "column",
           "settings": {
-            "image": "{{ page.metafields.custom.knit.value }}",
+            "image": "{{ page.metafields.custom.vynil2.value }}",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -16,15 +26,7 @@
         "column_xaXkk7": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pcmKQY": {
-          "type": "column",
-          "settings": {
+            "image": "{{ page.metafields.custom.vynil3.value }}",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -33,9 +35,9 @@
         }
       },
       "block_order": [
+        "column_8RBEKx",
         "column_UpWALp",
-        "column_xaXkk7",
-        "column_pcmKQY"
+        "column_xaXkk7"
       ],
       "settings": {
         "title": "Multicolumn",

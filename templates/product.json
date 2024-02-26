@@ -241,7 +241,7 @@
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_3 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 5){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_5 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -330,10 +330,9 @@
         "row_ce6cDN": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_10.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_10 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

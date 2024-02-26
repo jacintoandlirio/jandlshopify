@@ -28,7 +28,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\";}",
-        ".slideshow__text {border: 2px dashed #926f2a; background-color: #fadeb9;}"
+        ".slideshow__text {border: 2px dashed 2px double #926f2a; background-color: #fadeb9;}"
       ],
       "settings": {
         "layout": "full_bleed",

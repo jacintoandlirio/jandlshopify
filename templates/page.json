@@ -320,7 +320,7 @@
     "custom_liquid_GL4Whn": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__rich_text_z6KajG{display:none;}\n\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{display: none;}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__rich_text_z6KajG{display:none;}\n\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{display: none;}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -363,15 +363,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "custom_liquid_JqJEke": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "rich_text_z6KajG": {
@@ -489,7 +480,7 @@
     "custom_liquid_mdnBMa": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -768,7 +759,6 @@
     "main",
     "custom_liquid_GL4Whn",
     "image_banner_ty6n7M",
-    "custom_liquid_JqJEke",
     "rich_text_z6KajG",
     "multicolumn_JpQDMk",
     "custom_liquid_mdnBMa",

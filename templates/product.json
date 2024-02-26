@@ -550,7 +550,6 @@
         "text_PzK79H",
         "buttons_PKM3Kr"
       ],
-      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.custom.j_l_description.value }}",
         "image_overlay_opacity": 0,
@@ -575,30 +574,24 @@
             "heading_size": "h0"
           }
         },
-        "text_KqJtwh": {
-          "type": "text",
+        "heading_4xzBng": {
+          "type": "heading",
           "settings": {
-            "text": "<h4>{{ product.metafields.custom.leatherization_title_1.value }}<\/h4>"
+            "heading": "{{ product.metafields.custom.leatherization_title_1.value }}",
+            "heading_size": "h1"
           }
         },
-        "text_VfxNmj": {
+        "text_MahmNM": {
           "type": "text",
           "settings": {
-            "text": "<h6>{{ product.metafields.custom.leatherization_description_1 | metafield_tag }}<\/h6>"
-          }
-        },
-        "text_8zV8Un": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>{{ product.metafields.custom.leatherization_title_2.value }}<\/h4>"
+            "text": "<h5>{{ product.metafields.custom.leatherization_description_1 | metafield_tag }}<\/h5>"
           }
         }
       },
       "block_order": [
         "heading_x3Cdbi",
-        "text_KqJtwh",
-        "text_VfxNmj",
-        "text_8zV8Un"
+        "heading_4xzBng",
+        "text_MahmNM"
       ],
       "settings": {
         "desktop_content_position": "center",

@@ -561,6 +561,48 @@
         "padding_bottom": 36
       }
     },
+    "collage_CHjhm8": {
+      "type": "collage",
+      "blocks": {
+        "image_KMfEeJ": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.corporate_custom.value }}"
+          }
+        },
+        "product_Fkw6jE": {
+          "type": "product",
+          "settings": {
+            "product": "foil-stamp-1",
+            "second_image": false
+          }
+        },
+        "collection_DrADHV": {
+          "type": "collection",
+          "settings": {
+            "collection": "customizations"
+          }
+        }
+      },
+      "block_order": [
+        "image_KMfEeJ",
+        "product_Fkw6jE",
+        "collection_DrADHV"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+      ],
+      "settings": {
+        "heading": "Choose customization",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_CtqjgF": {
       "type": "multicolumn",
       "blocks": {
@@ -620,48 +662,6 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_CHjhm8": {
-      "type": "collage",
-      "blocks": {
-        "image_KMfEeJ": {
-          "type": "image",
-          "settings": {
-            "image": "{{ page.metafields.custom.corporate_custom.value }}"
-          }
-        },
-        "product_Fkw6jE": {
-          "type": "product",
-          "settings": {
-            "product": "foil-stamp-1",
-            "second_image": false
-          }
-        },
-        "collection_DrADHV": {
-          "type": "collection",
-          "settings": {
-            "collection": "customizations"
-          }
-        }
-      },
-      "block_order": [
-        "image_KMfEeJ",
-        "product_Fkw6jE",
-        "collection_DrADHV"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
-      ],
-      "settings": {
-        "heading": "Choose customization",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -727,8 +727,8 @@
     "multicolumn_JpQDMk",
     "collage_cFDLCD",
     "collage_Ed4C3K",
-    "multicolumn_CtqjgF",
     "collage_CHjhm8",
+    "multicolumn_CtqjgF",
     "collage_CUUKjf"
   ]
 }

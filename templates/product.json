@@ -570,21 +570,21 @@
         "heading_x3Cdbi": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.custom.leatherization_title.value }}",
+            "heading": "",
             "heading_size": "h0"
           }
         },
         "heading_4xzBng": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.custom.leatherization_title_1.value }}",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "text_MahmNM": {
           "type": "text",
           "settings": {
-            "text": "<h5>{{ product.metafields.custom.leatherization_description_1 | metafield_tag }}<\/h5>"
+            "text": "<h5><\/h5>"
           }
         }
       },

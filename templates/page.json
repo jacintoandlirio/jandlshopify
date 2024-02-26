@@ -666,15 +666,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_PK7jC9": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "collage_CUUKjf": {
       "type": "collage",
       "blocks": {
@@ -738,7 +729,6 @@
     "collage_Ed4C3K",
     "multicolumn_CtqjgF",
     "collage_CHjhm8",
-    "custom_liquid_PK7jC9",
     "collage_CUUKjf"
   ]
 }

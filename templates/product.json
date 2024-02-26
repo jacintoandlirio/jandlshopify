@@ -578,20 +578,27 @@
         "text_KqJtwh": {
           "type": "text",
           "settings": {
-            "text": "<h2>{{ product.metafields.custom.leatherization_title_1.value }}<\/h2>"
+            "text": "<h4>{{ product.metafields.custom.leatherization_title_1.value }}<\/h4>"
           }
         },
         "text_VfxNmj": {
           "type": "text",
           "settings": {
-            "text": "<h3>{{ product.metafields.custom.leatherization_description_1 | metafield_tag }}<\/h3>"
+            "text": "<h6>{{ product.metafields.custom.leatherization_description_1 | metafield_tag }}<\/h6>"
+          }
+        },
+        "text_8zV8Un": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>{{ product.metafields.custom.leatherization_title_2.value }}<\/h4>"
           }
         }
       },
       "block_order": [
         "heading_x3Cdbi",
         "text_KqJtwh",
-        "text_VfxNmj"
+        "text_VfxNmj",
+        "text_8zV8Un"
       ],
       "settings": {
         "desktop_content_position": "center",

@@ -56,6 +56,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_JCNmHb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__multicolumn_h9cijn{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_h9cijn": {
       "type": "multicolumn",
       "blocks": {
@@ -730,6 +739,7 @@
   "order": [
     "custom_liquid_FB7VYP",
     "image_with_text_exbeQp",
+    "custom_liquid_JCNmHb",
     "multicolumn_h9cijn",
     "multicolumn_cEgTBi",
     "image_with_text_anJUaQ",

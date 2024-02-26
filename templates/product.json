@@ -240,6 +240,7 @@
     },
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% if product.metafields.custom.lorikeet_img_5 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",

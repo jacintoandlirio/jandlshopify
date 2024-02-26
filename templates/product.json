@@ -635,61 +635,61 @@
         "collapsible_row_nKrCb8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Harvesting",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>With a boat to scour through a river infested with water hyacinth.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_HK3EgF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Cut the leaves and roots",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Prepare for thorough cleaning of the stalks.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_FDxbTD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Clean the stalks",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Make sure insects and other river debris are cleaned off.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_yVTnPz": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Drying",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>The stalks can be hanged and sun-dried or machine-dried<\/p>",
             "page": ""
           }
         },
         "collapsible_row_BWC6Qk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Scrape the fibers",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>The stalks are scraped by the fibers <\/p>",
             "page": ""
           }
         },
         "collapsible_row_qHm6jM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Flattening",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>The stalks are flattened using a machine.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_xFBFcM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Stick stalks to fabric",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -698,36 +698,36 @@
         "collapsible_row_VTdceC": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Ironing",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Fabric is ironed with the pasted dried plant sheet.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_M4C4Ef": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Anti-mold",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Anti-mold preventive coat is applied.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_KnEKFH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Protective top coat",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>A protective top coat is applied after anti-mold layer dries. <\/p>",
             "page": ""
           }
         },
         "collapsible_row_8itjCL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "L",
+            "heading": "Sewing",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>The plant leather sheet is then sewn on a fabric.<\/p>",
             "page": ""
           }
         }
@@ -747,7 +747,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "Leatherize Process",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",

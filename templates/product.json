@@ -49,6 +49,7 @@
         },
         "collapsible_tab_A8kRt8": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Features (prototype)",
             "icon": "dryer",
@@ -293,16 +294,6 @@
             "button_link": ""
           }
         },
-        "row_QtYyV6": {
-          "type": "row",
-          "settings": {
-            "caption": "",
-            "heading": "{{ product.metafields.custom.featured_title_5.value }}",
-            "text": "{{ product.metafields.custom.featured_description_5 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_7HEd7J": {
           "type": "row",
           "settings": {
@@ -311,16 +302,6 @@
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
             "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
             "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_JpXk9w": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
             "button_link": ""
           }
         },
@@ -359,34 +340,13 @@
         },
         "row_MixyED": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_12.value }}",
             "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
             "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_CqdEwf": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_xyQr4V": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
             "button_link": ""
           }
         }
@@ -396,15 +356,11 @@
         "row_36bwLG",
         "row_3Lqb8m",
         "row_6xMqxK",
-        "row_QtYyV6",
         "row_7HEd7J",
-        "row_JpXk9w",
         "row_MmNPXD",
         "row_gahm6j",
         "row_ce6cDN",
-        "row_MixyED",
-        "row_CqdEwf",
-        "row_xyQr4V"
+        "row_MixyED"
       ],
       "settings": {
         "image_height": "medium",
@@ -594,6 +550,7 @@
         "text_PzK79H",
         "buttons_PKM3Kr"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.custom.j_l_description.value }}",
         "image_overlay_opacity": 0,
@@ -606,6 +563,43 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "rich_text_tPrHhy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_x3Cdbi": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.leatherization_title.value }}",
+            "heading_size": "h0"
+          }
+        },
+        "text_KqJtwh": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>{{ product.metafields.custom.leatherization_title_1.value }}<\/h2>"
+          }
+        },
+        "text_VfxNmj": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>{{ product.metafields.custom.leatherization_description_1 | metafield_tag }}<\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x3Cdbi",
+        "text_KqJtwh",
+        "text_VfxNmj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "ss_instafeed_2_MVYNzr": {
@@ -854,6 +848,7 @@
     "ss_instafeed_2_YM3pFm",
     "rich_text_UPR7FN",
     "image_banner_hRLMci",
+    "rich_text_tPrHhy",
     "ss_instafeed_2_MVYNzr",
     "related-products",
     "custom_liquid_ReQTqT"

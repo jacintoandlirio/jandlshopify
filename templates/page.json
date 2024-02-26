@@ -64,14 +64,14 @@
         "heading_mMENC9": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "How does our service work?",
             "heading_size": "h1"
           }
         },
         "text_bB6EbA": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p><em>Our<\/em> water hyacinth products + <em>Your<\/em> branding<\/p>"
           }
         },
         "button_WrzxVE": {

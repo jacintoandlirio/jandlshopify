@@ -262,6 +262,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_8LyMEX": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "custom_css": [
@@ -715,6 +724,7 @@
     "multicolumn_cEgTBi",
     "image_with_text_anJUaQ",
     "multicolumn_mNTXWC",
+    "custom_liquid_8LyMEX",
     "main",
     "custom_liquid_GL4Whn",
     "image_banner_ty6n7M",

@@ -320,7 +320,7 @@
     "custom_liquid_GL4Whn": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__rich_text_z6KajG{display:none;}\n\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{display: none;}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_Ed4C3K{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_custom == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CHjhm8{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__rich_text_z6KajG{display:none;}\n\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{display: none;}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_Ed4C3K{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_custom == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CHjhm8{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_packaging == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CUUKjf{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -624,15 +624,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_nEQQhT": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "collage_CHjhm8": {
       "type": "collage",
       "blocks": {
@@ -678,7 +669,7 @@
     "custom_liquid_PK7jC9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.corporate_packaging == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CUUKjf{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -746,7 +737,6 @@
     "collage_cFDLCD",
     "collage_Ed4C3K",
     "multicolumn_CtqjgF",
-    "custom_liquid_nEQQhT",
     "collage_CHjhm8",
     "custom_liquid_PK7jC9",
     "collage_CUUKjf"

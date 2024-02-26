@@ -1,5 +1,14 @@
 {
   "sections": {
+    "custom_liquid_FB7VYP": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_with_text_exbeQp": {
       "type": "image-with-text",
       "blocks": {
@@ -719,6 +728,7 @@
     }
   },
   "order": [
+    "custom_liquid_FB7VYP",
     "image_with_text_exbeQp",
     "multicolumn_h9cijn",
     "multicolumn_cEgTBi",

@@ -3,7 +3,7 @@
     "custom_liquid_FB7VYP": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n.image-with-text__grid{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_with_text_exbeQp{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

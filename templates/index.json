@@ -520,7 +520,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 55px;}",
-        ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
+        ".banner__box {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/CorporateHoliday_54035c5a-7015-46e9-a3a1-ffe6ebc7428b.png",

@@ -265,7 +265,7 @@
     "custom_liquid_8LyMEX": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.knit != blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__rich_text_z6KajG{display:none;}\n\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{display: none;}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.knit != blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

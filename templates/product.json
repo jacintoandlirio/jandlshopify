@@ -242,7 +242,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_5 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4){\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.image-with-text:nth-last-child {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -279,7 +279,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_3.value }}",
-            "text": "{{ product.metafields.custom.feature_description_3 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_3 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -335,7 +335,19 @@
             "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_8.value }}",
-            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_8 | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_EhfX64": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -373,6 +385,7 @@
         "row_7HEd7J",
         "row_MmNPXD",
         "row_gahm6j",
+        "row_EhfX64",
         "row_ce6cDN",
         "row_MixyED"
       ],
@@ -622,61 +635,61 @@
         "collapsible_row_nKrCb8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Harvesting",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>With a boat to scour through a river infested with water hyacinth.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_HK3EgF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Cut the leaves and roots",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>Prepare for thorough cleaning of the stalks.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_FDxbTD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Clean the stalks",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>Make sure insects and other river debris are cleaned off.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_yVTnPz": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Drying",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>The stalks can be hanged and sun-dried or machine-dried.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_BWC6Qk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Scrape the fibers",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>The stalks scraped removing the fibers<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_qHm6jM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Flattening",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>The stalks are flattened using a machine.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_xFBFcM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Stick stalks to fabric",
+            "heading": "Collapsible row",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -685,36 +698,36 @@
         "collapsible_row_VTdceC": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Ironing",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>Fabric is ironed with the pasted dried plant sheet.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_M4C4Ef": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Anti Mold",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>Anti-mold preventive coat is applied.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_KnEKFH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Protective top coat",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>A protective top coat is applied after the anti-mold layer dries.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_8itjCL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Sewing",
+            "heading": "L",
             "icon": "check_mark",
-            "row_content": "<p>The plant leather sheet is then sewn on a fabric.<\/p>",
+            "row_content": "",
             "page": ""
           }
         }
@@ -734,7 +747,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "<strong>Leatherize Process<\/strong>",
+        "heading": "Collapsible content",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -980,49 +993,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "rich_text_7CLmgi": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VkRaz3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_BpJMMm": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_qAANRM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_VkRaz3",
-        "text_BpJMMm",
-        "button_qAANRM"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -1040,7 +1010,6 @@
     "collapsible_content_4UHBbp",
     "ss_instafeed_2_MVYNzr",
     "related-products",
-    "custom_liquid_ReQTqT",
-    "rich_text_7CLmgi"
+    "custom_liquid_ReQTqT"
   ]
 }

@@ -27,7 +27,8 @@
         "slide_7mMHRC"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\";}"
+        "h2 {font-family: \"luna itc\";}",
+        ".slideshow__text {border: 2px dashed #926f2a; background-color: #f5dc9f;}"
       ],
       "settings": {
         "layout": "full_bleed",

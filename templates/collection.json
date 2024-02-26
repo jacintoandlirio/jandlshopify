@@ -48,7 +48,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".FacetsWrapperDesktop {color: #ccaf68;}"
+        ".FacetsWrapperDesktop {background-color: #ccaf68;}"
       ],
       "settings": {
         "products_per_page": 16,

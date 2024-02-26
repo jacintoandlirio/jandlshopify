@@ -131,8 +131,8 @@
         "column_6x7xjY": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Choose among our sample personalization options",
+            "text": "<p>We are pleased to remind you that personalization has no MOQ (Minimum order quantity)<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -140,7 +140,7 @@
         "column_3qyk4k": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Choose customization options",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -149,7 +149,7 @@
         "column_U4Kx8B": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Choose packaging options",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -281,6 +281,69 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_CtqjgF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eGmxee": {
+          "type": "column",
+          "settings": {
+            "title": "Choose among our available water hyacinth products",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GxjnPf": {
+          "type": "column",
+          "settings": {
+            "title": "Choose among our sample personalization options",
+            "text": "<p>We are pleased to remind you that personalization has no MOQ (Minimum order quantity)<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ehgH7x": {
+          "type": "column",
+          "settings": {
+            "title": "Choose customization options",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pmhqCU": {
+          "type": "column",
+          "settings": {
+            "title": "Choose packaging options",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_eGmxee",
+        "column_GxjnPf",
+        "column_ehgH7x",
+        "column_pmhqCU"
+      ],
+      "settings": {
+        "title": "Our gifting process",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_nEQQhT": {
       "type": "custom-liquid",
       "settings": {
@@ -395,6 +458,7 @@
     "collage_cFDLCD",
     "custom_liquid_U6QhYK",
     "collage_Ed4C3K",
+    "multicolumn_CtqjgF",
     "custom_liquid_nEQQhT",
     "collage_CHjhm8",
     "custom_liquid_PK7jC9",

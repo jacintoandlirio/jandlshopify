@@ -178,7 +178,7 @@
     "custom_liquid_D6t6zx": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_with_text_exbeQp{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

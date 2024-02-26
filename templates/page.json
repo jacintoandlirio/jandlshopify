@@ -74,6 +74,12 @@
             "text": "<p><em>Our<\/em> water hyacinth products + <em>Your<\/em> branding<\/p>"
           }
         },
+        "text_96h8We": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Visit our mockups and we remove our Jacinto & Lirio branding then replace us with ours instead!<\/p>"
+          }
+        },
         "button_WrzxVE": {
           "type": "button",
           "settings": {
@@ -89,6 +95,7 @@
       "block_order": [
         "heading_mMENC9",
         "text_bB6EbA",
+        "text_96h8We",
         "button_WrzxVE"
       ],
       "settings": {
@@ -98,6 +105,69 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "multicolumn_JpQDMk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jxi6JD": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6x7xjY": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3qyk4k": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U4Kx8B": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jxi6JD",
+        "column_6x7xjY",
+        "column_3qyk4k",
+        "column_U4Kx8B"
+      ],
+      "settings": {
+        "title": "The gifting process:",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_liquid_mdnBMa": {
@@ -310,6 +380,7 @@
     "image_banner_ty6n7M",
     "custom_liquid_GL4Whn",
     "rich_text_z6KajG",
+    "multicolumn_JpQDMk",
     "custom_liquid_mdnBMa",
     "collage_cFDLCD",
     "custom_liquid_U6QhYK",

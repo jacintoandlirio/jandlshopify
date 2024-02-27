@@ -14,8 +14,8 @@
             "button_label": "",
             "link": "shopify:\/\/collections\/travel-accessories",
             "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
@@ -27,7 +27,7 @@
         "slide_7mMHRC"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; color: #;}"
+        "h2 {font-family: \"luna itc\"; font-size: 70px; color: #;}"
       ],
       "settings": {
         "layout": "full_bleed",

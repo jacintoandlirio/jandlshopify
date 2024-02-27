@@ -27,7 +27,8 @@
         "slide_7mMHRC"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 70px; color: #f0e2c0;}"
+        "h2 {font-family: \"luna itc\"; font-size: 70px; color: #f0e2c0;}",
+        ".banner__text {color: #f0e2c0;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -98,8 +99,7 @@
         "slide_fDLgfP"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}",
-        ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
       ],
       "settings": {
         "layout": "full_bleed",

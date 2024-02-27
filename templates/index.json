@@ -206,20 +206,11 @@
     "multicolumn_8K84LR": {
       "type": "multicolumn",
       "blocks": {
-        "column_KiP96A": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_VipfMC": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Personalization.",
+            "text": "<p>Name personalization is available for you. Accumulated personalization will be discounted.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -244,7 +235,6 @@
         }
       },
       "block_order": [
-        "column_KiP96A",
         "column_VipfMC",
         "column_p4RqTh",
         "column_EFbYNJ"
@@ -254,10 +244,10 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",

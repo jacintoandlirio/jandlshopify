@@ -320,6 +320,7 @@
         },
         "row_MmNPXD": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",
@@ -331,6 +332,7 @@
         },
         "row_gahm6j": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
             "caption": "",
@@ -354,6 +356,7 @@
         },
         "row_ce6cDN": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
@@ -577,6 +580,7 @@
         "text_PzK79H",
         "buttons_PKM3Kr"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.custom.j_l_description.value }}",
         "image_overlay_opacity": 0,
@@ -597,7 +601,7 @@
         "heading_x3Cdbi": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "ABOUT",
             "heading_size": "h0"
           }
         },

@@ -609,8 +609,8 @@
         "column_ehgH7x": {
           "type": "column",
           "settings": {
-            "title": "Choose customization options",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Curated gift boxes",
+            "text": "<p>PERSONALIZED GIFT SETS<\/p><p>We can curate other items to mix with our vegan leather goods to form your giftbox<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -618,7 +618,7 @@
         "column_pmhqCU": {
           "type": "column",
           "settings": {
-            "title": "Choose packaging options",
+            "title": "Distribution",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""

@@ -606,24 +606,6 @@
     "multicolumn_CtqjgF": {
       "type": "multicolumn",
       "blocks": {
-        "column_eGmxee": {
-          "type": "column",
-          "settings": {
-            "title": "Choose among our available water hyacinth products",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_GxjnPf": {
-          "type": "column",
-          "settings": {
-            "title": "Choose among our sample personalization options",
-            "text": "<p>We are pleased to remind you that personalization has no MOQ (Minimum order quantity)<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_ehgH7x": {
           "type": "column",
           "settings": {
@@ -644,13 +626,11 @@
         }
       },
       "block_order": [
-        "column_eGmxee",
-        "column_GxjnPf",
         "column_ehgH7x",
         "column_pmhqCU"
       ],
       "settings": {
-        "title": "Our gifting process",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",

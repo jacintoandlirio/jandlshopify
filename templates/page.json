@@ -386,24 +386,12 @@
           "settings": {
             "text": "<p>Visit our mockups and we remove our Jacinto & Lirio branding then replace us with ours instead!<\/p>"
           }
-        },
-        "button_WrzxVE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_mMENC9",
         "text_bB6EbA",
-        "text_96h8We",
-        "button_WrzxVE"
+        "text_96h8We"
       ],
       "settings": {
         "desktop_content_position": "center",

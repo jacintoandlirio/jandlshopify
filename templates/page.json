@@ -421,7 +421,7 @@
           "type": "column",
           "settings": {
             "title": "Choose among our available water hyacinth products",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Our on hand products and virtual gift cards will have <strong>no<\/strong> MOQ.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -430,7 +430,7 @@
           "type": "column",
           "settings": {
             "title": "Choose among our sample personalization options",
-            "text": "<p>We are pleased to remind you that personalization has no MOQ (Minimum order quantity)<\/p>",
+            "text": "<p>Our <em>name and logo engraving<\/em> will have <strong>no<\/strong> MOQ (Minimum order quantity)<\/p>",
             "link_label": "",
             "link": ""
           }

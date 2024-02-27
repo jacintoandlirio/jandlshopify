@@ -27,7 +27,7 @@
         "slide_7mMHRC"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 70px; color: #;}"
+        "h2 {font-family: \"luna itc\"; font-size: 70px; color: #f0e2c0;}"
       ],
       "settings": {
         "layout": "full_bleed",

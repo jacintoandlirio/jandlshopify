@@ -494,37 +494,6 @@
         "lazy": true
       }
     },
-    "rich_text_UPR7FN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_KdCCTD": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.custom.about_j_l_title.value }}",
-            "heading_size": "h0"
-          }
-        },
-        "text_mFFLDN": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>{{ product.metafields.custom.about_j_l_description | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KdCCTD",
-        "text_mFFLDN"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_banner_hRLMci": {
       "type": "image-banner",
       "blocks": {
@@ -583,28 +552,13 @@
         "heading_x3Cdbi": {
           "type": "heading",
           "settings": {
-            "heading": "ABOUT",
+            "heading": "About Jacinto & Lirio",
             "heading_size": "h0"
-          }
-        },
-        "heading_4xzBng": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_MahmNM": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><\/h5>"
           }
         }
       },
       "block_order": [
-        "heading_x3Cdbi",
-        "heading_4xzBng",
-        "text_MahmNM"
+        "heading_x3Cdbi"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -613,6 +567,21 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "image_banner_RBQPxq": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "collapsible_content_4UHBbp": {
@@ -991,9 +960,9 @@
     "rich_text_aaGcBY",
     "multirow_zzx9BX",
     "ss_instafeed_2_YM3pFm",
-    "rich_text_UPR7FN",
     "image_banner_hRLMci",
     "rich_text_tPrHhy",
+    "image_banner_RBQPxq",
     "collapsible_content_4UHBbp",
     "ss_instafeed_2_MVYNzr",
     "related-products",

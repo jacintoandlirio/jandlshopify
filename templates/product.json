@@ -572,6 +572,7 @@
     "image_banner_RBQPxq": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/viber_image_2024-02-28_09-32-00-667.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",

@@ -343,7 +343,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_10.value }}",
-            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_10 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -563,6 +563,36 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_TYjiMN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wALUgB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leatherize Process",
+            "heading_size": "h1"
+          }
+        },
+        "text_xR9Ptg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1. Harvesting<\/strong><\/p><p>With a boat to scour through a river infested with water hyacinth.<\/p><p><strong>2. Cut the leaves and roots<\/strong><\/p><p>Prepare for thorough cleaning of the stalks.<\/p><p><strong>3. Clean the stalks<\/strong><\/p><p>Make sure insects and other river debris are cleaned off.<\/p><p><strong>4. Drying<\/strong><\/p><p>The stalks can be hanged and sun-dried or machine-dried<\/p><p><strong>5. Scrape the fibers<\/strong><\/p><p>The stalks are scraped by the fibers<\/p><p><strong>6. Flattening<\/strong><\/p><p>The stalks are flattened using a machine.<\/p><p><strong>7. Stick stalks to fabric<\/strong><\/p><p><strong>8. Ironing<\/strong><\/p><p>Fabric is ironed with the pasted dried plant sheet.<\/p><p><strong>9. Anti-mold<\/strong><\/p><p>Anti-mold preventive coat is applied.<\/p><p><strong>10. Protective top coat <\/strong><\/p><p>A protective top coat is applied after anti-mold layer dries.<\/p><p><strong>11. Sewing<\/strong><\/p><p>The plant leather sheet is then sewn on a fabric.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wALUgB",
+        "text_xR9Ptg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_4UHBbp": {
       "type": "collapsible-content",
       "blocks": {
@@ -679,6 +709,7 @@
         "collapsible_row_KnEKFH",
         "collapsible_row_8itjCL"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Leatherize Process",
@@ -942,6 +973,7 @@
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",
     "rich_text_3tqc9D",
+    "rich_text_TYjiMN",
     "collapsible_content_4UHBbp",
     "ss_instafeed_2_MVYNzr",
     "related-products",

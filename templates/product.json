@@ -217,7 +217,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Features<\/strong>",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         }
       },

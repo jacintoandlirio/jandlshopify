@@ -248,6 +248,29 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_aaGcBY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xhiUem": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Features<\/strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xhiUem"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_zzx9BX": {
       "type": "multirow",
       "blocks": {
@@ -312,7 +335,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
-            "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1005,6 +1028,7 @@
     "image_with_text_8qyXgp",
     "rich_text_f3zyNh",
     "custom_liquid_BMzEeU",
+    "rich_text_aaGcBY",
     "multirow_zzx9BX",
     "ss_instafeed_2_YM3pFm",
     "rich_text_UPR7FN",

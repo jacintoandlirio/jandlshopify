@@ -533,6 +533,36 @@
         "show_text_below": true
       }
     },
+    "rich_text_3tqc9D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iP3DjD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jacinto & Lirio means \"Hyacinth and Lily\"",
+            "heading_size": "h2"
+          }
+        },
+        "text_39bGPA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>J&L serves as a viable environmental, social, and commercial solution for the water hyacinth infestation plaguing several communities in the Philippines.<\/p><p><\/p><p>Through the creation of functional, well-designed, Philippine-inspired plant leathergoods, enables us to help with the growth of affected communities' livelihood and extend their craft together with our designers' works to the popular market.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iP3DjD",
+        "text_39bGPA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_4UHBbp": {
       "type": "collapsible-content",
       "blocks": {
@@ -911,6 +941,7 @@
     "ss_instafeed_2_YM3pFm",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",
+    "rich_text_3tqc9D",
     "collapsible_content_4UHBbp",
     "ss_instafeed_2_MVYNzr",
     "related-products",

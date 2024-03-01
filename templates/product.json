@@ -348,12 +348,11 @@
         },
         "row_MixyED": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
+            "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
             "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_12.value }}",
-            "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
+            "heading": "{{ product.metafields.custom.feature_title_11.value }}",
+            "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

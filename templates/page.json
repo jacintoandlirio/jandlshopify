@@ -238,7 +238,7 @@
           "type": "column",
           "settings": {
             "image": "{{ page.metafields.custom.laser_engraving.value }}",
-            "title": "Laser cut",
+            "title": "Laser cut on water hyacinth",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -248,7 +248,7 @@
           "type": "column",
           "settings": {
             "image": "{{ page.metafields.custom.laser_engraving2.value }}",
-            "title": "Laser engraving",
+            "title": "Laser engraving and embroidery",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -258,7 +258,7 @@
           "type": "column",
           "settings": {
             "image": "{{ page.metafields.custom.laser_engraving3.value }}",
-            "title": "Column",
+            "title": "Foil stamp",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -268,7 +268,7 @@
           "type": "column",
           "settings": {
             "image": "{{ page.metafields.custom.laser_engraving4.value }}",
-            "title": "Column",
+            "title": "Emboss",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""

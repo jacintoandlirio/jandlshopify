@@ -248,7 +248,7 @@
           "type": "column",
           "settings": {
             "image": "{{ page.metafields.custom.laser_engraving2.value }}",
-            "title": "Column",
+            "title": "Laser engraving",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""

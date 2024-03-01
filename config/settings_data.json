@@ -185,11 +185,38 @@
               "apply_small": false,
               "apply_custom": ""
             }
+          },
+          "image_kYCrEw": {
+            "type": "image",
+            "settings": {
+              "name": "paragraph font",
+              "custom_font_weight": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0054\/5996\/8113\/files\/TheSans-B5-Plain-Regular.woff?v=1709265358",
+              "apply_h1": false,
+              "apply_h2": false,
+              "apply_h3": false,
+              "apply_h4": false,
+              "apply_h5": false,
+              "apply_h6": false,
+              "apply_span": true,
+              "apply_p": true,
+              "apply_a": false,
+              "apply_input": false,
+              "apply_label": false,
+              "apply_legend": true,
+              "apply_button": false,
+              "apply_summary": true,
+              "apply_select": false,
+              "apply_option": false,
+              "apply_small": true,
+              "apply_custom": ""
+            }
           }
         },
         "block_order": [
           "image_n7aAhX",
-          "image_NFQKAk"
+          "image_NFQKAk",
+          "image_kYCrEw"
         ],
         "settings": {
           "enable": true

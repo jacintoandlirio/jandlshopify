@@ -110,12 +110,6 @@
       },
       {
         "type": "font_picker",
-        "id": "heading_font",
-        "label": "Heading font",
-        "default": "helvetica_n4"
-      },
-      {
-        "type": "font_picker",
         "id": "type_header_font",
         "default": "assistant_n4",
         "label": "t:settings_schema.typography.settings.type_header_font.label",

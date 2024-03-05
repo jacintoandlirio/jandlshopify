@@ -43,6 +43,7 @@
         },
         "custom_liquid_fAJeVf": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>"
           }
@@ -202,9 +203,8 @@
     },
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_4 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_8 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_4 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_8 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 3) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

@@ -314,7 +314,7 @@
     "custom_liquid_YxBfei": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<script src=\"https:\/\/kit.fontawesome.com\/a076d05399.js\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n\n<i class=\"fas fa-cloud\"><\/i>\n<i class=\"fas fa-heart\"><\/i>\n<i class=\"fas fa-car\"><\/i>\n<i class=\"fas fa-file\"><\/i>\n<i class=\"fas fa-bars\"><\/i>\n\n<\/body>\n<\/html>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

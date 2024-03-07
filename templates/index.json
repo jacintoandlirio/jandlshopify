@@ -28,7 +28,8 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 70px; color: #f0e2c0;}",
-        ".banner__text {color: #f0e2c0;}"
+        ".banner__text {color: #f0e2c0;}",
+        ".slideshow__text-wrapper {opacity: 20%;}"
       ],
       "settings": {
         "layout": "full_bleed",

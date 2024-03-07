@@ -28,7 +28,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 70px; color: #f0e2c0;}",
-        ".banner__text{color: #f0e2c0;}"
+        ".banner__text {color: #f0e2c0;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -36,7 +36,7 @@
         "slider_visual": "counter",
         "auto_rotate": true,
         "change_slides_speed": 5,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }

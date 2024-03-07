@@ -311,6 +311,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_YxBfei": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "slideshow_333ztP": {
       "type": "slideshow",
       "blocks": {
@@ -829,6 +838,7 @@
     "multicolumn_8K84LR",
     "featured_collection_bgj4dx",
     "featured_collection_daKY7m",
+    "custom_liquid_YxBfei",
     "slideshow_333ztP",
     "multicolumn_gmzhh3",
     "image_banner_HyQkcC",

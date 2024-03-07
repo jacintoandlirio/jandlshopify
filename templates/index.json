@@ -327,7 +327,7 @@
         "slide_hWqGKK": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A6174_a825168a-677e-4a23-9b4f-93c02fdca712.jpg",
+            "image": "shopify:\/\/shop_images\/reviewSlide1.jpg",
             "image_link": "",
             "heading": "Reviews",
             "heading_size": "h1",
@@ -335,10 +335,10 @@
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-center",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 40,
+            "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }

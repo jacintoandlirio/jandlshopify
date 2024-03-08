@@ -172,12 +172,14 @@
                }
              {% endif %}
 
+           {% comment %}
              {% if apply_span %}
                span{
                  font-family: '{{name}}' !important;
                  font-weight: {{custom_font_weight}} !important;
                }
              {% endif %}
+           {% endcomment %}
 
              {% if apply_custom != "" and apply_custom != blank %}
                {{ apply_custom }}{

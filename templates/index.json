@@ -112,6 +112,61 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "slideshow_AGJPzh": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_NkC6kz": {
+          "type": "slide",
+          "settings": {
+            "image_link": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_EYPiAE": {
+          "type": "slide",
+          "settings": {
+            "image_link": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_NkC6kz",
+        "slide_EYPiAE"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "multicolumn_ymLrV7": {
       "type": "multicolumn",
       "blocks": {
@@ -779,6 +834,7 @@
     "slideshow_ri7rcw",
     "featured_collection",
     "slideshow_eTn9e8",
+    "slideshow_AGJPzh",
     "multicolumn_ymLrV7",
     "featured_collection_F7PyFP",
     "multicolumn_8K84LR",

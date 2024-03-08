@@ -72,46 +72,6 @@
         "padding_bottom": 20
       }
     },
-    "slideshow_eTn9e8": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_fDLgfP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
-            "image_link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
-            "heading": "OUR STORY",
-            "heading_size": "h1",
-            "subheading": "Through the creation of well-designed, functional and Philippine-inspired plant leather goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission-- social impact in livelihood, environmental protection and product innovation.",
-            "button_label": "Watch here",
-            "link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_fDLgfP"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "rich_text_Lyp9xe": {
       "type": "rich-text",
       "blocks": {
@@ -228,6 +188,46 @@
         "padding_bottom": 36
       }
     },
+    "slideshow_eTn9e8": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fDLgfP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
+            "image_link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
+            "heading": "OUR STORY",
+            "heading_size": "h1",
+            "subheading": "Through the creation of well-designed, functional and Philippine-inspired plant leather goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission-- social impact in livelihood, environmental protection and product innovation.",
+            "button_label": "Watch here",
+            "link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fDLgfP"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "multicolumn_ymLrV7": {
       "type": "multicolumn",
       "blocks": {
@@ -288,59 +288,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_8K84LR": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_VipfMC": {
-          "type": "column",
-          "settings": {
-            "title": "Personalization.",
-            "text": "<p>Name personalization is available for you. Accumulated personalization will be discounted.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_p4RqTh": {
-          "type": "column",
-          "settings": {
-            "title": "Customization",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_EFbYNJ": {
-          "type": "column",
-          "settings": {
-            "title": "Packaging",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_VipfMC",
-        "column_p4RqTh",
-        "column_EFbYNJ"
-      ],
-      "settings": {
-        "title": "Customize your products!",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_liquid_YxBfei": {
       "type": "custom-liquid",
       "settings": {
@@ -377,27 +324,13 @@
           "settings": {
             "url": ""
           }
-        },
-        "slide_pXjjk9": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_GmGYt9": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
         }
       },
       "block_order": [
         "slide_rkLyzQ",
         "slide_BB6rnM",
         "slide_mXDLL4",
-        "slide_Fi8gr3",
-        "slide_pXjjk9",
-        "slide_GmGYt9"
+        "slide_Fi8gr3"
       ],
       "settings": {
         "top": "Explore other types of products here",
@@ -858,17 +791,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "faq_VCninm": {
+      "type": "faq",
+      "blocks": {
+        "text_6W3PMM": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext<\/p>"
+          }
+        },
+        "text_a3hb4g": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6W3PMM",
+        "text_a3hb4g"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "icon_color": "#fff",
+        "hover_color": "#EFEFEF",
+        "question_color": "#fff",
+        "background_color": "#000",
+        "answer_color": "#000",
+        "answer_bg_color": "#fff",
+        "questions-font-size": 1.5
+      }
     }
   },
   "order": [
     "slideshow_ri7rcw",
     "featured_collection",
-    "slideshow_eTn9e8",
     "rich_text_Lyp9xe",
     "slideshow_AGJPzh",
     "featured_collection_F7PyFP",
+    "slideshow_eTn9e8",
     "multicolumn_ymLrV7",
-    "multicolumn_8K84LR",
     "custom_liquid_YxBfei",
     "ss_instafeed_2_9D4FhA",
     "slideshow_333ztP",
@@ -878,6 +843,7 @@
     "image_with_text_UYUL3C",
     "featured_blog_K9DnLq",
     "multirow_4kpYXJ",
-    "featured_blog_hbVnVc"
+    "featured_blog_hbVnVc",
+    "faq_VCninm"
   ]
 }

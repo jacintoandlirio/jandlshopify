@@ -384,7 +384,7 @@
         "slide_yhgaHh": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reviewSlide4.jpg",
+            "image": "shopify:\/\/shop_images\/reviewSlide4_a283cc31-70bb-4bec-90d9-1314d505ebf3.jpg",
             "image_link": "",
             "heading": "Reviews",
             "heading_size": "h1",
@@ -413,7 +413,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": true,
         "change_slides_speed": 7,

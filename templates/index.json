@@ -197,6 +197,37 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "featured_collection_F7PyFP": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "tahanan-home-living",
+        "products_to_show": 9,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_ymLrV7": {
       "type": "multicolumn",
       "blocks": {
@@ -252,37 +283,6 @@
         "button_link": "shopify:\/\/pages\/environmental-impact",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_F7PyFP": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
-      ],
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "tahanan-home-living",
-        "products_to_show": 9,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -866,8 +866,8 @@
     "slideshow_eTn9e8",
     "rich_text_Lyp9xe",
     "slideshow_AGJPzh",
-    "multicolumn_ymLrV7",
     "featured_collection_F7PyFP",
+    "multicolumn_ymLrV7",
     "multicolumn_8K84LR",
     "custom_liquid_YxBfei",
     "ss_instafeed_2_9D4FhA",

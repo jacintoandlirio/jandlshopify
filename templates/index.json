@@ -132,8 +132,8 @@
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "button_label": "Visit our organic journals and planners here",
+            "link": "shopify:\/\/collections\/journals-1",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -159,33 +159,48 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "featured_collection_F7PyFP": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+    "image_with_text_drixNp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6wNc7q": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_T669BL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_wFQRAp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6wNc7q",
+        "text_T669BL",
+        "button_wFQRAp"
       ],
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "tahanan-home-living",
-        "products_to_show": 9,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -833,7 +848,7 @@
     "featured_collection",
     "rich_text_Lyp9xe",
     "slideshow_AGJPzh",
-    "featured_collection_F7PyFP",
+    "image_with_text_drixNp",
     "ss_instafeed_2_9D4FhA",
     "slideshow_eTn9e8",
     "multicolumn_ymLrV7",

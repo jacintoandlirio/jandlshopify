@@ -112,6 +112,36 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "rich_text_Lyp9xe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eAXtYD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our products",
+            "heading_size": "h1"
+          }
+        },
+        "text_xiddy7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Check out one of our products down below !<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eAXtYD",
+        "text_xiddy7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "slideshow_AGJPzh": {
       "type": "slideshow",
       "blocks": {
@@ -834,6 +864,7 @@
     "slideshow_ri7rcw",
     "featured_collection",
     "slideshow_eTn9e8",
+    "rich_text_Lyp9xe",
     "slideshow_AGJPzh",
     "multicolumn_ymLrV7",
     "featured_collection_F7PyFP",

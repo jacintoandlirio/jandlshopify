@@ -110,11 +110,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/MiniCarrierLifestylephoto1.png",
             "image_link": "",
-            "heading": "Try one of our bags",
+            "heading": "Bags.",
             "heading_size": "h1",
-            "subheading": "Our bags feature vegan leather",
-            "button_label": "Learn more",
-            "link": "",
+            "subheading": "Try out our bags featuring vegan design without compromise.",
+            "button_label": "Visit our bags collections here",
+            "link": "shopify:\/\/collections\/bags-wallets",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -824,12 +824,12 @@
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
-        "icon_color": "#fff",
-        "hover_color": "#EFEFEF",
-        "question_color": "#fff",
-        "background_color": "#000",
-        "answer_color": "#000",
-        "answer_bg_color": "#fff",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
+        "background_color": "#000000",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
         "questions-font-size": 1.5
       }
     }

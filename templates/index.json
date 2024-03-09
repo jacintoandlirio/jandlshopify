@@ -22,24 +22,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_K8yGA9": {
-          "type": "slide",
-          "settings": {
-            "image_link": "",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_ykjKma": {
           "type": "slide",
           "settings": {
@@ -58,12 +40,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_K8yGA9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_1_f97c9af2-56d6-478c-ac90-ad51f31aeea4.png",
+            "image_link": "",
+            "heading": "ALL IN ONE PLANNING PRODUCT.",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify:\/\/collections\/journals-1",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_7mMHRC",
-        "slide_K8yGA9",
-        "slide_ykjKma"
+        "slide_ykjKma",
+        "slide_K8yGA9"
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 70px; color: #f0e2c0;}",

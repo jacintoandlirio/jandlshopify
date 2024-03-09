@@ -21,50 +21,10 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_K8yGA9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8_1_f97c9af2-56d6-478c-ac90-ad51f31aeea4.png",
-            "image_link": "",
-            "heading": "ALL IN ONE PLANNING PRODUCT.",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "shopify:\/\/collections\/journals-1",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 40,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_ykjKma": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF3792.jpg",
-            "image_link": "shopify:\/\/collections\/card-holder",
-            "heading": "MULTI PURPOSE PASSPORT HOLDER",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Visit our collections of out sample bags and wallets here.",
-            "link": "shopify:\/\/collections\/bags-wallets",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 40,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_7mMHRC",
-        "slide_K8yGA9",
-        "slide_ykjKma"
+        "slide_7mMHRC"
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 70px; color: #f0e2c0;}",

@@ -36,7 +36,7 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 40,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
@@ -55,7 +55,7 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 40,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
@@ -256,138 +256,6 @@
         "padding_bottom": 36
       }
     },
-    "ss_instafeed_2_9D4FhA": {
-      "type": "ss-instafeed-2",
-      "blocks": {
-        "slide_rkLyzQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Minicarrierlifestylephoto2.png",
-            "url": "shopify:\/\/collections\/bags-wallets"
-          }
-        },
-        "slide_BB6rnM": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_mXDLL4": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_Fi8gr3": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_rkLyzQ",
-        "slide_BB6rnM",
-        "slide_mXDLL4",
-        "slide_Fi8gr3"
-      ],
-      "settings": {
-        "top": "Explore other types of products here",
-        "top_custom": false,
-        "top_font": "josefin_sans_n4",
-        "top_size": 13,
-        "top_height": 130,
-        "top_align": "center",
-        "heading": "Explore more of our products here:",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 40,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_mt": 12,
-        "subheading": "<h3>Join the convo with #AwesomeBrandTag<\/h3>",
-        "subheading_custom": false,
-        "subheading_font": "josefin_sans_n4",
-        "subheading_size": 16,
-        "subheading_height": 130,
-        "subheading_align": "center",
-        "subheading_mt": 12,
-        "slider_mt": 32,
-        "slider_row": "3",
-        "slider_row_mobile": "1",
-        "slider_gap": 20,
-        "slider_gap_mobile": 32,
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "nav_size": 55,
-        "nav_size_mobile": 45,
-        "hide_nav": false,
-        "hide_nav_mobile": false,
-        "image_radius": 0,
-        "top_color": "#e69e6c",
-        "heading_color": "#746661",
-        "subheading_color": "#aba49d",
-        "nav_btn_bg": "#ffffff",
-        "nav_btn_hover_bg": "#e69e6c",
-        "nav_border": "#e69e6c",
-        "nav_border_hover": "#e69e6c",
-        "nav_icon": "#e69e6c",
-        "nav_hover_icon": "#ffffff",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 48,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "slideshow_eTn9e8": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_fDLgfP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
-            "image_link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
-            "heading": "OUR STORY",
-            "heading_size": "h1",
-            "subheading": "Through the creation of well-designed, functional and Philippine-inspired plant leather goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission-- social impact in livelihood, environmental protection and product innovation.",
-            "button_label": "Watch here",
-            "link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_fDLgfP"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "ss_instafeed_2_VFYEQM": {
       "type": "ss-instafeed-2",
       "blocks": {
@@ -491,6 +359,46 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "slideshow_eTn9e8": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fDLgfP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
+            "image_link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
+            "heading": "OUR STORY",
+            "heading_size": "h1",
+            "subheading": "Through the creation of well-designed, functional and Philippine-inspired plant leather goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission-- social impact in livelihood, environmental protection and product innovation.",
+            "button_label": "Watch here",
+            "link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fDLgfP"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_ymLrV7": {
@@ -1005,9 +913,8 @@
     "rich_text_Lyp9xe",
     "slideshow_AGJPzh",
     "image_with_text_drixNp",
-    "ss_instafeed_2_9D4FhA",
-    "slideshow_eTn9e8",
     "ss_instafeed_2_VFYEQM",
+    "slideshow_eTn9e8",
     "multicolumn_ymLrV7",
     "custom_liquid_YxBfei",
     "slideshow_333ztP",

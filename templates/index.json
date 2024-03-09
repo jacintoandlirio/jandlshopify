@@ -146,12 +146,13 @@
         "slide_BNnMzt": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Jun6-iPadH-Brown_PintoMini-AshGrey.png",
             "image_link": "",
             "heading": "Gadget accessories",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "button_label": "Gadget accessories:",
+            "link": "shopify:\/\/collections\/gadget-accessories",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,

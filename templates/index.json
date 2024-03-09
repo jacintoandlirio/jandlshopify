@@ -269,6 +269,7 @@
         "slide_BNEbaj": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/reviewSlide.jpg",
             "url": ""
           }
         },
@@ -543,7 +544,6 @@
         "slide_gR4qYm",
         "slide_yhgaHh"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 55px;}",
         ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"

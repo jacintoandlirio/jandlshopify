@@ -624,6 +624,39 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "faq_VCninm": {
+      "type": "faq",
+      "blocks": {
+        "text_6W3PMM": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext<\/p>"
+          }
+        },
+        "text_a3hb4g": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6W3PMM",
+        "text_a3hb4g"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
+        "background_color": "#000000",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5
+      }
+    },
     "multicolumn_gmzhh3": {
       "type": "multicolumn",
       "blocks": {
@@ -925,39 +958,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "faq_VCninm": {
-      "type": "faq",
-      "blocks": {
-        "text_6W3PMM": {
-          "type": "text",
-          "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext<\/p>"
-          }
-        },
-        "text_a3hb4g": {
-          "type": "text",
-          "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_6W3PMM",
-        "text_a3hb4g"
-      ],
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "icon_color": "#ffffff",
-        "hover_color": "#efefef",
-        "question_color": "#ffffff",
-        "background_color": "#000000",
-        "answer_color": "#000000",
-        "answer_bg_color": "#ffffff",
-        "questions-font-size": 1.5
-      }
     }
   },
   "order": [
@@ -972,13 +972,13 @@
     "multicolumn_ymLrV7",
     "custom_liquid_YxBfei",
     "slideshow_333ztP",
+    "faq_VCninm",
     "multicolumn_gmzhh3",
     "image_banner_HyQkcC",
     "image_banner_bjWjq4",
     "image_with_text_UYUL3C",
     "featured_blog_K9DnLq",
     "multirow_4kpYXJ",
-    "featured_blog_hbVnVc",
-    "faq_VCninm"
+    "featured_blog_hbVnVc"
   ]
 }

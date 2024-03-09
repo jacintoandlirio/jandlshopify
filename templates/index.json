@@ -251,7 +251,7 @@
         "text_T669BL": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"\/collections\/bags\" target=\"_blank\" title=\"Bags\">Bags<\/a><\/p><p>Wallets<\/p><p>Journals & Planners<\/p><p>Lanyards<\/p><p>Passport sleeves<\/p>",
+            "text": "<p><a href=\"\/collections\/bags\" target=\"_blank\" title=\"Bags\">Bags<\/a><\/p><p><a href=\"\/collections\/bags-wallets\" title=\"Bags & Wallets\">Wallets<\/a><\/p><p><a href=\"\/collections\/journals-1\" title=\"Journals & Planners\">Journals & Planners<\/a><\/p><p><a href=\"\/collections\/lanyards-1\" target=\"_blank\" title=\"Lanyards\">Lanyards<\/a><\/p><p><a href=\"\/collections\/passport-sleeve\" title=\"Passport Sleeve\">Passport sleeves<\/a><\/p><p><a href=\"\/collections\/gadget-accessories\" title=\"Gadget Accessories\">Gadget accessories<\/a><\/p><p><\/p>",
             "text_style": "body"
           }
         }

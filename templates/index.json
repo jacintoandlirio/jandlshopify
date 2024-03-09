@@ -276,6 +276,7 @@
         "slide_BPfCVT": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/slide.png",
             "url": ""
           }
         },

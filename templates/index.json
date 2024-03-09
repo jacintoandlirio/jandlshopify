@@ -149,9 +149,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/fauna-refillable-vegan-leather-undated-mini-planner-with-magic-wallet-purse-pawikan-planner-jacinto-lirio-269216_7b34cc85-bb82-49fd-8150-a90e42af49c8.jpg",
             "image_link": "",
-            "heading": "Image slide",
+            "heading": "Notebooks",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
+            "subheading": "",
             "button_label": "Visit our organic journals and planners here",
             "link": "shopify:\/\/collections\/journals-1",
             "button_style_secondary": false,
@@ -162,11 +162,30 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_BNnMzt": {
+          "type": "slide",
+          "settings": {
+            "image_link": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_NkC6kz",
-        "slide_EYPiAE"
+        "slide_EYPiAE",
+        "slide_BNnMzt"
       ],
       "settings": {
         "layout": "full_bleed",

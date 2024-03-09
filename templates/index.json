@@ -22,12 +22,30 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_K8yGA9": {
+          "type": "slide",
+          "settings": {
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_ykjKma": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/DSCF3792.jpg",
             "image_link": "shopify:\/\/collections\/card-holder",
-            "heading": "CARD STORAGE HAS NEVER BEEN EASIER",
+            "heading": "MULTI PURPOSE PASSPORT HOLDER",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Visit our collections of out sample bags and wallets here.",
@@ -44,6 +62,7 @@
       },
       "block_order": [
         "slide_7mMHRC",
+        "slide_K8yGA9",
         "slide_ykjKma"
       ],
       "custom_css": [
@@ -167,7 +186,7 @@
           "type": "slide",
           "settings": {
             "image_link": "",
-            "heading": "Image slide",
+            "heading": "Gadget accessories",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",

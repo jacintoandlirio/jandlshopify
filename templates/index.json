@@ -219,13 +219,33 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_irkrab": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSCF3792.jpg",
+            "image_link": "",
+            "heading": "MULTI PURPOSE PASSPORT HOLDERS",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_NkC6kz",
         "slide_EYPiAE",
         "slide_BNnMzt",
-        "slide_WgeYcm"
+        "slide_WgeYcm",
+        "slide_irkrab"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -302,27 +322,13 @@
           "settings": {
             "url": ""
           }
-        },
-        "slide_4EVFrE": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_eCTiqn": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
         }
       },
       "block_order": [
         "slide_Xq8KaA",
         "slide_BNEbaj",
         "slide_BPfCVT",
-        "slide_44aDXJ",
-        "slide_4EVFrE",
-        "slide_eCTiqn"
+        "slide_44aDXJ"
       ],
       "settings": {
         "top": "",

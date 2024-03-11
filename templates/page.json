@@ -3,6 +3,7 @@
     "image_banner_jEE3BF": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Whoweare_5f7c0668-d356-474a-b522-f22de0d42d40.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",

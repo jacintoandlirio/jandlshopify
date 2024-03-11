@@ -1,0 +1,702 @@
+{
+  "sections": {
+    "custom_liquid_FB7VYP": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_with_text_exbeQp{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_exbeQp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dwCmr3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make your mark, show your style",
+            "heading_size": "h1"
+          }
+        },
+        "text_hKM7Ea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Customized finishes by Jacinto & Lirio on water hyacinth leather. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_XNycdp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dwCmr3",
+        "text_hKM7Ea",
+        "button_XNycdp"
+      ],
+      "settings": {
+        "image": "{{ page.metafields.custom.knit.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_JCNmHb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__multicolumn_h9cijn{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_h9cijn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8RBEKx": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.vynil.value }}",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UpWALp": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.vynil2.value }}",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xaXkk7": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.vynil3.value }}",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8RBEKx",
+        "column_UpWALp",
+        "column_xaXkk7"
+      ],
+      "settings": {
+        "title": "Vynil on vegan leather",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_RX7dVy": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__multicolumn_h9cijn{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_cEgTBi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tYaLxJ": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.graphic_placements.value }}",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_k6j4yg": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.graphic_placements_two.value }}",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_tYaLxJ",
+        "column_k6j4yg"
+      ],
+      "settings": {
+        "title": "Customized design etches on covers of water hyacinth journals.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_D6t6zx": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_with_text_anJUaQ{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_anJUaQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BnQxci": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eco friendly fully colored graphic placements.",
+            "heading_size": "h1"
+          }
+        },
+        "text_Y4JP8j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer customized design imprint on water hyacinth planner and journal, as well as laser engraving, laser cut, embroidery and silkscreen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_MdMqpW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BnQxci",
+        "text_Y4JP8j",
+        "button_MdMqpW"
+      ],
+      "settings": {
+        "image": "{{ page.metafields.custom.customized_design.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_mNTXWC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TLGBww": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.laser_engraving.value }}",
+            "title": "Laser cut on water hyacinth",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fV8riq": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.laser_engraving2.value }}",
+            "title": "Laser engraving and embroidery",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jNpXVM": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.laser_engraving3.value }}",
+            "title": "Foil stamp",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3nUTgQ": {
+          "type": "column",
+          "settings": {
+            "image": "{{ page.metafields.custom.laser_engraving4.value }}",
+            "title": "Emboss",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TLGBww",
+        "column_fV8riq",
+        "column_jNpXVM",
+        "column_3nUTgQ"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_8LyMEX": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner != blank %}\n\n<style>\n#shopify-section-template--22140844540221__main{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {font-family: \"luna itc\"; font-size: 50px; text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_GL4Whn": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__rich_text_z6KajG{display:none;}\n\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{display: none;}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_Ed4C3K{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_custom == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CHjhm8{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_packaging == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CUUKjf{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_ty6n7M": {
+      "type": "image-banner",
+      "blocks": {
+        "text_DGd8w4": {
+          "type": "text",
+          "settings": {
+            "text": "JACINTO & LIRIO'S",
+            "text_style": "body"
+          }
+        },
+        "heading_66PNyw": {
+          "type": "heading",
+          "settings": {
+            "heading": "CORPORATE GIFTING SERVICE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_DGd8w4",
+        "heading_66PNyw"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px; text-align: center;}"
+      ],
+      "settings": {
+        "image": "{{ page.metafields.custom.corp_gifting_banner.value }}",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_z6KajG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mMENC9": {
+          "type": "heading",
+          "settings": {
+            "heading": "How does our service work?",
+            "heading_size": "h1"
+          }
+        },
+        "text_bB6EbA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Our<\/em> water hyacinth products + <em>Your<\/em> branding<\/p>"
+          }
+        },
+        "text_96h8We": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Visit our mockups and we remove our Jacinto & Lirio branding then replace us with ours instead!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mMENC9",
+        "text_bB6EbA",
+        "text_96h8We"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_JpQDMk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jxi6JD": {
+          "type": "column",
+          "settings": {
+            "title": "Choose among our available water hyacinth products",
+            "text": "<p>Our on hand products and virtual gift cards will have <strong>no<\/strong> MOQ.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6x7xjY": {
+          "type": "column",
+          "settings": {
+            "title": "Choose among our sample personalization options",
+            "text": "<p>Our <em>name and logo engraving<\/em> will have <strong>no<\/strong> MOQ (Minimum order quantity)<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3qyk4k": {
+          "type": "column",
+          "settings": {
+            "title": "Choose customization options",
+            "text": "<p>Made to order and customized vegan leather goods vary by<strong> 50 - 100<\/strong> MOQ.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U4Kx8B": {
+          "type": "column",
+          "settings": {
+            "title": "Choose packaging options",
+            "text": "<p>Wooden Box, Card Board Boxes, Acrylic Boxes, Eco-bags and more with matching gift tags, ribbons and accents<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jxi6JD",
+        "column_6x7xjY",
+        "column_3qyk4k",
+        "column_U4Kx8B"
+      ],
+      "settings": {
+        "title": "Our gifting process",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_cFDLCD": {
+      "type": "collage",
+      "blocks": {
+        "image_aXMxhQ": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.corporate_img.value }}"
+          }
+        },
+        "product_nUprAK": {
+          "type": "product",
+          "settings": {
+            "product": "conference-bag",
+            "second_image": false
+          }
+        },
+        "collection_HfRy69": {
+          "type": "collection",
+          "settings": {
+            "collection": "corporate-gift-sets"
+          }
+        }
+      },
+      "block_order": [
+        "image_aXMxhQ",
+        "product_nUprAK",
+        "collection_HfRy69"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+      ],
+      "settings": {
+        "heading": "Choose a water hyacinth product",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_Ed4C3K": {
+      "type": "collage",
+      "blocks": {
+        "image_wQmJxL": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.corporate_personalization.value }}"
+          }
+        },
+        "product_Cqi7Cm": {
+          "type": "product",
+          "settings": {
+            "product": "colored-logo-or-name-print",
+            "second_image": false
+          }
+        },
+        "collection_TUwwPw": {
+          "type": "collection",
+          "settings": {
+            "collection": "personalization"
+          }
+        }
+      },
+      "block_order": [
+        "image_wQmJxL",
+        "product_Cqi7Cm",
+        "collection_TUwwPw"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+      ],
+      "settings": {
+        "heading": "Choose sample personalization options",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_CHjhm8": {
+      "type": "collage",
+      "blocks": {
+        "image_KMfEeJ": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.corporate_custom.value }}"
+          }
+        },
+        "product_Fkw6jE": {
+          "type": "product",
+          "settings": {
+            "product": "foil-stamp-1",
+            "second_image": false
+          }
+        },
+        "collection_DrADHV": {
+          "type": "collection",
+          "settings": {
+            "collection": "customizations"
+          }
+        }
+      },
+      "block_order": [
+        "image_KMfEeJ",
+        "product_Fkw6jE",
+        "collection_DrADHV"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+      ],
+      "settings": {
+        "heading": "Choose customization",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_CtqjgF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ehgH7x": {
+          "type": "column",
+          "settings": {
+            "title": "Curated gift boxes",
+            "text": "<p>PERSONALIZED GIFT SETS<\/p><p>We can curate other items to mix with our vegan leather goods to form your giftbox<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pmhqCU": {
+          "type": "column",
+          "settings": {
+            "title": "Distribution",
+            "text": "<p>Either to your office or individually straight to your recipients Nationwide and Worldwide<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ehgH7x",
+        "column_pmhqCU"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_CUUKjf": {
+      "type": "collage",
+      "blocks": {
+        "image_bbbjHM": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.corporate_packaging.value }}"
+          }
+        },
+        "product_FCR7DX": {
+          "type": "product",
+          "settings": {
+            "product": "kraft-box-packaging-with-side-opening",
+            "second_image": false
+          }
+        },
+        "collection_rwwicT": {
+          "type": "collection",
+          "settings": {
+            "collection": "packaging-1"
+          }
+        }
+      },
+      "block_order": [
+        "image_bbbjHM",
+        "product_FCR7DX",
+        "collection_rwwicT"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+      ],
+      "settings": {
+        "heading": "Choose packaging",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_FB7VYP",
+    "image_with_text_exbeQp",
+    "custom_liquid_JCNmHb",
+    "multicolumn_h9cijn",
+    "custom_liquid_RX7dVy",
+    "multicolumn_cEgTBi",
+    "custom_liquid_D6t6zx",
+    "image_with_text_anJUaQ",
+    "multicolumn_mNTXWC",
+    "custom_liquid_8LyMEX",
+    "main",
+    "custom_liquid_GL4Whn",
+    "image_banner_ty6n7M",
+    "rich_text_z6KajG",
+    "multicolumn_JpQDMk",
+    "collage_cFDLCD",
+    "collage_Ed4C3K",
+    "collage_CHjhm8",
+    "multicolumn_CtqjgF",
+    "collage_CUUKjf"
+  ]
+}

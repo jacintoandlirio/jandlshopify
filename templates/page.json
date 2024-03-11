@@ -591,49 +591,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_CtqjgF": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_ehgH7x": {
-          "type": "column",
-          "settings": {
-            "title": "Curated gift boxes",
-            "text": "<p>PERSONALIZED GIFT SETS<\/p><p>We can curate other items to mix with our vegan leather goods to form your giftbox<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pmhqCU": {
-          "type": "column",
-          "settings": {
-            "title": "Distribution",
-            "text": "<p>Either to your office or individually straight to your recipients Nationwide and Worldwide<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_ehgH7x",
-        "column_pmhqCU"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collage_CUUKjf": {
       "type": "collage",
       "blocks": {
@@ -696,7 +653,6 @@
     "collage_cFDLCD",
     "collage_Ed4C3K",
     "collage_CHjhm8",
-    "multicolumn_CtqjgF",
     "collage_CUUKjf"
   ]
 }

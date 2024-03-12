@@ -27,7 +27,7 @@
         "slide_7mMHRC"
       ],
       "custom_css": [
-        "h2{font-size: 60px; color: #f7e2ad;}"
+        "h2 {font-size: 60px; color: #f7e2ad;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -99,6 +99,113 @@
         "full_width": true,
         "padding_top": 92,
         "padding_bottom": 96
+      }
+    },
+    "ss_instafeed_2_nBPXYH": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_NJhrkt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/94392afd-da65-4384-acb1-7cc43e7b4cef.png",
+            "url": ""
+          }
+        },
+        "slide_FwkM7x": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9a2c8f13-195a-4c69-91f8-5baeed3ff379.jpg",
+            "url": ""
+          }
+        },
+        "slide_J8tX6M": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_jHaMEd": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_BNaMHy": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_Hb3MqR": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_NJhrkt",
+        "slide_FwkM7x",
+        "slide_J8tX6M",
+        "slide_jHaMEd",
+        "slide_BNaMHy",
+        "slide_Hb3MqR"
+      ],
+      "settings": {
+        "top": "",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 13,
+        "top_height": 130,
+        "top_align": "center",
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "6",
+        "slider_row_mobile": "1",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#FFFFFF",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#FFFFFF",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 60,
+        "margin_bottom": 60,
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "slideshow_AGJPzh": {
@@ -338,8 +445,8 @@
         "background_color": "#FFFFFF",
         "background_gradient": "",
         "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
+        "margin_top": 100,
+        "margin_bottom": 100,
         "padding_top": 36,
         "padding_bottom": 36,
         "padding_horizontal": 5,
@@ -799,6 +906,7 @@
     "slideshow_ri7rcw",
     "featured_collection",
     "rich_text_Lyp9xe",
+    "ss_instafeed_2_nBPXYH",
     "slideshow_AGJPzh",
     "image_with_text_drixNp",
     "ss_instafeed_2_VFYEQM",

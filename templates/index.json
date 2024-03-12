@@ -460,107 +460,6 @@
         "padding_bottom": 0
       }
     },
-    "slideshow_333ztP": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_hWqGKK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/reviewSlide1.jpg",
-            "image_link": "",
-            "heading": "Reviews",
-            "heading_size": "h1",
-            "subheading": "\"Innovative products. I just bought this recently and was surprised with its quality and features. I super recommend this product for those who want to bring their journal on the go. Their products are not only sustainable, but they're also really innovative.\"   -Andee R.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_87ypVr": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/reviewSlide2.jpg",
-            "image_link": "",
-            "heading": "Reviews",
-            "heading_size": "h1",
-            "subheading": "\"Cute, Stylish, and Useful! I would totally recommend this product because apart from being sustainable and eco-friendly, it is also multifunctional and guaranteed high quality product. 10\/10!!!\"   -Joanne Mae Dichosa",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_gR4qYm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/reviewSlide3.jpg",
-            "image_link": "",
-            "heading": "Reviews",
-            "heading_size": "h1",
-            "subheading": "\"You can't go wrong with this!! I really like how the clutch can fit all of the essentials in one pouch!! As someone who often brings huge bags even when just going to the grocery, I like how I can store most of my belongings in there. It also has a notebook inside, which is super useful when going on errands.\"   -Erin",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_yhgaHh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/reviewSlide4_a283cc31-70bb-4bec-90d9-1314d505ebf3.jpg",
-            "image_link": "",
-            "heading": "Reviews",
-            "heading_size": "h1",
-            "subheading": "\"Very stylish. I super love its style! I would love to bring it with me everywhere I go esp when I travel. It makes my journey more exciting to write.\"   -Cess",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_hWqGKK",
-        "slide_87ypVr",
-        "slide_gR4qYm",
-        "slide_yhgaHh"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}",
-        ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 7,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "faq_VCninm": {
       "type": "faq",
       "blocks": {
@@ -907,7 +806,6 @@
     "slideshow_eTn9e8",
     "multicolumn_ymLrV7",
     "custom_liquid_YxBfei",
-    "slideshow_333ztP",
     "faq_VCninm",
     "multicolumn_gmzhh3",
     "image_banner_HyQkcC",

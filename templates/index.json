@@ -121,24 +121,28 @@
         "slide_J8tX6M": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/7N8A9572_copy_b782eaf8-fe9b-4941-9975-4b624f101558.jpg",
             "url": ""
           }
         },
         "slide_jHaMEd": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/viber_image_2021-09-13_16-28-16-218_1.jpg",
             "url": ""
           }
         },
         "slide_BNaMHy": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group_46.png",
             "url": ""
           }
         },
         "slide_Hb3MqR": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/MiniCarrierMarketing2Edit.jpg",
             "url": ""
           }
         }
@@ -172,8 +176,8 @@
         "subheading_height": 130,
         "subheading_align": "center",
         "subheading_mt": 12,
-        "slider_mt": 60,
-        "slider_row": "6",
+        "slider_mt": 44,
+        "slider_row": "3",
         "slider_row_mobile": "1",
         "slider_gap": 20,
         "slider_gap_mobile": 32,
@@ -183,7 +187,7 @@
         "nav_size_mobile": 30,
         "hide_nav": true,
         "hide_nav_mobile": false,
-        "image_radius": 0,
+        "image_radius": 24,
         "top_color": "#e69e6c",
         "heading_color": "#746661",
         "subheading_color": "#aba49d",

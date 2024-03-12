@@ -182,7 +182,7 @@
         "slider_gap": 20,
         "slider_gap_mobile": 32,
         "autoplay": false,
-        "autoplay_speed": 3,
+        "autoplay_speed": 6,
         "nav_size": 40,
         "nav_size_mobile": 30,
         "hide_nav": true,

@@ -583,6 +583,13 @@
         "text_WQLAHx": {
           "type": "text",
           "settings": {
+            "question": "Do I need to set up an account to be able to place an order?",
+            "answer": "<p>Answer richtext<\/p>"
+          }
+        },
+        "text_GqjygN": {
+          "type": "text",
+          "settings": {
             "question": "Question text",
             "answer": "<p>Answer richtext<\/p>"
           }
@@ -598,6 +605,7 @@
       "block_order": [
         "text_6W3PMM",
         "text_WQLAHx",
+        "text_GqjygN",
         "text_a3hb4g"
       ],
       "settings": {

@@ -590,7 +590,7 @@
         "text_GqjygN": {
           "type": "text",
           "settings": {
-            "question": "Question text",
+            "question": "How long is your order processing?",
             "answer": "<p><strong>In order to make sure that your orders are in good quality condition, please give us 1-2 business days to prepare orders with ready stocks and no personalization. For orders with name engraving, lead time is 203 weeks depending on our line up and your order quantity. <\/strong><\/p><p><strong>Once it has been forwarded to the courier, the tracking number will be sent in your email.<\/strong><\/p>"
           }
         },

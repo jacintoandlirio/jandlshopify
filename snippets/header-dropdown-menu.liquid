@@ -4,26 +4,9 @@
   Usage:
   {% render 'header-dropdown-menu' %}
 {% endcomment %}
+
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
-    {% for link in section.settings.menu.links %}
-      {% assign mega_menu == false %}
-      {% for block in section.blocks %}
-         {% if block.settings.title == link.title %}
-          {% assign mega_menu = true %}
-         {% endif %}  
-      {% endfor %}
-       
-      {% if mega_menu == false %}
-      <li><a href="{{link.url}}" class="header__menu-item list-menu__item link link--text focus-inset ">{{link.title}}</a></li>
-      {% endif %}
-        
-    {% endfor %}
-    
-  </ul>
-</nav>
-
-    {% comment %}
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
@@ -118,5 +101,3 @@
     {%- endfor -%}
   </ul>
 </nav>
-{% endcomment %}
-

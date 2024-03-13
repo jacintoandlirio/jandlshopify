@@ -678,7 +678,8 @@
         "column_e8CY9K"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}",
+        "p {font-size: 13px; line-height: 19px;}"
       ],
       "settings": {
         "title": "Hassle free corporate giveaways",
@@ -686,7 +687,7 @@
         "image_width": "half",
         "image_ratio": "square",
         "columns_desktop": 2,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",

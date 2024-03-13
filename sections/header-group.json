@@ -8,7 +8,7 @@
         "menu_UhHifq": {
           "type": "menu",
           "settings": {
-            "title": "Custom Main Menu",
+            "title": "Home",
             "linklist": "navigation-menu",
             "image_1": "shopify:\/\/shop_images\/94392afd-da65-4384-acb1-7cc43e7b4cef.png",
             "caption_1": "",
@@ -21,10 +21,26 @@
             "caption_4": "",
             "link_4": ""
           }
+        },
+        "menu_4JzemM": {
+          "type": "menu",
+          "settings": {
+            "title": "Shop",
+            "linklist": "navigation-menu",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
         }
       },
       "block_order": [
-        "menu_UhHifq"
+        "menu_UhHifq",
+        "menu_4JzemM"
       ],
       "custom_css": [
         "header {font-size: 45px;}"

@@ -576,6 +576,13 @@
         "text_6W3PMM": {
           "type": "text",
           "settings": {
+            "question": "How do I order online?",
+            "answer": "<ol><li>Go to <a href=\"https:\/\/jacintoandlirio.com\/apps\/www.jacintoandlirio.com\" title=\"Jacinto & Lirio Website\">www.jacintoandlirio.com<\/a>, browse through our items under the \"shop\" tab or \"shop by instagram\" option at the bottom of the home page or under the shop tab.<\/li><li>Click<strong> <\/strong>on the photos of the items, choose a color and variations of the items you would like to purchase, then click <strong>\"Add to Cart\"<\/strong><\/li><li>Not yet done? Got your eye on another item? Go back to the <strong>shop menu<\/strong>, or use the <strong>search bar<\/strong> to add more items to your cart.<\/li><li>When you are ready to complete your order, click <strong>\"Checkout\".<\/strong><\/li><li>Fill in fields with your contact and shipping information.<\/li><li>Choose your payment option (PayPal, BPI or BDO bank deposit).<\/li><li>Double check all the details of your order then click \"<strong>Complete my purchase\".<\/strong><\/li><li>Once your payment has been settled,  you will receive a confirmation <strong>email<\/strong> containing details of your order.<\/li><\/ol>"
+          }
+        },
+        "text_WQLAHx": {
+          "type": "text",
+          "settings": {
             "question": "Question text",
             "answer": "<p>Answer richtext<\/p>"
           }
@@ -590,6 +597,7 @@
       },
       "block_order": [
         "text_6W3PMM",
+        "text_WQLAHx",
         "text_a3hb4g"
       ],
       "settings": {

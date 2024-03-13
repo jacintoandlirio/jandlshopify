@@ -9,7 +9,7 @@
           "type": "menu",
           "settings": {
             "title": "[Updated] Main Menu",
-            "linklist": "main-menu",
+            "linklist": "navigation-menu",
             "image_1": "shopify:\/\/shop_images\/94392afd-da65-4384-acb1-7cc43e7b4cef.png",
             "caption_1": "",
             "link_1": "shopify:\/\/collections\/amenity-tray",

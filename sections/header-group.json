@@ -36,11 +36,27 @@
             "caption_4": "",
             "link_4": ""
           }
+        },
+        "menu_cjaY9W": {
+          "type": "menu",
+          "settings": {
+            "title": "Collabs & Events",
+            "linklist": "",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
         }
       },
       "block_order": [
         "menu_UhHifq",
-        "menu_4JzemM"
+        "menu_4JzemM",
+        "menu_cjaY9W"
       ],
       "custom_css": [
         "header {font-size: 45px;}"

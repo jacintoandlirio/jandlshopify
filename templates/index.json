@@ -894,8 +894,8 @@
         "h2 {font-family: \"luna itc\"; font-size: 55px;}"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "image_height": "small",
+        "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",

@@ -27,7 +27,8 @@
         "slide_7mMHRC"
       ],
       "custom_css": [
-        "h2 {font-size: 60px; color: #f7e2ad;}"
+        "h2 {font-size: 60px; color: #f7e2ad;}",
+        ".banner__text{color: #f7e2ad;}"
       ],
       "settings": {
         "layout": "full_bleed",

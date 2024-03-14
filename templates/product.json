@@ -425,30 +425,11 @@
         "row_CzV8AX": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_bbKEkE": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_dnCb3a": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -463,9 +444,7 @@
         "row_QmaRkV",
         "row_9VMGXc",
         "row_CX7DMb",
-        "row_CzV8AX",
-        "row_bbKEkE",
-        "row_dnCb3a"
+        "row_CzV8AX"
       ],
       "settings": {
         "image_height": "medium",

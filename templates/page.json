@@ -374,7 +374,7 @@
         "heading_66PNyw"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px; text-align: center;}"
+        "h2 {font-family: \"luna itc\"; font-size: 55px; text-align: center; color: #6b501b;}"
       ],
       "settings": {
         "image": "{{ page.metafields.custom.corp_gifting_banner.value }}",

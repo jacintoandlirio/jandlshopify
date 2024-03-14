@@ -6,7 +6,7 @@
         "slide_4AegAF": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FAMILY.png",
+            "image": "{{ collection.image }}",
             "image_link": "",
             "heading": "",
             "heading_size": "h1",

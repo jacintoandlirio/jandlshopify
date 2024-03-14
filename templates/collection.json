@@ -40,7 +40,7 @@
     "custom_liquid_3dWwF8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.section == \"slide\" and page.metafields.custom.image_banner == blank %}\n<style>\n #Banner-template--22140844540221__image_banner_UcrKDY {\n    display: none;\n}\n<\/style>\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.section == \"slide\" and page.metafields.custom.image == blank %}\n<style>\n #Banner-template--22140844540221__image_banner_UcrKDY {\n    display: none;\n}\n<\/style>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

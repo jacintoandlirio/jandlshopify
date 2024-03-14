@@ -138,7 +138,7 @@
             "type": "image",
             "settings": {
               "name": "header",
-              "custom_font_weight": "none",
+              "custom_font_weight": "normal",
               "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0054\/5996\/8113\/files\/luna_itc.woff?v=1709260033",
               "apply_h1": true,
               "apply_h2": true,
@@ -319,9 +319,9 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#ffeac1",
           "background_gradient": "",
-          "text": "#926f2b",
+          "text": "#765920",
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",

@@ -189,7 +189,7 @@
         "heading_jqexm3": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.custom.feature_main_title.value }}",
+            "heading": "FEATURES",
             "heading_size": "h0"
           }
         }
@@ -197,7 +197,6 @@
       "block_order": [
         "heading_jqexm3"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

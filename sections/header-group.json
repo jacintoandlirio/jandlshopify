@@ -60,7 +60,8 @@
         "menu_cjaY9W"
       ],
       "custom_css": [
-        "header {font-size: 45px;}"
+        "header {font-size: 45px;}",
+        ".gm-target {display: inline-block; position: relative; color: #0087ca;}"
       ],
       "settings": {
         "logo_position": "top-center",

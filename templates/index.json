@@ -626,14 +626,14 @@
         "text_UVXRna"
       ],
       "custom_css": [
-        "h2{color: #6b501b;}"
+        "h1 {color: #6b501b;}"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
         "icon_color": "#ffffff",
         "hover_color": "#efefef",
-        "question_color": "#ffffff",
-        "background_color": "#000000",
+        "question_color": "#f0d7a6",
+        "background_color": "#765920",
         "answer_color": "#000000",
         "answer_bg_color": "#ffffff",
         "questions-font-size": 1.5
@@ -690,7 +690,7 @@
         "column_e8CY9K"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}",
+        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}",
         "p {font-size: 13px; line-height: 19px; width: 300px; margin: 0 auto;}"
       ],
       "settings": {

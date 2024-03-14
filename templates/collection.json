@@ -1,5 +1,14 @@
 {
   "sections": {
+    "custom_liquid_6YwWwU": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.metafields.custom.image_banner == blank or page.metafields.custom.section == \"slide\" %}\n\n<style>\n #Banner-template--22140844540221__image_banner_UcrKDY {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "slideshow_JNgCAz": {
       "type": "slideshow",
       "blocks": {
@@ -72,6 +81,7 @@
     }
   },
   "order": [
+    "custom_liquid_6YwWwU",
     "slideshow_JNgCAz",
     "banner",
     "product-grid"

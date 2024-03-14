@@ -1,1 +1,15 @@
-{"parent":"header-group.json","context":{"market":"ph"},"sections":{}}
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "ph"
+  },
+  "sections": {
+    "header": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
+  }
+}

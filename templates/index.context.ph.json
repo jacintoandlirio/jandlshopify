@@ -4,5 +4,13 @@
     "market": "ph"
   },
   "sections": {
+    "image_with_text_drixNp": {
+      "settings": {
+        "desktop_image_width": "medium",
+        "height": "medium"
+      },
+      "blocks": {
+      }
+    }
   }
 }

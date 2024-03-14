@@ -829,7 +829,7 @@
     "featured_blog_K9DnLq": {
       "type": "featured-blog",
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}"
+        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}"
       ],
       "settings": {
         "heading": "Blog posts",

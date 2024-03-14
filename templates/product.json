@@ -403,20 +403,22 @@
         "row_9VMGXc": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_8.value }}",
+            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_CX7DMb": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
+            "button_label": "",
             "button_link": ""
           }
         },

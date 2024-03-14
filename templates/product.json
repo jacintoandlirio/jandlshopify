@@ -370,30 +370,33 @@
         "row_eBHjgJ": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.lorikeet_img_5.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featured_title_5.value }}",
+            "text": "{{ product.metafields.custom.featured_description_5 | metafield_tag }}",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_NQg8LX": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featured_title_6.value }}",
+            "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_QmaRkV": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_7.value }}",
+            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
+            "button_label": "",
             "button_link": ""
           }
         },

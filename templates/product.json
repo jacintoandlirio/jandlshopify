@@ -183,29 +183,6 @@
         "show_text_below": true
       }
     },
-    "rich_text_f3zyNh": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_jqexm3": {
-          "type": "heading",
-          "settings": {
-            "heading": "FEATURES",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jqexm3"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "disabled": true,
@@ -325,6 +302,29 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "rich_text_f3zyNh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jqexm3": {
+          "type": "heading",
+          "settings": {
+            "heading": "FEATURES",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jqexm3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multirow_6tNPA3": {
@@ -940,9 +940,9 @@
     "main",
     "custom_liquid_MGyNjt",
     "image_banner_pPezFi",
-    "rich_text_f3zyNh",
     "custom_liquid_BMzEeU",
     "ss_instafeed_2_YM3pFm",
+    "rich_text_f3zyNh",
     "multirow_6tNPA3",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",

@@ -3,7 +3,7 @@
     "custom_liquid_QmBXBf": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% if page.metafields.custom.section == \"Slideshow\" and page.metafields.custom.image == null %}\n<style>\n #Banner-template--22140844540221__image_banner_UcrKDY {\n    display: none;\n}\n<\/style>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

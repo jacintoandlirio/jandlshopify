@@ -54,7 +54,8 @@
         ".FacetsWrapperDesktop {font-color: #ccaf68;}",
         ".facets-container {background-color: #926f2a; border-radius: 5px;}",
         ".facets__heading {color: #f7e2ad; font-size: 25px;}",
-        "button{background-color: #926f2a;}"
+        ".quick-add{background-color: #926f2a;}",
+        "button {color: #FFFFFF;}"
       ],
       "settings": {
         "products_per_page": 16,

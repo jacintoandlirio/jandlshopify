@@ -799,6 +799,16 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "contact_form_wrikJY": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Partner with Jacinto & Lirio",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -824,6 +834,7 @@
     "collage_Ed4C3K",
     "collage_CHjhm8",
     "collage_CUUKjf",
-    "ss_instafeed_2_fBRGQX"
+    "ss_instafeed_2_fBRGQX",
+    "contact_form_wrikJY"
   ]
 }

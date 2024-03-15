@@ -701,7 +701,8 @@
         "button_WJCbyb"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Lifestyle-Makeup_537d6330-0ce6-45fb-9b60-d3ea97b10d5d.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -721,22 +722,22 @@
         "heading_8EeU7X": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Customized office desk accessories",
             "heading_size": "h1"
           }
         },
         "text_Gdcmck": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><em>ID Holder + Checkbook Holder + Pencil Case + Desk Pen Holder + iPad Holder + Desk Accessories + Mouse Pad + Desk Pad + Desk Organizer + Wrist Rest<\/em><\/p>",
             "text_style": "body"
           }
         },
         "button_kYYcxW": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "View kit",
+            "button_link": "shopify:\/\/products\/corporate-holiday-christmas-holiday-gift-set",
             "button_style_secondary": false
           }
         }
@@ -747,6 +748,7 @@
         "button_kYYcxW"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/layout1_02_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

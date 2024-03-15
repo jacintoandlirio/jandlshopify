@@ -492,6 +492,9 @@
     },
     "featured_collection_iCbeq9": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {border-bottom: dashed 1px;}"
+      ],
       "settings": {
         "title": "Our packaged gifts:",
         "heading_size": "h1",

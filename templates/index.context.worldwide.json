@@ -13,11 +13,11 @@
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "header-4c9ff617576411939db5267d1fd519d6": null,
+        "header-c5f7c5134c9b1211c35ea799412c3048": null,
         "image_behavior": "none",
-        "header-0e5372bbbe340402ff8e33574113a086": null,
+        "header-f9c7c1e2e52624c76066e7f345af4c46": null,
         "show_text_below": true,
-        "header-3c4704314bfa86d4209e3401789c39f2": null,
+        "header-757266abfcc32586ed1b99433cc7f2d1": null,
         "accessibility_info": "Slideshow about our brand"
       },
       "blocks": {
@@ -38,7 +38,7 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
-            "header-ad3b0736d1081ddd2ec73d05b49eec88": null,
+            "header-42bff6c1d78be7429a6c686048fb750a": null,
             "text_alignment_mobile": "center"
           }
         },
@@ -59,7 +59,7 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
-            "header-ce430fdf61624944c9969b16d43a76cd": null,
+            "header-ac322d5738f1c1db090843e3bda6e14d": null,
             "text_alignment_mobile": "center"
           }
         }
@@ -75,6 +75,7 @@
     "featured_collection",
     "rich_text_Lyp9xe",
     "ss_instafeed_2_nBPXYH",
-    "slideshow_AGJPzh"
+    "slideshow_AGJPzh",
+    "image_with_text_drixNp"
   ]
 }

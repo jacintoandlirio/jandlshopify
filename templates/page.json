@@ -635,16 +635,8 @@
         "text_Qjtmjn": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>Welcome your clients to their new home and make them rememeber you even after the initial purchase with Eco-Friendly Turnover Kit contents like keychains for their keys, a folder to palce your contract and other property details, valet tray for their house trinkets, coasters, do not disturb sign and a planner.<\/p>",
             "text_style": "body"
-          }
-        },
-        "caption_TjL88P": {
-          "type": "caption",
-          "settings": {
-            "caption": "Welcome your clients to their new home and make them remember you even after the initial purchase with eco-friendly turnover kit contents like keychains for their keys, a folder to place your contract and other property details, valet tray for their house trinkets, coasters, do not disturb sign, and a planner. ",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
           }
         },
         "button_exnXYV": {
@@ -659,7 +651,6 @@
       "block_order": [
         "heading_qF9hrh",
         "text_Qjtmjn",
-        "caption_TjL88P",
         "button_exnXYV"
       ],
       "settings": {

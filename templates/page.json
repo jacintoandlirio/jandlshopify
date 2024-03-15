@@ -426,7 +426,7 @@
         "text_3YAL6L"
       ],
       "custom_css": [
-        "h2{border-bottom: 1px solid #765920;}"
+        "h2 {border-bottom: 1px solid #765920;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -464,6 +464,9 @@
         "heading_mMENC9",
         "text_bB6EbA",
         "text_96h8We"
+      ],
+      "custom_css": [
+        "h2{border-bottom: 1px solid #765920;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -519,6 +522,9 @@
         "column_6x7xjY",
         "column_3qyk4k",
         "column_U4Kx8B"
+      ],
+      "custom_css": [
+        "h2 {margin: 0 auto; border-bottom: 1px solid #765920;}"
       ],
       "settings": {
         "title": "Our gifting process",

@@ -821,7 +821,7 @@
         "button_aQy9mF"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Wedding_Souvenirs.png",
+        "image": "shopify:\/\/shop_images\/BE-OUR-PARTNER-Office-Desk-Accessories_-Event-Giveaways_-Restaurant-Ammenities_-Retail-Collaborations_-and-Hotel-Ammenities_7d422aa4-71bc-4adf-949b-451b555b32cf.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -856,8 +856,8 @@
         "button_ELHaBE": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/jacinto-marries-lirio",
             "button_style_secondary": false
           }
         }

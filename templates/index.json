@@ -755,7 +755,7 @@
         "buttons_XR6yie"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}",
+        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b; border-bottom: solid;}",
         ".banner__box {border: 2px dashed #926f2a; border: 5px double #926f2a;}"
       ],
       "settings": {
@@ -841,7 +841,7 @@
         "heading_KBkjMy": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Say I Do",
             "heading_size": "h1"
           }
         },

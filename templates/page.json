@@ -695,18 +695,21 @@
         "slide_etExjp": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Alveo_logo_png.png",
             "url": ""
           }
         },
         "slide_nwUefj": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Dow_logo.png",
             "url": ""
           }
         },
         "slide_i9dR7h": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bo_s_coffee.png",
             "url": ""
           }
         },

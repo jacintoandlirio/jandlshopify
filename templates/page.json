@@ -390,6 +390,48 @@
         "show_text_below": true
       }
     },
+    "rich_text_3c8QpU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GDnJGp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Jacinto & Lirio",
+            "heading_size": "h1"
+          }
+        },
+        "text_mdKr9A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_Nc4yBK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GDnJGp",
+        "text_mdKr9A",
+        "button_Nc4yBK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_z6KajG": {
       "type": "rich-text",
       "blocks": {
@@ -827,6 +869,7 @@
     "main",
     "custom_liquid_GL4Whn",
     "image_banner_ty6n7M",
+    "rich_text_3c8QpU",
     "rich_text_z6KajG",
     "multicolumn_JpQDMk",
     "featured_collection_iCbeq9",

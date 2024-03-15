@@ -809,8 +809,8 @@
         "button_aQy9mF": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/institutional-partner",
             "button_style_secondary": false
           }
         }

@@ -425,6 +425,9 @@
         "text_nhrznY",
         "text_3YAL6L"
       ],
+      "custom_css": [
+        "h2{border-bottom: 1px solid #765920;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

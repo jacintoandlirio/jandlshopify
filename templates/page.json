@@ -628,22 +628,30 @@
         "heading_qF9hrh": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Real Estate Turnover Kit",
             "heading_size": "h1"
           }
         },
         "text_Qjtmjn": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "text_style": "body"
+          }
+        },
+        "caption_TjL88P": {
+          "type": "caption",
+          "settings": {
+            "caption": "Welcome your clients to their new home and make them remember you even after the initial purchase with eco-friendly turnover kit contents like keychains for their keys, a folder to place your contract and other property details, valet tray for their house trinkets, coasters, do not disturb sign, and a planner. ",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         },
         "button_exnXYV": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "View Kit",
+            "button_link": "shopify:\/\/products\/home-sweet-home-real-estate-turnover-kit",
             "button_style_secondary": false
           }
         }
@@ -651,9 +659,11 @@
       "block_order": [
         "heading_qF9hrh",
         "text_Qjtmjn",
+        "caption_TjL88P",
         "button_exnXYV"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/0724_a5ffa94d-e932-42af-899b-5fceef857902.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -674,14 +684,14 @@
         "heading_X9fwnk": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "ECO FRIENDLY MERCHANDISE CO-BRANDING",
             "heading_size": "h1"
           }
         },
         "text_GjqwmY": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>We accept brand collaborations of customized designs for your brand merchandise<\/p>",
             "text_style": "body"
           }
         },

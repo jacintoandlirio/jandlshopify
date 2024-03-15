@@ -716,18 +716,21 @@
         "slide_9fWiUi": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/RM_boxes.png",
             "url": ""
           }
         },
         "slide_9FRtnL": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-pwc.png",
             "url": ""
           }
         },
         "slide_WQrcWF": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hyundai-logo-1.jpg",
             "url": ""
           }
         }

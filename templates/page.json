@@ -403,25 +403,27 @@
         "text_mdKr9A": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>We’re glad you’re here because we want to give you and your recipients the best experience possible<\/p>"
           }
         },
-        "button_Nc4yBK": {
-          "type": "button",
+        "text_nhrznY": {
+          "type": "text",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Imagine receiving a pen with the company’s logo printed on it. It’s nice and functional but you’re probably going to use it a few times and then forget about it. You’ve probably received something like this countless times before in different corporate events and conferences. To be frank, they’re so plain and boring! We know you’re here because you’re struggling to think of one of a kind corporate giveaway ideas that your recipients will definitely remember you by.<\/p>"
+          }
+        },
+        "text_3YAL6L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know planning and thinking of thoughtful and unique giveaways can be quite stressful. Of course, you want to incorporate your brand to be professional but you also want your recipients to feel a little bit special. Jacinto & Lirio is here to ease your stress by giving you a wide variety of Philippine-inspired artisan giveaway ideas that will make your company stand out. Our products are multi-functional, handmade and eco-friendly.<\/p>"
           }
         }
       },
       "block_order": [
         "heading_GDnJGp",
         "text_mdKr9A",
-        "button_Nc4yBK"
+        "text_nhrznY",
+        "text_3YAL6L"
       ],
       "settings": {
         "desktop_content_position": "center",

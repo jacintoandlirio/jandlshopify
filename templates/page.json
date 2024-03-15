@@ -466,7 +466,7 @@
         "text_96h8We"
       ],
       "custom_css": [
-        "h2{border-bottom: 1px solid #765920;}"
+        "h2 {border-bottom: 1px solid #765920;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -574,170 +574,94 @@
         "padding_bottom": 36
       }
     },
-    "collage_cFDLCD": {
-      "type": "collage",
+    "image_with_text_UFJKqy": {
+      "type": "image-with-text",
       "blocks": {
-        "image_aXMxhQ": {
-          "type": "image",
+        "heading_HQQDnP": {
+          "type": "heading",
           "settings": {
-            "image": "{{ page.metafields.custom.corporate_img.value }}"
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "product_nUprAK": {
-          "type": "product",
+        "text_RBEXNp": {
+          "type": "text",
           "settings": {
-            "product": "conference-bag",
-            "second_image": false
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
           }
         },
-        "collection_HfRy69": {
-          "type": "collection",
+        "button_YVrfBR": {
+          "type": "button",
           "settings": {
-            "collection": "corporate-gift-sets"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "image_aXMxhQ",
-        "product_nUprAK",
-        "collection_HfRy69"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+        "heading_HQQDnP",
+        "text_RBEXNp",
+        "button_YVrfBR"
       ],
       "settings": {
-        "heading": "Choose a water hyacinth product",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "collage_Ed4C3K": {
-      "type": "collage",
+    "image_with_text_QUGKWK": {
+      "type": "image-with-text",
       "blocks": {
-        "image_wQmJxL": {
-          "type": "image",
+        "heading_qF9hrh": {
+          "type": "heading",
           "settings": {
-            "image": "{{ page.metafields.custom.corporate_personalization.value }}"
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "product_Cqi7Cm": {
-          "type": "product",
+        "text_Qjtmjn": {
+          "type": "text",
           "settings": {
-            "product": "colored-logo-or-name-print",
-            "second_image": false
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
           }
         },
-        "collection_TUwwPw": {
-          "type": "collection",
+        "button_exnXYV": {
+          "type": "button",
           "settings": {
-            "collection": "personalization"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "image_wQmJxL",
-        "product_Cqi7Cm",
-        "collection_TUwwPw"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
+        "heading_qF9hrh",
+        "text_Qjtmjn",
+        "button_exnXYV"
       ],
       "settings": {
-        "heading": "Choose sample personalization options",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_CHjhm8": {
-      "type": "collage",
-      "blocks": {
-        "image_KMfEeJ": {
-          "type": "image",
-          "settings": {
-            "image": "{{ page.metafields.custom.corporate_custom.value }}"
-          }
-        },
-        "product_Fkw6jE": {
-          "type": "product",
-          "settings": {
-            "product": "foil-stamp-1",
-            "second_image": false
-          }
-        },
-        "collection_DrADHV": {
-          "type": "collection",
-          "settings": {
-            "collection": "customizations"
-          }
-        }
-      },
-      "block_order": [
-        "image_KMfEeJ",
-        "product_Fkw6jE",
-        "collection_DrADHV"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
-      ],
-      "settings": {
-        "heading": "Choose customization",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_CUUKjf": {
-      "type": "collage",
-      "blocks": {
-        "image_bbbjHM": {
-          "type": "image",
-          "settings": {
-            "image": "{{ page.metafields.custom.corporate_packaging.value }}"
-          }
-        },
-        "product_FCR7DX": {
-          "type": "product",
-          "settings": {
-            "product": "kraft-box-packaging-with-side-opening",
-            "second_image": false
-          }
-        },
-        "collection_rwwicT": {
-          "type": "collection",
-          "settings": {
-            "collection": "packaging-1"
-          }
-        }
-      },
-      "block_order": [
-        "image_bbbjHM",
-        "product_FCR7DX",
-        "collection_rwwicT"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 45px; text-align: center;}"
-      ],
-      "settings": {
-        "heading": "Choose packaging",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -884,10 +808,8 @@
     "rich_text_z6KajG",
     "multicolumn_JpQDMk",
     "featured_collection_iCbeq9",
-    "collage_cFDLCD",
-    "collage_Ed4C3K",
-    "collage_CHjhm8",
-    "collage_CUUKjf",
+    "image_with_text_UFJKqy",
+    "image_with_text_QUGKWK",
     "ss_instafeed_2_fBRGQX",
     "contact_form_wrikJY"
   ]

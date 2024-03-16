@@ -416,13 +416,21 @@
             "image": "shopify:\/\/shop_images\/3PlyWashableElasticHeadloopwithAdjusterDenimMasksforAdults_TeensandKidswithIntegratedFilterandExtraPocket_NEWNORMALESSENTIALS.png",
             "url": ""
           }
+        },
+        "slide_j9YxDr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FiestaRefillableVeganLeatherTraveler_sNotebookPlannerwithZipper-StandardSize_JOURNALS_PLANNERS.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "slide_Xq8KaA",
         "slide_BNEbaj",
         "slide_BPfCVT",
-        "slide_44aDXJ"
+        "slide_44aDXJ",
+        "slide_j9YxDr"
       ],
       "settings": {
         "top": "",

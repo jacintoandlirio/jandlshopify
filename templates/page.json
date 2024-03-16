@@ -808,6 +808,79 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "testimonials_4Jc4xJ": {
+      "type": "testimonials",
+      "blocks": {
+        "column_N8ii3K": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-pwc.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RxnLBM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bo_s_coffee.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xdMQFV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RM_boxes.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QLNnzY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Alveo_logo_png.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_N8ii3K",
+        "column_RxnLBM",
+        "column_xdMQFV",
+        "column_QLNnzY"
+      ],
+      "settings": {
+        "title": "Our clients",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "testimonial_section_background": "#eaeaea",
+        "testimonial_background": "#fff",
+        "testimonial_title_color": "#000",
+        "testimonials_text_color": "#000",
+        "arrow_color": "#fff",
+        "arrow_bg_color": "#000"
+      }
     }
   },
   "order": [
@@ -834,6 +907,7 @@
     "image_with_text_QUGKWK",
     "image_with_text_HcqEYi",
     "image_with_text_8XtHL6",
-    "image_with_text_aUaqwQ"
+    "image_with_text_aUaqwQ",
+    "testimonials_4Jc4xJ"
   ]
 }

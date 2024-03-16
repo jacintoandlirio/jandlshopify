@@ -170,7 +170,7 @@
                   role="link" aria-disabled="true"
                   {% else %}
                     href="{{ block.settings.link }}"
-                    {% endif %}
+                  {% endif %}
                     >
                     {{ block.settings.link_label | escape }}
                     </a>
@@ -183,7 +183,7 @@
       </ul>
 
       {%- if show_mobile_slider -%}
-        <div class="slider-buttons no-js-hidden large-up-hide">
+        <div class="slider-buttons no-js-hidden {% if section.blocks.size < 5%} large-up-hide{% endif %}{% if section.blocks.size <= 3%} medium-hide{% endif %}">
           <button
             type="button"
             class="slider-button slider-button--prev"

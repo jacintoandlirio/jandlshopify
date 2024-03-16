@@ -1,1 +1,21 @@
-{"parent":"header-group.json","context":{"market":"worldwide"},"sections":{}}
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "worldwide"
+  },
+  "sections": {
+    "header": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      },
+      "block_order": [
+
+      ]
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

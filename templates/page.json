@@ -782,8 +782,8 @@
         "button_NXQhKa": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "View kit",
+            "button_link": "shopify:\/\/products\/rise-above-virtual-event-kit",
             "button_style_secondary": false
           }
         }
@@ -794,6 +794,7 @@
         "button_NXQhKa"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Untitleddesign_14_c57a7c3d-0e62-4cdb-9d94-0d0d3ab5c220.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

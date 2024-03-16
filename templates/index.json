@@ -721,7 +721,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}",
-        "p {font-size: 13px; line-height: 19px; width: 300px; margin: 0 auto;}"
+        "p {font-size: 13px; line-height: 19px; width: 500px; margin: 0 auto;}"
       ],
       "settings": {
         "title": "Hassle free corporate giveaways",

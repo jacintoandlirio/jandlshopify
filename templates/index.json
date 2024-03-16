@@ -458,7 +458,7 @@
         "slider_row_mobile": "1",
         "slider_gap": 54,
         "slider_gap_mobile": 32,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 6,
         "nav_size": 40,
         "nav_size_mobile": 30,

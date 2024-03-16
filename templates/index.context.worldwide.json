@@ -4,6 +4,16 @@
     "market": "worldwide"
   },
   "sections": {
+    "slideshow_ri7rcw": {
+      "custom_css": [
+        "h2 {font-size: 60px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
+        ".banner__text {color: #f7e2ad;}"
+      ],
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
   },
   "order": [
     "slideshow_ri7rcw",

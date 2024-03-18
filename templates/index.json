@@ -285,25 +285,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_WgeYcm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8_1_f97c9af2-56d6-478c-ac90-ad51f31aeea4.png",
-            "image_link": "",
-            "heading": "ALL IN ONE PLANNING PRODUCTS",
-            "heading_size": "h1",
-            "subheading": "Visit our collection of multi purpose planners here!",
-            "button_label": "View Journals and planners",
-            "link": "shopify:\/\/collections\/journals-1",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_irkrab": {
           "type": "slide",
           "settings": {
@@ -322,14 +303,33 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_AFdRyU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/94392afd-da65-4384-acb1-7cc43e7b4cef.png",
+            "image_link": "",
+            "heading": "Cruelty free home and living",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_NkC6kz",
         "slide_EYPiAE",
         "slide_BNnMzt",
-        "slide_WgeYcm",
-        "slide_irkrab"
+        "slide_irkrab",
+        "slide_AFdRyU"
       ],
       "custom_css": [
         "h2 {color: #6b501b;}"

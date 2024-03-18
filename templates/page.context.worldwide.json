@@ -10,6 +10,20 @@
       },
       "blocks": {
       }
+    },
+    "image_with_text_HcqEYi": {
+      "settings": {
+        "layout": "text_first"
+      },
+      "blocks": {
+      }
+    },
+    "image_with_text_8XtHL6": {
+      "settings": {
+        "layout": "image_first"
+      },
+      "blocks": {
+      }
     }
   },
   "order": [

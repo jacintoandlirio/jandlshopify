@@ -40,11 +40,30 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_CTGXc9": {
+          "type": "slide",
+          "settings": {
+            "image_link": "",
+            "heading": "BECOME A J&L INSTITUTIONAL PARTNER",
+            "heading_size": "h1",
+            "subheading": "Be a J&L earth care champion and add to your companies' social and environmental impact by adding us as our CSR partner.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_7mMHRC",
-        "slide_VF4bMU"
+        "slide_VF4bMU",
+        "slide_CTGXc9"
       ],
       "custom_css": [
         "h2 {font-size: 60px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",

@@ -84,10 +84,10 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; color: #6b501b; font-size: 55px; font-weight: 500; line-height: 1.4em; border-bottom: ;}"
+        "h2 {font-family: \"luna itc\"; color: #6b501b; font-size: 55px; font-weight: 500; margin: 0 auto; width: 600px;}"
       ],
       "settings": {
-        "title": "Travel accessories",
+        "title": "TRAVEL ACCESSORIES",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -568,7 +568,7 @@
         "column_mqdDjP"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}",
+        "h2 {font-family: \"luna itc\"; font-size: 55px; margin: 0 auto;}",
         ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
       ],
       "settings": {

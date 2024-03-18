@@ -149,7 +149,7 @@
     "custom_liquid_RX7dVy": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n#shopify-section-template--22140844540221__multicolumn_h9cijn{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.knit == blank %}\n\n<style>\n.section-template--22140844540221__main-padding{\ndisplay: none;\n}\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

@@ -21,10 +21,30 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_VF4bMU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Corporate_Giveaway_Head_Banner_bef464c7-c423-4859-bcbf-8e7c03780c4d.jpg",
+            "image_link": "shopify:\/\/pages\/how-to-order-eco-friendly-corporate-giveaways-1",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_7mMHRC"
+        "slide_7mMHRC",
+        "slide_VF4bMU"
       ],
       "custom_css": [
         "h2 {font-size: 60px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",

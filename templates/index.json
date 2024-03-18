@@ -25,18 +25,18 @@
         "slide_VF4bMU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Corporate_Giveaway_Head_Banner_bef464c7-c423-4859-bcbf-8e7c03780c4d.jpg",
+            "image": "shopify:\/\/shop_images\/CorporateHoliday_54035c5a-7015-46e9-a3a1-ffe6ebc7428b.png",
             "image_link": "shopify:\/\/pages\/how-to-order-eco-friendly-corporate-giveaways-1",
-            "heading": "",
+            "heading": "J&L's Corporate gifting service",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "",
+            "button_label": "Learn more",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 60,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }

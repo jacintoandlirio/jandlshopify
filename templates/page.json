@@ -345,7 +345,7 @@
     "custom_liquid_GL4Whn": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__rich_text_z6KajG{display:none;}\n\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{display: none;}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_Ed4C3K{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_custom == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CHjhm8{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_packaging == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CUUKjf{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner == blank %}\n\n<style>\n#shopify-section-template--22140844540221__image_banner_ty6n7M{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__rich_text_z6KajG{display:none;}\n\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{display: none;}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_cFDLCD{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_img == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_Ed4C3K{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_custom == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CHjhm8{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_packaging == blank %}\n\n<style>\n#shopify-section-template--22140844540221__collage_CUUKjf{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n\n{% if page.metafields.custom.corporate_gifting == blank %}     \n\n\n\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -606,7 +606,7 @@
         "button_YVrfBR"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/EmployeeWelcomeKit_a12daa3a-f334-4e3f-9007-ee419b737f45.jpg",
+        "image": "{{ page.metafields.custom.corporate_gifting.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

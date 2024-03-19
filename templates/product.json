@@ -186,7 +186,7 @@
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_4 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 6) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_8 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 3) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_4 == blank %}\n<style>\n.image-with-text:nth-last-child(-n + 4) {\n    display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n<style>\n.image-with-text:nth-last-child(-n + 6) {\n    display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n<style>\n.image-with-text:nth-last-child(-n + 7) {\n    display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_8 == blank %}\n<style>\n.image-with-text:nth-last-child(-n + 8) {\n    display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n<style>\n.image-with-text:nth-last-child(-n + 9) {\n    display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n<style>\n.image-with-text:nth-last-child(-n + 10) {\n    display: none;\n}\n<\/style>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -747,7 +747,6 @@
         "slide_V7AK8h": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AidenEngraved_899e6109-16ae-40f1-aef5-17cf386c19cd.jpg",
             "url": ""
           }
         },

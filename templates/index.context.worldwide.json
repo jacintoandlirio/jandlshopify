@@ -13,6 +13,17 @@
       },
       "blocks": {
       }
+    },
+    "multicolumn_gmzhh3": {
+      "settings": {
+      },
+      "blocks": {
+        "column_Ceca4k": {
+          "settings": {
+            "link": "shopify:\/\/collections\/gift-sets"
+          }
+        }
+      }
     }
   },
   "order": [

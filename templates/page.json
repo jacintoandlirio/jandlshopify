@@ -826,7 +826,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/logo-banner_8258e769-e7b0-4fe4-a134-fa2878c999a0.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

@@ -3601,7 +3601,7 @@ width: calc(50% - 1rem / 2) !important;
    transform: scale(1);
 }
 
-a::after {
+button::after {
   content: "";
   display: block;
   position: absolute;
@@ -3611,7 +3611,7 @@ a::after {
   transition: transform 0.2s ease-in-out;
   transform: scale(0);
 }
-a:hover::after {
+button:hover::after {
   transform: scale(1);
 }
 

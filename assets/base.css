@@ -3611,6 +3611,16 @@ width: calc(50% - 1rem / 2) !important;
   border: 2px solid transparent;
 }
 
+.banner__buttons a:hover:before{
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  border: 2px solid transparent;
+}
+
 button::after {
   content: "";
   display: block;
@@ -3621,6 +3631,7 @@ button::after {
   transition: transform 0.2s ease-in-out;
   transform: scale(0);
 }
+
 button:hover::after {
   transform: scale(1);
 }

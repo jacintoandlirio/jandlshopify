@@ -3612,7 +3612,7 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 .banner__buttons a:hover:before{
-  animation: animate 1s linear forwards;
+  animation: animate 2s linear forwards;
 }
 @keyframes animate{
   0%{

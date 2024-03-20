@@ -3585,5 +3585,19 @@ width: calc(50% - 1rem / 2) !important;
 .quick-add-modal__content-info .product__image-thumbnail{
   display: none;
 }
+
+a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #000;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(0);
+}
+a:hover::after {
+  transform: scale(1);
+}
 /* Coded by websensepro.com | youtube.com/c/websensepro */
 

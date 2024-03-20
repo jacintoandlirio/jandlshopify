@@ -3631,6 +3631,14 @@ width: calc(50% - 1rem / 2) !important;
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
+  100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: #ccaf68;
+    border-right-color: #ccaf68;
+    border-bottom-color: #ccaf68;
+    border-left-color: #ccaf68;
+  }
 }
 
 button::after {

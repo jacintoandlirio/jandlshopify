@@ -658,7 +658,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/CorporateHoliday_54035c5a-7015-46e9-a3a1-ffe6ebc7428b.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

@@ -822,19 +822,14 @@
         "slide_DgpH3z": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hyundai-logo-1.jpg",
+            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
             "url": ""
           }
         },
         "slide_WaX7wp": {
           "type": "slide",
           "settings": {
-            "url": ""
-          }
-        },
-        "slide_6AhndH": {
-          "type": "slide",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
             "url": ""
           }
         },
@@ -861,7 +856,6 @@
         "slide_8BcPx4",
         "slide_DgpH3z",
         "slide_WaX7wp",
-        "slide_6AhndH",
         "slide_qC4tVU",
         "slide_GLgLiD",
         "slide_wCPaNY"

@@ -3599,9 +3599,8 @@ li::after {
 }
 li:hover::after {
   transform: scale(1);
-}
 
-}
+
 
 a::after {
   content: "";

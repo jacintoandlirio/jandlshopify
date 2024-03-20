@@ -864,13 +864,13 @@
         "slide_wCPaNY"
       ],
       "settings": {
-        "top": "Social",
+        "top": "social proof",
         "top_custom": false,
         "top_font": "josefin_sans_n4",
         "top_size": 9,
         "top_height": 130,
         "top_align": "center",
-        "heading": "Let’s be friends.",
+        "heading": "- Our Clients -",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 40,

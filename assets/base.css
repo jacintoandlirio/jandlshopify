@@ -3601,7 +3601,7 @@ width: calc(50% - 1rem / 2) !important;
    transform: scale(1);
 }
 
-.banner__buttons:before{
+.banner__buttons a:before{
   content: '';
   position: absolute;
   top: -2px;

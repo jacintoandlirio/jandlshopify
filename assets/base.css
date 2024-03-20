@@ -3587,21 +3587,6 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 
-li::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 30%;
-  height: 3px;
-  background: #926f2a;
-  transition: transform 0.3s ease-in-out;
-  transform: scale(0);
-}
-li:hover::after {
-  transform: scale(1);
-
-
-
 a::after {
   content: "";
   display: block;

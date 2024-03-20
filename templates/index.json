@@ -337,7 +337,7 @@
             "button_label": "Gadget accessories:",
             "link": "shopify:\/\/collections\/gadget-accessories",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "top-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,

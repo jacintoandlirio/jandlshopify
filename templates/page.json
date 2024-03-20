@@ -809,32 +809,118 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_gCMjVB": {
-      "type": "image-banner",
+    "ss_instafeed_2_tB3zFm": {
+      "type": "ss-instafeed-2",
       "blocks": {
-        "heading_W3rkiR": {
-          "type": "heading",
+        "slide_8BcPx4": {
+          "type": "slide",
           "settings": {
-            "heading": "- Our Clients -",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/Logo-pwc.png",
+            "url": ""
+          }
+        },
+        "slide_DgpH3z": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyundai-logo-1.jpg",
+            "url": ""
+          }
+        },
+        "slide_WaX7wp": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_6AhndH": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_qC4tVU": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_GLgLiD": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_wCPaNY": {
+          "type": "slide",
+          "settings": {
+            "url": ""
           }
         }
       },
       "block_order": [
-        "heading_W3rkiR"
+        "slide_8BcPx4",
+        "slide_DgpH3z",
+        "slide_WaX7wp",
+        "slide_6AhndH",
+        "slide_qC4tVU",
+        "slide_GLgLiD",
+        "slide_wCPaNY"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/logo-banner_8258e769-e7b0-4fe4-a134-fa2878c999a0.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "top-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "top": "Social",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 9,
+        "top_height": 130,
+        "top_align": "center",
+        "heading": "Let’s be friends.",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "<h3>Join the convo with #AwesomeBrandTag<\/h3>",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "4",
+        "slider_row_mobile": "1",
+        "slider_gap": 16,
+        "slider_gap_mobile": 18,
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#FFFFFF",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#FFFFFF",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     }
   },
@@ -863,6 +949,6 @@
     "image_with_text_HcqEYi",
     "image_with_text_8XtHL6",
     "image_with_text_aUaqwQ",
-    "image_banner_gCMjVB"
+    "ss_instafeed_2_tB3zFm"
   ]
 }

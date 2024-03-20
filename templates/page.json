@@ -815,7 +815,7 @@
         "slide_8BcPx4": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Logo-pwc.png",
+            "image": "shopify:\/\/shop_images\/Logo-pwc_1eded6d8-a372-4ceb-8e69-ae0b10a0d50a.png",
             "url": ""
           }
         },
@@ -836,18 +836,21 @@
         "slide_qC4tVU": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Globe-logo.png",
             "url": ""
           }
         },
         "slide_GLgLiD": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
             "url": ""
           }
         },
         "slide_wCPaNY": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Unilab.png",
             "url": ""
           }
         }

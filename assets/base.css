@@ -3587,7 +3587,7 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 
-ul::after {
+li::after {
   content: "";
   display: block;
   position: absolute;
@@ -3597,7 +3597,7 @@ ul::after {
   transition: transform 0.3s ease-in-out;
   transform: scale(0);
 }
-ul:hover::after {
+li:hover::after {
   transform: scale(1);
 }
 

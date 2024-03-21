@@ -3601,21 +3601,11 @@ width: calc(50% - 1rem / 2) !important;
    transform: scaleX(1);
 }
 
-.banner__buttons a:before{
-  content: '';
-  position: absolute;
-  background: #ccaf68;
-  bottom: -2px;
-  width: 70%;
-  height: 6px;
-  transition: 1s ease-in-out;
-  transform: scaleX(0);
+.banner__heading {
+   transform: translateY(-30px);
+  opacity: 0;
+  transition: 1s;
 }
-
-.banner__buttons a:hover::after{
-  transform: scaleX(1);
-}
-
 
 
 

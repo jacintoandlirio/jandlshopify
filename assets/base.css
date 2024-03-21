@@ -3612,7 +3612,7 @@ width: calc(50% - 1rem / 2) !important;
   transform: scaleX(0);
 }
 
-.banner__buttons:hover::after{
+.banner__buttons a:hover::after{
    transform: scaleX(1);
 }
 

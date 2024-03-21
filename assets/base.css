@@ -3611,36 +3611,6 @@ width: calc(50% - 1rem / 2) !important;
   border: 2px solid transparent;
 }
 
-.banner__buttons a:hover:before{
-  animation: animate 2s linear forwards;
-}
-@keyframes animate{
-  0%{
-    width: 0;
-    height: 0;
-    border-top-color: #ccaf68;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-  50%{
-    width: 100%;
-    height: 0;
-    border-top-color: #ccaf68;
-    border-right-color: #ccaf68;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-  100%{
-    width: 100%;
-    height: 100%;
-    border-top-color: #ccaf68;
-    border-right-color: #ccaf68;
-    border-bottom-color: #ccaf68;
-    border-left-color: #ccaf68;
-  }
-}
-
 button::after {
   content: "";
   display: block;

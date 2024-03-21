@@ -829,6 +829,16 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "contact_form_GVNnMy": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -852,6 +862,7 @@
     "image_with_text_HcqEYi",
     "image_with_text_8XtHL6",
     "image_with_text_aUaqwQ",
-    "ss_instafeed_2_tB3zFm"
+    "ss_instafeed_2_tB3zFm",
+    "contact_form_GVNnMy"
   ]
 }

@@ -36,6 +36,19 @@ document.addEventListener('shopify:section:load', () => {
   }
 });
 
+var elScroll = document.querySelectorAll('.banner__heading'); //calls the class .banner__heading for position of the banner.
+
+document.onscroll = function() { 
+  elScroll.forEach(elScroll => { 
+  var positionEl = elScroll.getBoundingClientRect(); 
+  var alturaEl = positionEl.top; 
+  
+  if(alturaEl < 300) { //se a distancia do topo for menor que 300
+    elScroll.classList.add('.banner__heading-show'); //adiciona a classe .scroll--show
+  }
+ });
+}
+
 document.addEventListener('shopify:section:reorder', () => hideProductModal());
 
 document.addEventListener('shopify:section:select', () => hideProductModal());

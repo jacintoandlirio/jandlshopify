@@ -3608,7 +3608,6 @@ width: calc(50% - 1rem / 2) !important;
   bottom: -2px;
   width: 70%;
   height: 6px;
-  border: 2px solid transparent;
   transition: 1s ease-in-out;
   transform: scaleX(0);
 }

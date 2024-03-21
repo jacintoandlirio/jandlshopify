@@ -3586,7 +3586,7 @@ width: calc(50% - 1rem / 2) !important;
   display: none;
 }
 
-.gm-text::after{
+.gm-item::after{
    content: "";
   display: block;
   position: absolute;
@@ -3597,7 +3597,7 @@ width: calc(50% - 1rem / 2) !important;
   transform: scale(0);
 }
 
-.gm-text:hover::after{
+.gm-item:hover::after{
    transform: scale(1);
 }
 

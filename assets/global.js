@@ -1293,7 +1293,7 @@ document.onscroll = function() {
   var alturaEl = positionEl.top; 
   
   if(alturaEl < 300) { //se a distancia do topo for menor que 300
-    elScroll.classList.add('.banner__heading--show'); //adiciona a classe .scroll--show
+    elScroll.classList.add('.banner__heading-show'); //adiciona a classe .scroll--show
   }
  });
 }

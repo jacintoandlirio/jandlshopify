@@ -300,10 +300,10 @@
             "link": "shopify:\/\/collections\/bags-wallets",
             "button_style_secondary": false,
             "box_align": "bottom-left",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"
           }
         },

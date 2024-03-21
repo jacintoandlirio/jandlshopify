@@ -322,7 +322,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
-            "color_scheme": "",
+            "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"
           }
         },
@@ -337,11 +337,11 @@
             "button_label": "Gadget accessories:",
             "link": "shopify:\/\/collections\/gadget-accessories",
             "button_style_secondary": false,
-            "box_align": "top-left",
+            "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"
           }
         },

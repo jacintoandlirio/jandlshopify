@@ -41,7 +41,7 @@
         "button_XNycdp"
       ],
       "settings": {
-        "image": "{{ page.metafields.custom.image_banner.value }}",
+        "image": "{{ page.metafields.custom.corp_gifting_banner.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

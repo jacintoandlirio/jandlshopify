@@ -24,18 +24,10 @@
       },
       "blocks": {
       }
-    },
-    "custom_liquid_NQaYh4": {
-      "settings": {
-        "custom_liquid": "{% if page.metafields.custom.image_banner == blank %}\n\n\n<style>\n #Banner-template--22140844540221__image_banner_UcrKDY {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if page.metafields.custom.corp_gifting_banner == blank %}\n\n\n<style>\n #shopify-section-template--22140844540221__image_banner_ty6n7M,\n #shopify-section-template--22140844540221__rich_text_3c8QpU,\n#shopify-section-template--22140844540221__rich_text_z6KajG,\n#shopify-section-template--22140844540221__multicolumn_JpQDMk,\n#shopify-section-template--22140844540221__featured_collection_iCbeq9,\n#shopify-section-template--22140844540221__image_with_text_UFJKqy,\n#shopify-section-template--22140844540221__image_with_text_HcqEYi,\n#shopify-section-template--22140844540221__image_with_text_aUaqwQ,\n#shopify-section-template--22140844540221__image_with_text_QUGKWK,\n#shopify-section-template--22140844540221__image_with_text_8XtHL6,\n#shopify-section-template--22140844540221__image_with_text_8XtHL6 {\ndisplay: none;\n}\n\n\n\n<\/style>\n\n{% endif %}"
-      },
-      "blocks": {
-      }
     }
   },
   "order": [
     "image_banner_UcrKDY",
-    "custom_liquid_NQaYh4",
     "image_banner_ty6n7M",
     "custom_liquid_D6t6zx",
     "main",
@@ -48,11 +40,9 @@
     "image_with_text_aUaqwQ",
     "image_with_text_QUGKWK",
     "image_with_text_8XtHL6",
-    "custom_liquid_FB7VYP",
     "custom_liquid_8LyMEX",
     "multicolumn_cEgTBi",
     "image_with_text_anJUaQ",
-    "custom_liquid_RX7dVy",
     "multicolumn_mNTXWC",
     "image_with_text_exbeQp",
     "multicolumn_h9cijn"

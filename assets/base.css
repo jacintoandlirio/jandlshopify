@@ -3594,11 +3594,11 @@ width: calc(50% - 1rem / 2) !important;
   height: 3px;
   background: #926f2a;
   transition: transform 0.2s ease-in-out;
-  transform: scale(0);
+  transform: scaleX(0);
 }
 
 .gm-item:hover::after{
-   transform: scale(1);
+   transform: scaleX(1);
 }
 
 .banner__buttons a:before{
@@ -3610,10 +3610,11 @@ width: calc(50% - 1rem / 2) !important;
   height: 0;
   border: 2px solid transparent;
   transition: 1s ease-in-out;
+  transform: scaleX(0);
 }
 
 .banner__buttons a:hover::after{
-  background-color: #000000;
+  transform: scaleX(1);
 }
 
 

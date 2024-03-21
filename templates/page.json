@@ -326,7 +326,7 @@
     "custom_liquid_8LyMEX": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.corp_gifting_banner != blank %}\n\n<style>\n#shopify-section-template--22140844540221__main{\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

@@ -375,7 +375,7 @@
             "button_label": "Button label",
             "link": "shopify:\/\/collections\/tahanan-home-living",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,

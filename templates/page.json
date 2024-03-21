@@ -1,5 +1,14 @@
 {
   "sections": {
+    "custom_liquid_YNQhHt": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%if page.metafields.custom.image_banner == blank%}\n\n$shopify-section-template--22140844540221__image_banner_UcrKDY{\ndisplay: none;\n}\n{%endif%}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_UcrKDY": {
       "type": "image-banner",
       "settings": {
@@ -886,6 +895,7 @@
     }
   },
   "order": [
+    "custom_liquid_YNQhHt",
     "image_banner_UcrKDY",
     "image_with_text_exbeQp",
     "multicolumn_h9cijn",

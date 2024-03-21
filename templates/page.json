@@ -65,62 +65,6 @@
         "padding_bottom": 0
       }
     },
-    "multicolumn_h9cijn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_8RBEKx": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.vynil.value }}",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_UpWALp": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.vynil2.value }}",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xaXkk7": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.vynil3.value }}",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_8RBEKx",
-        "column_UpWALp",
-        "column_xaXkk7"
-      ],
-      "settings": {
-        "title": "Vynil on vegan leather",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_cEgTBi": {
       "type": "multicolumn",
       "blocks": {
@@ -891,7 +835,6 @@
     "custom_liquid_YNQhHt",
     "image_with_text_exbeQp",
     "custom_liquid_UbhBVB",
-    "multicolumn_h9cijn",
     "multicolumn_cEgTBi",
     "custom_liquid_D6t6zx",
     "image_with_text_anJUaQ",

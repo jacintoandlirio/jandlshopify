@@ -392,7 +392,7 @@
         "slide_AFdRyU"
       ],
       "custom_css": [
-        "h2 {color: #ccaf68;}"
+
       ],
       "settings": {
         "layout": "full_bleed",
@@ -770,6 +770,9 @@
         "heading_BziQBJ",
         "text_PbTDam",
         "button_aQy9mF"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/BE-OUR-PARTNER-Office-Desk-Accessories_-Event-Giveaways_-Restaurant-Ammenities_-Retail-Collaborations_-and-Hotel-Ammenities_7d422aa4-71bc-4adf-949b-451b555b32cf.jpg",

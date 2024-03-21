@@ -3628,7 +3628,7 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 .multicolumn-card__info a:hover:before{
-   width:50%;
+   width:25%;
 }
 
 

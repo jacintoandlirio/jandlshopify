@@ -59,7 +59,7 @@
     "custom_liquid_UbhBVB": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%if page.metafields.custom.image_banner != blank%}\n<style>\n#shopify-section-template--22140844540221__main{\ndisplay:none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_h9cijn{\ndisplay: none;\n}\n<\/style>\n{%endif%}",
+        "custom_liquid": "{%if page.metafields.custom.corp_gifting_banner != blank%}\n<style>\n#shopify-section-template--22140844540221__main{\ndisplay:none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_h9cijn{\ndisplay: none;\n}\n<\/style>\n{%endif%}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

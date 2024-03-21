@@ -3601,19 +3601,19 @@ width: calc(50% - 1rem / 2) !important;
    transform: scaleX(1);
 }
 
-.banner__buttons::after{
+.banner__buttons .button--primary:before{
   content: "";
-  display: block;
   position: absolute;
-  width: 100%;
+  bottom: -2px;
   height: 3px;
+  width: 0;
   background: #ccaf68;
-  transition: transform 0.2s ease-in-out;
-  transform: scaleX(0);
-}
+  border-radius: 50px;
+  transition: width 0.2s ease-in-out;
+  }
 
-.banner__buttons:hover::after{
-   transform: scaleX(1);
+.banner__buttons .button--primary:hover:before{
+   width:100%;
 }
 
 

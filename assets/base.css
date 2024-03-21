@@ -3607,6 +3607,9 @@ width: calc(50% - 1rem / 2) !important;
   transition: 1s;
 }
 
-
+.banner__heading-show{
+  transform: translateY(0px);
+  opacity: 1;
+}
 
 

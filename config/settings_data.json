@@ -211,12 +211,39 @@
               "apply_small": true,
               "apply_custom": ""
             }
+          },
+          "image_CFAYgP": {
+            "type": "image",
+            "settings": {
+              "name": "button font",
+              "custom_font_weight": "none",
+              "custom_font_url": "",
+              "apply_h1": false,
+              "apply_h2": false,
+              "apply_h3": false,
+              "apply_h4": false,
+              "apply_h5": false,
+              "apply_h6": false,
+              "apply_span": false,
+              "apply_p": false,
+              "apply_a": true,
+              "apply_input": false,
+              "apply_label": false,
+              "apply_legend": false,
+              "apply_button": false,
+              "apply_summary": false,
+              "apply_select": false,
+              "apply_option": false,
+              "apply_small": false,
+              "apply_custom": ""
+            }
           }
         },
         "block_order": [
           "image_n7aAhX",
           "image_NFQKAk",
-          "image_kYCrEw"
+          "image_kYCrEw",
+          "image_CFAYgP"
         ],
         "settings": {
           "enable": true

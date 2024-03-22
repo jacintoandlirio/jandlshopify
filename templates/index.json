@@ -87,7 +87,7 @@
         "slide_n9XDiF"
       ],
       "custom_css": [
-        "h2 {font-size: 60px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
+        "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
         ".banner__text {color: #f7e2ad;}"
       ],
       "settings": {

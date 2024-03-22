@@ -174,7 +174,7 @@
               "apply_h6": true,
               "apply_span": true,
               "apply_p": false,
-              "apply_a": true,
+              "apply_a": false,
               "apply_input": true,
               "apply_label": false,
               "apply_legend": false,

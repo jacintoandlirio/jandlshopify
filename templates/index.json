@@ -36,7 +36,7 @@
             "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 40,
+            "image_overlay_opacity": 30,
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
@@ -87,7 +87,7 @@
         "slide_CTGXc9"
       ],
       "custom_css": [
-        "h2 {font-size: 60px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
+        "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
         ".banner__text {color: #f7e2ad;}"
       ],
       "settings": {

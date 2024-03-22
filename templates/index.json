@@ -71,10 +71,10 @@
             "button_label": "Click to know more",
             "link": "shopify:\/\/pages\/institutional-partner",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 60,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }

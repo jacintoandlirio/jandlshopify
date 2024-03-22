@@ -14,9 +14,9 @@
             "button_label": "Shop now!",
             "link": "shopify:\/\/collections\/travel-accessories",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 40,
             "color_scheme": "",
             "text_alignment_mobile": "center"

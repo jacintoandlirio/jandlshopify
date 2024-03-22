@@ -52,10 +52,10 @@
             "button_label": "Click here to learn more",
             "link": "shopify:\/\/pages\/how-to-order-eco-friendly-corporate-giveaways-1",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 60,
+            "text_alignment": "left",
+            "image_overlay_opacity": 30,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }

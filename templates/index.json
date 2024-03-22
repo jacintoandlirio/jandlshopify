@@ -3,63 +3,6 @@
     "slideshow_ri7rcw": {
       "type": "slideshow",
       "blocks": {
-        "slide_7mMHRC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-coverPhotozOptimized.jpg",
-            "image_link": "shopify:\/\/collections\/travel-accessories",
-            "heading": "ECO-FRIENDLY LEATHER GOODS FOR SUSTAINABLE TRAVEL.",
-            "heading_size": "h1",
-            "subheading": "Pick from our travel efficient eco-friendly and  multi-functional collections",
-            "button_label": "Shop now!",
-            "link": "shopify:\/\/collections\/travel-accessories",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 40,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_VF4bMU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CorporateHoliday_54035c5a-7015-46e9-a3a1-ffe6ebc7428b.png",
-            "image_link": "shopify:\/\/pages\/how-to-order-eco-friendly-corporate-giveaways-1",
-            "heading": "J&L's CORPORATE GIFTING SERVICE",
-            "heading_size": "h1",
-            "subheading": "Make your mark, show your style",
-            "button_label": "Click here to learn more",
-            "link": "shopify:\/\/pages\/how-to-order-eco-friendly-corporate-giveaways-1",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_CTGXc9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layou_12.png",
-            "image_link": "",
-            "heading": "BECOME A J&L INSTITUTIONAL PARTNER",
-            "heading_size": "h1",
-            "subheading": "Be a J&L earth care champion and add to your companies' social and environmental impact by adding us as our CSR partner.",
-            "button_label": "Click to know more",
-            "link": "shopify:\/\/pages\/institutional-partner",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 60,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_n9XDiF": {
           "type": "slide",
           "settings": {
@@ -78,22 +21,79 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_7mMHRC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-coverPhotozOptimized.jpg",
+            "image_link": "shopify:\/\/collections\/travel-accessories",
+            "heading": "ECO-FRIENDLY LEATHER GOODS FOR SUSTAINABLE TRAVEL.",
+            "heading_size": "h1",
+            "subheading": "Pick from our travel efficient eco-friendly and  multi-functional collections",
+            "button_label": "Shop now!",
+            "link": "shopify:\/\/collections\/travel-accessories",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VF4bMU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CorporateHoliday_54035c5a-7015-46e9-a3a1-ffe6ebc7428b.png",
+            "image_link": "shopify:\/\/pages\/how-to-order-eco-friendly-corporate-giveaways-1",
+            "heading": "J&L's CORPORATE GIFTING SERVICE",
+            "heading_size": "h1",
+            "subheading": "Make your mark, show your style",
+            "button_label": "Click here to learn more",
+            "link": "shopify:\/\/pages\/how-to-order-eco-friendly-corporate-giveaways-1",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_CTGXc9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layou_12.png",
+            "image_link": "",
+            "heading": "BECOME A J&L INSTITUTIONAL PARTNER",
+            "heading_size": "h1",
+            "subheading": "Be a J&L earth care champion and add to your companies' social and environmental impact by adding us as our CSR partner.",
+            "button_label": "Click to know more",
+            "link": "shopify:\/\/pages\/institutional-partner",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
+        "slide_n9XDiF",
         "slide_7mMHRC",
         "slide_VF4bMU",
-        "slide_CTGXc9",
-        "slide_n9XDiF"
+        "slide_CTGXc9"
       ],
       "custom_css": [
-        "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
+        "h2 {font-size: 60px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
         ".banner__text {color: #f7e2ad;}"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
-        "slider_visual": "numbers",
+        "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "ambient",
@@ -137,6 +137,7 @@
       "blocks": {
         "heading_eAXtYD": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Our Products",
             "heading_size": "h1"
@@ -144,6 +145,7 @@
         },
         "caption_8LLmbk": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "WATER HYACINTH - ENGRAVING - VEGAN LEATHER ACCENTS",
             "text_style": "caption-with-letter-spacing",
@@ -152,6 +154,7 @@
         },
         "text_xiddy7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Check out one of our products made out of water hyacinth down below !<\/p>"
           }
@@ -162,6 +165,7 @@
         "caption_8LLmbk",
         "text_xiddy7"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {margin: 0 auto; width: 300px; border-bottom: 1px solid #765920;}"
       ],
@@ -228,6 +232,7 @@
         "slide_BNaMHy",
         "slide_Hb3MqR"
       ],
+      "disabled": true,
       "settings": {
         "top": "",
         "top_custom": false,
@@ -350,7 +355,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/layout1_02_1.jpg",
             "image_link": "",
-            "heading": "Vegan products for sale",
+            "heading": "Vegan products on sale",
             "heading_size": "h1",
             "subheading": "On a budget? this one is for you!",
             "button_label": "View products on sale",
@@ -888,31 +893,12 @@
         "padding_bottom": 100
       }
     },
-    "featured_blog_K9DnLq": {
-      "type": "featured-blog",
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}"
-      ],
-      "settings": {
-        "heading": "J&L EXCLUSIVE COMPANY PERKS & PROMOS",
-        "heading_size": "h1",
-        "blog": "j-l-exclusive-company-employee-perks-promos",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "multirow_4kpYXJ": {
       "type": "multirow",
       "blocks": {
         "row_7meDxG": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/layout_3_-_Amazon.gif",
             "caption": "",
@@ -979,6 +965,26 @@
         "mobile_content_alignment": "left",
         "padding_top": 72,
         "padding_bottom": 92
+      }
+    },
+    "featured_blog_K9DnLq": {
+      "type": "featured-blog",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}"
+      ],
+      "settings": {
+        "heading": "J&L EXCLUSIVE COMPANY PERKS & PROMOS",
+        "heading_size": "h1",
+        "blog": "j-l-exclusive-company-employee-perks-promos",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_blog_hbVnVc": {
@@ -1077,8 +1083,8 @@
     "image_with_text_UGY9d7",
     "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
-    "featured_blog_K9DnLq",
     "multirow_4kpYXJ",
+    "featured_blog_K9DnLq",
     "featured_blog_hbVnVc",
     "faq_VCninm"
   ]

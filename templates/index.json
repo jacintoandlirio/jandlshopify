@@ -535,7 +535,8 @@
         "slide_fDLgfP"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}"
+        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}",
+        ".banner__text {line-height: 15px; font-size: 11px;}"
       ],
       "settings": {
         "layout": "full_bleed",

@@ -88,7 +88,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
-        ".banner__text {color: #f7e2ad; }"
+        ".banner__text {color: #f7e2ad;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -659,6 +659,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 40px; color: #6b501b; border-bottom: solid 1px;}",
+        ".banner__buttons .button {font-family: \"luna itc\";}",
         ".banner__box {border: 2px dashed #926f2a; border: 5px double #926f2a;}"
       ],
       "settings": {

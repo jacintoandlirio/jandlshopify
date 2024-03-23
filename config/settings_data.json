@@ -234,7 +234,7 @@
               "apply_summary": false,
               "apply_select": false,
               "apply_option": false,
-              "apply_small": false,
+              "apply_small": true,
               "apply_custom": ""
             }
           }

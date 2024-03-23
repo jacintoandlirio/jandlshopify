@@ -1,5 +1,20 @@
 {% include 'sidebar' %}
 
+
+@font-face {
+font-family: "Alfon regular";
+src: url("Alfon.woff2") format("woff2"),
+url("Alfon.woff") format("woff");
+
+font-family: "luna itc";
+src: url("luna_itc.woff2") format("woff2"),
+url("luna_itc.woff") format("woff");  
+
+font-family: "Montserrat-Medium";
+  src: url("Montserrat-Medium.woff") format("woff"), url("Montserrat-Medium.woff2") format("woff2");
+  
+}
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;

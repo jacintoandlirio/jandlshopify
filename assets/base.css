@@ -3562,8 +3562,16 @@ title{
 }
 
 .multicolumn-card__info a{
-  font-family: "luna itc";
+  font-family: "luna itc" !important;
 }
+
+.collection__view-all .button{
+  font-family: "Alfon regular" !important;
+}
+
+.card__content .quick-add{
+  font-family: "luna itc" !important;
+} 
 
 .product__image-slider {
 width: 100%;

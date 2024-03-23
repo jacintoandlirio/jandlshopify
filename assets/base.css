@@ -3536,6 +3536,14 @@ src: url(https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Montserrat-Regul
   
 }
 
+.banner__buttons a {
+  font-family: "montserrat regular";
+  src: url(https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Montserrat-Regular.woff?v=1711160869)
+      format("woff"),
+    url(https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Montserrat-Regular.woff2?v=1711161432)
+      format("woff2");
+}
+
 .banner__buttons{
   font-family:"luna itc";
   font-size: 25px;

@@ -541,7 +541,8 @@
         "slide_fDLgfP"
       ],
       "custom_css": [
-        "4h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}",
+        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}",
+        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
         ".banner__text {line-height: 17px; font-size: 13px;}"
       ],
       "settings": {

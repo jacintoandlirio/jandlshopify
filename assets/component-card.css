@@ -482,3 +482,7 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+.card__content > .quick-add > modal > .quick-add__submit{
+  font-family: "luna itc";
+}

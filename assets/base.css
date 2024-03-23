@@ -3535,14 +3535,6 @@ font-family: "Montserrat-Medium";
   
 }
 
-.rte p{
-  font-family: "Montserrat-Medium";
-}
-
-a, .banner__buttons a, .multicolumn-card__info a{
-  font-family: "Montserrat-Medium" !important;
-}
-
 h1{
   font-family:"luna itc";
   font-size:40px;

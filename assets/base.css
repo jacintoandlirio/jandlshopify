@@ -3546,6 +3546,9 @@ title{
   font-family:"luna itc";
 }
 
+.multicolumn-card__info a{
+  font-family: "luna itc";
+}
 
 .product__image-slider {
 width: 100%;

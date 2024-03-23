@@ -3531,7 +3531,8 @@ src: url("luna_itc.woff2") format("woff2"),
 url("luna_itc.woff") format("woff");  
 
 font-family: "montserrat";
-src: url(https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Montserrat-Regular.woff?v=1711160869) format("woff");
+src: url(https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Montserrat-Regular.woff?v=1711160869) format("woff"),
+   url(https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Montserrat-Regular.woff2?v=1711161432) format("woff2");
   
 }
 

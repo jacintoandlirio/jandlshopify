@@ -3536,16 +3536,8 @@ src: url(https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Montserrat-Regul
   
 }
 
-a.banner__buttons{
-  font-family: "luna itc";
-  
-}
-
-
-
-.banner__buttons{
-  font-family:"luna itc";
-  font-size: 25px;
+body, a, div, span, button, label, ul, li, strong {
+  font-family: "luna itc" !important;
 }
 
 h1{

@@ -200,15 +200,15 @@
               "apply_h6": false,
               "apply_span": true,
               "apply_p": true,
-              "apply_a": true,
+              "apply_a": false,
               "apply_input": true,
               "apply_label": true,
               "apply_legend": true,
-              "apply_button": true,
-              "apply_summary": true,
+              "apply_button": false,
+              "apply_summary": false,
               "apply_select": false,
               "apply_option": true,
-              "apply_small": true,
+              "apply_small": false,
               "apply_custom": ""
             }
           }

@@ -211,39 +211,12 @@
               "apply_small": true,
               "apply_custom": ""
             }
-          },
-          "image_CFAYgP": {
-            "type": "image",
-            "settings": {
-              "name": "button font",
-              "custom_font_weight": "normal",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0054\/5996\/8113\/files\/Montserrat-Regular.woff2?v=1711161432",
-              "apply_h1": false,
-              "apply_h2": false,
-              "apply_h3": false,
-              "apply_h4": false,
-              "apply_h5": false,
-              "apply_h6": false,
-              "apply_span": false,
-              "apply_p": false,
-              "apply_a": true,
-              "apply_input": true,
-              "apply_label": false,
-              "apply_legend": false,
-              "apply_button": false,
-              "apply_summary": false,
-              "apply_select": true,
-              "apply_option": true,
-              "apply_small": false,
-              "apply_custom": ""
-            }
           }
         },
         "block_order": [
           "image_n7aAhX",
           "image_NFQKAk",
-          "image_kYCrEw",
-          "image_CFAYgP"
+          "image_kYCrEw"
         ],
         "settings": {
           "enable": true

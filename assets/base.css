@@ -3535,6 +3535,10 @@ font-family: "Montserrat-Medium";
   
 }
 
+.rte{
+  font-family: "Montserrat-Medium" !important;
+}
+
 a, .banner__buttons a, .multicolumn-card__info a{
   font-family: "Montserrat-Medium" !important;
 }

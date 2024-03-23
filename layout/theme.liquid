@@ -62,6 +62,12 @@
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
+      @font-face {
+      font-family: "TheSans-Regular";
+      src: url({{ "TheSans_Regular.woff2" | asset_url }}) format("woff2"),
+           url({{ "TheSans_Regular.woff" | asset_url }}) format("woff");
+      }
+
       {% for scheme in settings.color_schemes -%}
         {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
         {% if forloop.index == 1 -%}

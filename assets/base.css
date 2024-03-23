@@ -3611,7 +3611,7 @@ width: calc(50% - 1rem / 2) !important;
   bottom: -2px;
   height: 3px;
   width: 0;
-  background-color: #000000;
+  background-color: #926f2a;
   border-radius: 50px;
   transition: width 0.2s ease-in-out;
 }

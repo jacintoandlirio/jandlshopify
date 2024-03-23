@@ -483,6 +483,6 @@
   }
 }
 
-.card__content > .quick-add > modal > .quick-add__submit{
-  font-family: "luna itc";
+.card__content .quick-add modal .quick-add__submit{
+  font-family: "luna itc" !important;
 }

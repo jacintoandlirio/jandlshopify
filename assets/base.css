@@ -3645,4 +3645,6 @@ width: calc(50% - 1rem / 2) !important;
    width:25%;
 }
 
-
+.image-with-text__content .quick-add__submit{
+  font-family: "luna itc" !important;
+}

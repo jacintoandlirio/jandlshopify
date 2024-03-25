@@ -104,7 +104,7 @@
     "custom_liquid_D6t6zx": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.graphic_placements == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__image_with_text_anJUaQ{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n<\/style>\n{%endif%}",
+        "custom_liquid": "{% if page.metafields.custom.graphic_placements == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__image_with_text_anJUaQ{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n<\/style>\n{%endif%}\n\n{% if page.metafields.custom.graphic_placements != blank %}\n<style>\n#shopify-section-template--22140844540221__main{\ndisplay:none;}\n<\/style>\n{%endif%}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

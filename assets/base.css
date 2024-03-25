@@ -10,7 +10,7 @@ font-family: "luna itc";
 src: url("luna_itc.woff2") format("woff2"),
 url("luna_itc.woff") format("woff");  
 
-font-family: "Montserrat-Medium";
+font-family: "Montserrat";
   src: url("Montserrat-Medium.woff") format("woff"), url("Montserrat-Medium.woff2") format("woff2");
   
 }

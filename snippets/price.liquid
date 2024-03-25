@@ -80,14 +80,14 @@
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         
         <span class="price-item price-item--regular">
-         {% if products.product.price.regular_price == "₱0.00 PHP" %}
-           <style>
+           {% if products.product.price.regular_price == "₱0.00 PHP" %}
+          <style>
             .price__container{
               display:none;
             }
           </style>
         {% endif %}
-          
+          {{ money_price }}
         </span>
       {%- endif -%}
     </div>
@@ -113,8 +113,10 @@
               display:none;
             }
           </style>
+          {% else %}
+            {{ money_price }}
         {% endif %}
-        {{ money_price }}
+        
       </span>
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">

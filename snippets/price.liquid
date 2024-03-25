@@ -78,6 +78,7 @@
         </span>
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
+        
         <span class="price-item price-item--regular">
           {{ money_price }}
         </span>
@@ -97,7 +98,15 @@
         </span>
       {%- endunless -%}
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
+      
       <span class="price-item price-item--sale price-item--last">
+        {% if money_price == "₱0.00 PHP" %}
+          <style>
+            .price__container{
+              display:none;
+            }
+          </style>
+        {% endif %}
         {{ money_price }}
       </span>
     </div>

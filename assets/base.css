@@ -3606,6 +3606,28 @@ width: calc(50% - 1rem / 2) !important;
    transform: scaleX(1);
 }
 
+.gm-target {
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+.gm-target:hover::after {
+  transform: scaleX(0.4);
+  transform-origin: bottom left;
+}
+.gm-target::after {
+  position: absolute;
+  width: 70%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
 .multicolumn-card__info a:before{
    content: "";
   position: absolute;

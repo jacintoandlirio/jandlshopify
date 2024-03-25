@@ -82,7 +82,7 @@
         <span class="price-item price-item--regular">
            {% if  money_price == "₱0.00 PHP" %}
           <style>
-            .price__container{
+            .price__container .price__regular .price-item .money{
               display:none;
             }
           </style>
@@ -111,7 +111,7 @@
       <span class="price-item price-item--sale price-item--last">
         {% if money_price == "₱0.00 PHP" %}
           <style>
-            .price__container .price__regular .price-item{
+            .price__container .price__regular .price-item .money{
               display:none;
             }
           </style>

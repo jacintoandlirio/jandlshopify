@@ -523,14 +523,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
             "image_link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
-            "heading": "Our Story",
+            "heading": "",
             "heading_size": "h2",
-            "subheading": "Through the creation of well-designed, functional and Philippine-inspired plant leather goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission-- social impact in livelihood, environmental protection and product innovation.",
-            "button_label": "Watch here",
+            "subheading": "",
+            "button_label": "",
             "link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
             "button_style_secondary": false,
             "box_align": "bottom-left",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "",
@@ -544,7 +544,7 @@
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 40px; color: #6b501b;}",
         ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
-        ".banner__text {font-family:\"Montserrat\"; line-height: 18px; font-size: 13px;}"
+        ".banner__text {font-family: \"Montserrat\"; line-height: 18px; font-size: 13px;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -555,6 +555,48 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_aewJAB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_99VbbG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_XreM9k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Through the creation of well-designed, functional and Philippine-inspired plant leather goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission-- social impact in livelihood, environmental protection and product innovation.<\/p>"
+          }
+        },
+        "button_qGMdPh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Our Story Here",
+            "button_link": "https:\/\/www.youtube.com\/watch?v=RpHevqq8YPs",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_99VbbG",
+        "text_XreM9k",
+        "button_qGMdPh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn_ymLrV7": {
@@ -1087,6 +1129,7 @@
     "slideshow_AGJPzh",
     "ss_instafeed_2_VFYEQM",
     "slideshow_eTn9e8",
+    "rich_text_aewJAB",
     "multicolumn_ymLrV7",
     "custom_liquid_YxBfei",
     "image_banner_HyQkcC",

@@ -80,7 +80,7 @@
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         
         <span class="price-item price-item--regular">
-           {% if products.product.price.regular_price == "₱0.00 PHP" %}
+           {% if  money_price == "₱0.00 PHP" %}
           <style>
             .price__container{
               display:none;

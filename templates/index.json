@@ -869,7 +869,7 @@
         "button_xgFpnE": {
           "type": "button",
           "settings": {
-            "button_label": "JOIN NOW",
+            "button_label": "Join Now",
             "button_link": "shopify:\/\/pages\/seed-program",
             "button_style_secondary": false
           }
@@ -882,7 +882,7 @@
       ],
       "custom_css": [
         "h2 {color: #6b501b;}",
-        "div a {font-family: \"luna itc\" !important;}"
+        "div a {font-family: \"luna itc\" !important; font-size: 23px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",

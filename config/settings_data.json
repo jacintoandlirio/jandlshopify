@@ -188,6 +188,7 @@
           },
           "image_kYCrEw": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "name": "paragraph font",
               "custom_font_weight": "none",

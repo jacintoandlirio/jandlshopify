@@ -86,8 +86,10 @@
               display:none;
             }
           </style>
+           {% else %}  
+             {{ money_price }}
         {% endif %}
-          {{ money_price }}
+          
         </span>
       {%- endif -%}
     </div>

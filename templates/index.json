@@ -881,7 +881,7 @@
         "button_xgFpnE"
       ],
       "custom_css": [
-        "h2{color: #6b501b;}",
+        "h2 {color: #6b501b;}",
         "div a {font-family: \"luna itc\" !important;}"
       ],
       "settings": {
@@ -956,7 +956,7 @@
         "row_qMXdc6"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}"
+        "h2 {font-family: \"luna itc\"; color: #6b501b;}"
       ],
       "settings": {
         "image_height": "small",

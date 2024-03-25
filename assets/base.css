@@ -3595,7 +3595,7 @@ width: calc(50% - 1rem / 2) !important;
   content: "";
   display: block;
   position: absolute;
-  width: 100%;
+  width: 60%;
   height: 1px;
   background: #926f2a;
   transition: transform 0.2s ease-in-out;

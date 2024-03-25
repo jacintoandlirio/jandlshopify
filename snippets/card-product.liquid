@@ -370,6 +370,14 @@
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
+            {%- if show_compare_at_price == 0.00 -%}
+              <style>
+                .card__content .card__information .price{
+                  display: none;
+                }
+              </style>
+              {%else%}
+            {%- endif -%}
             {% render 'price', show_compare_at_price: true %}
           </div>
         </div>

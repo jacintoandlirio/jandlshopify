@@ -830,6 +830,9 @@
         "text_LwDq6e",
         "button_ELHaBE"
       ],
+      "custom_css": [
+        "div a {font-family: \"luna itc\" !important;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SAY-I-DO_Pre-wedding_Wedding_Proper_Gifts_for_Guests_Giftbundles_in_Personalized_boxes_and_Name_Wedding_Logo_Personalization._e579b8a7-3663-49da-8a97-ed60356ded53.jpg",
         "height": "adapt",
@@ -878,7 +881,8 @@
         "button_xgFpnE"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}"
+        "h2{color: #6b501b;}",
+        "div a {font-family: \"luna itc\" !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",

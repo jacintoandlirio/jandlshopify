@@ -831,7 +831,7 @@
         "button_ELHaBE"
       ],
       "custom_css": [
-        "div a {font-family: \"luna itc\" !important;}"
+        "div a {font-family: \"luna itc\" !important; font-size: 23px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SAY-I-DO_Pre-wedding_Wedding_Proper_Gifts_for_Guests_Giftbundles_in_Personalized_boxes_and_Name_Wedding_Logo_Personalization._e579b8a7-3663-49da-8a97-ed60356ded53.jpg",

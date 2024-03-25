@@ -3549,16 +3549,6 @@ font-family: "Montserrat-Medium";
   src: url("Montserrat-Medium.woff") format("woff"), url("Montserrat-Medium.woff2") format("woff2");
 }
 
-h1{
-  font-family:"luna itc";
-  font-size:40px;
-} 
-  
-h2, h3, h4, h5, h6{ font-family: "luna itc";
-      font-size: 30px;}
-title{
-  font-family:"luna itc";
-}
 
 .multicolumn-card__info a{
   font-family: "luna itc" !important;

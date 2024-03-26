@@ -405,6 +405,7 @@
         "column_U4Kx8B": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/packaging.jpg",
             "title": "Choose packaging options",
             "text": "<p>Wooden Box, Card Board Boxes, Acrylic Boxes, Eco-bags and more with matching gift tags, ribbons and accents<\/p>",
             "link_label": "",

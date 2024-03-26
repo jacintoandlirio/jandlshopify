@@ -3594,6 +3594,11 @@ width: calc(50% - 1rem / 2) !important;
 ul{
    display:flex;
     justify-content: space-between;
+   
+}
+
+.gm-item{
+  margin: 10px;
 }
 
 .gm-item .gm-submenu li::after{

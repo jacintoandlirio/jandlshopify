@@ -3600,7 +3600,7 @@ width: calc(50% - 1rem / 2) !important;
 
 
 .header__inline-menu .gm-menu .gm-item {
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .gm-item .gm-submenu li::after{

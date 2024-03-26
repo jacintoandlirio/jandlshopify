@@ -3592,7 +3592,8 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 .gm-item{
-   word-spacing: 15px;
+   padding: 10px 17px 10px 12px;
+    display:inline-block;
 }
 
 .gm-item .gm-submenu li::after{

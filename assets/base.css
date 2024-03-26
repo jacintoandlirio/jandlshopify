@@ -3592,7 +3592,8 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 .gm-item{
-  
+   padding: 10px 17px 10px 12px; /* Adjust the padding as needed */
+   display: inline-block;
 }
 
 .gm-item .gm-submenu li::after{

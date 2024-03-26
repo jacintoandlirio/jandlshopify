@@ -3650,7 +3650,7 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 .inline-richtext{
-  
+  font-family: "luna itc"!important;
 }
 
 .multicolumn-card__info a:hover:before{

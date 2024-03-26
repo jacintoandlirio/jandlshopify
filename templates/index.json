@@ -792,56 +792,6 @@
         "padding_bottom": 100
       }
     },
-    "image_with_text_UGY9d7": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_BziQBJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Be Our Partner",
-            "heading_size": "h1"
-          }
-        },
-        "text_PbTDam": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We offer office desk accessories, event giveaways, restaurant amenities, retail collaborations and hotel amenities.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_aQy9mF": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/institutional-partner",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_BziQBJ",
-        "text_PbTDam",
-        "button_aQy9mF"
-      ],
-      "custom_css": [
-        "div a {font-family: \"luna itc\" !important; font-size: 23px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/BE-OUR-PARTNER-Office-Desk-Accessories_-Event-Giveaways_-Restaurant-Ammenities_-Retail-Collaborations_-and-Hotel-Ammenities_7d422aa4-71bc-4adf-949b-451b555b32cf.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "zoom-in",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_g3Yack": {
       "type": "image-with-text",
       "blocks": {
@@ -943,21 +893,62 @@
         "padding_bottom": 100
       }
     },
+    "multicolumn_yAJaBK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_JL9zdq": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JkwBU7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YTRFpx": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_JL9zdq",
+        "column_JkwBU7",
+        "column_YTRFpx"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_4kpYXJ": {
       "type": "multirow",
       "blocks": {
-        "row_7meDxG": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/layout_3_-_Amazon.gif",
-            "caption": "",
-            "heading": "Review our Products in Amazon",
-            "text": "<h3><\/h3><p>Are you an Amazon shopper?If yes, we need your help! If you've purchased any J&L product before from any of our sales channels, please help us share Filipino craftsmanship to the world by ADDING A REVIEW IN OUR AMAZON STORE.<\/p><p>1. Click the product in our <a href=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\">Amazon store.<\/a><br\/>2. Select the J&L product you bought.<br\/>3. Click <strong>Write a customer review<\/strong>.<br\/>4. Select star rating and\/or add text, photo, and video.<br\/>5. Click submit.<\/p>",
-            "button_label": "Add a review",
-            "button_link": "https:\/\/www.amazon.com\/handmade\/JacintoandLirio"
-          }
-        },
         "row_7H4gdQ": {
           "type": "row",
           "settings": {
@@ -967,17 +958,6 @@
             "text": "<p>Add exclusive perks for your employees with Jacinto & Lirio. Email us at stories@jacintoandlirio.com to discuss the details.<\/p>",
             "button_label": "Let's collaborate",
             "button_link": "shopify:\/\/pages\/j-l-with-p-g"
-          }
-        },
-        "row_tyXbAG": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Become_a_J_L_Affiliate_3179e0e8-689e-4ecc-9641-95b04f9d69f5.jpg",
-            "caption": "",
-            "heading": "Do you want to be a J&L Affiliate?",
-            "text": "<p>We want you to become a part of our community by becoming an official J&L Affiliate in our Shopee, Lazada, Zalora, Amazon, Etsy and Ebay Online Shop :)<\/p>",
-            "button_label": "Read more",
-            "button_link": "shopify:\/\/pages\/j-l-affiliate-channels"
           }
         },
         "row_qMXdc6": {
@@ -993,9 +973,7 @@
         }
       },
       "block_order": [
-        "row_7meDxG",
         "row_7H4gdQ",
-        "row_tyXbAG",
         "row_qMXdc6"
       ],
       "custom_css": [
@@ -1009,8 +987,8 @@
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-right",
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
@@ -1134,9 +1112,9 @@
     "custom_liquid_YxBfei",
     "image_banner_HyQkcC",
     "multicolumn_gmzhh3",
-    "image_with_text_UGY9d7",
     "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
+    "multicolumn_yAJaBK",
     "multirow_4kpYXJ",
     "featured_blog_K9DnLq",
     "featured_blog_hbVnVc",

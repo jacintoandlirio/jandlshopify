@@ -402,7 +402,7 @@
         ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": true,

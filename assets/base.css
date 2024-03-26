@@ -3592,8 +3592,8 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 .list-menu{
-   padding: 10px 17px 10px 12px;
-    display:inline-block;
+   display:flex;
+    justify-content: space-between;
 }
 
 .gm-item .gm-submenu li::after{

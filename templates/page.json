@@ -782,7 +782,7 @@
         "heading_height": 130,
         "heading_align": "center",
         "heading_mt": 12,
-        "subheading": "<h3>Join the convo with #AwesomeBrandTag<\/h3>",
+        "subheading": "",
         "subheading_custom": false,
         "subheading_font": "josefin_sans_n4",
         "subheading_size": 16,

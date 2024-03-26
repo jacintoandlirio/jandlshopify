@@ -3591,14 +3591,16 @@ width: calc(50% - 1rem / 2) !important;
   display: none;
 }
 
-.header__inline-menu .list-menu{
+.header__inline-menu .gm-menu{
    display:flex;
     justify-content: space-between;
    
 }
 
-nav ul li{
-  margin-right: 50px;
+
+
+.header__inline-menu .gm-menu .gm-item {
+  margin-right: 25px;
 }
 
 .gm-item .gm-submenu li::after{

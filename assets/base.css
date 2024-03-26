@@ -3597,8 +3597,6 @@ width: calc(50% - 1rem / 2) !important;
    
 }
 
-
-
 .header__inline-menu .gm-menu .gm-item {
   margin-right: 10px;
 }
@@ -3657,4 +3655,8 @@ width: calc(50% - 1rem / 2) !important;
 
 .image-with-text__content .quick-add__submit{
   font-family: "luna itc" !important;
+}
+
+.__seguno-banner-text{
+  font-family: "Montserrat";
 }

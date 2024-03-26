@@ -5,7 +5,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "header {font-size: 45px; height: 200px;}",
+        "header {font-size: 45px; height: 100px;}",
         ".gm-submenu .gm-item {height: 45px; margin-top: -5px;}"
       ],
       "settings": {

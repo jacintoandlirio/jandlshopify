@@ -3592,7 +3592,7 @@ width: calc(50% - 1rem / 2) !important;
 }
 
 .gm-item{
-   word-spacing: 5px;
+   word-spacing: 15px;
 }
 
 .gm-item .gm-submenu li::after{

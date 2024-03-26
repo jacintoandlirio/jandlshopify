@@ -3598,7 +3598,7 @@ ul{
 }
 
 .gm-item{
-  margin: 50px;
+  margin-right: 50px;
 }
 
 .gm-item .gm-submenu li::after{

@@ -3591,7 +3591,7 @@ width: calc(50% - 1rem / 2) !important;
   display: none;
 }
 
-.gm-item{
+.list-menu{
    padding: 10px 17px 10px 12px;
     display:inline-block;
 }

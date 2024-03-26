@@ -3591,13 +3591,13 @@ width: calc(50% - 1rem / 2) !important;
   display: none;
 }
 
-ul{
+.header__inline-menu .list-menu{
    display:flex;
     justify-content: space-between;
    
 }
 
-li{
+nav ul li{
   margin-right: 50px;
 }
 

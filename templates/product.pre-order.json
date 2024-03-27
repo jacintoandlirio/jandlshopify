@@ -1,0 +1,970 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "qteedy_qteedy_simple_product_form_F7fCFw": {
+          "type": "shopify:\/\/apps\/qteedy\/blocks\/qteedy_simple_product_form\/fe69a84a-7558-4693-b16c-57a414940105",
+          "settings": {
+            "email_required": "required",
+            "email_label_text": "Customer Email",
+            "quote_button_label_text": "Create Quote",
+            "heading_label_text": "Need a Quote?"
+          }
+        },
+        "text_MHzQNc": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.description_title.value }}",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_fAJeVf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>"
+          }
+        },
+        "collapsible_tab_A8kRt8": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Features (prototype)",
+            "icon": "dryer",
+            "content": "{{ product.metafields.custom.features_prototype_ | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_TRdX7q": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "clipboard",
+            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_BNcJ3p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Personalization",
+            "icon": "eye",
+            "content": "{{ product.metafields.custom.personalization | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_C9dk6J": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Package Contents",
+            "icon": "shirt",
+            "content": "{{ product.metafields.custom.package_contents | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gwTwWg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "{{ product.metafields.custom.care_instructions | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_qwQNcQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Corporate Giveaways",
+            "icon": "leaf",
+            "content": "{{ product.metafields.custom.corporate_giveaways | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "custom_liquid_gCgtYY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<script>\nconst variantSelects = (document.querySelector('variant-selects')) ? document.querySelector('variant-selects') : document.querySelector('variant-radios');\nconst pickerType = (variantSelects.querySelectorAll('fieldset').length > 0) ? 'radios' : 'selects';\nconst fieldsets = (pickerType == 'radios') ? Array.from(variantSelects.querySelectorAll('fieldset')) : Array.from(variantSelects.querySelectorAll('.product-form__input--dropdown'));\nconst productJson = JSON.parse(variantSelects.querySelector('[type=\"application\/json\"]').textContent);\nlet selectedOptions = [];\nvariantSelects.addEventListener('change', rebuildOptions);\nthis.rebuildOptions();\n\nfunction validCombo(inputValue, optionLevel) {\n  for(let i = 0; i < productJson.length; i++) {\n    if(optionLevel == 1){\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == inputValue) {  return true; }\n    } else {\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == selectedOptions[1] && productJson[i].option3 == inputValue) {  return true; }\n    }\n  }\n}\n\nfunction rebuildOptions() {\n    selectedOptions = fieldsets.map((fieldset) => {\n        return (pickerType == 'radios') ? Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value : Array.from(fieldset.querySelectorAll('select'), (select) => select.value);\n    });\n    for(let optionLevel = 1, n = fieldsets.length; optionLevel < n; optionLevel++) {\n        const inputs = (pickerType == 'radios') ? fieldsets[optionLevel].querySelectorAll('input') : fieldsets[optionLevel].querySelectorAll('option');\n\n        inputs.forEach(input => {\n        input.disabled = (validCombo(input.value,optionLevel)) ? false : true;\n        if(pickerType == 'radios'){\n            const label = fieldsets[optionLevel].querySelector(`label[for=\"${input.id}\"]`);\n\n            label.style.display = (input.disabled) ? \"none\" : \"\"; \/\/Hide the option, or comment this line out and use the following lines to style it..\n            \/\/label.style.opacity = (input.disabled) ? 0.5 : 1;\n            \/\/label.style.borderStyle = (input.disabled) ? \"dashed\" : \"solid\";\n            \/\/label.style.textDecoration = (input.disabled) ? \"none\" : \"\";\n        } else {\n            input.hidden = (validCombo(input.value,optionLevel)) ? false : true;\n        }\n        });\n    }\n    for (let optionLevel = 1, fieldsetsLength = fieldsets.length, change = false; optionLevel < fieldsetsLength && !change; optionLevel++) {\n        if(pickerType == 'radios'){\n        if(fieldsets[optionLevel].querySelector('input:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('input:not(:disabled)').checked = true);\n        }\n        } else {\n        if(fieldsets[optionLevel].querySelector('option:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('option:not(:disabled)').selected = \"selected\");\n        }\n        }\n        if(change) variantSelects.dispatchEvent(new Event('change', { bubbles: true }));\n    }\n}\n<\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "qteedy_qteedy_simple_product_form_F7fCFw",
+        "text_MHzQNc",
+        "custom_liquid_fAJeVf",
+        "collapsible_tab_A8kRt8",
+        "collapsible_tab_TRdX7q",
+        "collapsible_tab_BNcJ3p",
+        "collapsible_tab_C9dk6J",
+        "collapsible_tab_gwTwWg",
+        "collapsible_tab_qwQNcQ",
+        "description",
+        "share",
+        "custom_liquid_gCgtYY"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "enable_group_media": true,
+        "media_grouping_option": "Color"
+      }
+    },
+    "custom_liquid_MGyNjt": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_pPezFi": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_6054.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_BMzEeU": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_4 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 6) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_8 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 3) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ss_instafeed_2_YM3pFm": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_enQGaW": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
+            "url": ""
+          }
+        },
+        "slide_UWBTxX": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
+            "url": ""
+          }
+        },
+        "slide_gARbnn": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "url": ""
+          }
+        },
+        "slide_BLtrAr": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_fzfmpH": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
+            "url": ""
+          }
+        },
+        "slide_8YxED4": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_enQGaW",
+        "slide_UWBTxX",
+        "slide_gARbnn",
+        "slide_BLtrAr",
+        "slide_fzfmpH",
+        "slide_8YxED4"
+      ],
+      "disabled": true,
+      "settings": {
+        "top": "",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 13,
+        "top_height": 130,
+        "top_align": "center",
+        "heading": "PRODUCT USES",
+        "heading_custom": true,
+        "heading_font": "montserrat_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "left",
+        "heading_mt": 12,
+        "subheading": "",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "6",
+        "slider_row_mobile": "1",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#ffffff",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_f3zyNh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jqexm3": {
+          "type": "heading",
+          "settings": {
+            "heading": "FEATURES",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jqexm3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_6tNPA3": {
+      "type": "multirow",
+      "blocks": {
+        "row_tGKpUq": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_1.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_1.value }}",
+            "text": "{{ product.metafields.custom.feature_description_1 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_ALXwjd": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_2.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_2.value }}",
+            "text": "{{ product.metafields.custom.feature_description_2 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_E9tXrN": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_3.value }}",
+            "text": "{{ product.metafields.custom.feature_description_3 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_VhPk6E": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_4.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_4.value }}",
+            "text": "{{ product.metafields.custom.feature_description_4 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_eBHjgJ": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_5.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featured_title_5.value }}",
+            "text": "{{ product.metafields.custom.featured_description_5 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_NQg8LX": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featured_title_6.value }}",
+            "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_QmaRkV": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_7.value }}",
+            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_9VMGXc": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_8.value }}",
+            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_CX7DMb": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_CzV8AX": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_tGKpUq",
+        "row_ALXwjd",
+        "row_E9tXrN",
+        "row_VhPk6E",
+        "row_eBHjgJ",
+        "row_NQg8LX",
+        "row_QmaRkV",
+        "row_9VMGXc",
+        "row_CX7DMb",
+        "row_CzV8AX"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_tPrHhy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_x3Cdbi": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Jacinto & Lirio",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x3Cdbi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_RBQPxq": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/viber_image_2024-02-28_09-32-00-667.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_3tqc9D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iP3DjD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jacinto & Lirio means \"Hyacinth and Lily\"",
+            "heading_size": "h2"
+          }
+        },
+        "text_39bGPA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>J&L serves as a viable environmental, social, and commercial solution for the water hyacinth infestation plaguing several communities in the Philippines.<\/p><p><\/p><p>Through the creation of functional, well-designed, Philippine-inspired plant leathergoods, enables us to help with the growth of affected communities' livelihood and extend their craft together with our designers' works to the popular market.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iP3DjD",
+        "text_39bGPA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_TYjiMN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wALUgB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leatherize Process",
+            "heading_size": "h1"
+          }
+        },
+        "text_xR9Ptg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1. Harvesting<\/strong><\/p><p>With a boat to scour through a river infested with water hyacinth.<\/p><p><strong>2. Cut the leaves and roots<\/strong><\/p><p>Prepare for thorough cleaning of the stalks.<\/p><p><strong>3. Clean the stalks<\/strong><\/p><p>Make sure insects and other river debris are cleaned off.<\/p><p><strong>4. Drying<\/strong><\/p><p>The stalks can be hanged and sun-dried or machine-dried<\/p><p><strong>5. Scrape the fibers<\/strong><\/p><p>The stalks are scraped by the fibers<\/p><p><strong>6. Flattening<\/strong><\/p><p>The stalks are flattened using a machine.<\/p><p><strong>7. Stick stalks to fabric<\/strong><\/p><p>Refining the stalks into a fabric-like material<\/p><p><strong>8. Ironing<\/strong><\/p><p>Fabric is ironed with the pasted dried plant sheet.<\/p><p><strong>9. Anti-mold<\/strong><\/p><p>Anti-mold preventive coat is applied.<\/p><p><strong>10. Protective top coat <\/strong><\/p><p>A protective top coat is applied after anti-mold layer dries.<\/p><p><strong>11. Sewing<\/strong><\/p><p>The plant leather sheet is then sewn on a fabric.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wALUgB",
+        "text_xR9Ptg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_4UHBbp": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_nKrCb8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Harvesting",
+            "icon": "check_mark",
+            "row_content": "<p>With a boat to scour through a river infested with water hyacinth.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HK3EgF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Cut the leaves and roots",
+            "icon": "check_mark",
+            "row_content": "<p>Prepare for thorough cleaning of the stalks.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FDxbTD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Clean the stalks",
+            "icon": "check_mark",
+            "row_content": "<p>Make sure insects and other river debris are cleaned off.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yVTnPz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Drying",
+            "icon": "check_mark",
+            "row_content": "<p>The stalks can be hanged and sun-dried or machine-dried<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BWC6Qk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Scrape the fibers",
+            "icon": "check_mark",
+            "row_content": "<p>The stalks are scraped by the fibers <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qHm6jM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Flattening",
+            "icon": "check_mark",
+            "row_content": "<p>The stalks are flattened using a machine.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xFBFcM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Stick stalks to fabric",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_VTdceC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ironing",
+            "icon": "check_mark",
+            "row_content": "<p>Fabric is ironed with the pasted dried plant sheet.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_M4C4Ef": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Anti-mold",
+            "icon": "check_mark",
+            "row_content": "<p>Anti-mold preventive coat is applied.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KnEKFH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Protective top coat",
+            "icon": "check_mark",
+            "row_content": "<p>A protective top coat is applied after anti-mold layer dries. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8itjCL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sewing",
+            "icon": "check_mark",
+            "row_content": "<p>The plant leather sheet is then sewn on a fabric.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_nKrCb8",
+        "collapsible_row_HK3EgF",
+        "collapsible_row_FDxbTD",
+        "collapsible_row_yVTnPz",
+        "collapsible_row_BWC6Qk",
+        "collapsible_row_qHm6jM",
+        "collapsible_row_xFBFcM",
+        "collapsible_row_VTdceC",
+        "collapsible_row_M4C4Ef",
+        "collapsible_row_KnEKFH",
+        "collapsible_row_8itjCL"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "Leatherize Process",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ss_instafeed_2_MVYNzr": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_3g63RL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Edith_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_DHtaDr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Izabel_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_QUU9cm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sylvia_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_FK8HF4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Timothy_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_awBqmK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Teddy_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_ri7hta": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Addison_Engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_V7AK8h": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_GagjtX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Luke_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_TFpn6T": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blake_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_pjRfkE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Latrisha_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_WnVnBG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Phoebe_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_WtfaC4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rosette_Engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_QU9Rzz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gerald_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_MGtN9R": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eleanor_Engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_deUenU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Carl_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_3UCGBx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Baxter_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_xyQH4W": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zara_engraved.jpg",
+            "url": ""
+          }
+        },
+        "slide_n4XgtQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Oliver_engraved.jpg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_3g63RL",
+        "slide_DHtaDr",
+        "slide_QUU9cm",
+        "slide_FK8HF4",
+        "slide_awBqmK",
+        "slide_ri7hta",
+        "slide_V7AK8h",
+        "slide_GagjtX",
+        "slide_TFpn6T",
+        "slide_pjRfkE",
+        "slide_WnVnBG",
+        "slide_WtfaC4",
+        "slide_QU9Rzz",
+        "slide_MGtN9R",
+        "slide_deUenU",
+        "slide_3UCGBx",
+        "slide_xyQH4W",
+        "slide_n4XgtQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "top": "",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 13,
+        "top_height": 130,
+        "top_align": "center",
+        "heading": "PERSONALIZATION OPTIONS",
+        "heading_custom": true,
+        "heading_font": "montserrat_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "left",
+        "heading_mt": 12,
+        "subheading": "",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "6",
+        "slider_row_mobile": "1",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#ffffff",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_ReQTqT": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "pagefly-product-section": {
+      "type": "pagefly-product-section",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_MGyNjt",
+    "image_banner_pPezFi",
+    "custom_liquid_BMzEeU",
+    "ss_instafeed_2_YM3pFm",
+    "rich_text_f3zyNh",
+    "multirow_6tNPA3",
+    "rich_text_tPrHhy",
+    "image_banner_RBQPxq",
+    "rich_text_3tqc9D",
+    "rich_text_TYjiMN",
+    "collapsible_content_4UHBbp",
+    "ss_instafeed_2_MVYNzr",
+    "related-products",
+    "custom_liquid_ReQTqT",
+    "pagefly-product-section"
+  ]
+}

@@ -3649,16 +3649,14 @@ width: calc(50% - 1rem / 2) !important;
   transition: width 0.2s ease-in-out;
 }
 
+
+
 .inline-richtext{
   font-family: "luna itc"!important;
 }
 
 .h2{
   font-family: "luna itc" !important;
-}
-
-.link--text{
-  font-family: "Montserrat" !important;
 }
 
 .multicolumn-card__info a:hover:before{
@@ -3672,3 +3670,17 @@ width: calc(50% - 1rem / 2) !important;
 .__seguno-banner-container .__seguno-banner .__seguno-discount .__seguno-banner-text{
   font-family: "Montserrat" !important;
 }
+@media screen and (max-width: 990px){
+  .inline-richtext{
+  font-family: "luna itc"!important;
+}
+
+.h2{
+  font-family: "luna itc" !important;
+}
+  .multicolumn-card__info a:hover:before{
+   width:25%;
+}
+
+}
+

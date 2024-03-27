@@ -110,20 +110,8 @@
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       
       <span class="price-item price-item--sale price-item--last">
-        
-        {% if price == 0.00  %}
-          <style>
-            .price__container .price__regular .price-item .money{
-              display:none;
-            }
-          </style>
-          <p>Request for quotation</p>
-         
-       
-        {% else %}
-            {{ money_price }}
-        {% endif %}
-        
+         {{ money_price }}
+                
       </span>
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">

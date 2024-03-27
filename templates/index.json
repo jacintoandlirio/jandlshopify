@@ -551,7 +551,6 @@
         "column_rLCH4M",
         "column_FD4JVU"
       ],
-      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h1",
@@ -568,11 +567,11 @@
         "padding_top": 36,
         "padding_bottom": 36,
         "testimonial_section_background": "#eaeaea",
-        "testimonial_background": "#ffffff",
-        "testimonial_title_color": "#000000",
-        "testimonials_text_color": "#000000",
-        "arrow_color": "#ffffff",
-        "arrow_bg_color": "#000000"
+        "testimonial_background": "#fff",
+        "testimonial_title_color": "#000",
+        "testimonials_text_color": "#000",
+        "arrow_color": "#fff",
+        "arrow_bg_color": "#000"
       }
     },
     "slideshow_eTn9e8": {
@@ -953,28 +952,30 @@
         "padding_bottom": 100
       }
     },
-    "multicolumn_yAJaBK": {
+    "multicolumn_UWrfNG": {
       "type": "multicolumn",
       "blocks": {
-        "column_JL9zdq": {
+        "column_nacLfi": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/viber_image_2021-06-30_11-37-45_7b623fe1-89c8-4490-86c1-6cbc424b8641.jpg",
+            "title": "Join our Employee Perks Program",
+            "text": "<p>Add exclusive perks for your employees with Jacinto & Lirio. Email us at stories@jacintoandlirio.com to discuss the details.<\/p>",
+            "link_label": "Let's Collaborate",
             "link": ""
           }
         },
-        "column_JkwBU7": {
+        "column_emmj4j": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/The_Sketchbook_-_Oct_3_page-0001_8640e71e-7c08-4526-a892-dc2b0dab1bd7.jpg",
+            "title": "FREE printables",
+            "text": "<p>We officially launch “The Sketchbook”, a series where we will be releasing a free set of printables designed by our very own! Use these printables to spice up things with your own Jacinto & Lirio’s journal or planner and unleash the creativity within you!<\/p>",
+            "link_label": "Print",
             "link": ""
           }
         },
-        "column_YTRFpx": {
+        "column_XN9Qy7": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -985,20 +986,19 @@
         }
       },
       "block_order": [
-        "column_JL9zdq",
-        "column_JkwBU7",
-        "column_YTRFpx"
+        "column_nacLfi",
+        "column_emmj4j",
+        "column_XN9Qy7"
       ],
-      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -1176,7 +1176,7 @@
     "multicolumn_gmzhh3",
     "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
-    "multicolumn_yAJaBK",
+    "multicolumn_UWrfNG",
     "multirow_4kpYXJ",
     "featured_blog_K9DnLq",
     "featured_blog_hbVnVc",

@@ -3667,9 +3667,9 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "luna itc" !important;
 }
 
-.footer-block__details-content .link--text{
-  font-family: "Montserrat" !important;
-}
+
+
+
 @media screen and (max-width: 990px){
   .inline-richtext{
   font-family: "luna itc"!important;
@@ -3685,9 +3685,8 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "luna itc" !important;
 }
 
-.__seguno-banner-container .__seguno-banner .__seguno-discount .__seguno-banner-text{
+.footer-block__details-content .link--text{
   font-family: "Montserrat" !important;
 }
-
 }
 

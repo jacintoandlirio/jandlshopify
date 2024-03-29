@@ -3675,6 +3675,10 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "Montserrat" !important;
 }
 
+.footer-block__details-content .link--text{
+  font-family: "Montserrat" !important;
+}
+
 @media screen and (max-width: 990px){
 
   .disclosure__item .disclosure__link .country{

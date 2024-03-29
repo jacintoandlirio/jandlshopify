@@ -3667,7 +3667,9 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "luna itc" !important;
 }
 
-
+.disclosure__button {
+  font-family: "Montserrat" !important;
+}
 
 
 @media screen and (max-width: 990px){
@@ -3688,5 +3690,9 @@ width: calc(50% - 1rem / 2) !important;
 .footer-block__details-content .link--text{
   font-family: "Montserrat" !important;
 }
+  .disclosure__button {
+  font-family: "Montserrat" !important;
+}
+
 }
 

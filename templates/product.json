@@ -22,6 +22,12 @@
             "swatch_shape": "circle"
           }
         },
+        "custom_liquid_7VfgGr": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{%endif%}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -57,7 +63,7 @@
         "custom_liquid_fAJeVf": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>\n\n{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n{%endif%}"
+            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>\n\n{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{%endif%}"
           }
         },
         "collapsible_tab_A8kRt8": {
@@ -145,6 +151,7 @@
         "vendor",
         "title",
         "variant_picker",
+        "custom_liquid_7VfgGr",
         "quantity_selector",
         "buy_buttons",
         "qteedy_qteedy_extended_product_form_b4HNtE",

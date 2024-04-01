@@ -98,7 +98,7 @@
           </style>
              <p>Request for quotation</p>
            {% else %}  
-             {{ money_price }}
+             {{ money_price | remove: "From"  }}
                       
            {%- endif -%}
           

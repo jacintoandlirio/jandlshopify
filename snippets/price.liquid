@@ -74,12 +74,34 @@
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
+           {% if  price == 0.00 %}
+          <style>
+            .price-item--regular .price-item{
+              display:none;
+            }
+          </style>
+             <p>Request for quotation</p>
+           {% else %}  
+              {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
+                      
+           {%- endif -%}
+         
         </span>
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          {{ money_price }}
+          {% if  price == 0.00 %}
+          <style>
+            .price__container .price__regular .price-item .money{
+              display:none;
+            }
+          </style>
+             <p>Request for quotation</p>
+           {% else %}  
+             {{ money_price }}
+                      
+           {%- endif -%}
+          
         </span>
       {%- endif -%}
     </div>

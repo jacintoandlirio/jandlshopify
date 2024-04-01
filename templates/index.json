@@ -531,6 +531,7 @@
         "column_rLCH4M",
         "column_FD4JVU"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h1",
@@ -972,7 +973,7 @@
         "column_emmj4j"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",

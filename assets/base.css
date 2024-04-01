@@ -3649,7 +3649,9 @@ width: calc(50% - 1rem / 2) !important;
   transition: width 0.2s ease-in-out;
 }
 
-
+.__seguno-banner-text{
+  font-family: "Montserrat" !important;
+}
 
 .inline-richtext{
   font-family: "luna itc"!important;
@@ -3687,6 +3689,10 @@ width: calc(50% - 1rem / 2) !important;
   .inline-richtext{
   font-family: "luna itc"!important;
 }
+
+ .__seguno-banner-text{
+  font-family: "Montserrat" !important;
+} 
 
 .h2{
   font-family: "luna itc" !important;

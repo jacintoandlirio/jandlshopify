@@ -57,7 +57,7 @@
         "custom_liquid_fAJeVf": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>\n\n{%if product.tags contains \"MTO\"%}\n<style><\/style>\n{%endif%}"
+            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>\n\n{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n{%endif%}"
           }
         },
         "collapsible_tab_A8kRt8": {

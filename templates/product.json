@@ -15,6 +15,13 @@
           "settings": {
           }
         },
+        "text_GGrbeM": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -63,7 +70,7 @@
         "custom_liquid_fAJeVf": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>\n\n{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{%endif%}"
+            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>"
           }
         },
         "collapsible_tab_A8kRt8": {
@@ -150,6 +157,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_GGrbeM",
         "variant_picker",
         "custom_liquid_7VfgGr",
         "quantity_selector",

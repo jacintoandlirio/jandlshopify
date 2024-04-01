@@ -18,7 +18,7 @@
         "text_gaCXBa": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ product.metafields.custom.corp_gift_tagline.value }}",
             "text_style": "body"
           }
         },

@@ -3713,9 +3713,12 @@ width: calc(50% - 1rem / 2) !important;
 
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 550px){
 
-  
+  .multicolumn-card__info{
+    width: 500px;
+    margin: 0 auto;
+  }
 
 }
 

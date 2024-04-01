@@ -15,10 +15,10 @@
           "settings": {
           }
         },
-        "text_GGrbeM": {
+        "text_gaCXBa": {
           "type": "text",
           "settings": {
-            "text": "Text block",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -157,7 +157,7 @@
       "block_order": [
         "vendor",
         "title",
-        "text_GGrbeM",
+        "text_gaCXBa",
         "variant_picker",
         "custom_liquid_7VfgGr",
         "quantity_selector",

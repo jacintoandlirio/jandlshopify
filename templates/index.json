@@ -306,8 +306,8 @@
             "link": "shopify:\/\/collections\/journals-1",
             "button_style_secondary": false,
             "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 20,
             "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"

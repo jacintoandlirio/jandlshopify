@@ -297,7 +297,7 @@
         "slide_EYPiAE": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A8502_af059fe1-e368-4423-b0d3-af709e6f42c1.jpg",
+            "image": "shopify:\/\/shop_images\/tatakpinoy_acebea87-e3dd-456d-abe8-53ac70f8e86d.png",
             "image_link": "shopify:\/\/collections\/journals-1",
             "heading": "Notebooks",
             "heading_size": "h1",
@@ -531,7 +531,6 @@
         "column_rLCH4M",
         "column_FD4JVU"
       ],
-      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h1",
@@ -801,7 +800,7 @@
             "title": "Delivery",
             "text": "<p>We do last mile delivery to ALL your recipients nationwide and worldwide. Meaning we can send send swag to one location or to thousands of locations for you so that you can sit back and relax.<\/p>",
             "link_label": "Learn more",
-            "link": "shopify:\/\/pages\/distribute"
+            "link": "shopify:\/\/pages\/contact"
           }
         }
       },
@@ -973,7 +972,7 @@
         "column_emmj4j"
       ],
       "settings": {
-        "title": "",
+        "title": "Multicolumn",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",

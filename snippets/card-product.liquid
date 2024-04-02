@@ -228,7 +228,7 @@
                   data-product-url="{{ card_product.url }}"
                 > 
                   {% if price == 0.00 %}
-                    {{ "Request quote" }}
+                    {{ 'products.product.choose_options' | remove: "Choose options" | append: "Request quote" | t }}
                     {% else %}
                       {{ 'products.product.choose_options' | t }}
                   {% endif %}

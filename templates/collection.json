@@ -37,6 +37,15 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "custom_liquid_CkN8jh": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div><h2>Gift Sets | <\/h2><p>Our Products are carbon neutral. Make your mark, show your style.<\/p>\n<\/div>\n\n<style>\ndiv{\nmargin: 0 auto;\n}\n<\/style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
@@ -77,6 +86,7 @@
   },
   "order": [
     "slideshow_JNgCAz",
+    "custom_liquid_CkN8jh",
     "banner",
     "product-grid"
   ]

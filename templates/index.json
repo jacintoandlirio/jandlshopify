@@ -613,6 +613,7 @@
         "column_rLCH4M",
         "column_FD4JVU"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h1",

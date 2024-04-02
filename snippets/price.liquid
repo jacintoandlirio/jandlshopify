@@ -82,6 +82,12 @@
           </style>
              <p>Request for quotation</p>
            {% else %}  
+               <style>
+            
+            .quick-add{
+              display:block;
+            }
+          </style>
               {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
                       
            {%- endif -%}

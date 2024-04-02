@@ -51,7 +51,7 @@
     "custom_liquid_FJ8hdQ": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if price == 0.00 %}\n   <style>\n    .quick-add product-form button{\n       display: none;\n     }\n <\/style>\n{% endif %}",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

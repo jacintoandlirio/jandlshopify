@@ -3765,4 +3765,19 @@ width: calc(50% - 1rem / 2) !important;
   }
 }
 
+  @media screen and (max-width: 360px){
+
+  .card__heading a{
+  font-family: "Montserrat" !important;  
+}
+
+.quick-add__submit{
+  font-family: "luna itc" !important;
+}
+
+  .multicolumn-card__info{
+    width: 330px;
+    margin: 0 auto;
+  }
+}
 

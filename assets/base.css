@@ -3762,7 +3762,9 @@ width: calc(50% - 1rem / 2) !important;
   }
 
 @media screen and (max-width: 450px){
-
+  .gm-submenu{
+    background-color: #ffffff;
+  }
   .card__heading a{
   font-family: "Montserrat" !important;  
 }

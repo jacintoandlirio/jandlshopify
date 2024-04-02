@@ -226,16 +226,14 @@
                   aria-haspopup="dialog"
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
-                >
+                > 
                   {% if price == 0.00 %}
-                    {{ 'products.product.choose_options' | remove: "Choose options" | append: "Request quote" }}
-                    {{ 'products.product.choose_options' | append: "Request quote" }}
+                    {{ "Request quote" }}
                     {% else %}
-                      {{ "products.product.choose_options" }}
+                      {{ 'products.product.choose_options' | t }}
                   {% endif %}
                   
-                  
-                    {%- if horizontal_quick_add -%}
+                  {%- if horizontal_quick_add -%}
                     <span class="icon-wrap">{% render 'icon-arrow' %}</span>
                   {%- endif -%}
                   {%- render 'loading-spinner' -%}

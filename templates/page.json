@@ -246,24 +246,24 @@
     "image_banner_ty6n7M": {
       "type": "image-banner",
       "blocks": {
-        "text_DGd8w4": {
-          "type": "text",
-          "settings": {
-            "text": "JACINTO & LIRIO'S",
-            "text_style": "body"
-          }
-        },
         "heading_66PNyw": {
           "type": "heading",
           "settings": {
             "heading": "CORPORATE GIFTING SERVICE",
             "heading_size": "h1"
           }
+        },
+        "text_DGd8w4": {
+          "type": "text",
+          "settings": {
+            "text": "Our products are carbon neutral. Make your mark, show your style",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "text_DGd8w4",
-        "heading_66PNyw"
+        "heading_66PNyw",
+        "text_DGd8w4"
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 55px; text-align: center; color: #6b501b;}"

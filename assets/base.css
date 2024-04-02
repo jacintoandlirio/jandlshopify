@@ -3653,6 +3653,10 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "Montserrat" !important;  
 }
 
+.quick-add__submit{
+  font-family: "luna itc" !important;
+}
+
 .__seguno-banner-text{
   font-family: "Montserrat" !important;
 }

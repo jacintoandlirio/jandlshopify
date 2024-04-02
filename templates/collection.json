@@ -60,10 +60,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".FacetsWrapperDesktop {font-color: #ccaf68;}",
-        ".facets-container {background-color: #926f2a; border-radius: 5px; color: #ffffff;}",
-        ".facets__heading {font-size: 25px; color: #ffffff;}",
-        "button {background-color: #926f2a; color: #ffffff; border-radius: 10px;}"
+        "button {background-color: #926f2a; color: #ffffff; }"
       ],
       "settings": {
         "products_per_page": 12,
@@ -76,7 +73,7 @@
         "show_rating": true,
         "enable_quick_add": true,
         "enable_filtering": true,
-        "filter_type": "vertical",
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 36,

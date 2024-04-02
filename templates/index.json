@@ -88,9 +88,9 @@
         "row_ifp9tX": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "",
+            "heading": "RESTAURANTS",
+            "text": "",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -98,9 +98,9 @@
         "row_RiB4D3": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "",
+            "heading": "HUMAN RESOURCES",
+            "text": "",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -108,9 +108,29 @@
         "row_fWpKhG": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "",
+            "heading": "ARCHITECTURE",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_p4pDLN": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "HOTEL & RESORTS",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_dLgExx": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "REAL ESTATE",
+            "text": "",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -119,7 +139,9 @@
       "block_order": [
         "row_ifp9tX",
         "row_RiB4D3",
-        "row_fWpKhG"
+        "row_fWpKhG",
+        "row_p4pDLN",
+        "row_dLgExx"
       ],
       "settings": {
         "image_height": "medium",

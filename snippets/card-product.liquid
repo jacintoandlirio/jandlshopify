@@ -229,6 +229,7 @@
                 >
                   {% if price == 0.00 %}
                     {{ 'products.product.choose_options' | remove: "Choose options" | append: "Request quote" }}
+                    {{ 'products.product.choose_options' | append: "Request quote" }}
                   {% endif %}
                   
                     {%- if horizontal_quick_add -%}

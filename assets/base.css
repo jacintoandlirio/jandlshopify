@@ -3698,6 +3698,14 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "luna itc"!important;
 }
 
+  .card__heading a{
+  font-family: "Montserrat" !important;  
+}
+
+.quick-add__submit{
+  font-family: "luna itc" !important;
+}
+
  .__seguno-banner-text{
   font-family: "Montserrat" !important;
 } 
@@ -3723,6 +3731,14 @@ width: calc(50% - 1rem / 2) !important;
 
 @media screen and (max-width: 550px){
 
+  .card__heading a{
+  font-family: "Montserrat" !important;  
+}
+
+.quick-add__submit{
+  font-family: "luna itc" !important;
+}
+
   .multicolumn-card__info{
     width: 500px;
     margin: 0 auto;
@@ -3734,6 +3750,14 @@ width: calc(50% - 1rem / 2) !important;
   }
 
 @media screen and (max-width: 450px){
+
+  .card__heading a{
+  font-family: "Montserrat" !important;  
+}
+
+.quick-add__submit{
+  font-family: "luna itc" !important;
+}
 
   .multicolumn-card__info{
     width: 400px;

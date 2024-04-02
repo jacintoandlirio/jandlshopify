@@ -1126,12 +1126,14 @@
         "slide_xxPz8x": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Globe-logo.png",
             "url": ""
           }
         },
         "slide_jye8ag": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-pwc_f396ca19-48e6-421d-94cb-a99b5e590fb6.png",
             "url": ""
           }
         },

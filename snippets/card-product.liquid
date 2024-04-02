@@ -230,8 +230,8 @@
                   {% if price == 0.00 %}
                     {{ "products.product.choose_options" | remove: "Choose options" | append: "Request quote" }}
                   {% endif %}
-                  {{ 'products.product.choose_options' | t }}
-                  {%- if horizontal_quick_add -%}
+                  
+                    {%- if horizontal_quick_add -%}
                     <span class="icon-wrap">{% render 'icon-arrow' %}</span>
                   {%- endif -%}
                   {%- render 'loading-spinner' -%}

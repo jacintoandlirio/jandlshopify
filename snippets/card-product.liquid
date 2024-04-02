@@ -208,13 +208,7 @@
           </div>
         </div>
         {%- if show_quick_add -%}
-          {% if price == 0.00 %}
-            <style>
-              .quick-add{
-                display: none;
-              }
-            </style>
-            {% endif %}
+         
           <div class="quick-add no-js-hidden">
             {%- liquid
               assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id

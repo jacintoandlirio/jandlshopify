@@ -3820,7 +3820,14 @@ width: calc(50% - 1rem / 2) !important;
 
   .multicolumn-card__info{
     width: 330px;
+    height: 450px;
     margin: 0 auto;
   }
+
+  .multicolumn-card__info .rte{
+    width: 330px;
+    height: 400px
+    margin: 0 auto;
+  }  
 }
 

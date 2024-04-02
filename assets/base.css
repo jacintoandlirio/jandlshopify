@@ -3780,12 +3780,15 @@ width: calc(50% - 1rem / 2) !important;
   }
 }
 
-  @media screen and (max-width: 360px){
-    .gm-submenu{
-    color: #ffffff;
+@media screen and (max-width: 360px){
+  .gm-submenu{
+    background-color: #ffffff;
      
   }
-    .multicolumn-card__info a{
+  .gm-item{
+    background-color: #ffffff;
+  }
+.multicolumn-card__info a{
   font-family: "luna itc" !important;
 }
 

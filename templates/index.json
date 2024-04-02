@@ -82,88 +82,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "multirow_wmBax8": {
-      "type": "multirow",
-      "blocks": {
-        "row_ifp9tX": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
-            "caption": "",
-            "heading": "RESTAURANTS",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_RiB4D3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
-            "caption": "",
-            "heading": "HUMAN RESOURCES",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_fWpKhG": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/viber_image_2022-08-25_13-57-45-836.jpg",
-            "caption": "",
-            "heading": "ARCHITECTURE & INTERIOR DESIGN",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_p4pDLN": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Hotel_Newlyweds_Welcome_4.jpg",
-            "caption": "",
-            "heading": "HOTEL & RESORTS",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_dLgExx": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layout_9_3_0051409f-aac1-47fb-8b2c-23fc529ce743.jpg",
-            "caption": "",
-            "heading": "REAL ESTATE",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_ifp9tX",
-        "row_RiB4D3",
-        "row_fWpKhG",
-        "row_p4pDLN",
-        "row_dLgExx"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -1025,6 +943,88 @@
         "lazy": true
       }
     },
+    "multirow_wmBax8": {
+      "type": "multirow",
+      "blocks": {
+        "row_ifp9tX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
+            "caption": "",
+            "heading": "RESTAURANTS",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_RiB4D3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
+            "caption": "",
+            "heading": "HUMAN RESOURCES",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_fWpKhG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/viber_image_2022-08-25_13-57-45-836.jpg",
+            "caption": "",
+            "heading": "ARCHITECTURE & INTERIOR DESIGN",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_p4pDLN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hotel_Newlyweds_Welcome_4.jpg",
+            "caption": "",
+            "heading": "HOTEL & RESORTS",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_dLgExx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_9_3_0051409f-aac1-47fb-8b2c-23fc529ce743.jpg",
+            "caption": "",
+            "heading": "REAL ESTATE",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ifp9tX",
+        "row_RiB4D3",
+        "row_fWpKhG",
+        "row_p4pDLN",
+        "row_dLgExx"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_g3Yack": {
       "type": "image-with-text",
       "blocks": {
@@ -1288,7 +1288,6 @@
   },
   "order": [
     "slideshow_ri7rcw",
-    "multirow_wmBax8",
     "featured_collection",
     "rich_text_Lyp9xe",
     "ss_instafeed_2_nBPXYH",
@@ -1302,6 +1301,7 @@
     "image_banner_HyQkcC",
     "multicolumn_gmzhh3",
     "ss_instafeed_2_3RqEpe",
+    "multirow_wmBax8",
     "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
     "multicolumn_UWrfNG",

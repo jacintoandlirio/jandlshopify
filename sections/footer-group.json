@@ -49,14 +49,14 @@
         "link_list_ibHWmD": {
           "type": "link_list",
           "settings": {
-            "heading": "OTHER LINKS",
+            "heading": "OTHERS",
             "menu": "footer"
           }
         },
         "link_list_DRmL8Y": {
           "type": "link_list",
           "settings": {
-            "heading": "Join our page.",
+            "heading": "Communities",
             "menu": "header-menu"
           }
         },

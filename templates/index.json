@@ -88,6 +88,7 @@
         "row_ifp9tX": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
             "caption": "",
             "heading": "RESTAURANTS",
             "text": "",
@@ -98,6 +99,7 @@
         "row_RiB4D3": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
             "caption": "",
             "heading": "HUMAN RESOURCES",
             "text": "",
@@ -108,8 +110,9 @@
         "row_fWpKhG": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/viber_image_2022-08-25_13-57-45-836.jpg",
             "caption": "",
-            "heading": "ARCHITECTURE",
+            "heading": "ARCHITECTURE & INTERIOR DESIGN",
             "text": "",
             "button_label": "Button label",
             "button_link": ""
@@ -118,6 +121,7 @@
         "row_p4pDLN": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Hotel_Newlyweds_Welcome_4.jpg",
             "caption": "",
             "heading": "HOTEL & RESORTS",
             "text": "",
@@ -128,6 +132,7 @@
         "row_dLgExx": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_9_3_0051409f-aac1-47fb-8b2c-23fc529ce743.jpg",
             "caption": "",
             "heading": "REAL ESTATE",
             "text": "",

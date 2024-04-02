@@ -3649,6 +3649,10 @@ width: calc(50% - 1rem / 2) !important;
   transition: width 0.2s ease-in-out;
 }
 
+.card__heading{
+  font-family: "Montserrat" !important;  
+}
+
 .__seguno-banner-text{
   font-family: "Montserrat" !important;
 }

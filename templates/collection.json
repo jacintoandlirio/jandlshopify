@@ -48,6 +48,15 @@
         "color_scheme": "scheme-1"
       }
     },
+    "custom_liquid_FJ8hdQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
@@ -75,6 +84,7 @@
   "order": [
     "slideshow_JNgCAz",
     "banner",
+    "custom_liquid_FJ8hdQ",
     "product-grid"
   ]
 }

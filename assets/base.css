@@ -3781,6 +3781,10 @@ width: calc(50% - 1rem / 2) !important;
 }
 
   @media screen and (max-width: 360px){
+    .gm-submenu{
+    color: #ffffff;
+     
+  }
     .multicolumn-card__info a{
   font-family: "luna itc" !important;
 }

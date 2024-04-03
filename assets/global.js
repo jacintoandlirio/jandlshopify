@@ -944,6 +944,21 @@ class SlideshowComponent extends SliderComponent {
   }
 }
 
+let text_anim = document.querySelectorAll(".text_anim");
+let interval = 1000;
+
+text_anim.forEach((valueDisplay) => {let startValue = 0;
+ let endValue = parseInt(text_anim.getAttribute("data-val"));
+ let duration = Math.floor(interval/endValue);
+  
+ let counter = setInterval( function() {
+   startValue += 1;
+   text_anim.textContent = startValue;
+   if (startValue == endValue){
+     clearInterval(counter);
+      }
+    }, duration);});
+
 customElements.define('slideshow-component', SlideshowComponent);
 
 class VariantSelects extends HTMLElement {
@@ -1196,20 +1211,7 @@ class VariantSelects extends HTMLElement {
       });
   }
 
-let text_anim = document.querySelectorAll(".text_anim");
-let interval = 1000;
 
-text_anim.forEach((valueDisplay) => {let startValue = 0;
- let endValue = parseInt(text_anim.getAttribute("data-val"));
- let duration = Math.floor(interval/endValue);
-  
- let counter = setInterval( function() {
-   startValue += 1;
-   text_anim.textContent = startValue;
-   if (startValue == endValue){
-     clearInterval(counter);
-      }
-    }, duration);});
 
   toggleAddButton(disable = true, text, modifyClass = true) {
     const productForm = document.getElementById(`product-form-${this.dataset.section}`);

@@ -6,14 +6,14 @@
         "heading_66PNyw": {
           "type": "heading",
           "settings": {
-            "heading": "CORPORATE GIFTING SERVICE",
+            "heading": "{{ page.title }}",
             "heading_size": "h1"
           }
         },
         "text_DGd8w4": {
           "type": "text",
           "settings": {
-            "text": "Our products are carbon neutral. Make your mark, show your style",
+            "text": "",
             "text_style": "body"
           }
         }

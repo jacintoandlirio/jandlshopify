@@ -42,14 +42,14 @@
         "link_list_wCG8UR": {
           "type": "link_list",
           "settings": {
-            "heading": "HELP",
+            "heading": "Help",
             "menu": "faq"
           }
         },
         "link_list_ibHWmD": {
           "type": "link_list",
           "settings": {
-            "heading": "OTHERS",
+            "heading": "Others",
             "menu": "footer"
           }
         },

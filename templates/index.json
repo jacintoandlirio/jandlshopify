@@ -179,7 +179,7 @@
     "custom_liquid_tMgpxW": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}\n\n.odometer{\nfont-size: 54px;\n}\n<\/style>\n\n\n<section class=\"statistics\">\n<b>Our Social Impact Amounts to<\/b>\n<p class=\"text_anim\" id=\"text_anim\">\n0 +\n<\/p>\n<p>Based on the plant leather livelihood income of our community partners.<\/p>\n<\/section>",
+        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}\n\n.text_anim{\nfont-size: 54px;\n}\n<\/style>\n\n\n<section class=\"statistics\">\n<b>Our Social Impact Amounts to<\/b>\n<p class=\"text_anim\" id=\"text_anim\">\n0 +\n<\/p>\n<p>Based on the plant leather livelihood income of our community partners.<\/p>\n<\/section>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

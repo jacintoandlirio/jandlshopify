@@ -170,7 +170,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\npadding-left: 500px;\n}<\/style>\n\n<section class=\"statistics\">\n<b>Environmental Impact<\/b>\n<\/section>",
+        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\npadding-left: 500px;\n}<\/style>\n\n<section class=\"statistics\">\n<b>Environmental Impact<\/b>\n<p class=\"anim\" id=\"anim\">\n\n<\/p>\n<\/section>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

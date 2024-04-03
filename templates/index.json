@@ -170,7 +170,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}<\/style>\n\n<section class=\"statistics\">\n<b>Environmental Impact<\/b>\n<p class=\"anim\" id=\"anim\">\n000000\n<\/p>\n<\/p>\n<\/section>",
+        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}<\/style>\n\n<section class=\"statistics\">\n<b>Environmental Impact<\/b>\n<p class=\"anim\" id=\"anim\">\n000000\n<\/p>\n<\/p>\n<\/section>\n\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/odometer.js\/0.4.8\/odometer.min.js\" integrity=\"sha512-51WDTV7haD9BBDc8RWH2r5TnuSiRyAqEnbGyuKHYn+qpYCrCckxFeqlr1I5UoOULijyLV2vnHO9LS4MrAzHxwQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"><\/script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

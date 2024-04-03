@@ -166,8 +166,11 @@
     },
     "custom_liquid_RxYCeg": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\npadding-left: 500px;\n}<\/style>\n\n<section class=\"statistics\">\n<b>Environmental Impact<\/b>\n<\/section>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

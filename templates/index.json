@@ -179,7 +179,7 @@
     "custom_liquid_LnqYzn": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}\n\n@property --num {\n  syntax: '<integer>';\n  inherits: false;\n  initial-value: 0;\n}\n\n\n.stats::after{\nfont-size: 54px;\ncounter-reset: my-counter var(--num);\n  content: counter(my-counter);\nanimation: count 10s ease-in-out;\n}\n@keyframes count {\n  to { --num: 1252380; }\n}\n\n<\/style>\n\n<section class=\"statistics\">\n<b>Environmental Impact<\/b>\n<p class=\"stats\" id=\"stats\">\n0 \n<\/p>\n<p>Water hyacinth stalks used as of 2019.<\/p>\n<\/section>",
+        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}\n\n@property --num {\n  syntax: '<integer>';\n  inherits: false;\n  initial-value: 0;\n}\n\n\n.stats::after{\nfont-size: 54px;\ncounter-reset: my-counter var(--num);\n  content: counter(my-counter);\nanimation: count 10s ease-in-out;\n}\n@keyframes count {\n  to { --num: 1252380; }\n}\n\n<\/style>\n\n<section class=\"statistics\">\n<b>Our Social Impact amounts to more than<\/b>\n<p class=\"stats\" id=\"stats\">\n0 \n<\/p>\n<p>Based on the plant leather livelihood of our community partner.<\/p>\n<\/section>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

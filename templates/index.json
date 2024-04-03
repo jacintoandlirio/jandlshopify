@@ -82,6 +82,88 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "multirow_wmBax8": {
+      "type": "multirow",
+      "blocks": {
+        "row_ifp9tX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
+            "caption": "",
+            "heading": "RESTAURANTS",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_RiB4D3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
+            "caption": "",
+            "heading": "HUMAN RESOURCES",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_fWpKhG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/viber_image_2022-08-25_13-57-45-836.jpg",
+            "caption": "",
+            "heading": "ARCHITECTURE & INTERIOR DESIGN",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_p4pDLN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hotel_Newlyweds_Welcome_4.jpg",
+            "caption": "",
+            "heading": "HOTEL & RESORTS",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_dLgExx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_9_3_0051409f-aac1-47fb-8b2c-23fc529ce743.jpg",
+            "caption": "",
+            "heading": "REAL ESTATE",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ifp9tX",
+        "row_RiB4D3",
+        "row_fWpKhG",
+        "row_p4pDLN",
+        "row_dLgExx"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -112,52 +194,6 @@
         "swipe_on_mobile": true,
         "padding_top": 72,
         "padding_bottom": 80
-      }
-    },
-    "rich_text_Lyp9xe": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_eAXtYD": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Our Products",
-            "heading_size": "h1"
-          }
-        },
-        "caption_8LLmbk": {
-          "type": "caption",
-          "disabled": true,
-          "settings": {
-            "caption": "WATER HYACINTH - ENGRAVING - VEGAN LEATHER ACCENTS",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "small"
-          }
-        },
-        "text_xiddy7": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Check out one of our products made out of water hyacinth down below !<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_eAXtYD",
-        "caption_8LLmbk",
-        "text_xiddy7"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h2 {margin: 0 auto; width: 300px; border-bottom: 1px solid #765920;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-5",
-        "full_width": true,
-        "padding_top": 92,
-        "padding_bottom": 96
       }
     },
     "ss_instafeed_2_nBPXYH": {
@@ -832,199 +868,6 @@
         "padding_bottom": 100
       }
     },
-    "ss_instafeed_2_3RqEpe": {
-      "type": "ss-instafeed-2",
-      "blocks": {
-        "slide_UHzf4E": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Unilab.png",
-            "url": ""
-          }
-        },
-        "slide_xxPz8x": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Globe-logo.png",
-            "url": ""
-          }
-        },
-        "slide_jye8ag": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Logo-pwc_f396ca19-48e6-421d-94cb-a99b5e590fb6.png",
-            "url": ""
-          }
-        },
-        "slide_hkDcEX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
-            "url": ""
-          }
-        },
-        "slide_Wtf89w": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
-            "url": ""
-          }
-        },
-        "slide_wBTNYc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_UHzf4E",
-        "slide_xxPz8x",
-        "slide_jye8ag",
-        "slide_hkDcEX",
-        "slide_Wtf89w",
-        "slide_wBTNYc"
-      ],
-      "settings": {
-        "top": "Social proof",
-        "top_custom": false,
-        "top_font": "josefin_sans_n4",
-        "top_size": 13,
-        "top_height": 130,
-        "top_align": "center",
-        "heading": "Our Clients",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 40,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_mt": 12,
-        "subheading": "<h3>Join the convo with #AwesomeBrandTag<\/h3>",
-        "subheading_custom": false,
-        "subheading_font": "josefin_sans_n4",
-        "subheading_size": 16,
-        "subheading_height": 130,
-        "subheading_align": "center",
-        "subheading_mt": 12,
-        "slider_mt": 60,
-        "slider_row": "5",
-        "slider_row_mobile": "1",
-        "slider_gap": 20,
-        "slider_gap_mobile": 32,
-        "autoplay": true,
-        "autoplay_speed": 4,
-        "nav_size": 40,
-        "nav_size_mobile": 30,
-        "hide_nav": true,
-        "hide_nav_mobile": false,
-        "image_radius": 0,
-        "top_color": "#e69e6c",
-        "heading_color": "#746661",
-        "subheading_color": "#aba49d",
-        "nav_btn_bg": "#ffffff",
-        "nav_btn_hover_bg": "#e69e6c",
-        "nav_border": "#e69e6c",
-        "nav_border_hover": "#e69e6c",
-        "nav_icon": "#e69e6c",
-        "nav_hover_icon": "#ffffff",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "multirow_wmBax8": {
-      "type": "multirow",
-      "blocks": {
-        "row_ifp9tX": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
-            "caption": "",
-            "heading": "RESTAURANTS",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_RiB4D3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
-            "caption": "",
-            "heading": "HUMAN RESOURCES",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_fWpKhG": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/viber_image_2022-08-25_13-57-45-836.jpg",
-            "caption": "",
-            "heading": "ARCHITECTURE & INTERIOR DESIGN",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_p4pDLN": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Hotel_Newlyweds_Welcome_4.jpg",
-            "caption": "",
-            "heading": "HOTEL & RESORTS",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_dLgExx": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layout_9_3_0051409f-aac1-47fb-8b2c-23fc529ce743.jpg",
-            "caption": "",
-            "heading": "REAL ESTATE",
-            "text": "",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_ifp9tX",
-        "row_RiB4D3",
-        "row_fWpKhG",
-        "row_p4pDLN",
-        "row_dLgExx"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_g3Yack": {
       "type": "image-with-text",
       "blocks": {
@@ -1166,7 +1009,7 @@
         "column_emmj4j"
       ],
       "settings": {
-        "title": "",
+        "title": "Multicolumn",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -1224,6 +1067,117 @@
         "padding_bottom": 36
       }
     },
+    "ss_instafeed_2_3RqEpe": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_UHzf4E": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unilab.png",
+            "url": ""
+          }
+        },
+        "slide_xxPz8x": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Globe-logo.png",
+            "url": ""
+          }
+        },
+        "slide_jye8ag": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-pwc_f396ca19-48e6-421d-94cb-a99b5e590fb6.png",
+            "url": ""
+          }
+        },
+        "slide_hkDcEX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
+            "url": ""
+          }
+        },
+        "slide_Wtf89w": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
+            "url": ""
+          }
+        },
+        "slide_wBTNYc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_UHzf4E",
+        "slide_xxPz8x",
+        "slide_jye8ag",
+        "slide_hkDcEX",
+        "slide_Wtf89w",
+        "slide_wBTNYc"
+      ],
+      "settings": {
+        "top": "Social proof",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 13,
+        "top_height": 130,
+        "top_align": "center",
+        "heading": "Our Clients",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "<h3>Join the convo with #AwesomeBrandTag<\/h3>",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "5",
+        "slider_row_mobile": "1",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#FFFFFF",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#FFFFFF",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "faq_VCninm": {
       "type": "faq",
       "blocks": {
@@ -1270,7 +1224,6 @@
         "text_a3hb4g",
         "text_UVXRna"
       ],
-      "disabled": true,
       "custom_css": [
         "h1 {color: #6b501b;}"
       ],
@@ -1288,8 +1241,8 @@
   },
   "order": [
     "slideshow_ri7rcw",
+    "multirow_wmBax8",
     "featured_collection",
-    "rich_text_Lyp9xe",
     "ss_instafeed_2_nBPXYH",
     "slideshow_AGJPzh",
     "ss_instafeed_2_VFYEQM",
@@ -1300,13 +1253,12 @@
     "custom_liquid_YxBfei",
     "image_banner_HyQkcC",
     "multicolumn_gmzhh3",
-    "ss_instafeed_2_3RqEpe",
-    "multirow_wmBax8",
     "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
     "multicolumn_UWrfNG",
     "featured_blog_K9DnLq",
     "featured_blog_hbVnVc",
+    "ss_instafeed_2_3RqEpe",
     "faq_VCninm"
   ]
 }

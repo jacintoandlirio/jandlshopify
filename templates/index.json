@@ -889,6 +889,117 @@
         "padding_bottom": 100
       }
     },
+    "ss_instafeed_2_3RqEpe": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_UHzf4E": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unilab.png",
+            "url": ""
+          }
+        },
+        "slide_xxPz8x": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Globe-logo.png",
+            "url": ""
+          }
+        },
+        "slide_jye8ag": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-pwc_f396ca19-48e6-421d-94cb-a99b5e590fb6.png",
+            "url": ""
+          }
+        },
+        "slide_hkDcEX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
+            "url": ""
+          }
+        },
+        "slide_Wtf89w": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
+            "url": ""
+          }
+        },
+        "slide_wBTNYc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_UHzf4E",
+        "slide_xxPz8x",
+        "slide_jye8ag",
+        "slide_hkDcEX",
+        "slide_Wtf89w",
+        "slide_wBTNYc"
+      ],
+      "settings": {
+        "top": "INDUSTRY PARTNERS",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 13,
+        "top_height": 130,
+        "top_align": "center",
+        "heading": "Our Clients",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "<h3>Join the convo with #AwesomeBrandTag<\/h3>",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "5",
+        "slider_row_mobile": "1",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#ffffff",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "image_with_text_g3Yack": {
       "type": "image-with-text",
       "blocks": {
@@ -1087,177 +1198,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "ss_instafeed_2_3RqEpe": {
-      "type": "ss-instafeed-2",
-      "blocks": {
-        "slide_UHzf4E": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Unilab.png",
-            "url": ""
-          }
-        },
-        "slide_xxPz8x": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Globe-logo.png",
-            "url": ""
-          }
-        },
-        "slide_jye8ag": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Logo-pwc_f396ca19-48e6-421d-94cb-a99b5e590fb6.png",
-            "url": ""
-          }
-        },
-        "slide_hkDcEX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
-            "url": ""
-          }
-        },
-        "slide_Wtf89w": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
-            "url": ""
-          }
-        },
-        "slide_wBTNYc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_UHzf4E",
-        "slide_xxPz8x",
-        "slide_jye8ag",
-        "slide_hkDcEX",
-        "slide_Wtf89w",
-        "slide_wBTNYc"
-      ],
-      "settings": {
-        "top": "Social proof",
-        "top_custom": false,
-        "top_font": "josefin_sans_n4",
-        "top_size": 13,
-        "top_height": 130,
-        "top_align": "center",
-        "heading": "Our Clients",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 40,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_mt": 12,
-        "subheading": "<h3>Join the convo with #AwesomeBrandTag<\/h3>",
-        "subheading_custom": false,
-        "subheading_font": "josefin_sans_n4",
-        "subheading_size": 16,
-        "subheading_height": 130,
-        "subheading_align": "center",
-        "subheading_mt": 12,
-        "slider_mt": 60,
-        "slider_row": "5",
-        "slider_row_mobile": "1",
-        "slider_gap": 20,
-        "slider_gap_mobile": 32,
-        "autoplay": true,
-        "autoplay_speed": 4,
-        "nav_size": 40,
-        "nav_size_mobile": 30,
-        "hide_nav": true,
-        "hide_nav_mobile": false,
-        "image_radius": 0,
-        "top_color": "#e69e6c",
-        "heading_color": "#746661",
-        "subheading_color": "#aba49d",
-        "nav_btn_bg": "#FFFFFF",
-        "nav_btn_hover_bg": "#e69e6c",
-        "nav_border": "#e69e6c",
-        "nav_border_hover": "#e69e6c",
-        "nav_icon": "#e69e6c",
-        "nav_hover_icon": "#FFFFFF",
-        "background_color": "#FFFFFF",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "faq_VCninm": {
-      "type": "faq",
-      "blocks": {
-        "text_6W3PMM": {
-          "type": "text",
-          "settings": {
-            "question": "How do I order online?",
-            "answer": "<ol><li>Go to <a href=\"https:\/\/jacintoandlirio.com\/apps\/www.jacintoandlirio.com\" title=\"Jacinto & Lirio Website\">www.jacintoandlirio.com<\/a>, browse through our items under the \"shop\" tab or \"shop by instagram\" option at the bottom of the home page or under the shop tab.<\/li><li>Click<strong> <\/strong>on the photos of the items, choose a color and variations of the items you would like to purchase, then click <strong>\"Add to Cart\"<\/strong><\/li><li>Not yet done? Got your eye on another item? Go back to the <strong>shop menu<\/strong>, or use the <strong>search bar<\/strong> to add more items to your cart.<\/li><li>When you are ready to complete your order, click <strong>\"Checkout\".<\/strong><\/li><li>Fill in fields with your contact and shipping information.<\/li><li>Choose your payment option (PayPal, BPI or BDO bank deposit).<\/li><li>Double check all the details of your order then click \"<strong>Complete my purchase\".<\/strong><\/li><li>Once your payment has been settled,  you will receive a confirmation <strong>email<\/strong> containing details of your order.<\/li><\/ol>"
-          }
-        },
-        "text_WQLAHx": {
-          "type": "text",
-          "settings": {
-            "question": "Do I need to set up an account to be able to place an order?",
-            "answer": "<p>Not necessarily, but you know what's the best thing about signing up for an account? The next time you order will be absolutely STRESS-FREE! No more typing in your full address and details every time you shop. Setting up an account is easy and takes 5 seconds––promise, you won't regret it<\/p>"
-          }
-        },
-        "text_GqjygN": {
-          "type": "text",
-          "settings": {
-            "question": "How long is your order processing?",
-            "answer": "<p><strong>In order to make sure that your orders are in good quality condition, please give us 1-2 business days to prepare orders with ready stocks and no personalization. For orders with name engraving, lead time is 203 weeks depending on our line up and your order quantity. <\/strong><\/p><p><strong>Once it has been forwarded to the courier, the tracking number will be sent in your email.<\/strong><\/p>"
-          }
-        },
-        "text_a3hb4g": {
-          "type": "text",
-          "settings": {
-            "question": "Does Jacinto & Lirio accept international orders?",
-            "answer": "<p>Definitely! :) We welcome global environmentalists. We are still fixing our website for international pricing. For the meantime, message us at <a href=\"mailto:shoponline@jacintoandlirio.com\">shoponline@jacintoandlirio.com<\/a> for inquiries.<\/p><p>Jacinto & Lirio is not responsible if the package is undeliverable because of missing, incomplete or incorrect destination information. Kindly provide the correct shipping details when checking out. In case of wrong information given, kindly email us at <a href=\"mailto:shoponline@yahoo.com\">shoponline@yahoo.com<\/a> as soon as possible. However orders shipped or picked up by the courier already is out of our control.<\/p><p>Jacinto & Lirio is not responsible for destination country tax and\/or any duty charge that may incur. Customers will be held accountable for any restrictions, duties, taxes and any other fee collected from destination country.<\/p><p>In the case of refusal to accept package by customer or after number of attempts made in the country destination to deliver the package, Jacinto & Lirio reserves its right to abandon the package(s) and will not be responsible for any refund.<\/p><p>We also have a US partner where you can directly purchase for US based shipping addresses. Visit <a href=\"https:\/\/www.maidenmaya.com\/search?q=jacinto\" title=\"Jacinto & Lirio in the US\">Maiden Maya<\/a><\/p>"
-          }
-        },
-        "text_UVXRna": {
-          "type": "text",
-          "settings": {
-            "question": "How do I change or remove items from my shopping cart?",
-            "answer": "<p>Click the shopping cart on the upper right hand corner of your screen. You will see summary of the items inside your cart. Change the quantity and remove the items as needed.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_6W3PMM",
-        "text_WQLAHx",
-        "text_GqjygN",
-        "text_a3hb4g",
-        "text_UVXRna"
-      ],
-      "custom_css": [
-        "h1 {color: #6b501b;}"
-      ],
-      "settings": {
-        "heading": "Frequently Asked Questions For Online Retail",
-        "icon_color": "#ffffff",
-        "hover_color": "#efefef",
-        "question_color": "#f0d7a6",
-        "background_color": "#765920",
-        "answer_color": "#000000",
-        "answer_bg_color": "#ffffff",
-        "questions-font-size": 1.5
-      }
     }
   },
   "order": [
@@ -1276,12 +1216,11 @@
     "custom_liquid_YxBfei",
     "image_banner_HyQkcC",
     "multicolumn_gmzhh3",
+    "ss_instafeed_2_3RqEpe",
     "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
     "multicolumn_UWrfNG",
     "featured_blog_K9DnLq",
-    "featured_blog_hbVnVc",
-    "ss_instafeed_2_3RqEpe",
-    "faq_VCninm"
+    "featured_blog_hbVnVc"
   ]
 }

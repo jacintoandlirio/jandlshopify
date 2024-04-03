@@ -176,6 +176,15 @@
         "padding_bottom": 0
       }
     },
+    "custom_liquid_LnqYzn": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}\n\n.odometer{\nfont-size: 54px;\n}\n<\/style>\n\n<section class=\"statistics\">\n<b>Environmental Impact<\/b>\n<p class=\"stats\" id=\"stats\">\n0 +\n<\/p>\n<p>Water hyacinth stalks used as of 2019.<\/p>\n<\/section>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -1255,6 +1264,7 @@
     "slideshow_ri7rcw",
     "multirow_wmBax8",
     "custom_liquid_RxYCeg",
+    "custom_liquid_LnqYzn",
     "featured_collection",
     "ss_instafeed_2_nBPXYH",
     "slideshow_AGJPzh",

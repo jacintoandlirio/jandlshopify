@@ -176,15 +176,6 @@
         "padding_bottom": 0
       }
     },
-    "custom_liquid_tMgpxW": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}\n\n.text_anim{\nfont-size: 54px;\n}\n<\/style>\n\n\n<section class=\"statistics\">\n<b>Our Social Impact Amounts to more than<\/b>\n<span class=\"text_anim\" id=\"text_anim\" data-val=\"1252380\">\n100000\n<\/span>\n<p>Based on the plant leather livelihood income of our community partners.<\/p>\n<\/section>\n\n<script>\nlet text_anim = document.querySelectorAll(\".text_anim\");\nlet interval = 1000;\n\ntext_anim.forEach((valueDisplay) => {let startValue = 0;\n let endValue = parseInt(text_anim.getAttribute(\"data-val\"));\n let duration = Math.floor(interval\/endValue);\n  \n let counter = setInterval( function() {\n   startValue += 1;\n   text_anim.textContent = startValue;\n   if (startValue == endValue){\n     clearInterval(counter);\n      }\n    }, duration);});\n<\/script>",
-        "color_scheme": "",
-        "padding_top": 64,
-        "padding_bottom": 52
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -1264,7 +1255,6 @@
     "slideshow_ri7rcw",
     "multirow_wmBax8",
     "custom_liquid_RxYCeg",
-    "custom_liquid_tMgpxW",
     "featured_collection",
     "ss_instafeed_2_nBPXYH",
     "slideshow_AGJPzh",

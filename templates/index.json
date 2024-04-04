@@ -92,8 +92,8 @@
             "caption": "",
             "heading": "RESTAURANTS",
             "text": "",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/collections\/restaurant-amenities"
           }
         },
         "row_RiB4D3": {
@@ -103,8 +103,8 @@
             "caption": "",
             "heading": "HUMAN RESOURCES",
             "text": "",
-            "button_label": "VIEW MORE",
-            "button_link": "shopify:\/\/collections\/employee-appreciation-gifts"
+            "button_label": "Button label",
+            "button_link": ""
           }
         },
         "row_fWpKhG": {

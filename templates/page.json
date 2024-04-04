@@ -1,5 +1,14 @@
 {
   "sections": {
+    "custom_liquid_jVa7ez": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%if page.metafields.custom.page_title == blank%}\n<style>\n.banner__box\n<\/style>\n\n{%endif%}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_ty6n7M": {
       "type": "image-banner",
       "blocks": {
@@ -829,6 +838,7 @@
     }
   },
   "order": [
+    "custom_liquid_jVa7ez",
     "image_banner_ty6n7M",
     "image_with_text_exbeQp",
     "custom_liquid_UbhBVB",

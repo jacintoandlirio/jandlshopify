@@ -3649,26 +3649,6 @@ width: calc(50% - 1rem / 2) !important;
   transition: width 0.2s ease-in-out;
 }
 
-.multicolumn-card__info a{
-  font-family: "luna itc" !important;
-}
-
-.collection__view-all .button{
-  font-family: "luna itc" !important;
-}
-
-.card__content .quick-add{
-  font-family: "luna itc" !important;
-} 
-
-.card__heading a{
-  font-family: "Montserrat" !important;  
-}
-
-.quick-add__submit{
-  font-family: "luna itc" !important;
-}
-
 .__seguno-banner-text{
   font-family: "Montserrat" !important;
 }
@@ -3701,6 +3681,10 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "Montserrat" !important;
 }
 
+.ns-content{
+  font-family: "Montserrat" !important;
+}
+
 @media screen and (max-width: 990px){
 
   .disclosure__item .disclosure__link .country{
@@ -3708,14 +3692,6 @@ width: calc(50% - 1rem / 2) !important;
 }
   .inline-richtext{
   font-family: "luna itc"!important;
-}
-
-  .card__heading a{
-  font-family: "Montserrat" !important;  
-}
-
-.quick-add__submit{
-  font-family: "luna itc" !important;
 }
 
  .__seguno-banner-text{
@@ -3743,14 +3719,6 @@ width: calc(50% - 1rem / 2) !important;
 
 @media screen and (max-width: 550px){
 
-  .card__heading a{
-  font-family: "Montserrat" !important;  
-}
-
-.quick-add__submit{
-  font-family: "luna itc" !important;
-}
-
   .multicolumn-card__info{
     width: 500px;
     margin: 0 auto;
@@ -3762,17 +3730,6 @@ width: calc(50% - 1rem / 2) !important;
   }
 
 @media screen and (max-width: 450px){
-  .gm-submenu{
-    color: #ffffff;
-     
-  }
-  .card__heading a{
-  font-family: "Montserrat" !important;  
-}
-
-.quick-add__submit{
-  font-family: "luna itc" !important;
-}
 
   .multicolumn-card__info{
     width: 400px;
@@ -3780,68 +3737,4 @@ width: calc(50% - 1rem / 2) !important;
   }
 }
 
-@media screen and (max-width: 360px){
-  .gm-submenu{
-    background-color: #ffffff;
-     
-  }
-  .gm-item{
-    background-color: #ffffff;
-  }
-.multicolumn-card__info a{
-  font-family: "luna itc" !important;
-}
-
-.collection__view-all .button{
-  font-family: "luna itc" !important;
-}
-
-.card__content .quick-add{
-  font-family: "luna itc" !important;
-} 
-
-.card__heading a{
-  font-family: "Montserrat" !important;  
-}
-
-.quick-add__submit{
-  font-family: "luna itc" !important;
-}
-
-.__seguno-banner-text{
-  font-family: "Montserrat" !important;
-}
-
-.inline-richtext{
-  font-family: "luna itc"!important;
-}
-
-.h2{
-  font-family: "luna itc" !important;
-}
-
-  .card__heading a{
-  font-family: "Montserrat" !important;  
-}
-
-.quick-add__submit{
-  font-family: "luna itc" !important;
-}
-
-  .multicolumn-card__info{
-    width: 330px;
-    height: 450px;
-    margin: 0 auto;
-  }
-
-  .multicolumn-card__info .rte{
-    width: 330px;
-    height: 600px
-    margin: 0 auto;
-  }
-
-    .multicolumn-card__info .rte p{
-    font-size: 7px;
-  }  
-}
 

@@ -189,7 +189,7 @@
       "type": "featured-collection",
       "custom_css": [
         "h2 {font-family: \"luna itc\"; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
-        "div a {font-family: \"luna itc\" !important; font-size: 23px;}"
+        ".card__information .card__heading a {font-family: \"Montserrat\" !important;}"
       ],
       "settings": {
         "title": "Travel Accessories",

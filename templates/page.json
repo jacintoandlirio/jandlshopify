@@ -6,14 +6,14 @@
         "heading_66PNyw": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "{{ page.title }}",
             "heading_size": "h1"
           }
         },
         "text_DGd8w4": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ page.metafields.custom.subtitle.value }}",
             "text_style": "body"
           }
         }

@@ -3681,7 +3681,7 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "Montserrat" !important;
 }
 
-.ns-content{
+.ns-content .popup-message{
   font-family: "Montserrat" !important;
 }
 

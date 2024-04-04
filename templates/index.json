@@ -179,7 +179,7 @@
     "custom_liquid_LnqYzn": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}\n\n<\/style>\n\n<section class=\"statistics\">\n<b>Our Social Impact amounts to more than<\/b>\n<p>PHP<b class=\"stats\" id=\"stats\">\n\n<\/b><\/p>\n<p>Based on the plant leather livelihood of our community partner.<\/p>\n<\/section>\n\n<script>\n function countTo(){\n  let from = 1000000;\n  let to = 1252580;\n  let step =  to > from ? 120 : -120; \n  let interval = 100;\n  if (from == to){\n   \n document.querySelector(\"#stats\").textContent = from;\nreturn;\n\n}\n}\n countTo();\n<\/script>",
+        "custom_liquid": "<style>\n.statistics{\nmargin: 0 auto;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\nflex-direction: column;\n}\n\n<\/style>\n\n<section class=\"statistics\">\n<b>Our Social Impact amounts to more than<\/b>\n<p>PHP<b class=\"stats\" id=\"stats\">\n\n<\/b><\/p>\n<p>Based on the plant leather livelihood of our community partner.<\/p>\n<\/section>\n\n<script>\n function countTo(){\n  let from = 1000000;\n  let to = 1252580;\n  let step =  to > from ? 120 : -120; \n  let interval = 100;\n  if (from == to){\n   \n document.querySelector(\"#stats\").textContent = from;\nreturn;\n\n}\n let counter = setInterval(function(){\n  from += step;\n  document.querySelector(\"#stats\").textContent = from;\n});\n}\n countTo();\n<\/script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

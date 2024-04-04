@@ -23,7 +23,8 @@
         "text_DGd8w4"
       ],
       "custom_css": [
-        "h2 {font-size: 55px; color: #ffffff; border-bottom: 2px solid #f7e2ad;}"
+        "h2 {font-size: 55px; color: #ffffff; border-bottom: 2px solid #f7e2ad;}",
+        ".banner__text{color: #ffffff;}"
       ],
       "settings": {
         "image": "{{ page.metafields.custom.image_banner.value }}",

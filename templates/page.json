@@ -3,7 +3,7 @@
     "custom_liquid_jVa7ez": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%if page.metafields.custom.page_title == blank%}\n<style>\n.banner__box\n<\/style>\n\n{%endif%}",
+        "custom_liquid": "{%if page.metafields.custom.page_title == blank%}\n<style>\n.banner__box{\n display: none;\n}\n<\/style>\n\n{%endif%}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

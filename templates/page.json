@@ -6,7 +6,7 @@
         "heading_66PNyw": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "{{ page.metafields.custom.page_title.value }}",
             "heading_size": "h1"
           }
         },

@@ -3689,6 +3689,10 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "Montserrat" !important;
 }
 
+.ns-content .popup-message .popup-author{
+  font-family: "Montserrat" !important;
+}
+
 @media screen and (max-width: 990px){
 
   .disclosure__item .disclosure__link .country{

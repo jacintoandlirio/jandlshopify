@@ -976,29 +976,6 @@
         "lazy": true
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
-    "pagefly-product-section": {
-      "type": "pagefly-product-section",
-      "settings": {
-      }
-    },
     "1712193503b0b2c3bf": {
       "type": "apps",
       "blocks": {
@@ -1020,6 +997,29 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "pagefly-product-section": {
+      "type": "pagefly-product-section",
+      "settings": {
       }
     }
   },
@@ -1045,8 +1045,8 @@
     "image_banner_tPwTfx",
     "image_banner_QMYzfR",
     "ss_instafeed_2_MVYNzr",
+    "1712193503b0b2c3bf",
     "related-products",
-    "pagefly-product-section",
-    "1712193503b0b2c3bf"
+    "pagefly-product-section"
   ]
 }

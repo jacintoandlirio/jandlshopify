@@ -61,7 +61,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         "button {background-color: #926f2a; color: #ffffff;}",
-        ".card__information .card__heading{font-family: \"Montserrat\" !important;}"
+        ".card__information .card__heading a {font-family: \"Montserrat\" !important;}"
       ],
       "settings": {
         "products_per_page": 12,

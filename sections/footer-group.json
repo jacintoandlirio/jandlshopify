@@ -29,6 +29,9 @@
         "paragraph_zJza3D",
         "email_form_AYKqcD"
       ],
+      "custom_css": [
+        ".field__input{font-family: \"Montserrat\" !important;}"
+      ],
       "settings": {
         "color_scheme": "",
         "full_width": true,

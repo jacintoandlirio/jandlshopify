@@ -1020,11 +1020,24 @@
             "product_brand": "",
             "tags": ""
           }
+        },
+        "stamped_product_reviews_ugc_main_widget_6DFK8k": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
         }
       },
       "block_order": [
         "stamped_product_reviews_ugc_star_rating_badge_EAidPG",
-        "stamped_product_reviews_ugc_single_highlight_BpkbMx"
+        "stamped_product_reviews_ugc_single_highlight_BpkbMx",
+        "stamped_product_reviews_ugc_main_widget_6DFK8k"
       ],
       "settings": {
         "include_margins": true

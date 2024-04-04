@@ -23,8 +23,7 @@
         "text_DGd8w4"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px; text-align: center; color: #6b501b;}",
-        "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}"
+        "h2 {font-size: 55px; color: #ffffff; border-bottom: 2px solid #f7e2ad;}"
       ],
       "settings": {
         "image": "{{ page.metafields.custom.image_banner.value }}",

@@ -49,53 +49,6 @@
         "show_text_below": true
       }
     },
-    "image_with_text_exbeQp": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_dwCmr3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Make your mark, show your style",
-            "heading_size": "h1"
-          }
-        },
-        "text_hKM7Ea": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Customized finishes by Jacinto & Lirio on water hyacinth leather. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_XNycdp": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_dwCmr3",
-        "text_hKM7Ea",
-        "button_XNycdp"
-      ],
-      "settings": {
-        "image": "{{ page.metafields.custom.corp_gifting_banner.value }}",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_liquid_UbhBVB": {
       "type": "custom-liquid",
       "settings": {
@@ -840,7 +793,6 @@
   "order": [
     "custom_liquid_jVa7ez",
     "image_banner_ty6n7M",
-    "image_with_text_exbeQp",
     "custom_liquid_UbhBVB",
     "multicolumn_cEgTBi",
     "custom_liquid_D6t6zx",

@@ -263,15 +263,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_8LyMEX": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
       "custom_css": [
@@ -699,7 +690,6 @@
         "button_NXQhKa"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitleddesign_14_c57a7c3d-0e62-4cdb-9d94-0d0d3ab5c220.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -844,7 +834,6 @@
     "custom_liquid_D6t6zx",
     "image_with_text_anJUaQ",
     "multicolumn_mNTXWC",
-    "custom_liquid_8LyMEX",
     "main",
     "rich_text_3c8QpU",
     "rich_text_z6KajG",

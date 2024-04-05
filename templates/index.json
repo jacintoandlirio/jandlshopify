@@ -345,7 +345,7 @@
           "type": "column",
           "settings": {
             "title": "<strong>Sustainably Convenient<\/strong>",
-            "text": "<p>Among my purchases in Jacinto & Lirio, this product was definitely my favorite. It's so convenient that it looks like a purse where I can store all my stuff when hanging out with my friends or family. It's a water-resistant and aesthetically looking which is another point for me!<\/p>",
+            "text": "<p><em>Among my purchases in Jacinto & Lirio, this product was definitely my favorite. It's so convenient that it looks like a purse where I can store all my stuff when hanging out with my friends or family. It's a water-resistant and aesthetically looking which is another point for me!<\/em><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -354,7 +354,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><em>I love how this product has an extra pocket and a pen holder as it makes it easy to reach for one and that I can use the pocket to store some change or some things required for my flight.<\/em><\/p>",
             "link_label": "",
             "link": ""
           }

@@ -635,6 +635,9 @@
         "text_XreM9k",
         "button_qGMdPh"
       ],
+      "custom_css": [
+        ".button{font-family: \"luna itc\"!important; font-size:24px;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

@@ -74,19 +74,14 @@
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-           
-           {% if money_price == "₱0.00 PHP" or money_price == "From₱0.00PHP"%}
+           {% if  price == 0.00 %}
           <style>
             .price-item--regular .price-item{
-              display:none;
-            }
-            .quick-add{
               display:none;
             }
           </style>
              <p>Request for quotation</p>
            {% else %}  
-               
               {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
                       
            {%- endif -%}
@@ -95,8 +90,7 @@
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          
-          {%  if  money_price == "₱0.00 PHP" or money_price == "From₱0.00PHP"%}
+          {% if  price == 0.00 %}
           <style>
             .price__container .price__regular .price-item .money{
               display:none;
@@ -136,27 +130,7 @@
       {%- endunless -%}
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
-        
-        {%  if  money_price == "₱0.00PHP" or money_price == "From ₱0.00 PHP" %}
-          <style>
-            .price__container .price__regular .price-item .money{
-              display:none;
-            }
-            .quick-add{
-              display:none;
-            }
-          </style>
-             <b>Request for quotation</b>
-           {% else %}  
-             {{ money_price | remove: "From" | remove: "PHP"  }}
-               <style>
-            
-            .quick-add{
-              display:block;
-            }
-          </style>
-            
-        {% endif %}
+        {{ money_price | remove: "From" | remove: "PHP"    }}
         
       </span>
     </div>

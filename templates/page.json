@@ -644,7 +644,7 @@
         "heading_YPNpyE": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Employee Appreciation Kit",
             "heading_size": "h1"
           }
         },
@@ -675,7 +675,7 @@
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",

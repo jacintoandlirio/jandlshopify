@@ -51,7 +51,7 @@
     "custom_liquid_FJ8hdQ": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% if  price == 0.00 %}\n          <style>\n            .price__container .price__regular .price-item .money{\n              display:none;\n            }\n            .quick-add{\n              display:none;\n            }\n            .price__container{\n display: block;\n}\n          <\/style>\n             <b>Request for quotation<\/b>\n           {% else %}  \n             {{ money_price | remove: \"From\" | remove: \"PHP\"  }}\n                           \n        {% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

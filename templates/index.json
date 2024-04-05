@@ -148,6 +148,9 @@
         "row_p4pDLN",
         "row_dLgExx"
       ],
+      "custom_css": [
+        ".button {font-family: \"luna itc\" !important; font-size: 24px;}"
+      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -636,7 +639,7 @@
         "button_qGMdPh"
       ],
       "custom_css": [
-        ".button{font-family: \"luna itc\"!important; font-size:24px;}"
+        ".button {font-family: \"luna itc\" !important; font-size: 24px;}"
       ],
       "settings": {
         "desktop_content_position": "center",

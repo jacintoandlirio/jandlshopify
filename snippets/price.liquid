@@ -74,6 +74,7 @@
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
+           
            {% if  money_price == "₱0.00" %}
           <style>
             .price-item--regular .price-item{
@@ -94,6 +95,7 @@
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
+          {{ money_price }}
           {%  if  money_price == "₱0.00" %}
           <style>
             .price__container .price__regular .price-item .money{

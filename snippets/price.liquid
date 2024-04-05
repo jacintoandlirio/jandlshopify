@@ -49,51 +49,12 @@
   "
 >
   <div class="price__container">
-    {% if  price == 0.00 %}
-           {%- comment -%}
-        Explanation of description list:
+    {%- comment -%}
+      Explanation of description list:
         - div.price__regular: Displayed when there are no variants on sale
         - div.price__sale: Displayed when a variant is a sale
-       {%- endcomment -%}
-      <div class="price__regular">
-        {%- if product.quantity_price_breaks_configured? -%}
-          {%- if show_compare_at_price and compare_at_price -%}
-            {%- unless product.price_varies == false and product.compare_at_price_varies %}
-              <span class="visually-hidden visually-hidden--inline">
-                 <style>
-           
-            .quick-add{
-              display:none;
-            }
-          </style>
-                <b>Request for quotation</b> 
-              </span>
-              <span>
-                <s class="price-item price-item--regular variant-item__old-price">
-                {% if settings.currency_code_enabled %}
-                  {{ compare_at_price | money_with_currency }}
-                {% else %}
-                  {{ compare_at_price | money }}
-                {% endif %}
-              </s>
-            </span>
-          {%- endunless -%}
-        {%- endif -%}
-        <span class="visually-hidden visually-hidden--inline"><b>Request for quotation</b> </span>
-        <span class="price-item price-item--regular">
-            {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
-            <b>Request for quotation</b>                    
-        </span>
-      {%- else -%}
-        <span class="visually-hidden visually-hidden--inline"><b>Request for quotation</b> </span>
-        <span class="price-item price-item--regular">
-           <b>Request for quotation</b> 
-           
-        </span>
-      {%- endif -%}
-    </div>
-  {% else %}  
-  <div class="price__regular">
+    {%- endcomment -%}
+    <div class="price__regular">
       {%- if product.quantity_price_breaks_configured? -%}
         {%- if show_compare_at_price and compare_at_price -%}
           {%- unless product.price_varies == false and product.compare_at_price_varies %}
@@ -113,26 +74,55 @@
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          
+           {% if  price == 0.00 %}
+          <style>
+            .price-item--regular .price-item{
+              display:none;
+            }
+          </style>
+             <p>Request for quotation</p>
+           {% else %}  
+               <style>
+            
+            .quick-add{
+              display:block;
+            }
+          </style>
               {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
                       
-                    
+           {%- endif -%}
+         
         </span>
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-               {{ money_price | remove: "From" | remove: "PHP"  }}
-             
-                    
-                    
+          {% if  price == 0.00 %}
+          <style>
+            .price__container .price__regular .price-item .money{
+              display:none;
+            }
+            .quick-add{
+              display:none;
+            }
+          </style>
+             <b>Request for quotation</b>
+           {% else %}  
+             {{ money_price | remove: "From" | remove: "PHP"  }}
+               <style>
+            
+            .quick-add{
+              display:block;
+            }
+          </style>
+            
+                      
+           {%- endif -%}
+          
         </span>
       {%- endif -%}
-    </div>           
-              
-  {%- endif -%}
-   
-  <div class="price__sale">
-    {%- unless product.price_varies == false and product.compare_at_price_varies %}
+    </div>
+    <div class="price__sale">
+      {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span>
           <s class="price-item price-item--regular">

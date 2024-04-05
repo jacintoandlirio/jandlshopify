@@ -60,7 +60,12 @@
           {%- if show_compare_at_price and compare_at_price -%}
             {%- unless product.price_varies == false and product.compare_at_price_varies %}
               <span class="visually-hidden visually-hidden--inline">
-                
+                 <style>
+           
+            .quick-add{
+              display:none;
+            }
+          </style>
                 <b>Request for quotation</b> 
               </span>
               <span>

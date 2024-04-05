@@ -74,20 +74,18 @@
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-           {% if  price == 0.00 %}
+           {% if  money_price == "0.00" %}
           <style>
             .price-item--regular .price-item{
+              display:none;
+            }
+            .quick-add{
               display:none;
             }
           </style>
              <p>Request for quotation</p>
            {% else %}  
-               <style>
-            
-            .quick-add{
-              display:block;
-            }
-          </style>
+               
               {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
                       
            {%- endif -%}

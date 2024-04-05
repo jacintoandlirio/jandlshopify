@@ -344,8 +344,8 @@
         "column_BncwLw": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "<strong>Sustainably Convenient<\/strong>",
+            "text": "<p>Among my purchases in Jacinto & Lirio, this product was definitely my favorite. It's so convenient that it looks like a purse where I can store all my stuff when hanging out with my friends or family. It's a water-resistant and aesthetically looking which is another point for me!<\/p>",
             "link_label": "",
             "link": ""
           }

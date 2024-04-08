@@ -62,7 +62,7 @@
       "custom_css": [
         "button {background-color: #926f2a; color: #ffffff; font-family: \"luna itc\" !important;}",
         ".card__information .card__heading a {font-family: \"Montserrat\" !important;}",
-        ".money {font-size: 12px;}"
+        ".money {font-size: 10px;}"
       ],
       "settings": {
         "products_per_page": 12,

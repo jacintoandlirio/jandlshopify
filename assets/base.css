@@ -3601,6 +3601,28 @@ width: calc(50% - 1rem / 2) !important;
   margin-right: 10px;
 }
 
+.header__menu-item{
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+} 
+.header__menu-item:hover::after {
+  transform: scaleX(0.4);
+  transform-origin: bottom left;
+}
+.header__menu-item::after {
+  position: absolute;
+  width: 70%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
 .gm-item .gm-submenu li::after{
   content: "";
   display: block;

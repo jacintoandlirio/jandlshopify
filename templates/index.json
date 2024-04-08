@@ -193,7 +193,7 @@
       "custom_css": [
         "h2 {font-family: \"luna itc\"; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
         "button {font-family: \"luna itc\" !important;}",
-        ".money {font-size: 14px;}",
+        ".price {font-size: 14px;}",
         ".card__information .card__heading a {font-family: \"Montserrat\" !important;}"
       ],
       "settings": {

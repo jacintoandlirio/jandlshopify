@@ -63,7 +63,7 @@
         "button {background-color: #926f2a; color: #ffffff; font-family: \"luna itc\" !important;}",
         ".card__information .card__heading a {font-family: \"Montserrat\" !important;}",
         ".price-item {font-size: 13px;}",
-        ".facets__heading{font-family: \"Montserrat\";}"
+        ".facets__heading {font-family: \"Montserrat\" !important;}"
       ],
       "settings": {
         "products_per_page": 12,

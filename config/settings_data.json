@@ -292,12 +292,6 @@
         "settings": {
         }
       },
-      "6097499278999377719": {
-        "type": "shopify:\/\/apps\/globo-mega-menu\/blocks\/app-embed\/7a00835e-fe40-45a5-a615-2eb4ab697b58",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "8194784159926722659": {
         "type": "shopify:\/\/apps\/gg-product-page-slider-gallery\/blocks\/app-embed-block\/09c0440b-b921-435c-a2f5-3fc8f53b0424",
         "disabled": false,
@@ -352,6 +346,12 @@
           "fill_empty": false,
           "random": false,
           "with_photos": false
+        }
+      },
+      "6097499278999377719": {
+        "type": "shopify:\/\/apps\/globo-mega-menu\/blocks\/app-embed\/7a00835e-fe40-45a5-a615-2eb4ab697b58",
+        "disabled": true,
+        "settings": {
         }
       }
     },

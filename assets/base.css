@@ -3601,28 +3601,6 @@ width: calc(50% - 1rem / 2) !important;
   margin-right: 10px;
 }
 
-.header__menu-item{
-  height: 35px;
-  display: inline-block;
-  position: relative;
-  color: #0087ca;
-} 
-
-.header__submenu li::after{
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background: #926f2a;
-  transition: transform 0.2s ease-in-out;
-  transform: scaleX(0);
-}
-
-.header__submenuu li:hover::after{
-   transform: scaleX(1);
-}
-
 
 .gm-item .gm-submenu li::after{
   content: "";

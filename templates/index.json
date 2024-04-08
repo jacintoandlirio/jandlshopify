@@ -193,7 +193,7 @@
       "custom_css": [
         "h2 {font-family: \"luna itc\"; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
         "button {font-family: \"luna itc\" !important;}",
-        ".money{font-size: 14px;}",
+        ".money {font-size: 14px;}",
         ".card__information .card__heading a {font-family: \"Montserrat\" !important;}"
       ],
       "settings": {
@@ -350,8 +350,8 @@
           "settings": {
             "title": "<strong>Sustainably Convenient<\/strong>",
             "text": "<p><em>Among my purchases in Jacinto & Lirio, this product was definitely my favorite. It's so convenient that it looks like a purse where I can store all my stuff when hanging out with my friends or family. It's a water-resistant and aesthetically looking which is another point for me!<\/em><\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Check Zippered Wallet Product",
+            "link": "shopify:\/\/products\/bucket-list-zippered-checkbook-wallet-essentials-purse-with-retractable-wristlet"
           }
         },
         "column_BjyrLt": {

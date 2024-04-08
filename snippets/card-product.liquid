@@ -205,6 +205,9 @@
                 <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
               </div>
             {%- endif -%}
+            {% if card_product.metafields.custom.price_mqo != blank %}
+              ₱ {{ card_product.metafields.custom.price_mqo }} per {{ card_product.metafields.custom.minimum_quantity }} pieces
+            {% endif %}
           </div>
         </div>
         {%- if show_quick_add -%}

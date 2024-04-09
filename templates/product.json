@@ -32,25 +32,12 @@
         "custom_liquid_7VfgGr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product.tags contains \"mto-50\" or product.tags contains \"Corporate\" or product.tags contains \"MTO\" %}\n<style>\n.eq-email-wrapper {\ndisplay: none;\n}\n<\/style>\n{% endunless %}\n\n{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{%endif%}\n\n{%if product.tags contains \"Request quote\"%}\n<style>\n#product-form-template--22140845064509__main {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{%endif%}\n\n{% if product.tags contains \"mto-50\" or product.tags contains \"Corporate\" or product.tags contains \"MTO\" %}\n<style>\n.product-form__buttons{\ndisplay: none;\n}\n<\/style>\n{% endif %}"
+            "custom_liquid": "{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{%endif%}\n\n{%if product.tags contains \"Request quote\"%}\n<style>\n#product-form-template--22140845064509__main {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{% render 'qteedy-product-form' %}\n{%endif%}\n\n{% if product.tags contains \"mto-50\" or product.tags contains \"Corporate\" or product.tags contains \"MTO\" %}\n<style>\n.product-form__buttons{\ndisplay: none;\n}\n<\/style>\n{% endif %}"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "qteedy_qteedy_extended_product_form_edfP9i": {
-          "type": "shopify:\/\/apps\/qteedy\/blocks\/qteedy_extended_product_form\/fe69a84a-7558-4693-b16c-57a414940105",
-          "settings": {
-            "email_required": "required",
-            "phone_required": "false",
-            "company_required": "false",
-            "email_label_text": "Customer Email",
-            "phone_label_text": "Phone",
-            "company_label_text": "Company",
-            "quote_button_label_text": "Create Quote",
-            "heading_label_text": "Need a Quote?"
           }
         },
         "buy_buttons": {
@@ -161,7 +148,6 @@
         "variant_picker",
         "custom_liquid_7VfgGr",
         "quantity_selector",
-        "qteedy_qteedy_extended_product_form_edfP9i",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",

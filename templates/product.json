@@ -47,19 +47,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "qteedy_qteedy_extended_product_form_b4HNtE": {
-          "type": "shopify:\/\/apps\/qteedy\/blocks\/qteedy_extended_product_form\/fe69a84a-7558-4693-b16c-57a414940105",
-          "settings": {
-            "email_required": "required",
-            "phone_required": "false",
-            "company_required": "false",
-            "email_label_text": "Customer Email",
-            "phone_label_text": "Phone",
-            "company_label_text": "Company",
-            "quote_button_label_text": "Create Quote",
-            "heading_label_text": "Need a Quote?"
-          }
-        },
         "text_MHzQNc": {
           "type": "text",
           "settings": {
@@ -162,7 +149,6 @@
         "custom_liquid_7VfgGr",
         "quantity_selector",
         "buy_buttons",
-        "qteedy_qteedy_extended_product_form_b4HNtE",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
         "collapsible_tab_A8kRt8",

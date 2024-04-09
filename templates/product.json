@@ -60,6 +60,19 @@
             "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>"
           }
         },
+        "qteedy_qteedy_extended_product_form_K8UDTG": {
+          "type": "shopify:\/\/apps\/qteedy\/blocks\/qteedy_extended_product_form\/fe69a84a-7558-4693-b16c-57a414940105",
+          "settings": {
+            "email_required": "required",
+            "phone_required": "false",
+            "company_required": "false",
+            "email_label_text": "Customer Email",
+            "phone_label_text": "Phone",
+            "company_label_text": "Company",
+            "quote_button_label_text": "Create Quote",
+            "heading_label_text": "Need a Quote?"
+          }
+        },
         "collapsible_tab_A8kRt8": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -151,6 +164,7 @@
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
+        "qteedy_qteedy_extended_product_form_K8UDTG",
         "collapsible_tab_A8kRt8",
         "collapsible_tab_TRdX7q",
         "collapsible_tab_BNcJ3p",

@@ -32,7 +32,7 @@
         "custom_liquid_7VfgGr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{%endif%}\n\n{%if product.tags contains \"Request quote\"%}\n<style>\n#product-form-template--22140845064509__main {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{% render 'qteedy-product-form' %}\n{%endif%}\n\n{% if product.tags contains \"mto-50\" or product.tags contains \"Corporate\" or product.tags contains \"MTO\" %}\n<style>\n.product-form__buttons{\ndisplay: none;\n}\n<\/style>\n{% endif %}"
+            "custom_liquid": "{%if product.tags contains \"MTO\"%}\n<style>\n.quantity__label {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{%endif%}\n\n{%if product.tags contains \"Request quote\"%}\n<style>\n#product-form-template--22140845064509__main {\ndisplay: none;\n}<\/style>\n<label>Min. Qty<\/label>\n{% render 'qteedy-product-form' %}\n{%endif%}\n\n{% if product.tags contains \"mto-50\" or product.tags contains \"Corporate\" or product.tags contains \"MTO\" %}\n<style>\n.product-form__buttons{\ndisplay: none;\n}\n<\/style>\n\n{% render 'qteedy-product-form' %}\n\n{% endif %}"
           }
         },
         "quantity_selector": {

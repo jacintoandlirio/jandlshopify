@@ -652,6 +652,29 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_E3GfGW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Cd79CY": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Materials of the Damaging water hyacinth plant can also be used for",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Cd79CY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_UFJKqy": {
       "type": "image-with-text",
       "blocks": {
@@ -715,20 +738,11 @@
             "text": "<p>Celebrating Your Dedication – One Gift at a Time!<\/p>",
             "text_style": "body"
           }
-        },
-        "button_f986re": {
-          "type": "button",
-          "settings": {
-            "button_label": "View Kit",
-            "button_link": "shopify:\/\/products\/consistency-success-the-best-employee-gift",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_qmjQF7",
-        "text_kf4GGg",
-        "button_f986re"
+        "text_kf4GGg"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
@@ -1009,6 +1023,7 @@
     "rich_text_tJkHXX",
     "multicolumn_bCUKr6",
     "custom_liquid_GL4Whn",
+    "rich_text_E3GfGW",
     "image_with_text_UFJKqy",
     "image_with_text_aPbmMH",
     "image_with_text_zp4CyR",

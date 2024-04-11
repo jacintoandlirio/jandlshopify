@@ -3,10 +3,9 @@
     "slideshow_JNgCAz": {
       "type": "slideshow",
       "blocks": {
-        "slide_4AegAF": {
+        "slide_3aLYCp": {
           "type": "slide",
           "settings": {
-            "image": "{{ collection.image }}",
             "image_link": "",
             "heading": "",
             "heading_size": "h1",
@@ -18,13 +17,13 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_4AegAF"
+        "slide_3aLYCp"
       ],
       "settings": {
         "layout": "full_bleed",

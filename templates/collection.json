@@ -6,6 +6,7 @@
         "slide_3aLYCp": {
           "type": "slide",
           "settings": {
+            "image": "{{ collection.image }}",
             "image_link": "",
             "heading": "",
             "heading_size": "h1",

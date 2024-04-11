@@ -104,7 +104,7 @@
         "text_FTiafA"
       ],
       "custom_css": [
-        "strong {color: #926F2B;}"
+        "strong {color: #926f2b;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -113,6 +113,62 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "multicolumn_LQJyjD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4GihPh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Leatherization-Process.gif",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6N9NTM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.gif",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AJktQm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PintoGif_945f350b-20fc-4ef0-98cc-4b671aafe9ff.gif",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4GihPh",
+        "column_6N9NTM",
+        "column_AJktQm"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_liquid_RxYCeg": {
@@ -1191,6 +1247,7 @@
   "order": [
     "slideshow_ri7rcw",
     "rich_text_cGb6gm",
+    "multicolumn_LQJyjD",
     "custom_liquid_RxYCeg",
     "custom_liquid_LnqYzn",
     "multirow_wmBax8",

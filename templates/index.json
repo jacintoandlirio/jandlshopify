@@ -103,6 +103,9 @@
         "heading_QkCDA3",
         "text_FTiafA"
       ],
+      "custom_css": [
+        "strong {color: #926F2B;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

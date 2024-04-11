@@ -570,6 +570,7 @@
         "column_8jVe9K": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Artist_s_Travel_Set_1.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",

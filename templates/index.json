@@ -167,6 +167,48 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_cGb6gm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QkCDA3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Trust Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_FTiafA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Company can transform a water damaging plant into well made products such as office desk accessories, travel accessories, stationary, bags & wallets, Home & Living items, & many more. --All of which are made out of<strong> water hyacinth plants.<\/strong><\/p>"
+          }
+        },
+        "button_Li8zgN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QkCDA3",
+        "text_FTiafA",
+        "button_Li8zgN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_liquid_RxYCeg": {
       "type": "custom-liquid",
       "custom_css": [
@@ -1158,6 +1200,7 @@
   "order": [
     "slideshow_ri7rcw",
     "multirow_wmBax8",
+    "rich_text_cGb6gm",
     "custom_liquid_RxYCeg",
     "custom_liquid_LnqYzn",
     "featured_collection",

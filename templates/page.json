@@ -504,6 +504,48 @@
         "lazy": true
       }
     },
+    "rich_text_tJkHXX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TbmBki": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Pick Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_eaVnhV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Company can transform a damaging aquatic plant into well-made products such as.. <\/p>"
+          }
+        },
+        "button_3E3zfh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TbmBki",
+        "text_eaVnhV",
+        "button_3E3zfh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection_iCbeq9": {
       "type": "featured-collection",
       "custom_css": [
@@ -897,6 +939,7 @@
     "rich_text_z6KajG",
     "multicolumn_JpQDMk",
     "ss_instafeed_2_tB3zFm",
+    "rich_text_tJkHXX",
     "featured_collection_iCbeq9",
     "custom_liquid_GL4Whn",
     "image_with_text_UFJKqy",

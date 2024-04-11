@@ -519,23 +519,11 @@
           "settings": {
             "text": "<p>Our Company can transform a damaging aquatic plant into well-made products such as.. <\/p>"
           }
-        },
-        "button_3E3zfh": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_TbmBki",
-        "text_eaVnhV",
-        "button_3E3zfh"
+        "text_eaVnhV"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -544,6 +532,60 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "multicolumn_bCUKr6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4GqrAW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_-Square-gif_0fae35ff-537e-473d-a98d-6cdc5d4f13fb.gif",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nhtjV7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YG3Kew": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4GqrAW",
+        "column_nhtjV7",
+        "column_YG3Kew"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection_iCbeq9": {
@@ -940,6 +982,7 @@
     "multicolumn_JpQDMk",
     "ss_instafeed_2_tB3zFm",
     "rich_text_tJkHXX",
+    "multicolumn_bCUKr6",
     "featured_collection_iCbeq9",
     "custom_liquid_GL4Whn",
     "image_with_text_UFJKqy",

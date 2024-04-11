@@ -37,7 +37,7 @@
         "custom_liquid_7VfgGr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%if product.tags contains \"MTO\"%}\n  <style>\n    .quantity__label {\n      display: none;\n    }\n  <\/style>\n  <label>Min. Qty<\/label>\n{%endif%}\n\n{%if product.tags contains \"Request quote\"%}\n  <style>\n    #product-form-template--22140845064509__main {\n      display: none;\n    }\n  <\/style>\n  <label>Min. Qty<\/label>\n{%endif%}\n\n{% if product.tags contains \"mto-50\" or product.tags contains \"Corporate\" or product.tags contains \"MTO\" %}\n  <style>\n    .product-form__buttons{\n      display: none;\n    }\n  <\/style>\n{% endif %}\n\n{% if product.tags contains \"request quote\" or product.tags contains \"Corporate\" or product.tags contains \"MTO\" or product.tags contains \"Desk Accessories\" %}\n  {% render 'qteedy-product-form' %}\n{% endif %}"
+            "custom_liquid": "{%if product.tags contains \"MTO\"%}\n  <style>\n    .quantity__label {\n      display: none;\n    }\n  <\/style>\n  <label>Min. Qty<\/label>\n{%endif%}\n\n{%if product.tags contains \"Request quote\"%}\n  <style>\n    #product-form-template--22140845064509__main {\n      display: none;\n    }\n  <\/style>\n  <label>Min. Qty<\/label>\n{%endif%}\n\n{% if product.tags contains \"mto-50\" or product.tags contains \"Corporate\" %}\n  <style>\n    .product-form__buttons{\n      display: none;\n    }\n  <\/style>\n{% endif %}\n\n{% if product.tags contains \"request quote\" or product.tags contains \"Corporate\" or product.tags contains \"MTO\" or product.tags contains \"Desk Accessories\" %}\n  {% render 'qteedy-product-form' %}\n{% endif %}"
           }
         },
         "buy_buttons": {

@@ -1077,19 +1077,41 @@
             "link_label": "Print",
             "link": ""
           }
+        },
+        "column_UyYaP6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website-say-i-do-pic1.jpg",
+            "title": "Say I Do",
+            "text": "<p>Pre-wedding, wedding proper, gifts for guests, gift bundles in personalized boxes and name & wedding logo personalization.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kMDQfh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",
+            "title": "Do You Want to Be a RESELLER?",
+            "text": "<p>The Sales Engagement and Economic Development (SEED) is a reseller program that engages nationwide and international sales through reselling<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_XN9Qy7",
         "column_nacLfi",
-        "column_emmj4j"
+        "column_emmj4j",
+        "column_UyYaP6",
+        "column_kMDQfh"
       ],
       "settings": {
         "title": "ANNOUNCEMENTS",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "image_ratio": "square",
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",

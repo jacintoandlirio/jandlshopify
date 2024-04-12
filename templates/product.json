@@ -111,7 +111,7 @@
           "settings": {
             "heading": "Corporate Giveaways",
             "icon": "leaf",
-            "content": "{{ product.metafields.custom.corporate_giveaways | metafield_tag }}<p><strong>For bulk corporate orders consisting of 100pcs and above email us at:<\/strong><span style=\"text-decoration:underline\">corporategiveaways@jacintoandlirio.com<\/span><\/p>",
+            "content": "{{ product.metafields.custom.corporate_giveaways | metafield_tag }}<p><strong>For bulk corporate orders consisting of 100pcs and above email us at: <\/strong><span style=\"text-decoration:underline\">corporategiveaways@jacintoandlirio.com<\/span><\/p><p><strong>For wedding and event inquiries email us at: <\/strong><span style=\"text-decoration:underline\">jacintomarrieslirio@jacintoandlirio.com            <\/span><strong>For international bulk orders email us at:<\/strong><span style=\"text-decoration:underline\">helloworld@jacintoandlirio.com<\/span><\/p><p><\/p><p><\/p><p><\/p>",
             "page": ""
           }
         },

@@ -1045,6 +1045,62 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_UWrfNG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XN9Qy7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
+            "title": "Review Our Products in Amazon",
+            "text": "<p>Are you an Amazon shopper?If yes, we need your help! If you've purchased any J&L product before from any of our sales channels, please help us share Filipino craftsmanship to the world by ADDING A REVIEW IN OUR AMAZON STORE.  <\/p><p>1. Click the product in our <a href=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\">Amazon store. <\/a><br\/>2. Select the J&L product you bought. <br\/>3. Click <strong>Write a customer review<\/strong>. <br\/>4. Select star rating and\/or add text, photo, and video. <br\/>5. Click submit. <\/p>",
+            "link_label": "Add a review",
+            "link": ""
+          }
+        },
+        "column_nacLfi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/viber_image_2021-06-30_11-37-45_7b623fe1-89c8-4490-86c1-6cbc424b8641.jpg",
+            "title": "Join our Employee Perks Program",
+            "text": "<p>Add exclusive perks for your employees with Jacinto & Lirio. Email us at stories@jacintoandlirio.com to discuss the details.<\/p>",
+            "link_label": "Let's Collaborate",
+            "link": "shopify:\/\/pages\/j-l-with-p-g"
+          }
+        },
+        "column_emmj4j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Sketchbook_-_Oct_3_page-0001_8640e71e-7c08-4526-a892-dc2b0dab1bd7.jpg",
+            "title": "FREE printables",
+            "text": "<p>We officially launch “The Sketchbook”, a series where we will be releasing a free set of printables designed by our very own! Use these printables to spice up things with your own Jacinto & Lirio’s journal or planner and unleash the creativity within you!<\/p>",
+            "link_label": "Print",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XN9Qy7",
+        "column_nacLfi",
+        "column_emmj4j"
+      ],
+      "settings": {
+        "title": "ANNOUNCEMENTS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_g3Yack": {
       "type": "image-with-text",
       "blocks": {
@@ -1146,62 +1202,6 @@
         "padding_bottom": 100
       }
     },
-    "multicolumn_UWrfNG": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_XN9Qy7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
-            "title": "Review Our Products in Amazon",
-            "text": "<p>Are you an Amazon shopper?If yes, we need your help! If you've purchased any J&L product before from any of our sales channels, please help us share Filipino craftsmanship to the world by ADDING A REVIEW IN OUR AMAZON STORE.  <\/p><p>1. Click the product in our <a href=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\">Amazon store. <\/a><br\/>2. Select the J&L product you bought. <br\/>3. Click <strong>Write a customer review<\/strong>. <br\/>4. Select star rating and\/or add text, photo, and video. <br\/>5. Click submit. <\/p>",
-            "link_label": "Add a review",
-            "link": ""
-          }
-        },
-        "column_nacLfi": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/viber_image_2021-06-30_11-37-45_7b623fe1-89c8-4490-86c1-6cbc424b8641.jpg",
-            "title": "Join our Employee Perks Program",
-            "text": "<p>Add exclusive perks for your employees with Jacinto & Lirio. Email us at stories@jacintoandlirio.com to discuss the details.<\/p>",
-            "link_label": "Let's Collaborate",
-            "link": "shopify:\/\/pages\/j-l-with-p-g"
-          }
-        },
-        "column_emmj4j": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/The_Sketchbook_-_Oct_3_page-0001_8640e71e-7c08-4526-a892-dc2b0dab1bd7.jpg",
-            "title": "FREE printables",
-            "text": "<p>We officially launch “The Sketchbook”, a series where we will be releasing a free set of printables designed by our very own! Use these printables to spice up things with your own Jacinto & Lirio’s journal or planner and unleash the creativity within you!<\/p>",
-            "link_label": "Print",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_XN9Qy7",
-        "column_nacLfi",
-        "column_emmj4j"
-      ],
-      "settings": {
-        "title": "ANNOUNCEMENTS",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_blog_K9DnLq": {
       "type": "featured-blog",
       "custom_css": [
@@ -1264,9 +1264,9 @@
     "multicolumn_gmzhh3",
     "ss_instafeed_2_3RqEpe",
     "multirow_wmBax8",
+    "multicolumn_UWrfNG",
     "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
-    "multicolumn_UWrfNG",
     "featured_blog_K9DnLq",
     "featured_blog_hbVnVc"
   ]

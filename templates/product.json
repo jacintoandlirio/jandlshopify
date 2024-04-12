@@ -111,7 +111,7 @@
           "settings": {
             "heading": "Corporate Giveaways",
             "icon": "leaf",
-            "content": "{{ product.metafields.custom.corporate_giveaways | metafield_tag }}",
+            "content": "{{ product.metafields.custom.corporate_giveaways | metafield_tag }}<p><strong>For bulk corporate orders consisting of 100pcs and above email us at:<\/strong><span style=\"text-decoration:underline\">corporategiveaways@jacintoandlirio.com<\/span><\/p>",
             "page": ""
           }
         },

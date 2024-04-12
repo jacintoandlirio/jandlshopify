@@ -181,91 +181,6 @@
         "padding_bottom": 52
       }
     },
-    "multirow_wmBax8": {
-      "type": "multirow",
-      "blocks": {
-        "row_ifp9tX": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
-            "caption": "",
-            "heading": "RESTAURANTS",
-            "text": "<p>Features a menu holder, coaster, a bill holder and apron.<\/p>",
-            "button_label": "VIEW MORE",
-            "button_link": "shopify:\/\/collections\/restaurant-amenities"
-          }
-        },
-        "row_RiB4D3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
-            "caption": "",
-            "heading": "HUMAN RESOURCES",
-            "text": "<p>New hire kit, Employee Appreciation Gift and Company Badge Holder.<\/p>",
-            "button_label": "VIEW MORE",
-            "button_link": "shopify:\/\/collections\/employee-appreciation-gifts"
-          }
-        },
-        "row_fWpKhG": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/viber_image_2022-08-25_13-57-45-836.jpg",
-            "caption": "",
-            "heading": "ARCHITECTURE & INTERIOR DESIGN",
-            "text": "<p>Vegan Leather sheet, Picture frame and canvas wall art, apron bundle.<\/p>",
-            "button_label": "VIEW MORE",
-            "button_link": "shopify:\/\/collections\/tahanan-home-living"
-          }
-        },
-        "row_p4pDLN": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Hotel_Newlyweds_Welcome_4.jpg",
-            "caption": "",
-            "heading": "HOTEL & RESORTS",
-            "text": "<p>Do not disturb sign, key card holder, Tent Card Holder, Wall art, Deskpad, Folders, Newly Weds His & Hers Gift, Welcome Gift for Guests, Hotel Slippers etc.<\/p>",
-            "button_label": "VIEW MORE",
-            "button_link": "shopify:\/\/collections\/hotel-amenities-1"
-          }
-        },
-        "row_dLgExx": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layout_9_3_0051409f-aac1-47fb-8b2c-23fc529ce743.jpg",
-            "caption": "",
-            "heading": "REAL ESTATE",
-            "text": "<p>Vegan Leather sheet, Picture frame and canvas wall art, apron bundle.<\/p>",
-            "button_label": "VIEW MORE",
-            "button_link": "shopify:\/\/collections\/tahanan-home-living"
-          }
-        }
-      },
-      "block_order": [
-        "row_ifp9tX",
-        "row_RiB4D3",
-        "row_fWpKhG",
-        "row_p4pDLN",
-        "row_dLgExx"
-      ],
-      "custom_css": [
-        ".button {font-family: \"luna itc\" !important; font-size: 24px;}"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "slideshow_AGJPzh": {
       "type": "slideshow",
       "blocks": {
@@ -1033,6 +948,103 @@
         "lazy": true
       }
     },
+    "multirow_wmBax8": {
+      "type": "multirow",
+      "blocks": {
+        "row_ifp9tX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
+            "caption": "",
+            "heading": "RESTAURANTS",
+            "text": "<p>Features a menu holder, coaster, a bill holder and apron.<\/p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/collections\/restaurant-amenities"
+          }
+        },
+        "row_RiB4D3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
+            "caption": "",
+            "heading": "HUMAN RESOURCES",
+            "text": "<p>New hire kit, Employee Appreciation Gift and Company Badge Holder.<\/p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/collections\/employee-appreciation-gifts"
+          }
+        },
+        "row_fWpKhG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/viber_image_2022-08-25_13-57-45-836.jpg",
+            "caption": "",
+            "heading": "ARCHITECTURE & INTERIOR DESIGN",
+            "text": "<p>Vegan Leather sheet, Picture frame and canvas wall art, apron bundle.<\/p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/collections\/tahanan-home-living"
+          }
+        },
+        "row_p4pDLN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hotel_Newlyweds_Welcome_4.jpg",
+            "caption": "",
+            "heading": "HOTEL & RESORTS",
+            "text": "<p>Do not disturb sign, key card holder, Tent Card Holder, Wall art, Deskpad, Folders, Newly Weds His & Hers Gift, Welcome Gift for Guests, Hotel Slippers etc.<\/p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/collections\/hotel-amenities-1"
+          }
+        },
+        "row_dLgExx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_9_3_0051409f-aac1-47fb-8b2c-23fc529ce743.jpg",
+            "caption": "",
+            "heading": "REAL ESTATE",
+            "text": "<p>Vegan Leather sheet, Picture frame and canvas wall art, apron bundle.<\/p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/collections\/tahanan-home-living"
+          }
+        },
+        "row_VAWAnU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_11_1_fe899397-01f9-4794-8560-c7e5c703baab.jpg",
+            "caption": "INDUSTRY",
+            "heading": "CORPORATE EVENTS",
+            "text": "<p>Conference Bags<\/p><p>Conference Kit: Journals & Pens<\/p><p>Virtual Event Kit <\/p><p>and more<\/p>",
+            "button_label": "View More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ifp9tX",
+        "row_RiB4D3",
+        "row_fWpKhG",
+        "row_p4pDLN",
+        "row_dLgExx",
+        "row_VAWAnU"
+      ],
+      "custom_css": [
+        ".button {font-family: \"luna itc\" !important; font-size: 24px;}"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_g3Yack": {
       "type": "image-with-text",
       "blocks": {
@@ -1174,7 +1186,7 @@
         "column_emmj4j"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "ANNOUNCEMENTS",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -1239,7 +1251,6 @@
     "multicolumn_LQJyjD",
     "custom_liquid_RxYCeg",
     "custom_liquid_LnqYzn",
-    "multirow_wmBax8",
     "slideshow_AGJPzh",
     "testimonials_KhJrbH",
     "featured_collection",
@@ -1252,6 +1263,7 @@
     "image_banner_HyQkcC",
     "multicolumn_gmzhh3",
     "ss_instafeed_2_3RqEpe",
+    "multirow_wmBax8",
     "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
     "multicolumn_UWrfNG",

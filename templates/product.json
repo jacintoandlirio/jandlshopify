@@ -1029,6 +1029,7 @@
     },
     "pagefly-product-section": {
       "type": "pagefly-product-section",
+      "disabled": true,
       "settings": {
       }
     }

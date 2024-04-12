@@ -1094,8 +1094,8 @@
             "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",
             "title": "Do You Want to Be a RESELLER?",
             "text": "<p>The Sales Engagement and Economic Development (SEED) is a reseller program that engages nationwide and international sales through reselling<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Join Now",
+            "link": "shopify:\/\/pages\/seed-program"
           }
         }
       },
@@ -1119,56 +1119,6 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_g3Yack": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_KBkjMy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Say I Do",
-            "heading_size": "h1"
-          }
-        },
-        "text_LwDq6e": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pre-wedding, wedding proper, gifts for guests, gift bundles in personalized boxes and name & wedding logo personalization.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_ELHaBE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/jacinto-marries-lirio",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_KBkjMy",
-        "text_LwDq6e",
-        "button_ELHaBE"
-      ],
-      "custom_css": [
-        "div a {font-family: \"luna itc\" !important; font-size: 23px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SAY-I-DO_Pre-wedding_Wedding_Proper_Gifts_for_Guests_Giftbundles_in_Personalized_boxes_and_Name_Wedding_Logo_Personalization._e579b8a7-3663-49da-8a97-ed60356ded53.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1287,7 +1237,6 @@
     "ss_instafeed_2_3RqEpe",
     "multirow_wmBax8",
     "multicolumn_UWrfNG",
-    "image_with_text_g3Yack",
     "image_with_text_UYUL3C",
     "featured_blog_K9DnLq",
     "featured_blog_hbVnVc"

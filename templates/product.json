@@ -633,8 +633,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step10.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "10. Sewing",
+            "text": "<p>The plant leather sheet is then sewed to the fabric.<\/p>",
             "link_label": "",
             "link": ""
           }

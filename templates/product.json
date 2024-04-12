@@ -583,8 +583,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step6.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "6. Flattening",
+            "text": "<p>The stalks are flattened using a flattening machine.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -593,8 +593,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step7.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "7. Stick Stalks to fabric",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -603,8 +603,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step8.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "7. Ironing",
+            "text": "<p>Fabric is ironed with the pasted fried flat sheet<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -613,8 +613,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step9.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "8. Anti mold",
+            "text": "<p>Anti mold preventive coat is applied<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -623,8 +623,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step_9_part_2.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "9. Protective top coat",
+            "text": "<p>A protective top coat is applied after the anti-mold layer dries<\/p>",
             "link_label": "",
             "link": ""
           }

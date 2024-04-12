@@ -480,138 +480,6 @@
         "padding_bottom": 52
       }
     },
-    "collapsible_content_4UHBbp": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_nKrCb8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Harvesting",
-            "icon": "check_mark",
-            "row_content": "<p>With a boat to scour through a river infested with water hyacinth.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_HK3EgF": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Cut the leaves and roots",
-            "icon": "check_mark",
-            "row_content": "<p>Prepare for thorough cleaning of the stalks.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_FDxbTD": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Clean the stalks",
-            "icon": "check_mark",
-            "row_content": "<p>Make sure insects and other river debris are cleaned off.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yVTnPz": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Drying",
-            "icon": "check_mark",
-            "row_content": "<p>The stalks can be hanged and sun-dried or machine-dried<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_BWC6Qk": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Scrape the fibers",
-            "icon": "check_mark",
-            "row_content": "<p>The stalks are scraped by the fibers <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_qHm6jM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Flattening",
-            "icon": "check_mark",
-            "row_content": "<p>The stalks are flattened using a machine.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xFBFcM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Stick stalks to fabric",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_VTdceC": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Ironing",
-            "icon": "check_mark",
-            "row_content": "<p>Fabric is ironed with the pasted dried plant sheet.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_M4C4Ef": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Anti-mold",
-            "icon": "check_mark",
-            "row_content": "<p>Anti-mold preventive coat is applied.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_KnEKFH": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Protective top coat",
-            "icon": "check_mark",
-            "row_content": "<p>A protective top coat is applied after anti-mold layer dries. <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_8itjCL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Sewing",
-            "icon": "check_mark",
-            "row_content": "<p>The plant leather sheet is then sewn on a fabric.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_nKrCb8",
-        "collapsible_row_HK3EgF",
-        "collapsible_row_FDxbTD",
-        "collapsible_row_yVTnPz",
-        "collapsible_row_BWC6Qk",
-        "collapsible_row_qHm6jM",
-        "collapsible_row_xFBFcM",
-        "collapsible_row_VTdceC",
-        "collapsible_row_M4C4Ef",
-        "collapsible_row_KnEKFH",
-        "collapsible_row_8itjCL"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "",
-        "heading": "Leatherize Process",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1712193503b0b2c3bf": {
       "type": "apps",
       "blocks": {
@@ -658,355 +526,148 @@
         "include_margins": true
       }
     },
-    "image_banner_y9YzCD": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/419324709_937352881376263_8106520996645433600_n.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_arcGN7": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/419126481_448111120894694_8049195267478555944_n.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_trAixa": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/421087030_990694199294715_7617933416245039639_n.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_LXf7qJ": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/421574910_3424163341207423_3722111615692187892_n_5b987361-ff3f-45c9-8253-02439cf2fa9f.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_TRzYLH": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/422152191_2620225771493186_158754885706969832_n.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_fxqr93": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/421799408_427394292981662_2452553516878252618_n.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_jjX78j": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/419185858_3063872550409421_6168809960556428921_n.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_tPwTfx": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/421072104_1081343559785381_55618521628472824_n.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_QMYzfR": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/422085099_782829816727778_6825860389535385679_n.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "ss_instafeed_2_MVYNzr": {
-      "type": "ss-instafeed-2",
+    "multicolumn_jMicRg": {
+      "type": "multicolumn",
       "blocks": {
-        "slide_3g63RL": {
-          "type": "slide",
+        "column_4diB3c": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Edith_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/leatherstep1.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_DHtaDr": {
-          "type": "slide",
+        "column_jxtqEE": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Izabel_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step2.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_QUU9cm": {
-          "type": "slide",
+        "column_6Bnr3d": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sylvia_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step3.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_FK8HF4": {
-          "type": "slide",
+        "column_z6VGLB": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Timothy_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step4.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_awBqmK": {
-          "type": "slide",
+        "column_fNtUqq": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Teddy_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step5.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_ri7hta": {
-          "type": "slide",
+        "column_9D9hjL": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Addison_Engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step6.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_V7AK8h": {
-          "type": "slide",
+        "column_iwernz": {
+          "type": "column",
           "settings": {
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step7.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_GagjtX": {
-          "type": "slide",
+        "column_amAKkk": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Luke_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step8.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_TFpn6T": {
-          "type": "slide",
+        "column_6ztVaV": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Blake_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step9.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_pjRfkE": {
-          "type": "slide",
+        "column_z6wmhD": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Latrisha_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step_9_part_2.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_WnVnBG": {
-          "type": "slide",
+        "column_DnJgMQ": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Phoebe_engraved.jpg",
-            "url": ""
-          }
-        },
-        "slide_WtfaC4": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rosette_Engraved.jpg",
-            "url": ""
-          }
-        },
-        "slide_QU9Rzz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gerald_engraved.jpg",
-            "url": ""
-          }
-        },
-        "slide_MGtN9R": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Eleanor_Engraved.jpg",
-            "url": ""
-          }
-        },
-        "slide_deUenU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Carl_engraved.jpg",
-            "url": ""
-          }
-        },
-        "slide_3UCGBx": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Baxter_engraved.jpg",
-            "url": ""
-          }
-        },
-        "slide_xyQH4W": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Zara_engraved.jpg",
-            "url": ""
-          }
-        },
-        "slide_n4XgtQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Oliver_engraved.jpg",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/step10.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "slide_3g63RL",
-        "slide_DHtaDr",
-        "slide_QUU9cm",
-        "slide_FK8HF4",
-        "slide_awBqmK",
-        "slide_ri7hta",
-        "slide_V7AK8h",
-        "slide_GagjtX",
-        "slide_TFpn6T",
-        "slide_pjRfkE",
-        "slide_WnVnBG",
-        "slide_WtfaC4",
-        "slide_QU9Rzz",
-        "slide_MGtN9R",
-        "slide_deUenU",
-        "slide_3UCGBx",
-        "slide_xyQH4W",
-        "slide_n4XgtQ"
+        "column_4diB3c",
+        "column_jxtqEE",
+        "column_6Bnr3d",
+        "column_z6VGLB",
+        "column_fNtUqq",
+        "column_9D9hjL",
+        "column_iwernz",
+        "column_amAKkk",
+        "column_6ztVaV",
+        "column_z6wmhD",
+        "column_DnJgMQ"
       ],
-      "disabled": true,
       "settings": {
-        "top": "",
-        "top_custom": false,
-        "top_font": "josefin_sans_n4",
-        "top_size": 13,
-        "top_height": 130,
-        "top_align": "center",
-        "heading": "PERSONALIZATION OPTIONS",
-        "heading_custom": true,
-        "heading_font": "montserrat_n4",
-        "heading_size": 40,
-        "heading_height": 130,
-        "heading_align": "left",
-        "heading_mt": 12,
-        "subheading": "",
-        "subheading_custom": false,
-        "subheading_font": "josefin_sans_n4",
-        "subheading_size": 16,
-        "subheading_height": 130,
-        "subheading_align": "center",
-        "subheading_mt": 12,
-        "slider_mt": 60,
-        "slider_row": "6",
-        "slider_row_mobile": "1",
-        "slider_gap": 20,
-        "slider_gap_mobile": 32,
-        "autoplay": false,
-        "autoplay_speed": 3,
-        "nav_size": 40,
-        "nav_size_mobile": 30,
-        "hide_nav": true,
-        "hide_nav_mobile": false,
-        "image_radius": 0,
-        "top_color": "#e69e6c",
-        "heading_color": "#746661",
-        "subheading_color": "#aba49d",
-        "nav_btn_bg": "#ffffff",
-        "nav_btn_hover_bg": "#e69e6c",
-        "nav_border": "#e69e6c",
-        "nav_border_hover": "#e69e6c",
-        "nav_icon": "#e69e6c",
-        "nav_hover_icon": "#ffffff",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
+        "title": "Leatherization Process",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
+        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -1045,18 +706,8 @@
     "image_banner_RBQPxq",
     "rich_text_3tqc9D",
     "rich_text_TYjiMN",
-    "collapsible_content_4UHBbp",
     "1712193503b0b2c3bf",
-    "image_banner_y9YzCD",
-    "image_banner_arcGN7",
-    "image_banner_trAixa",
-    "image_banner_LXf7qJ",
-    "image_banner_TRzYLH",
-    "image_banner_fxqr93",
-    "image_banner_jjX78j",
-    "image_banner_tPwTfx",
-    "image_banner_QMYzfR",
-    "ss_instafeed_2_MVYNzr",
+    "multicolumn_jMicRg",
     "related-products",
     "pagefly-product-section"
   ]

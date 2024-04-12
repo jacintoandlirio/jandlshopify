@@ -1123,57 +1123,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_UYUL3C": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LhcB4K": {
-          "type": "heading",
-          "settings": {
-            "heading": "Do you want to be a RESELLER?",
-            "heading_size": "h1"
-          }
-        },
-        "text_qQewTj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The Sales Engagement and Economic Development (SEED) is a reseller program that engages nationwide and international sales through reselling<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_xgFpnE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Join Now",
-            "button_link": "shopify:\/\/pages\/seed-program",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_LhcB4K",
-        "text_qQewTj",
-        "button_xgFpnE"
-      ],
-      "custom_css": [
-        "h2 {color: #6b501b;}",
-        "div a {font-family: \"luna itc\" !important; font-size: 23px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "featured_blog_K9DnLq": {
       "type": "featured-blog",
       "custom_css": [
@@ -1237,7 +1186,6 @@
     "ss_instafeed_2_3RqEpe",
     "multirow_wmBax8",
     "multicolumn_UWrfNG",
-    "image_with_text_UYUL3C",
     "featured_blog_K9DnLq",
     "featured_blog_hbVnVc"
   ]

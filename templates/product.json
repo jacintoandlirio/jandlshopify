@@ -533,8 +533,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/leatherstep1.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "1. Harvesting",
+            "text": "<p>Use a boat to harvest Water hyacinth from an infested river<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -543,8 +543,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/step2.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Cut the leaves and roots",
+            "text": "<p>Preparing for thorough cleaning of the stalks<\/p>",
             "link_label": "",
             "link": ""
           }

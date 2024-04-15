@@ -2810,6 +2810,7 @@ details[open] > .header__submenu {
 
 @media screen and (min-width: 990px) {
   .header__inline-menu {
+    margin-left: 1rem;
     display: block;
   }
 

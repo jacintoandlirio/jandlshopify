@@ -402,11 +402,11 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#ffeac1",
+          "background": "#926f2b",
           "background_gradient": "",
-          "text": "#765920",
-          "button": "#ffffff",
-          "button_label": "#334fb4",
+          "text": "#f0d7a6",
+          "button": "#926f2b",
+          "button_label": "#926f2b",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }

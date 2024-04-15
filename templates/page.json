@@ -106,7 +106,7 @@
     "custom_liquid_D6t6zx": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.graphic_placements == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__image_with_text_anJUaQ{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n<\/style>\n{%endif%}\n{%if page.metafields.custom.corporate_gifting == blank%}\n\n\n{%endif%}",
+        "custom_liquid": "{% if page.metafields.custom.graphic_placements == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__image_with_text_anJUaQ{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n<\/style>\n{%endif%}\n{%if page.metafields.custom.corporate_gifting == blank%}\n<style>\n#shopify-section-template--22140844540221__rich_text_3c8QpU{\ndisplay:none;\n}\n\n<\/style>\n{%endif%}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -643,15 +643,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_GL4Whn": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_E3GfGW": {
       "type": "rich-text",
       "blocks": {
@@ -1022,7 +1013,6 @@
     "featured_collection_iCbeq9",
     "rich_text_tJkHXX",
     "multicolumn_bCUKr6",
-    "custom_liquid_GL4Whn",
     "rich_text_E3GfGW",
     "image_with_text_UFJKqy",
     "image_with_text_aPbmMH",

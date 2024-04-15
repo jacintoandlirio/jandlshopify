@@ -572,7 +572,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_-Square-gif_0fae35ff-537e-473d-a98d-6cdc5d4f13fb.gif",
-            "title": "Column",
+            "title": "Office Desk Accessories",
             "text": "",
             "link_label": "",
             "link": ""
@@ -582,7 +582,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Jun19-Bucket_List_Travel_Wallet-Carrot_Orange.png",
-            "title": "Column",
+            "title": "Travel Accessories",
             "text": "",
             "link_label": "",
             "link": ""
@@ -592,8 +592,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/7N8A6174_98bff4cb-23fe-4866-b437-3d5769f908a0.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Stationary",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -602,8 +602,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Artist_s_Travel_Set_1.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Bags & Wallets",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -612,8 +612,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_8489.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Home Living and other items",
+            "text": "",
             "link_label": "",
             "link": ""
           }

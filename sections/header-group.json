@@ -7,7 +7,7 @@
       "custom_css": [
         "header {font-size: 45px; height: 100px;}",
         ".gm-submenu .gm-item {height: 45px;}",
-        ".header__inline-menu {padding-top: -32px; margin-left: 30px;}",
+        ".header__inline-menu {padding-top: -32px; }",
         ".search__input {font-family: \"Montserrat\" !important;}"
       ],
       "settings": {

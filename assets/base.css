@@ -2797,7 +2797,7 @@ details[open] > .header__submenu {
 
 /* Header menu */
 .header__inline-menu {
-  margin-left: -1.2rem;
+  /*margin-left: -1.2rem;*/
   grid-area: navigation;
   background-color: rgb(var(--color-background));
   display: none;

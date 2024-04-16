@@ -954,6 +954,13 @@
             "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
             "url": ""
           }
+        },
+        "slide_tVkUeD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/landbank_logo.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -962,7 +969,8 @@
         "slide_jye8ag",
         "slide_hkDcEX",
         "slide_Wtf89w",
-        "slide_wBTNYc"
+        "slide_wBTNYc",
+        "slide_tVkUeD"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

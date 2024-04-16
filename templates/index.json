@@ -819,7 +819,8 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b; margin: 0 auto;}",
-        "p {font-size: 13px; line-height: 19px; width: 500px; margin: 0 auto;}"
+        "p {font-size: 13px; line-height: 19px; width: 500px; margin: 0 auto;}",
+        ".inline-richtext {font-size: 24px;}"
       ],
       "settings": {
         "title": "Hassle Free Corporate Giveaways",

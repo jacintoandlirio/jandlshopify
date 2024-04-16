@@ -3190,6 +3190,15 @@ details-disclosure > details {
   }
 }
 
+@media screen and (min-width: 400px) {
+  .rte table td {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+
 .rte img {
   height: auto;
   max-width: 100%;

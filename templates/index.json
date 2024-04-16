@@ -774,17 +774,17 @@
         "column_XN9Qy7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
+            "image": "shopify:\/\/shop_images\/1706515956_0.jpg",
             "title": "Product",
             "text": "<p>Choose from our extensive line of water hyacinth vegan leathergoods  which can be customized into different kinds of products from bags, wallets, travel accessories, hotel in room accessories, restaurant accessories, media kits, PR Kits, new hire kits, real estate turn over kit and more!<\/p>",
-            "link_label": "Add a review",
-            "link": ""
+            "link_label": "All Products",
+            "link": "shopify:\/\/collections\/all"
           }
         },
         "column_nacLfi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/viber_image_2021-06-30_11-37-45_7b623fe1-89c8-4490-86c1-6cbc424b8641.jpg",
+            "image": "shopify:\/\/shop_images\/Mar25-Perseverance_Journal_Lilac-Personalization.png",
             "title": "Personalization",
             "text": "<p>We have no minimum order quantity for personalization using laser engraving or colored printing. MOQ applies for other personalization finishes like embroidery, glitter, hologram, vinyl etc..<\/p>",
             "link_label": "Let's Collaborate",
@@ -804,7 +804,7 @@
         "column_UyYaP6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mar25-Perseverance_Journal_Lilac-Personalization.png",
+            "image": "shopify:\/\/shop_images\/Layout_9_1_copy_f75b9916-43df-4872-b85a-3c96422136da.jpg",
             "title": "Delivery",
             "text": "<p>We do last mile delivery to ALL your recipients nationwide and worldwide. Meaning we can send send swag to one location or to thousands of locations for you so that you can sit back and relax.<\/p>",
             "link_label": "Say I Do",

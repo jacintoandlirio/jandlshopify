@@ -78,7 +78,8 @@
         "text_mPjx6e"
       ],
       "custom_css": [
-        ".footer-block__heading{font-size: 24px; }"
+        ".footer-block__heading {font-size: 24px;}",
+        ".footer-block__details-content {font-size: 13px;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",

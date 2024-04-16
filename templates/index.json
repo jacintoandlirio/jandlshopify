@@ -686,6 +686,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 55px; margin: 0 auto; color: #6b501b;}",
+        "h3{font-size: 24px;}",
         ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
       ],
       "settings": {
@@ -1109,7 +1110,7 @@
         "column_kMDQfh"
       ],
       "custom_css": [
-        "h3{font-size:24px;}"
+        "h3 {font-size: 24px;}"
       ],
       "settings": {
         "title": "ANNOUNCEMENTS",

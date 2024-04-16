@@ -1107,6 +1107,9 @@
         "column_UyYaP6",
         "column_kMDQfh"
       ],
+      "custom_css": [
+        ".inline-richtext {font-size: 24px;}"
+      ],
       "settings": {
         "title": "ANNOUNCEMENTS",
         "heading_size": "h1",

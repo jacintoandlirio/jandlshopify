@@ -3744,13 +3744,14 @@ width: calc(50% - 1rem / 2) !important;
   }
 
   .multicolumn-card__info .rte{
-    font-size: 12px;
+    font-size: 10px;
     margin: 0 auto;
   }
 
 @media screen and (max-width: 450px){
 
   .multicolumn-card__info{
+    font-size: 10px;
     width: 400px;
     margin: 0 auto;
   }

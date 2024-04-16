@@ -649,6 +649,9 @@
         "column_z6wmhD",
         "column_DnJgMQ"
       ],
+      "custom_css": [
+        ".inline-richtext{font-size: 24px; }"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",

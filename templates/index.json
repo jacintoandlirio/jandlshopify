@@ -768,6 +768,76 @@
         "show_text_below": true
       }
     },
+    "multicolumn_UWrfNG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XN9Qy7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
+            "title": "Product",
+            "text": "<p>Are you an Amazon shopper?If yes, we need your help! If you've purchased any J&L product before from any of our sales channels, please help us share Filipino craftsmanship to the world by ADDING A REVIEW IN OUR AMAZON STORE.  <\/p><p>1. Click the product in our <a href=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\">Amazon store. <\/a><br\/>2. Select the J&L product you bought. <br\/>3. Click <strong>Write a customer review<\/strong>. <br\/>4. Select star rating and\/or add text, photo, and video. <br\/>5. Click submit. <\/p>",
+            "link_label": "Add a review",
+            "link": ""
+          }
+        },
+        "column_nacLfi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/viber_image_2021-06-30_11-37-45_7b623fe1-89c8-4490-86c1-6cbc424b8641.jpg",
+            "title": "Personalization",
+            "text": "<p>Add exclusive perks for your employees with Jacinto & Lirio. Email us at stories@jacintoandlirio.com to discuss the details.<\/p>",
+            "link_label": "Let's Collaborate",
+            "link": "shopify:\/\/pages\/j-l-with-p-g"
+          }
+        },
+        "column_emmj4j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Sketchbook_-_Oct_3_page-0001_8640e71e-7c08-4526-a892-dc2b0dab1bd7.jpg",
+            "title": "FREE printables",
+            "text": "<p>We officially launch “The Sketchbook”, a series where we will be releasing a free set of printables designed by our very own! Use these printables to spice up things with your own Jacinto & Lirio’s journal or planner and unleash the creativity within you!<\/p>",
+            "link_label": "Print",
+            "link": ""
+          }
+        },
+        "column_UyYaP6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website-say-i-do-pic1.jpg",
+            "title": "Say I Do",
+            "text": "<p>Pre-wedding, wedding proper, gifts for guests, gift bundles in personalized boxes and name & wedding logo personalization.<\/p>",
+            "link_label": "Say I Do",
+            "link": "shopify:\/\/pages\/jacinto-marries-lirio"
+          }
+        }
+      },
+      "block_order": [
+        "column_XN9Qy7",
+        "column_nacLfi",
+        "column_emmj4j",
+        "column_UyYaP6"
+      ],
+      "custom_css": [
+        "h3 {font-size: 24px;}"
+      ],
+      "settings": {
+        "title": "ANNOUNCEMENTS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_gmzhh3": {
       "type": "multicolumn",
       "blocks": {
@@ -1048,10 +1118,10 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_UWrfNG": {
+    "multicolumn_AUa9f7": {
       "type": "multicolumn",
       "blocks": {
-        "column_XN9Qy7": {
+        "column_mMa847": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
@@ -1061,7 +1131,7 @@
             "link": ""
           }
         },
-        "column_nacLfi": {
+        "column_hYJxCn": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/viber_image_2021-06-30_11-37-45_7b623fe1-89c8-4490-86c1-6cbc424b8641.jpg",
@@ -1071,7 +1141,7 @@
             "link": "shopify:\/\/pages\/j-l-with-p-g"
           }
         },
-        "column_emmj4j": {
+        "column_t6yNTA": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/The_Sketchbook_-_Oct_3_page-0001_8640e71e-7c08-4526-a892-dc2b0dab1bd7.jpg",
@@ -1081,7 +1151,7 @@
             "link": ""
           }
         },
-        "column_UyYaP6": {
+        "column_xBirHM": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Website-say-i-do-pic1.jpg",
@@ -1091,7 +1161,7 @@
             "link": "shopify:\/\/pages\/jacinto-marries-lirio"
           }
         },
-        "column_kMDQfh": {
+        "column_BCrNkk": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",
@@ -1103,14 +1173,11 @@
         }
       },
       "block_order": [
-        "column_XN9Qy7",
-        "column_nacLfi",
-        "column_emmj4j",
-        "column_UyYaP6",
-        "column_kMDQfh"
-      ],
-      "custom_css": [
-        "h3 {font-size: 24px;}"
+        "column_mMa847",
+        "column_hYJxCn",
+        "column_t6yNTA",
+        "column_xBirHM",
+        "column_BCrNkk"
       ],
       "settings": {
         "title": "ANNOUNCEMENTS",
@@ -1188,10 +1255,11 @@
     "multicolumn_ymLrV7",
     "custom_liquid_YxBfei",
     "image_banner_HyQkcC",
+    "multicolumn_UWrfNG",
     "multicolumn_gmzhh3",
     "ss_instafeed_2_3RqEpe",
     "multirow_wmBax8",
-    "multicolumn_UWrfNG",
+    "multicolumn_AUa9f7",
     "featured_blog_K9DnLq",
     "featured_blog_hbVnVc"
   ]

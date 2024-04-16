@@ -3743,14 +3743,14 @@ width: calc(50% - 1rem / 2) !important;
     margin: 0 auto;
   }
 
-  .multicolumn-card__info .rte{
+  .multicolumn-card__info .rte p{
     font-size: 10px;
     margin: 0 auto;
   }
 
 @media screen and (max-width: 450px){
 
-  .multicolumn-card__info{
+  .multicolumn-card__info .rte p{
     font-size: 10px;
     width: 400px;
     margin: 0 auto;

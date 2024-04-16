@@ -486,7 +486,7 @@
         "heading_btJChR": {
           "type": "heading",
           "settings": {
-            "heading": "Leatherization Process",
+            "heading": "Water Hyacinth Leatherization Process",
             "heading_size": "h1"
           }
         },
@@ -650,7 +650,7 @@
         "column_DnJgMQ"
       ],
       "custom_css": [
-        ".inline-richtext{font-size: 24px; }"
+        ".inline-richtext {font-size: 24px;}"
       ],
       "settings": {
         "title": "",

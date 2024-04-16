@@ -996,7 +996,7 @@
         "slider_mt": 60,
         "slider_row": "4",
         "slider_row_mobile": "1",
-        "slider_gap": 20,
+        "slider_gap": 2,
         "slider_gap_mobile": 16,
         "autoplay": true,
         "autoplay_speed": 4,

@@ -30,7 +30,7 @@
         "email_form_AYKqcD"
       ],
       "custom_css": [
-        ".field__input{font-family: \"Montserrat\" !important;}"
+        ".field__input {font-family: \"Montserrat\" !important;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -76,6 +76,9 @@
         "link_list_ibHWmD",
         "link_list_DRmL8Y",
         "text_mPjx6e"
+      ],
+      "custom_css": [
+        ".footer-block__heading{font-size: 24px; }"
       ],
       "settings": {
         "color_scheme": "scheme-1",

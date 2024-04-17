@@ -3711,6 +3711,9 @@ width: calc(50% - 1rem / 2) !important;
   font-weight: 500;
   width: 600px;
 }
+.product__text{
+  font-family: "Montserrat" !important;
+}
 button {
   font-family: "luna itc" !important;
 }

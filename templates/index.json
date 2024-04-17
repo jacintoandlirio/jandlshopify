@@ -89,7 +89,7 @@
         "button {font-family: \"luna itc\" !important;}",
         ".price {font-size: 13px;}",
         ".card__information .card__heading a {font-family: \"Montserrat\" !important;}",
-        "@media screen and (max-width: 400px){.inline-richtext {font-size:23px;}}"
+        "@media screen and (max-width: 400px) {h2 {font-size: 23px; }}"
       ],
       "settings": {
         "title": "Travel Accessories",

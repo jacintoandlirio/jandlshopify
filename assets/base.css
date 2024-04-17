@@ -3704,6 +3704,28 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "Alfon" !important;
 }
 
+.animate--slide-in {
+  font-family: "luna itc";
+  color: #6b501b;
+  font-size: 55px;
+  font-weight: 500;
+  width: 600px;
+}
+button {
+  font-family: "luna itc" !important;
+}
+.price {
+  font-size: 13px;
+}
+.card__information .card__heading a {
+  font-family: "Montserrat" !important;
+}
+@media screen and (max-width: 400px) {
+  .animate--slide-in {
+    font-size: 23px;
+  }
+}
+
 @media screen and (max-width: 990px){
 
   .disclosure__item .disclosure__link .country{

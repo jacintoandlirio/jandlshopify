@@ -195,6 +195,54 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_e8rxrM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NztAy9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_BdUzDd": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_LcDrqc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NztAy9",
+        "text_BdUzDd",
+        "buttons_LcDrqc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dangersOfWaterHya.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "custom_liquid_RxYCeg": {
       "type": "custom-liquid",
       "custom_css": [
@@ -1181,6 +1229,7 @@
     "featured_collection",
     "rich_text_cGb6gm",
     "multicolumn_LQJyjD",
+    "image_banner_e8rxrM",
     "custom_liquid_RxYCeg",
     "custom_liquid_LnqYzn",
     "slideshow_AGJPzh",

@@ -195,39 +195,63 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_DrUwxt": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DRKwQE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dangersOfWaterHya_14e128e3-2951-4109-a53f-a72b3ae9d801.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4KaGtU": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DRKwQE",
+        "column_4KaGtU"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_e8rxrM": {
       "type": "image-banner",
       "blocks": {
         "heading_NztAy9": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "",
             "heading_size": "h1"
-          }
-        },
-        "text_BdUzDd": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_LcDrqc": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_NztAy9",
-        "text_BdUzDd",
-        "buttons_LcDrqc"
+        "heading_NztAy9"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/dangersOfWaterHya.png",
@@ -1229,6 +1253,7 @@
     "featured_collection",
     "rich_text_cGb6gm",
     "multicolumn_LQJyjD",
+    "multicolumn_DrUwxt",
     "image_banner_e8rxrM",
     "custom_liquid_RxYCeg",
     "custom_liquid_LnqYzn",

@@ -195,6 +195,29 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_UgmE98": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6LtF84": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why We Use Water Hyacinth?",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6LtF84"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_DrUwxt": {
       "type": "multicolumn",
       "blocks": {
@@ -1215,6 +1238,7 @@
     "featured_collection",
     "rich_text_cGb6gm",
     "multicolumn_LQJyjD",
+    "rich_text_UgmE98",
     "multicolumn_DrUwxt",
     "custom_liquid_RxYCeg",
     "custom_liquid_LnqYzn",

@@ -225,8 +225,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/dangersOfWaterHya_14e128e3-2951-4109-a53f-a72b3ae9d801.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Major Consequences of Water Hyacinth",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -235,8 +235,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Sequence_01_1.gif",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Eco Friendly accomplishments of J&L",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -252,7 +252,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",

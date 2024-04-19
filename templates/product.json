@@ -32,7 +32,7 @@
         "custom_liquid_4xnYLk": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%if product.tags contains \"Request quote\"%}\n  <style>\n    #product-form-template--22140845064509__main {\n      display: none;\n    }\n  <\/style>\n  <label>Min. Qty<\/label>\n{%endif%}"
+            "custom_liquid": "{%if product.tags contains \"Request quote\"%}\n  <style>\n    #product-form-template--22140845064509__main {\n      display: none;\n    }\n   .quantity__label{\n   display:none;\n}\n  \n  <\/style>\n  <label>Min. Qty<\/label>\n{%endif%}"
           }
         },
         "quantity_selector": {

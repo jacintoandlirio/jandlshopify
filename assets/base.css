@@ -3668,6 +3668,11 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "luna itc"!important;
 }
 
+.shopify-payment-button__more-options{
+  font-family: "luna itc" !important;
+  font-size:15px;
+}
+
 .h2{
   font-family: "luna itc" !important;
 }
@@ -3678,15 +3683,6 @@ width: calc(50% - 1rem / 2) !important;
 
 .image-with-text__content .quick-add__submit{
   font-family: "luna itc" !important;
-}
-
-.cart__checkout-button button{
-  font-family: "luna itc" !important;
-}
-
-button span{
-  font-family: "luna itc" !important;
-  font-size: 17px;
 }
 
 .disclosure__button {
@@ -3700,8 +3696,6 @@ button span{
 .footer-block__details-content .link--text{
   font-family: "Montserrat" !important;
 }
-
-
 
 .ns-content .popup-title{
   font-family: "Montserrat" !important;

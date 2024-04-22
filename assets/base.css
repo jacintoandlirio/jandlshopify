@@ -3692,6 +3692,10 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "Montserrat" !important;
 }
 
+.cart__checkout-button button{
+  font-family: "luna itc" !important;
+}
+
 .ns-content .popup-title{
   font-family: "Montserrat" !important;
 }

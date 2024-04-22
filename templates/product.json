@@ -43,7 +43,7 @@
         "custom_liquid_7VfgGr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains \"Request quote\" or product.tags contains \"mto-50\" or product.tags contains \"Desk Accessories\" %}\n  {% render 'qteedy-product-form' %}\n<style>\n    .product-form__buttons{\n      display: none;\n    }\n  <\/style>\n{%if product.tags contains \"retail\"%}\n <style>\n    .product-form__buttons{\n      display: block;\n    }\n  <\/style>\n {%endif%}\n{% endif %}"
+            "custom_liquid": "{% if product.tags contains \"Request quote\" or product.tags contains \"mto-50\" or product.tags contains \"Desk Accessories\" %}\n  \n<style>\n    .product-form__buttons{\n      display: none;\n    }\n  <\/style>\n\n{% endif %}\n{% if product.tags contains \"Request quote\" or product.tags contains \"mto-50\" or product.tags contains \"Desk Accessories\" %}\n  {% render 'qteedy-product-form' %}\n<style>\n    .product-form__buttons{\n      display: none;\n    }\n  <\/style>\n{%if product.tags contains \"retail\"%}\n <style>\n    .product-form__buttons{\n      display: block;\n    }\n  <\/style>\n {%endif%}\n{% endif %}"
           }
         },
         "buy_buttons": {

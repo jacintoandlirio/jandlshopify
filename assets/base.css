@@ -3668,6 +3668,11 @@ width: calc(50% - 1rem / 2) !important;
   font-family: "luna itc"!important;
 }
 
+button span{
+  font-family: "luna itc" !important;
+  font-size:15px;
+}
+
 .shopify-payment-button__more-options{
   font-family: "luna itc" !important;
   font-size:15px;

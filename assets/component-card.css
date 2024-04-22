@@ -157,7 +157,6 @@
 .card-information .card__information-volume-pricing-note {
   margin-top: 0.6rem;
   line-height: calc(0.5 + 0.4 / var(--font-body-scale));
-
   font-size: calc(var(--font-heading-scale) * 1.2rem);
 }
 

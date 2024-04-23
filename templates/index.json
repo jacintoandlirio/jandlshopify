@@ -933,13 +933,6 @@
             "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
             "url": ""
           }
-        },
-        "slide_tVkUeD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/landbank_logo.png",
-            "url": ""
-          }
         }
       },
       "block_order": [
@@ -948,8 +941,7 @@
         "slide_jye8ag",
         "slide_hkDcEX",
         "slide_Wtf89w",
-        "slide_wBTNYc",
-        "slide_tVkUeD"
+        "slide_wBTNYc"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",
@@ -1017,7 +1009,7 @@
             "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
             "caption": "",
             "heading": "RESTAURANTS",
-            "text": "<p>Amenities tailored with Water Hyacinth for Restaurants<\/p>",
+            "text": "<p>Features a menu holder, coaster, a bill holder and apron.<\/p>",
             "button_label": "VIEW MORE",
             "button_link": "shopify:\/\/collections\/restaurant-amenities"
           }
@@ -1028,7 +1020,7 @@
             "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
             "caption": "",
             "heading": "HUMAN RESOURCES",
-            "text": "<p>The perfect gifts tailored with Water Hyacinth for your employees.<\/p>",
+            "text": "<p>New hire kit, Employee Appreciation Gift and Company Badge Holder.<\/p>",
             "button_label": "VIEW MORE",
             "button_link": "shopify:\/\/collections\/employee-appreciation-gifts"
           }
@@ -1039,7 +1031,7 @@
             "image": "shopify:\/\/shop_images\/viber_image_2022-08-25_13-57-45-836.jpg",
             "caption": "",
             "heading": "ARCHITECTURE & INTERIOR DESIGN",
-            "text": "<p>Liven up the environment with Water Hyacinth tailored furniture.<\/p>",
+            "text": "<p>Vegan Leather sheet, Picture frame and canvas wall art, apron bundle.<\/p>",
             "button_label": "VIEW MORE",
             "button_link": "shopify:\/\/collections\/tahanan-home-living"
           }
@@ -1050,7 +1042,7 @@
             "image": "shopify:\/\/shop_images\/Hotel_Newlyweds_Welcome_4.jpg",
             "caption": "",
             "heading": "HOTEL & RESORTS",
-            "text": "<p>Diversify your travel experience with our Water Hyacinth tailored amenities.<\/p>",
+            "text": "<p>Do not disturb sign, key card holder, Tent Card Holder, Wall art, Deskpad, Folders, Newly Weds His & Hers Gift, Welcome Gift for Guests, Hotel Slippers etc.<\/p>",
             "button_label": "VIEW MORE",
             "button_link": "shopify:\/\/collections\/hotel-amenities-1"
           }
@@ -1061,7 +1053,7 @@
             "image": "shopify:\/\/shop_images\/Layout_9_3_0051409f-aac1-47fb-8b2c-23fc529ce743.jpg",
             "caption": "",
             "heading": "REAL ESTATE",
-            "text": "<p>Keep your accessories safe with our Vegan Friendly attachments.<\/p>",
+            "text": "<p>Vegan Leather sheet, Picture frame and canvas wall art, apron bundle.<\/p>",
             "button_label": "VIEW MORE",
             "button_link": "shopify:\/\/collections\/tahanan-home-living"
           }
@@ -1072,7 +1064,7 @@
             "image": "shopify:\/\/shop_images\/Layout_11_1_fe899397-01f9-4794-8560-c7e5c703baab.jpg",
             "caption": "INDUSTRY",
             "heading": "CORPORATE EVENTS",
-            "text": "<p>The perfect Vegan Friendly gifts good for corporate events.<\/p>",
+            "text": "<p>Conference Bags<\/p><p>Conference Kit: Journals & Pens<\/p><p>Virtual Event Kit <\/p><p>and more<\/p>",
             "button_label": "View More",
             "button_link": ""
           }

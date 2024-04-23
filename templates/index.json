@@ -389,6 +389,7 @@
         "column_BncwLw": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/png_icon_58e7bb86-1907-425a-8ed5-1ee3d07c6c83.jpg",
             "title": "<a href=\"\/products\/bucket-list-zippered-checkbook-wallet-essentials-purse-with-retractable-wristlet\" title=\"Bucket List Zippered Travel Wallet or Checkbook Wallet Essentials Purse with Retractable Wristlet\"><strong>Sustainably Convenient<\/strong><\/a>",
             "text": "<p><em>Among my purchases in Jacinto & Lirio, this product was definitely my favorite. It's so convenient that it looks like a purse where I can store all my stuff when hanging out with my friends or family. It's a water-resistant and aesthetically looking which is another point for me!<\/em><\/p>",
             "link_label": "",
@@ -398,6 +399,7 @@
         "column_BjyrLt": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/png_icon_58e7bb86-1907-425a-8ed5-1ee3d07c6c83.jpg",
             "title": "<a href=\"https:\/\/stamped.io\/go\/d3xXaWRnZXRDYXJvdXNlbHw3Njk1MnxyfDEyMjQzMjkzNg2\"><strong>Very Handy<\/strong><\/a>",
             "text": "<p><em>I love how this product has an extra pocket and a pen holder as it makes it easy to reach for one and that I can use the pocket to store some change or some things required for my flight.<\/em><\/p><p><\/p><p><em>- Sandra L. Artisan II<\/em><\/p>",
             "link_label": "",
@@ -407,6 +409,7 @@
         "column_AwXwwi": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/png_icon_58e7bb86-1907-425a-8ed5-1ee3d07c6c83.jpg",
             "title": "<a href=\"https:\/\/stamped.io\/go\/d3xXaWRnZXRDYXJvdXNlbHw3Njk1MnxyfDEyMTM1Mzg4OA2\"><strong>Stylish and Eco-friendly!<\/strong><\/a>",
             "text": "<p><em>This was one of the first times I've actually encountered a valet tray even though they have been out and about for a while now, and decided that why not help the environment while I'm at it. This valet tray is quite multifunctional for its use, and was also very convenient to store. Highly recommend! <\/em><\/p><p><\/p><p><em>-- Lex S<\/em><\/p>",
             "link_label": "",
@@ -421,8 +424,8 @@
       ],
       "settings": {
         "title": "Testimonials",
-        "heading_size": "h1",
-        "image_width": "full",
+        "heading_size": "h0",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",

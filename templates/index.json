@@ -269,6 +269,25 @@
         "slide_EYPiAE": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Jun19-Bucket_List_Travel_Wallet-Carrot_Orange.png",
+            "image_link": "shopify:\/\/collections\/wallet",
+            "heading": "Wallets",
+            "heading_size": "h1",
+            "subheading": "Protect your finances sustainably with our eco-friendly wallets.",
+            "button_label": "Click here",
+            "link": "shopify:\/\/collections\/wallet",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_h8AVjH": {
+          "type": "slide",
+          "settings": {
             "image": "shopify:\/\/shop_images\/7N8A8501_bea1b681-5fea-4bdf-80e7-eecb162656a1.jpg",
             "image_link": "shopify:\/\/collections\/journals-1",
             "heading": "Notebooks",
@@ -345,6 +364,7 @@
       },
       "block_order": [
         "slide_EYPiAE",
+        "slide_h8AVjH",
         "slide_BNnMzt",
         "slide_irkrab",
         "slide_AFdRyU"

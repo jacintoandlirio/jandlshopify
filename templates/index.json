@@ -266,25 +266,6 @@
     "slideshow_AGJPzh": {
       "type": "slideshow",
       "blocks": {
-        "slide_NkC6kz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sept8a-Conference_Bag.png",
-            "image_link": "shopify:\/\/collections\/bags-wallets",
-            "heading": "Bags",
-            "heading_size": "h1",
-            "subheading": "Explore our eco-friendly bags with premium vegan design.",
-            "button_label": "Click here",
-            "link": "shopify:\/\/collections\/bags-wallets",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_EYPiAE": {
           "type": "slide",
           "settings": {
@@ -363,7 +344,6 @@
         }
       },
       "block_order": [
-        "slide_NkC6kz",
         "slide_EYPiAE",
         "slide_BNnMzt",
         "slide_irkrab",

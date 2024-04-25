@@ -147,7 +147,7 @@
         "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 44
       }
     },
     "multicolumn_LQJyjD": {
@@ -191,8 +191,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "rich_text_UgmE98": {
@@ -260,22 +260,22 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     },
     "slideshow_AGJPzh": {
       "type": "slideshow",
       "blocks": {
-        "slide_EYPiAE": {
+        "slide_NkC6kz": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jun19-Bucket_List_Travel_Wallet-Carrot_Orange.png",
-            "image_link": "shopify:\/\/collections\/wallet",
-            "heading": "Wallets",
+            "image": "shopify:\/\/shop_images\/Sept8a-Conference_Bag.png",
+            "image_link": "shopify:\/\/collections\/bags-wallets",
+            "heading": "Bags",
             "heading_size": "h1",
-            "subheading": "Protect your finances sustainably with our eco-friendly wallets.",
+            "subheading": "Explore our eco-friendly bags with premium vegan design.",
             "button_label": "Click here",
-            "link": "shopify:\/\/collections\/wallet",
+            "link": "shopify:\/\/collections\/bags-wallets",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -285,7 +285,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_h8AVjH": {
+        "slide_EYPiAE": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/7N8A8501_bea1b681-5fea-4bdf-80e7-eecb162656a1.jpg",
@@ -363,8 +363,8 @@
         }
       },
       "block_order": [
+        "slide_NkC6kz",
         "slide_EYPiAE",
-        "slide_h8AVjH",
         "slide_BNnMzt",
         "slide_irkrab",
         "slide_AFdRyU"
@@ -435,8 +435,8 @@
         "color_scheme": "scheme-e17cacee-f400-4cbc-8bc4-255186893473",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 100,
+        "padding_bottom": 100,
         "testimonial_section_background": "#eaeaea",
         "testimonial_background": "#ffffff",
         "testimonial_title_color": "#000000",

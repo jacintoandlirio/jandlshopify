@@ -448,13 +448,13 @@
         "featured_collection_BzHy7A": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "laptop-essentials"
           }
         },
         "featured_collection_mTbN9N": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "refillable-journals"
           }
         }
       },

@@ -653,12 +653,12 @@ h3 .icon-arrow,
 
 /* arrow animation */
 .animate-arrow .icon-arrow path {
-  transform: translateX(-0.25rem);
+  transform: translateX(-0.5rem);
   transition: transform var(--duration-short) ease;
 }
 
 .animate-arrow:hover .icon-arrow path {
-  transform: translateX(-0.25rem);
+  transform: translateX(-0.5rem);
 }
 
 /* base-details-summary */

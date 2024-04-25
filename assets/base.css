@@ -658,7 +658,7 @@ h3 .icon-arrow,
 }
 
 .animate-arrow:hover .icon-arrow path {
-  transform: translateX(-0.05rem);
+  transform: translateX(-0.25rem);
 }
 
 /* base-details-summary */

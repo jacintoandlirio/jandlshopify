@@ -642,6 +642,29 @@
         "lazy": true
       }
     },
+    "background_video_rc6E3d": {
+      "type": "background-video",
+      "blocks": {
+        "video_Xjx86R": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/www.youtube.com\/watch?v=ZzvzIm5NUz0&t=1s",
+            "title": "Video slide",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_Xjx86R"
+      ],
+      "settings": {
+      }
+    },
     "testimonials_ddYVEK": {
       "type": "testimonials",
       "blocks": {
@@ -1323,6 +1346,7 @@
     "collection_list_3D64bq",
     "testimonials_KhJrbH",
     "ss_instafeed_2_VFYEQM",
+    "background_video_rc6E3d",
     "testimonials_ddYVEK",
     "slideshow_eTn9e8",
     "rich_text_aewJAB",

@@ -1026,6 +1026,13 @@
             "url": ""
           }
         },
+        "slide_yntKhQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unilabfound.png",
+            "url": ""
+          }
+        },
         "slide_xxPz8x": {
           "type": "slide",
           "settings": {
@@ -1064,7 +1071,7 @@
         "slide_gWpWGE": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/itc_corp.png",
+            "image": "shopify:\/\/shop_images\/itc_corp_2.png",
             "url": ""
           }
         },
@@ -1078,6 +1085,7 @@
       },
       "block_order": [
         "slide_UHzf4E",
+        "slide_yntKhQ",
         "slide_xxPz8x",
         "slide_jye8ag",
         "slide_hkDcEX",

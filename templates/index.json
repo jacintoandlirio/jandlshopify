@@ -523,6 +523,16 @@
             "link": ""
           }
         },
+        "column_ak78Xc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DESKMAT1.png",
+            "title": "<a href=\"\/products\/wfh-desk-mat\" title=\"WFH Desk Mat or Gaming Pad with Pockets and Card Holders\">Tad pricy but worth it<\/a>",
+            "text": "<p>A pricy yet equally quality product for a work-from-home set-up that can accommodate your makeshift workplace set-up, it carries your portable laptop, notes, handbooks, stationery supplies, and more!                        <\/p><p><\/p><p>--Anna<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_BjyrLt": {
           "type": "column",
           "settings": {
@@ -539,16 +549,6 @@
             "image": "shopify:\/\/shop_images\/Layout_6_5.jpg",
             "title": "<a href=\"https:\/\/stamped.io\/go\/d3xXaWRnZXRDYXJvdXNlbHw3Njk1MnxyfDEyMTM1Mzg4OA2\"><strong>Stylish and Eco-friendly!<\/strong><\/a>",
             "text": "<p><em>This was one of the first times I've actually encountered a valet tray even though they have been out and about for a while now, and decided that why not help the environment while I'm at it. This valet tray is quite multifunctional for its use, and was also very convenient to store. Highly recommend! <\/em><\/p><p><\/p><p><em>-- Lex S<\/em><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ak78Xc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DESKMAT1.png",
-            "title": "Tad pricy but worth it",
-            "text": "<p>A pricy yet equally quality product for a work-from-home set-up that can accommodate your makeshift workplace set-up, it carries your portable laptop, notes, handbooks, stationery supplies, and more!                        <\/p><p><\/p><p>--Anna<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -574,9 +574,9 @@
       },
       "block_order": [
         "column_BncwLw",
+        "column_ak78Xc",
         "column_BjyrLt",
         "column_AwXwwi",
-        "column_ak78Xc",
         "column_7jNiyP",
         "column_4jwUDp"
       ],

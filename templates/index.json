@@ -556,8 +556,9 @@
         "column_7jNiyP": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Mar20-ArtisanMediumPink.png",
+            "title": "<strong>Well made and nice to look at.<\/strong>",
+            "text": "<p>Jacinto & Lirio has given me an opportunity to better live my principles and ideals without sacrificing stye, comfort, or convenience<br\/><br\/>I have been getting back into journaling since the pandemic started and this has been one of the better journals I've seen so far!<br\/>Simple looking but not cheap, the product itself is quite sturdy and well put together. Kudos to the people who designed and crafted this product, I hope to see more.<\/p>",
             "link_label": "",
             "link": ""
           }

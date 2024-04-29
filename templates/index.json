@@ -1067,6 +1067,13 @@
             "image": "shopify:\/\/shop_images\/itc_corp.png",
             "url": ""
           }
+        },
+        "slide_qpgKxD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/actuarial_socofthephilippines.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -1076,7 +1083,8 @@
         "slide_hkDcEX",
         "slide_Wtf89w",
         "slide_wBTNYc",
-        "slide_gWpWGE"
+        "slide_gWpWGE",
+        "slide_qpgKxD"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

@@ -542,12 +542,42 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_ak78Xc": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7jNiyP": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4jwUDp": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_BncwLw",
         "column_BjyrLt",
-        "column_AwXwwi"
+        "column_AwXwwi",
+        "column_ak78Xc",
+        "column_7jNiyP",
+        "column_4jwUDp"
       ],
       "settings": {
         "title": "Testimonials",

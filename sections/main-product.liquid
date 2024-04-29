@@ -236,22 +236,32 @@
                       </span>
                       {% render 'icon-minus' %}
                     </button>
+          {% assign min_quantity = product.metafields.custom.minimum_quantity  %}
+            {% if min_quantity == blank %}
+              {% assign min_quantity = 1 %}
+            {% endif %}
                     <input
                       class="quantity__input"
                       type="number"
                       name="quantity"
                       id="Quantity-{{ section.id }}"
-                      data-cart-quantity="{{ cart_qty }}"
-                      data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                      min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                      {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
-                        data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                        max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                      {% endif %}
-                      step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
-                      value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                      min="{{ min_quantity}}"
+                      data-min="{{ min_quantity }}"
+                      value="{{ min_quantity }}"
                       form="{{ product_form_id }}"
+                      onchange="checkMinimumQuantity(this)"
                     />
+            <script>
+            function checkMinimumQuantity(input) {
+              var minQuantity = parseInt(input.getAttribute('data-min'));
+              var enteredValue = parseInt(input.value);
+              
+              if (enteredValue < minQuantity) {
+                input.value = minQuantity;
+              }
+            }
+            </script>
+              
                     <button class="quantity__button no-js-hidden" name="plus" type="button">
                       <span class="visually-hidden">
                         {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}

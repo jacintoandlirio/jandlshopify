@@ -1060,6 +1060,13 @@
             "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
             "url": ""
           }
+        },
+        "slide_gWpWGE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/itc_corp.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -1068,7 +1075,8 @@
         "slide_jye8ag",
         "slide_hkDcEX",
         "slide_Wtf89w",
-        "slide_wBTNYc"
+        "slide_wBTNYc",
+        "slide_gWpWGE"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

@@ -236,31 +236,22 @@
                       </span>
                       {% render 'icon-minus' %}
                     </button>
-          {% assign min_quantity = product.metafields.custom.minimum_quantity  %}
-            {% if min_quantity == blank %}
-              {% assign min_quantity = 1 %}
-            {% endif %}
                     <input
                       class="quantity__input"
                       type="number"
                       name="quantity"
                       id="Quantity-{{ section.id }}"
-                      min="{{ min_quantity}}"
-                      data-min="{{ min_quantity }}"
-                      value="{{ min_quantity }}"
+                      data-cart-quantity="{{ cart_qty }}"
+                      data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                      min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                      {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
+                        data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                        max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                      {% endif %}
+                      step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                      value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       form="{{ product_form_id }}"
-                      onchange="checkMinimumQuantity(this)"
                     />
-            <script>
-            function checkMinimumQuantity(input) {
-              var minQuantity = parseInt(input.getAttribute('data-min'));
-              var enteredValue = parseInt(input.value);
-              
-              if (enteredValue < minQuantity) {
-                input.value = minQuantity;
-              }
-            }
-            </script>
                     <button class="quantity__button no-js-hidden" name="plus" type="button">
                       <span class="visually-hidden">
                         {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
@@ -2212,31 +2203,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    },
-    {
-      "type": "header",
-      "content": "Media grouping"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_group_media",
-      "label": "Enable media grouping",
-      "default": false
-    },
-    {
-      "type": "text",
-      "id": "media_grouping_option",
-      "label": "Media grouping option",
-      "default": "Color",
-      "info":"Group variant media together and attach the first image of each group to a variant."
-    },
-    {
-      "type": "paragraph",
-      "content": "Only one option name at a time, if you need a different option name for specific products please create a new product page template."
-    },
-    {
-      "type": "paragraph",
-      "content": "If you have a multilingual store, you can enter multiple values separated by commas: Color,Colour,Fabre,Couleur"
     }
   ]
 }

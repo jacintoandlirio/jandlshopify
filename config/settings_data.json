@@ -278,12 +278,6 @@
         "settings": {
         }
       },
-      "8194784159926722659": {
-        "type": "shopify:\/\/apps\/gg-product-page-slider-gallery\/blocks\/app-embed-block\/09c0440b-b921-435c-a2f5-3fc8f53b0424",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "1575957009345749421": {
         "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/side-drawer\/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
@@ -352,6 +346,12 @@
           "fill_empty": false,
           "random": false,
           "with_photos": false
+        }
+      },
+      "8194784159926722659": {
+        "type": "shopify:\/\/apps\/gg-product-page-slider-gallery\/blocks\/app-embed-block\/09c0440b-b921-435c-a2f5-3fc8f53b0424",
+        "disabled": true,
+        "settings": {
         }
       }
     },

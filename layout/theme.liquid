@@ -62,17 +62,19 @@
 
       @font-face {
         
+      
       font-family: "Alfon";
-      src: url("Alfon.woff2") format("woff2"),
+      src: local("Alfon"), url("Alfon.woff2") format("woff2"),
       url("Alfon.woff") format("woff");
       
       font-family: "luna itc";
-      src: url("https://cdn.shopify.com/s/files/1/0054/5996/8113/files/luna_itc.woff2?v=1714468447") format("woff2"),
+      src: local("luna itc"), url("https://cdn.shopify.com/s/files/1/0054/5996/8113/files/luna_itc.woff2?v=1714468447") format("woff2"),
       url("https://cdn.shopify.com/s/files/1/0054/5996/8113/files/luna_itc.woff?v=1709260033") format("woff");  
-        
+      
       font-family: "Montserrat";
         src: url("Montserrat-Medium.woff") format("woff"), url("Montserrat-Medium.woff2") format("woff2");
   
+ 
       font-family: "Montserrat-Medium";
       src: url({{ "Montserrat-Medium.woff2" | asset_url }}) format("woff2"),
            url({{ "Montserrat-Medium.woff" | asset_url }}) format("woff");

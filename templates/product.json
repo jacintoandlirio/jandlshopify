@@ -79,9 +79,18 @@
         "collapsible_tab_TRdX7q": {
           "type": "collapsible_tab",
           "settings": {
+            "heading": "Bulk Order Discounts",
+            "icon": "price_tag",
+            "content": "",
+            "page": "discount-table-logo-engraving"
+          }
+        },
+        "collapsible_tab_xQnMJg": {
+          "type": "collapsible_tab",
+          "settings": {
             "heading": "Specifications",
             "icon": "clipboard",
-            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.specifications | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -160,6 +169,7 @@
         "custom_liquid_fAJeVf",
         "collapsible_tab_A8kRt8",
         "collapsible_tab_TRdX7q",
+        "collapsible_tab_xQnMJg",
         "collapsible_tab_BNcJ3p",
         "collapsible_tab_C9dk6J",
         "collapsible_tab_gwTwWg",

@@ -78,6 +78,7 @@
         },
         "collapsible_tab_TRdX7q": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Bulk Order Discounts",
             "icon": "price_tag",

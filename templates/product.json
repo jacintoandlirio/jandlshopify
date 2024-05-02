@@ -214,6 +214,7 @@
     },
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% if product.metafields.custom.lorikeet_img_3 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_4 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 6) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_1 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 10) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
         "color_scheme": "",
@@ -272,7 +273,7 @@
         "row_E9tXrN": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Refillable.jpg",
+            "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_3.value }}",
             "text": "{{ product.metafields.custom.feature_description_3 | metafield_tag }}",
@@ -305,10 +306,10 @@
         "row_NQg8LX": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FIESTA_2SPPN.jpg",
+            "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
-            "text": "<p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -316,7 +317,7 @@
         "row_QmaRkV": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FIESTA_DOTTED.jpg",
+            "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_7.value }}",
             "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
@@ -327,7 +328,7 @@
         "row_9VMGXc": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FIESTA_ZIPPER.jpg",
+            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_8.value }}",
             "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
@@ -338,7 +339,7 @@
         "row_CX7DMb": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FiestaMaskara_12dbfba4-3a7a-4842-a88f-a66128e4adb1.jpg",
+            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_9.value }}",
             "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
@@ -349,20 +350,11 @@
         "row_CzV8AX": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
             "heading": "",
             "text": "",
             "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_XjQBYr": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
             "button_link": ""
           }
         }
@@ -377,8 +369,7 @@
         "row_QmaRkV",
         "row_9VMGXc",
         "row_CX7DMb",
-        "row_CzV8AX",
-        "row_XjQBYr"
+        "row_CzV8AX"
       ],
       "settings": {
         "image_height": "medium",

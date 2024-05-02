@@ -10,7 +10,7 @@
         "sticky-header {border-bottom: 2px solid #926f2b;}",
         ".gm-submenu .gm-item {height: 45px;}",
         ".header__inline-menu {padding-top: -32px;}",
-        ".search__input {font-family: \"Montserrat\" !important;}"
+        ".search__input {font-family: \"Montserrat\", sans-serif !important;}"
       ],
       "settings": {
         "logo_position": "top-center",

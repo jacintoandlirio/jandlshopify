@@ -3689,20 +3689,20 @@ button span{
   width: 600px;
 }
 .product__text{
-  font-family: "Montserrat" !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 .button{
-  font-family: "luna itc" !important;
+  font-family: "luna itc", sans-serif !important;
   font-size: 16px;
 }
 button {
-  font-family: "luna itc" !important;
+  font-family: "luna itc", sans-serif !important;
 }
 .price {
   font-size: 13px;
 }
 .card__information .card__heading a {
-  font-family: "Montserrat" !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 
@@ -3715,31 +3715,31 @@ button {
 @media screen and (max-width: 990px){
 
   .disclosure__item .disclosure__link .country{
-  font-family: "Montserrat" !important;
+  font-family: "Montserrat", sans-serif !important;
 }
   .inline-richtext{
-  font-family: "luna itc"!important;
+  font-family: "luna itc", sans-serif !important;
 }
 
  .__seguno-banner-text{
-  font-family: "Montserrat" !important;
+  font-family: "Montserrat", sans-serif !important;
 } 
 
 .h2{
-  font-family: "luna itc" !important;
+  font-family: "luna itc", sans-serif !important;
 }
   .multicolumn-card__info a:hover:before{
    width:25%;
 }
   .image-with-text__content .quick-add__submit{
-  font-family: "luna itc" !important;
+  font-family: "luna itc", sans-serif !important;
 }
 
 .footer-block__details-content .link--text{
-  font-family: "Montserrat" !important;
+  font-family: "Montserrat", sans-serif !important;
 }
   .disclosure__button {
-  font-family: "Montserrat" !important;
+  font-family: "Montserrat", sans-serif!important;
 }
 
 }

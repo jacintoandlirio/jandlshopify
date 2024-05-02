@@ -250,7 +250,7 @@
         "row_tGKpUq": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_1.value }}",
+            "image": "shopify:\/\/shop_images\/FIESTA_CUSTOM.png",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_1.value }}",
             "text": "{{ product.metafields.custom.feature_description_1 | metafield_tag }}",

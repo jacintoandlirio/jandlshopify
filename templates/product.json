@@ -40,10 +40,10 @@
           "settings": {
           }
         },
-        "custom_liquid_7VfgGr": {
+        "custom_liquid_E9xtm9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains \"Request quote\" or product.tags contains \"mto-50\" or product.tags contains \"Desk Accessories\" %}\n  \n<style>\n    .product-form__buttons{\n      display: none;\n    }\n  <\/style>\n\n{% endif %}\n{% if product.tags contains \"Request quote\" or product.tags contains \"mto-50\" or product.tags contains \"Desk Accessories\" %}\n  {% render 'qteedy-product-form' %}\n<style>\n    .product-form__buttons{\n      display: none;\n    }\n  <\/style>\n{%if product.tags contains \"retail\"%}\n <style>\n    .product-form__buttons{\n      display: block;\n    }\n  <\/style>\n {%endif%}\n{% endif %}"
+            "custom_liquid": "<img class=\"cd_img\" src=\"https:\/\/i.ibb.co\/L5hVjD5\/testtable.png&height=10\">"
           }
         },
         "buy_buttons": {
@@ -164,7 +164,7 @@
         "variant_picker",
         "custom_liquid_4xnYLk",
         "quantity_selector",
-        "custom_liquid_7VfgGr",
+        "custom_liquid_E9xtm9",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",

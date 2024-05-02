@@ -272,7 +272,7 @@
         "row_E9tXrN": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
+            "image": "shopify:\/\/shop_images\/Refillable.jpg",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_3.value }}",
             "text": "{{ product.metafields.custom.feature_description_3 | metafield_tag }}",
@@ -305,7 +305,7 @@
         "row_NQg8LX": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
+            "image": "shopify:\/\/shop_images\/FIESTA_2SPPN.jpg",
             "caption": "",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
             "text": "{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
@@ -316,7 +316,7 @@
         "row_QmaRkV": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
+            "image": "shopify:\/\/shop_images\/FIESTA_DOTTED.jpg",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_7.value }}",
             "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
@@ -327,7 +327,7 @@
         "row_9VMGXc": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
+            "image": "shopify:\/\/shop_images\/FIESTA_ZIPPER.jpg",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_8.value }}",
             "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",

@@ -515,22 +515,6 @@ h6:empty {
   color: rgb(var(--color-foreground));
 }
 
-.link--text::after{
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background: #926f2a;
-  transition: transform 0.2s ease-in-out;
-  transform: scaleX(0);
-}
-
-.link--text:hover::after {
-  transform: scaleX(1);
-  color: rgba(var(--color-foreground), 0.75);
-}
-
 .link-with-icon {
   display: inline-flex;
   font-size: 1.4rem;
@@ -3654,9 +3638,6 @@ h2{
   font-family: "luna itc", sans-serif !important;
 }
 
-.multicolumn-card__info a:hover:before{
-   width:25%;
-}
 
 .image-with-text__content .quick-add__submit{
   font-family: "luna itc", sans-serif !important;
@@ -3733,9 +3714,7 @@ button {
 .h2{
   font-family: "luna itc", sans-serif !important;
 }
-  .multicolumn-card__info a:hover:before{
-   width:25%;
-}
+ 
   .image-with-text__content .quick-add__submit{
   font-family: "luna itc", sans-serif !important;
 }

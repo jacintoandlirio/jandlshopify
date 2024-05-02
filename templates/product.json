@@ -349,26 +349,14 @@
         "row_CzV8AX": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FIESTA_POUCH.jpg",
             "caption": "",
-            "heading": "INTEGRATED POUCH",
+            "heading": "Integrated Pouch",
             "text": "<p>Conveniently integrated into the design of our eco-friendly vegan leather traveler's notebook is a thoughtfully crafted pouch, enhancing its functionality and versatility.<\/p>",
             "button_label": "",
             "button_link": ""
           }
         },
         "row_XjQBYr": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9048.jpg",
-            "caption": "",
-            "heading": "SOCIAL ENTERPRISE",
-            "text": "<p>Through the creation of well-designed, functional, and Philippine-inspired vegan leather-goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission- social impact in livelihood, environmental protection and product innovation.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_RxPWnX": {
           "type": "row",
           "settings": {
             "caption": "Caption",
@@ -390,8 +378,7 @@
         "row_9VMGXc",
         "row_CX7DMb",
         "row_CzV8AX",
-        "row_XjQBYr",
-        "row_RxPWnX"
+        "row_XjQBYr"
       ],
       "settings": {
         "image_height": "medium",

@@ -40,12 +40,6 @@
           "settings": {
           }
         },
-        "custom_liquid_E9xtm9": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<img class=\"cd_img\" src=\"https:\/\/i.ibb.co\/L5hVjD5\/testtable.png&height=10\">"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -164,7 +158,6 @@
         "variant_picker",
         "custom_liquid_4xnYLk",
         "quantity_selector",
-        "custom_liquid_E9xtm9",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",

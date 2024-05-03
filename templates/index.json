@@ -1067,6 +1067,13 @@
             "url": ""
           }
         },
+        "slide_tjDwUa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/villaCaemilla.png",
+            "url": ""
+          }
+        },
         "slide_Wtf89w": {
           "type": "slide",
           "settings": {
@@ -1092,13 +1099,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Logo-pwc_f396ca19-48e6-421d-94cb-a99b5e590fb6.png",
-            "url": ""
-          }
-        },
-        "slide_UHzf4E": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BDO_Unibank__logo.png",
             "url": ""
           }
         },
@@ -1155,11 +1155,11 @@
       "block_order": [
         "slide_fcUWdW",
         "slide_yntKhQ",
+        "slide_tjDwUa",
         "slide_Wtf89w",
         "slide_DEfzUw",
         "slide_zGWiLT",
         "slide_jye8ag",
-        "slide_UHzf4E",
         "slide_xxPz8x",
         "slide_Hr8hzV",
         "slide_hkDcEX",

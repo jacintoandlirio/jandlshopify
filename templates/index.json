@@ -1053,10 +1053,10 @@
     "ss_instafeed_2_3RqEpe": {
       "type": "ss-instafeed-2",
       "blocks": {
-        "slide_UHzf4E": {
+        "slide_fcUWdW": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BDO_Unibank__logo.png",
+            "image": "shopify:\/\/shop_images\/rmboxes.png",
             "url": ""
           }
         },
@@ -1064,6 +1064,20 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/unilabfound.png",
+            "url": ""
+          }
+        },
+        "slide_Wtf89w": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
+            "url": ""
+          }
+        },
+        "slide_UHzf4E": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BDO_Unibank__logo.png",
             "url": ""
           }
         },
@@ -1095,13 +1109,6 @@
             "url": ""
           }
         },
-        "slide_Wtf89w": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
-            "url": ""
-          }
-        },
         "slide_hwLUGH": {
           "type": "slide",
           "settings": {
@@ -1130,27 +1137,28 @@
             "url": ""
           }
         },
-        "slide_fcUWdW": {
+        "slide_DEfzUw": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rmboxes.png",
+            "image": "shopify:\/\/shop_images\/alveo.png",
             "url": ""
           }
         }
       },
       "block_order": [
-        "slide_UHzf4E",
+        "slide_fcUWdW",
         "slide_yntKhQ",
+        "slide_Wtf89w",
+        "slide_UHzf4E",
         "slide_xxPz8x",
         "slide_Hr8hzV",
         "slide_jye8ag",
         "slide_hkDcEX",
-        "slide_Wtf89w",
         "slide_hwLUGH",
         "slide_wBTNYc",
         "slide_gWpWGE",
         "slide_qpgKxD",
-        "slide_fcUWdW"
+        "slide_DEfzUw"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

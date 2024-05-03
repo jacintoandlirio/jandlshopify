@@ -1137,10 +1137,17 @@
             "url": ""
           }
         },
-        "slide_EJqyjG": {
+        "slide_hwLUGH": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/atlasFertilizerCorp.png",
+            "image": "shopify:\/\/shop_images\/260architectsLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_hkDcEX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
             "url": ""
           }
         },
@@ -1151,10 +1158,17 @@
             "url": ""
           }
         },
-        "slide_hwLUGH": {
+        "slide_R7WKCj": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/260architectsLogoResized.png",
+            "image": "shopify:\/\/shop_images\/thelighthouselogo.png",
+            "url": ""
+          }
+        },
+        "slide_4mzULD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/islas_pinas.png",
             "url": ""
           }
         },
@@ -1165,10 +1179,10 @@
             "url": ""
           }
         },
-        "slide_hkDcEX": {
+        "slide_EJqyjG": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
+            "image": "shopify:\/\/shop_images\/atlasFertilizerCorp.png",
             "url": ""
           }
         },
@@ -1200,11 +1214,13 @@
         "slide_jye8ag",
         "slide_wBTNYc",
         "slide_Hr8hzV",
-        "slide_EJqyjG",
-        "slide_W7Wbiq",
         "slide_hwLUGH",
-        "slide_xxPz8x",
         "slide_hkDcEX",
+        "slide_W7Wbiq",
+        "slide_R7WKCj",
+        "slide_4mzULD",
+        "slide_xxPz8x",
+        "slide_EJqyjG",
         "slide_gWpWGE",
         "slide_qpgKxD"
       ],

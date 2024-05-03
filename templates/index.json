@@ -1074,6 +1074,27 @@
             "url": ""
           }
         },
+        "slide_DEfzUw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alveo.png",
+            "url": ""
+          }
+        },
+        "slide_zGWiLT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dow_corp.png",
+            "url": ""
+          }
+        },
+        "slide_jye8ag": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-pwc_f396ca19-48e6-421d-94cb-a99b5e590fb6.png",
+            "url": ""
+          }
+        },
         "slide_UHzf4E": {
           "type": "slide",
           "settings": {
@@ -1092,13 +1113,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/bo_scoffee.png",
-            "url": ""
-          }
-        },
-        "slide_jye8ag": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Logo-pwc_f396ca19-48e6-421d-94cb-a99b5e590fb6.png",
             "url": ""
           }
         },
@@ -1136,29 +1150,23 @@
             "image": "shopify:\/\/shop_images\/actuarial_socofthephilippines_f88f60d2-7d33-4fd6-ac15-b620575e5f5c.png",
             "url": ""
           }
-        },
-        "slide_DEfzUw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alveo.png",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "slide_fcUWdW",
         "slide_yntKhQ",
         "slide_Wtf89w",
+        "slide_DEfzUw",
+        "slide_zGWiLT",
+        "slide_jye8ag",
         "slide_UHzf4E",
         "slide_xxPz8x",
         "slide_Hr8hzV",
-        "slide_jye8ag",
         "slide_hkDcEX",
         "slide_hwLUGH",
         "slide_wBTNYc",
         "slide_gWpWGE",
-        "slide_qpgKxD",
-        "slide_DEfzUw"
+        "slide_qpgKxD"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

@@ -606,110 +606,6 @@
         "arrow_bg_color": "#000000"
       }
     },
-    "ss_instafeed_2_VFYEQM": {
-      "type": "ss-instafeed-2",
-      "blocks": {
-        "slide_Xq8KaA": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/zippered-travel-wallet.jpg",
-            "url": "shopify:\/\/products\/bucket-list-zippered-checkbook-wallet-essentials-purse-with-retractable-wristlet"
-          }
-        },
-        "slide_BNEbaj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/viber_image_2024-03-09_11-52-53-585.jpg",
-            "url": "shopify:\/\/products\/pacem-ii-mini-2-mini-refills"
-          }
-        },
-        "slide_BPfCVT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/slide.png",
-            "url": "shopify:\/\/products\/fiesta-refillable-vegan-leather-travelers-notebook-planner-with-zipper-standard-size"
-          }
-        },
-        "slide_44aDXJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/REVIEW5.png",
-            "url": "shopify:\/\/products\/3-ply-washable-comfortable-cotton-earband-with-adjuster-denim-masks-for-adults-teens-and-kids-with-integrated-filter-and-extra-pocket"
-          }
-        },
-        "slide_j9YxDr": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/review1.jpg",
-            "url": "shopify:\/\/products\/fiesta-refillable-vegan-leather-travelers-notebook-planner-with-zipper-standard-size"
-          }
-        }
-      },
-      "block_order": [
-        "slide_Xq8KaA",
-        "slide_BNEbaj",
-        "slide_BPfCVT",
-        "slide_44aDXJ",
-        "slide_j9YxDr"
-      ],
-      "disabled": true,
-      "settings": {
-        "top": "",
-        "top_custom": false,
-        "top_font": "josefin_sans_n4",
-        "top_size": 17,
-        "top_height": 140,
-        "top_align": "center",
-        "heading": "REVIEWS",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 40,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_mt": 12,
-        "subheading": "<h3>Join the convo with #AwesomeBrandTag<\/h3>",
-        "subheading_custom": false,
-        "subheading_font": "josefin_sans_n4",
-        "subheading_size": 16,
-        "subheading_height": 130,
-        "subheading_align": "center",
-        "subheading_mt": 12,
-        "slider_mt": 60,
-        "slider_row": "4",
-        "slider_row_mobile": "1",
-        "slider_gap": 54,
-        "slider_gap_mobile": 32,
-        "autoplay": true,
-        "autoplay_speed": 3,
-        "nav_size": 40,
-        "nav_size_mobile": 30,
-        "hide_nav": true,
-        "hide_nav_mobile": false,
-        "image_radius": 48,
-        "top_color": "#e69e6c",
-        "heading_color": "#746661",
-        "subheading_color": "#aba49d",
-        "nav_btn_bg": "#ffffff",
-        "nav_btn_hover_bg": "#e69e6c",
-        "nav_border": "#e69e6c",
-        "nav_border_hover": "#e69e6c",
-        "nav_icon": "#e69e6c",
-        "nav_hover_icon": "#ffffff",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 100,
-        "margin_bottom": 100,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "background_video_rc6E3d": {
       "type": "background-video",
       "blocks": {
@@ -732,84 +628,6 @@
         "video_Xjx86R"
       ],
       "settings": {
-      }
-    },
-    "testimonials_ddYVEK": {
-      "type": "testimonials",
-      "blocks": {
-        "column_giBTDm": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rLCH4M": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FD4JVU": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_giBTDm",
-        "column_rLCH4M",
-        "column_FD4JVU"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Testimonials",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "testimonial_section_background": "#eaeaea",
-        "testimonial_background": "#ffffff",
-        "testimonial_title_color": "#000000",
-        "testimonials_text_color": "#000000",
-        "arrow_color": "#ffffff",
-        "arrow_bg_color": "#000000"
-      }
-    },
-    "slideshow_eTn9e8": {
-      "type": "slideshow",
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 40px; color: #6b501b;}",
-        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
-        ".banner__text {font-family: \"Montserrat\"; line-height: 18px; font-size: 13px;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text_aewJAB": {
@@ -1511,10 +1329,7 @@
     "slideshow_AGJPzh",
     "collection_list_3D64bq",
     "testimonials_KhJrbH",
-    "ss_instafeed_2_VFYEQM",
     "background_video_rc6E3d",
-    "testimonials_ddYVEK",
-    "slideshow_eTn9e8",
     "rich_text_aewJAB",
     "multicolumn_ymLrV7",
     "custom_liquid_YxBfei",

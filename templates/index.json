@@ -1115,6 +1115,20 @@
             "image": "shopify:\/\/shop_images\/actuarial_socofthephilippines_f88f60d2-7d33-4fd6-ac15-b620575e5f5c.png",
             "url": ""
           }
+        },
+        "slide_fcUWdW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rmboxes.png",
+            "url": ""
+          }
+        },
+        "slide_hwLUGH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/260arki.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -1126,7 +1140,9 @@
         "slide_Wtf89w",
         "slide_wBTNYc",
         "slide_gWpWGE",
-        "slide_qpgKxD"
+        "slide_qpgKxD",
+        "slide_fcUWdW",
+        "slide_hwLUGH"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

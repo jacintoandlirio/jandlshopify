@@ -1074,6 +1074,13 @@
             "url": ""
           }
         },
+        "slide_Hr8hzV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bo_scoffee.png",
+            "url": ""
+          }
+        },
         "slide_jye8ag": {
           "type": "slide",
           "settings": {
@@ -1092,6 +1099,13 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
+            "url": ""
+          }
+        },
+        "slide_hwLUGH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/260arki.png",
             "url": ""
           }
         },
@@ -1122,27 +1136,21 @@
             "image": "shopify:\/\/shop_images\/rmboxes.png",
             "url": ""
           }
-        },
-        "slide_hwLUGH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/260arki.png",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "slide_UHzf4E",
         "slide_yntKhQ",
         "slide_xxPz8x",
+        "slide_Hr8hzV",
         "slide_jye8ag",
         "slide_hkDcEX",
         "slide_Wtf89w",
+        "slide_hwLUGH",
         "slide_wBTNYc",
         "slide_gWpWGE",
         "slide_qpgKxD",
-        "slide_fcUWdW",
-        "slide_hwLUGH"
+        "slide_fcUWdW"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

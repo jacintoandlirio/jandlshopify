@@ -266,12 +266,6 @@
         "settings": {
         }
       },
-      "9144908965052497053": {
-        "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-embed\/75cf2d86-3988-45e7-8f28-ada23c99704f",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "16278478101612877664": {
         "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
@@ -351,6 +345,12 @@
       "8194784159926722659": {
         "type": "shopify:\/\/apps\/gg-product-page-slider-gallery\/blocks\/app-embed-block\/09c0440b-b921-435c-a2f5-3fc8f53b0424",
         "disabled": true,
+        "settings": {
+        }
+      },
+      "9144908965052497053": {
+        "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-embed\/75cf2d86-3988-45e7-8f28-ada23c99704f",
+        "disabled": false,
         "settings": {
         }
       }

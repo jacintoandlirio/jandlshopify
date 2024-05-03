@@ -1123,24 +1123,10 @@
             "url": ""
           }
         },
-        "slide_xxPz8x": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Globe-logo.png",
-            "url": ""
-          }
-        },
         "slide_Hr8hzV": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/boscoffeeresizedlogo.png",
-            "url": ""
-          }
-        },
-        "slide_hkDcEX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
             "url": ""
           }
         },
@@ -1162,6 +1148,20 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/260architectsLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_xxPz8x": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Globe-logo.png",
+            "url": ""
+          }
+        },
+        "slide_hkDcEX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
             "url": ""
           }
         },
@@ -1198,12 +1198,12 @@
         "slide_4HtRGw",
         "slide_Q7azqH",
         "slide_jye8ag",
-        "slide_xxPz8x",
         "slide_Hr8hzV",
-        "slide_hkDcEX",
         "slide_EJqyjG",
         "slide_W7Wbiq",
         "slide_hwLUGH",
+        "slide_xxPz8x",
+        "slide_hkDcEX",
         "slide_wBTNYc",
         "slide_gWpWGE",
         "slide_qpgKxD"

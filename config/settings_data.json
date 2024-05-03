@@ -260,12 +260,6 @@
         "settings": {
         }
       },
-      "14280642947000332093": {
-        "type": "shopify:\/\/apps\/warnify-pro-warnings\/blocks\/main\/b82106ea-6172-4ab0-814f-17df1cb2b18a",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "16278478101612877664": {
         "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
@@ -351,6 +345,12 @@
       "9144908965052497053": {
         "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-embed\/75cf2d86-3988-45e7-8f28-ada23c99704f",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "14280642947000332093": {
+        "type": "shopify:\/\/apps\/warnify-pro-warnings\/blocks\/main\/b82106ea-6172-4ab0-814f-17df1cb2b18a",
+        "disabled": true,
         "settings": {
         }
       }

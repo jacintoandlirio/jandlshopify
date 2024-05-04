@@ -3638,6 +3638,9 @@ h2{
   font-family: "luna itc", sans-serif !important;
 }
 
+.footer-block__heading{
+  text-transform: uppercase;
+}
 
 .image-with-text__content .quick-add__submit{
   font-family: "luna itc", sans-serif !important;

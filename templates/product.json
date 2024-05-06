@@ -276,9 +276,10 @@
         "row_E9tXrN": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
             "caption": "",
-            "heading": "STYLISH & DURABLE",
-            "text": "<p>The materials used in these eco bags are of high quality making it stylish and durable at the same time. The material used is also easy to clean and does not easily deform after washing.<\/p>",
+            "heading": "{{ product.metafields.custom.feature_title_3.value }}",
+            "text": "{{ product.metafields.custom.feature_description_3 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

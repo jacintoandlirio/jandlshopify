@@ -276,10 +276,20 @@
         "row_E9tXrN": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Drawstring_Canvass_Eco_Bag.jpg",
             "caption": "",
             "heading": "STYLISH & DURABLE",
             "text": "<p>The materials used in these eco bags are of high quality making it stylish and durable at the same time. The material used is also easy to clean and does not easily deform after washing.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_VhPk6E": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_4.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_4.value }}",
+            "text": "{{ product.metafields.custom.feature_description_4 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -355,6 +365,7 @@
         "row_tGKpUq",
         "row_ALXwjd",
         "row_E9tXrN",
+        "row_VhPk6E",
         "row_eBHjgJ",
         "row_NQg8LX",
         "row_QmaRkV",

@@ -3559,9 +3559,9 @@ details-disclosure > details {
 
 
 .header__inline-menu .gm-menu{
-   display:flex;
-    justify-content: space-between
-   
+   display: flex;
+  justify-content: space-between
+     cursor: pointer;
 }
 
 .header__inline-menu .gm-menu .gm-item {

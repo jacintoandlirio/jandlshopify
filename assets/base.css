@@ -3731,5 +3731,10 @@ button {
 
 }
 
+body
+{
+  cursor:pointer;
+}
+
 
 

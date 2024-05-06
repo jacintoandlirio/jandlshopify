@@ -3559,14 +3559,13 @@ details-disclosure > details {
 
 
 .header__inline-menu .gm-menu{
-   display: flex;
-  justify-content: space-between
-     cursor: pointer;
+   display:flex;
+    justify-content: space-between;
+   
 }
 
 .header__inline-menu .gm-menu .gm-item {
   margin-right: 10px;
-  cursor: pointer;
 }
 
 
@@ -3579,12 +3578,10 @@ details-disclosure > details {
   background: #926f2a;
   transition: transform 0.2s ease-in-out;
   transform: scaleX(0);
-    cursor: pointer;
 }
 
 .gm-item .gm-submenu li:hover::after{
    transform: scaleX(1);
-    cursor: pointer;
 }
 
 .gm-target {
@@ -3592,12 +3589,10 @@ details-disclosure > details {
   display: inline-block;
   position: relative;
   color: #0087ca;
-    cursor: pointer;
 }
 .gm-target:hover::after {
   transform: scaleX(0.4);
   transform-origin: bottom left;
-    cursor: pointer;
 }
 .gm-target::after {
   position: absolute;
@@ -3609,7 +3604,6 @@ details-disclosure > details {
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-    cursor: pointer;
 }
 
 .__seguno-banner-text{

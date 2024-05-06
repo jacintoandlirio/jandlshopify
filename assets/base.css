@@ -3589,6 +3589,7 @@ details-disclosure > details {
   display: inline-block;
   position: relative;
   color: #0087ca;
+  cursor:pointer;
 }
 .gm-target:hover::after {
   transform: scaleX(0.4);

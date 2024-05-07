@@ -106,8 +106,8 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Add to cart",
-      "choose_options": "Choose options",
+      "add_to_cart": "Add to Cart",
+      "choose_options": "Add to Cart",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
       "inventory_in_stock": "In stock",

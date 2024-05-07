@@ -1102,15 +1102,15 @@
     "multirow_wmBax8": {
       "type": "multirow",
       "blocks": {
-        "row_ifp9tX": {
+        "row_VAWAnU": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
-            "caption": "",
-            "heading": "RESTAURANTS",
-            "text": "<p>Features a menu holder, coaster, a bill holder and apron.<\/p>",
-            "button_label": "VIEW MORE",
-            "button_link": "shopify:\/\/collections\/restaurant-amenities"
+            "image": "shopify:\/\/shop_images\/Layout_11_1_fe899397-01f9-4794-8560-c7e5c703baab.jpg",
+            "caption": "INDUSTRY",
+            "heading": "CORPORATE EVENTS",
+            "text": "<p>Conference Bags<\/p><p>Conference Kit: Journals & Pens<\/p><p>Virtual Event Kit <\/p><p>and more<\/p>",
+            "button_label": "View More",
+            "button_link": "shopify:\/\/collections\/corporate-events"
           }
         },
         "row_RiB4D3": {
@@ -1157,25 +1157,25 @@
             "button_link": "shopify:\/\/collections\/tahanan-home-living"
           }
         },
-        "row_VAWAnU": {
+        "row_ifp9tX": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Layout_11_1_fe899397-01f9-4794-8560-c7e5c703baab.jpg",
-            "caption": "INDUSTRY",
-            "heading": "CORPORATE EVENTS",
-            "text": "<p>Conference Bags<\/p><p>Conference Kit: Journals & Pens<\/p><p>Virtual Event Kit <\/p><p>and more<\/p>",
-            "button_label": "View More",
-            "button_link": "shopify:\/\/collections\/corporate-events"
+            "image": "shopify:\/\/shop_images\/7N8A0259.jpg",
+            "caption": "",
+            "heading": "RESTAURANTS",
+            "text": "<p>Features a menu holder, coaster, a bill holder and apron.<\/p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/collections\/restaurant-amenities"
           }
         }
       },
       "block_order": [
-        "row_ifp9tX",
+        "row_VAWAnU",
         "row_RiB4D3",
         "row_fWpKhG",
         "row_p4pDLN",
         "row_dLgExx",
-        "row_VAWAnU"
+        "row_ifp9tX"
       ],
       "custom_css": [
         ".button {font-family: \"luna itc\" !important; font-size: 24px;}"

@@ -355,8 +355,8 @@
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
-            "heading": "",
-            "text": "",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

@@ -1201,12 +1201,23 @@
       "blocks": {
         "column_mMa847": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
             "title": "Review Our Products in Amazon",
             "text": "<p>Are you an Amazon shopper? If yes, we need your help! If you've purchased any J&L product before from any of our sales channels, please help us share Filipino craftsmanship to the world by ADDING A REVIEW IN OUR AMAZON STORE.  <\/p><p>1. Click the product in our <a href=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/handmade\/JacintoandLirio\">Amazon store. <\/a><br\/>2. Select the J&L product you bought. <br\/>3. Click <strong>Write a customer review<\/strong>. <br\/>4. Select star rating and\/or add text, photo, and video. <br\/>5. Click submit. <\/p>",
             "link_label": "Add a review",
             "link": ""
+          }
+        },
+        "column_YmtQYm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",
+            "title": "Do You Want to Be a RESELLER?",
+            "text": "<p>The Sales Engagement and Economic Development (SEED) is a reseller program that engages nationwide and international sales through reselling<\/p>",
+            "link_label": "Join Now",
+            "link": "shopify:\/\/pages\/seed-program"
           }
         },
         "column_hYJxCn": {
@@ -1238,24 +1249,14 @@
             "link_label": "Say I Do",
             "link": "shopify:\/\/pages\/jacinto-marries-lirio"
           }
-        },
-        "column_BCrNkk": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",
-            "title": "Do You Want to Be a RESELLER?",
-            "text": "<p>The Sales Engagement and Economic Development (SEED) is a reseller program that engages nationwide and international sales through reselling<\/p>",
-            "link_label": "Join Now",
-            "link": "shopify:\/\/pages\/seed-program"
-          }
         }
       },
       "block_order": [
         "column_mMa847",
+        "column_YmtQYm",
         "column_hYJxCn",
         "column_t6yNTA",
-        "column_xBirHM",
-        "column_BCrNkk"
+        "column_xBirHM"
       ],
       "settings": {
         "title": "ANNOUNCEMENTS",

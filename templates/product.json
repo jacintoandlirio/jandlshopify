@@ -341,6 +341,7 @@
         },
         "row_CX7DMb": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",

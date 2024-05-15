@@ -248,15 +248,6 @@
         "padding_bottom": 52
       }
     },
-    "custom_liquid_qkqf38": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% unless section.blocks.size > 0 %}\n  <img src=\"\" alt=\"Image Placeholder\">\n{% endunless %}",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multirow_6tNPA3": {
       "type": "multirow",
       "blocks": {
@@ -744,7 +735,6 @@
     "image_banner_pPezFi",
     "custom_liquid_BMzEeU",
     "rich_text_f3zyNh",
-    "custom_liquid_qkqf38",
     "multirow_6tNPA3",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",

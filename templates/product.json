@@ -231,13 +231,20 @@
         "heading_jqexm3": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Features",
             "heading_size": "h0"
+          }
+        },
+        "text_LDLpLW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your lifestyle with our exclusive line of products, meticulously crafted with two<br\/>exceptional features: water resistance and the use of water hyacinth. Embodying<br\/>sustainability and functionality, our items seamlessly merge eco-conscious<br\/>materials with practical design. The water-resistant quality guarantees<br\/>longevity and resilience against moisture, while the incorporation of water<br\/>hyacinth lends a distinctive touch of natural elegance. Embrace durability and<br\/>style in perfect harmony with our innovative collection.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading_jqexm3"
+        "heading_jqexm3",
+        "text_LDLpLW"
       ],
       "settings": {
         "desktop_content_position": "center",

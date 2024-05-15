@@ -348,7 +348,6 @@
         },
         "row_CX7DMb": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
@@ -368,6 +367,17 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_YczNzx": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_11.value }}",
+            "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -380,7 +390,8 @@
         "row_QmaRkV",
         "row_9VMGXc",
         "row_CX7DMb",
-        "row_CzV8AX"
+        "row_CzV8AX",
+        "row_YczNzx"
       ],
       "settings": {
         "image_height": "medium",

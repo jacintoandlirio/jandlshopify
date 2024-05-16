@@ -318,6 +318,7 @@
         },
         "row_9VMGXc": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
             "caption": "",
@@ -340,6 +341,7 @@
         },
         "row_CX7DMb": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
@@ -351,7 +353,6 @@
         },
         "row_CzV8AX": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
@@ -363,24 +364,32 @@
         },
         "row_YczNzx": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_11.value }}",
-            "text": "<p>{{ product.metafields.custom.featured_description_11 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
         },
         "row_x8DDMt": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_12.value }}",
             "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_V3RPL8": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_13.value }}",
+            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -400,7 +409,8 @@
         "row_CX7DMb",
         "row_CzV8AX",
         "row_YczNzx",
-        "row_x8DDMt"
+        "row_x8DDMt",
+        "row_V3RPL8"
       ],
       "settings": {
         "image_height": "medium",

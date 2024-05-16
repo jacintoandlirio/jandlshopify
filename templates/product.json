@@ -85,7 +85,7 @@
           "settings": {
             "heading": "Specifications",
             "icon": "clipboard",
-            "content": "<p>{{ product.metafields.custom.specifications | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
             "page": ""
           }
         },
@@ -219,7 +219,7 @@
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_3 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_4 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 6) {\ndisplay: none;\n}\n\n<\/style>\n\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_1 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 10) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_1 == blank %}\n<style>\n.hide-1 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_2 == blank %}\n<style>\n.hide-2 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_3 == blank %}\n<style>\n.hide-3 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_4 == blank %}\n<style>\n.hide-4 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_5 == blank %}\n<style>\n.hide-5 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n<style>\n.hide-6 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n<style>\n.hide-7 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_8 == blank %}\n<style>\n.hide-8 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n<style>\n.hide-9 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n<style>\n.hide-10 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_11 == blank %}\n<style>\n.hide-11 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_12 == blank %}\n<style>\n.hide-12 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_13 == blank %}\n<style>\n.hide-13 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_14 == blank %}\n<style>\n.hide-14 { display: none; }\n<\/style>\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_15 == blank %}\n<style>\n.hide-15 { display: none; }\n<\/style>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -272,7 +272,7 @@
             "button_link": ""
           }
         },
-        "row_DKnXEb": {
+        "row_eBHjgJ": {
           "type": "row",
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_5.value }}",
@@ -300,7 +300,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_7.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_7 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -311,7 +311,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_8.value }}",
-            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_8 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -423,24 +423,14 @@
             "button_link": ""
           }
         },
-        "row_iQVAVg": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
-            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_V3RPL8": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_13.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_13 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -451,7 +441,7 @@
         "row_ALXwjd",
         "row_E9tXrN",
         "row_VhPk6E",
-        "row_DKnXEb",
+        "row_eBHjgJ",
         "row_ymcD9U",
         "row_QmaRkV",
         "row_z9mDzW",
@@ -464,7 +454,6 @@
         "row_CzV8AX",
         "row_YczNzx",
         "row_x8DDMt",
-        "row_iQVAVg",
         "row_V3RPL8"
       ],
       "settings": {

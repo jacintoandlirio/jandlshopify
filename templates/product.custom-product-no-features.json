@@ -219,10 +219,33 @@
     "custom_liquid_BMzEeU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_3 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_4 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 6) {\ndisplay: none;\n}\n\n<\/style>\n\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 4) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_1 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 10) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n\n<style>\n.image-with-text:nth-last-child(-n + 1) {\ndisplay: none;\n}\n\n<\/style>\n\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.lorikeet_img_1 == blank %}\n<style>\n.hide-lorikeet-1 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_2 == blank %}\n<style>\n.hide-lorikeet-2 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_3 == blank %}\n<style>\n.hide-lorikeet-3 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_4 == blank %}\n<style>\n.hide-lorikeet-4 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_5 == blank %}\n<style>\n.hide-lorikeet-5 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_6 == blank %}\n<style>\n.hide-lorikeet-6 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_7 == blank %}\n<style>\n.hide-lorikeet-7 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_8 == blank %}\n<style>\n.hide-lorikeet-8 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_9 == blank %}\n<style>\n.hide-lorikeet-9 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_10 == blank %}\n<style>\n.hide-lorikeet-10 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_11 == blank %}\n<style>\n.hide-lorikeet-11 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_12 == blank %}\n<style>\n.hide-lorikeet-12 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_13 == blank %}\n<style>\n.hide-lorikeet-13 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_14 == blank %}\n<style>\n.hide-lorikeet-14 {\n  display: none;\n}\n<\/style>\n{% endif %}\n\n{% if product.metafields.custom.lorikeet_img_15 == blank %}\n<style>\n.hide-lorikeet-15 {\n  display: none;\n}\n<\/style>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "rich_text_TzcpnA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_E7dEk8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>FEATURES<\/strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_E7dEk8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multirow_6tNPA3": {
@@ -256,7 +279,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_3.value }}",
-            "text": "{{ product.metafields.custom.feature_description_3 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_3 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -285,6 +308,7 @@
         },
         "row_ymcD9U": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",
@@ -296,11 +320,12 @@
         },
         "row_QmaRkV": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_7.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_7 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -423,24 +448,14 @@
             "button_link": ""
           }
         },
-        "row_iQVAVg": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
-            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_V3RPL8": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_13.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_13 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -464,7 +479,6 @@
         "row_CzV8AX",
         "row_YczNzx",
         "row_x8DDMt",
-        "row_iQVAVg",
         "row_V3RPL8"
       ],
       "settings": {
@@ -826,6 +840,7 @@
     "custom_liquid_MGyNjt",
     "image_banner_pPezFi",
     "custom_liquid_BMzEeU",
+    "rich_text_TzcpnA",
     "multirow_6tNPA3",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",

@@ -296,6 +296,7 @@
         },
         "row_z9mDzW": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",
@@ -405,7 +406,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_14.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_14.value }}",
-            "text": "{{ product.metafields.custom.feature_description_14 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_14 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }

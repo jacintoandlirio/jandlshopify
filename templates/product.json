@@ -225,6 +225,36 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_TzcpnA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_E7dEk8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_A4EmhY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_E7dEk8",
+        "text_A4EmhY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_6tNPA3": {
       "type": "multirow",
       "blocks": {
@@ -256,7 +286,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_3.value }}",
-            "text": "{{ product.metafields.custom.feature_description_3 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_3 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -817,6 +847,7 @@
     "custom_liquid_MGyNjt",
     "image_banner_pPezFi",
     "custom_liquid_BMzEeU",
+    "rich_text_TzcpnA",
     "multirow_6tNPA3",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",

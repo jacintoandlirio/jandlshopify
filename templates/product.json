@@ -225,6 +225,29 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_LBjCzn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KTBLPB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>FEATURES<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KTBLPB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_6tNPA3": {
       "type": "multirow",
       "blocks": {
@@ -300,7 +323,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_7.value }}",
-            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_7 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -319,6 +342,7 @@
         },
         "row_qJtJbf": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
@@ -330,6 +354,7 @@
         },
         "row_qPfNTg": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
             "caption": "",
@@ -411,7 +436,7 @@
             "button_link": ""
           }
         },
-        "row_Aak9XQ": {
+        "row_iQVAVg": {
           "type": "row",
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
@@ -428,7 +453,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_13.value }}",
-            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_13 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -451,7 +476,7 @@
         "row_CzV8AX",
         "row_YczNzx",
         "row_x8DDMt",
-        "row_Aak9XQ",
+        "row_iQVAVg",
         "row_V3RPL8"
       ],
       "settings": {
@@ -813,6 +838,7 @@
     "custom_liquid_MGyNjt",
     "image_banner_pPezFi",
     "custom_liquid_BMzEeU",
+    "rich_text_LBjCzn",
     "multirow_6tNPA3",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",

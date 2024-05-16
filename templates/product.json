@@ -296,6 +296,7 @@
         },
         "row_QmaRkV": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",

@@ -366,9 +366,10 @@
         "row_nz8HDC": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
             "caption": "",
             "heading": "Row{{ product.metafields.custom.feature_title_13.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_title_13.value }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

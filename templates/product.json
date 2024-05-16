@@ -305,6 +305,28 @@
             "button_link": ""
           }
         },
+        "row_qPfNTg": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_8.value }}",
+            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_jKVagw": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "row_9VMGXc": {
           "type": "row",
           "settings": {
@@ -346,7 +368,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_11.value }}",
-            "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.featured_description_11 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -362,17 +384,6 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "row_nz8HDC": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_13.value }}",
-            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
@@ -383,12 +394,13 @@
         "row_eBHjgJ",
         "row_NQg8LX",
         "row_QmaRkV",
+        "row_qPfNTg",
+        "row_jKVagw",
         "row_9VMGXc",
         "row_CX7DMb",
         "row_CzV8AX",
         "row_YczNzx",
-        "row_x8DDMt",
-        "row_nz8HDC"
+        "row_x8DDMt"
       ],
       "settings": {
         "image_height": "medium",

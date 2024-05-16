@@ -231,20 +231,13 @@
         "heading_E7dEk8": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_A4EmhY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "heading": "<strong>FEATURES<\/strong>",
+            "heading_size": "h0"
           }
         }
       },
       "block_order": [
-        "heading_E7dEk8",
-        "text_A4EmhY"
+        "heading_E7dEk8"
       ],
       "settings": {
         "desktop_content_position": "center",

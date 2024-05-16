@@ -871,94 +871,31 @@
     "ss_instafeed_2_3RqEpe": {
       "type": "ss-instafeed-2",
       "blocks": {
-        "slide_fcUWdW": {
+        "slide_HwPXmb": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rmboxes.png",
+            "image": "shopify:\/\/shop_images\/advertising_slider_776ce76a-4359-4e5e-894d-ba0df5387452.png",
             "url": ""
           }
         },
-        "slide_yntKhQ": {
+        "slide_EGmRqY": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unilabfound.png",
+            "image": "shopify:\/\/shop_images\/taroaox.png",
             "url": ""
           }
         },
-        "slide_tjDwUa": {
+        "slide_ntL8xz": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VillaCaemillaresizedlogo.png",
+            "image": "shopify:\/\/shop_images\/pocket_rocket_baaa3734-852c-42f0-a4e3-9049e5885dd6.png",
             "url": ""
           }
         },
-        "slide_Wtf89w": {
+        "slide_QqCxCz": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
-            "url": ""
-          }
-        },
-        "slide_DEfzUw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AlveoLogoResized.png",
-            "url": ""
-          }
-        },
-        "slide_zGWiLT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dow_corp.png",
-            "url": ""
-          }
-        },
-        "slide_arRjGz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/leadsAgriLogo.png",
-            "url": ""
-          }
-        },
-        "slide_4HtRGw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gaiasouthinc.png",
-            "url": ""
-          }
-        },
-        "slide_Q7azqH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FSI_logo_resized.png",
-            "url": ""
-          }
-        },
-        "slide_jye8ag": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pwcLogoResized.png",
-            "url": ""
-          }
-        },
-        "slide_wBTNYc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
-            "url": ""
-          }
-        },
-        "slide_Hr8hzV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/boscoffeeresizedlogo.png",
-            "url": ""
-          }
-        },
-        "slide_hwLUGH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/260architectsLogoResized.png",
+            "image": "shopify:\/\/shop_images\/banking_slider.png",
             "url": ""
           }
         },
@@ -969,6 +906,13 @@
             "url": ""
           }
         },
+        "slide_RytXfX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/metrobank_adf3e0d6-96f1-4194-8c44-b2b554bfdeff.png",
+            "url": ""
+          }
+        },
         "slide_W7Wbiq": {
           "type": "slide",
           "settings": {
@@ -976,24 +920,24 @@
             "url": ""
           }
         },
-        "slide_R7WKCj": {
+        "slide_qpgKxD": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/thelighthouselogo.png",
+            "image": "shopify:\/\/shop_images\/actuarial_socofthephilippines_f88f60d2-7d33-4fd6-ac15-b620575e5f5c.png",
             "url": ""
           }
         },
-        "slide_4mzULD": {
+        "slide_p6KdwV": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/islasPinasLogoResized.png",
+            "image": "shopify:\/\/shop_images\/agriculture.png",
             "url": ""
           }
         },
-        "slide_xxPz8x": {
+        "slide_arRjGz": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Globe-logo.png",
+            "image": "shopify:\/\/shop_images\/leadsAgriLogo.png",
             "url": ""
           }
         },
@@ -1004,6 +948,97 @@
             "url": ""
           }
         },
+        "slide_KXmktJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gaia_south_inc_4aaaec9d-2993-4fba-bc98-e276adeae814.png",
+            "url": ""
+          }
+        },
+        "slide_QKfmtG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/telecommunications.png",
+            "url": ""
+          }
+        },
+        "slide_xxPz8x": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Globe-logo.png",
+            "url": ""
+          }
+        },
+        "slide_gfpnLY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/automotive.png",
+            "url": ""
+          }
+        },
+        "slide_wBTNYc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
+            "url": ""
+          }
+        },
+        "slide_AVkhcL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/government_agencies.png",
+            "url": ""
+          }
+        },
+        "slide_Q7azqH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FSI_logo_resized.png",
+            "url": ""
+          }
+        },
+        "slide_PMRVhC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cccp.png",
+            "url": ""
+          }
+        },
+        "slide_A6P8B3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hospital_and_phamacies.png",
+            "url": ""
+          }
+        },
+        "slide_yntKhQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unilabfound.png",
+            "url": ""
+          }
+        },
+        "slide_kANWVA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/architecture_design.png",
+            "url": ""
+          }
+        },
+        "slide_hwLUGH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/260architectsLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_zGWiLT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dow_corp.png",
+            "url": ""
+          }
+        },
         "slide_gWpWGE": {
           "type": "slide",
           "settings": {
@@ -1011,36 +1046,137 @@
             "url": ""
           }
         },
-        "slide_qpgKxD": {
+        "slide_txzK6J": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/actuarial_socofthephilippines_f88f60d2-7d33-4fd6-ac15-b620575e5f5c.png",
+            "image": "shopify:\/\/shop_images\/hotels_and_resorts.png",
+            "url": ""
+          }
+        },
+        "slide_tjDwUa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VillaCaemillaresizedlogo.png",
+            "url": ""
+          }
+        },
+        "slide_R7WKCj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thelighthouselogo.png",
+            "url": ""
+          }
+        },
+        "slide_mTEKgX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/human_resources.png",
+            "url": ""
+          }
+        },
+        "slide_jye8ag": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pwcLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_NTtRXY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nonprofit_and_foundations.png",
+            "url": ""
+          }
+        },
+        "slide_Wtf89w": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
+            "url": ""
+          }
+        },
+        "slide_YQKDWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/restaurants_5e9539f5-4504-4cfe-873d-9eb99b13189d.png",
+            "url": ""
+          }
+        },
+        "slide_4mzULD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/islasPinasLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_Hr8hzV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boscoffeeresizedlogo.png",
+            "url": ""
+          }
+        },
+        "slide_fcUWdW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rmboxes.png",
+            "url": ""
+          }
+        },
+        "slide_xrNWr4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/real_estate.png",
+            "url": ""
+          }
+        },
+        "slide_DEfzUw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlveoLogoResized.png",
             "url": ""
           }
         }
       },
       "block_order": [
-        "slide_fcUWdW",
-        "slide_yntKhQ",
-        "slide_tjDwUa",
-        "slide_Wtf89w",
-        "slide_DEfzUw",
-        "slide_zGWiLT",
-        "slide_arRjGz",
-        "slide_4HtRGw",
-        "slide_Q7azqH",
-        "slide_jye8ag",
-        "slide_wBTNYc",
-        "slide_Hr8hzV",
-        "slide_hwLUGH",
+        "slide_HwPXmb",
+        "slide_EGmRqY",
+        "slide_ntL8xz",
+        "slide_QqCxCz",
         "slide_hkDcEX",
+        "slide_RytXfX",
         "slide_W7Wbiq",
-        "slide_R7WKCj",
-        "slide_4mzULD",
-        "slide_xxPz8x",
+        "slide_qpgKxD",
+        "slide_p6KdwV",
+        "slide_arRjGz",
         "slide_EJqyjG",
+        "slide_KXmktJ",
+        "slide_QKfmtG",
+        "slide_xxPz8x",
+        "slide_gfpnLY",
+        "slide_wBTNYc",
+        "slide_AVkhcL",
+        "slide_Q7azqH",
+        "slide_PMRVhC",
+        "slide_A6P8B3",
+        "slide_yntKhQ",
+        "slide_kANWVA",
+        "slide_hwLUGH",
+        "slide_zGWiLT",
         "slide_gWpWGE",
-        "slide_qpgKxD"
+        "slide_txzK6J",
+        "slide_tjDwUa",
+        "slide_R7WKCj",
+        "slide_mTEKgX",
+        "slide_jye8ag",
+        "slide_NTtRXY",
+        "slide_Wtf89w",
+        "slide_YQKDWB",
+        "slide_4mzULD",
+        "slide_Hr8hzV",
+        "slide_fcUWdW",
+        "slide_xrNWr4",
+        "slide_DEfzUw"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

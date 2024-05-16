@@ -232,7 +232,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>FEATURES<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         }
       },

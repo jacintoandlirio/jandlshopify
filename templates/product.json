@@ -285,7 +285,6 @@
         },
         "row_ymcD9U": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",
@@ -297,12 +296,11 @@
         },
         "row_QmaRkV": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_7.value }}",
-            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_7 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -313,7 +311,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_8.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_8 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

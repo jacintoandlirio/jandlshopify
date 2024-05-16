@@ -346,7 +346,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_11.value }}",
-            "text": "<p>{{ product.metafields.custom.featured_description_11 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -359,6 +359,16 @@
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_12.value }}",
             "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_nz8HDC": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Row{{ product.metafields.custom.feature_title_13.value }}",
+            "text": "<p>{{ product.metafields.custom.feature_title_13.value }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -376,7 +386,8 @@
         "row_CX7DMb",
         "row_CzV8AX",
         "row_YczNzx",
-        "row_x8DDMt"
+        "row_x8DDMt",
+        "row_nz8HDC"
       ],
       "settings": {
         "image_height": "medium",

@@ -308,7 +308,6 @@
         },
         "row_ymcD9U": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",

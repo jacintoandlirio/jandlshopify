@@ -352,6 +352,7 @@
         },
         "row_gxmw46": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",

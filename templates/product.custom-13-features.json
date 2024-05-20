@@ -342,10 +342,9 @@
         "row_NViciX": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
-            "heading": "",
-            "text": "",
+            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

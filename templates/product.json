@@ -341,7 +341,6 @@
         },
         "row_NViciX": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
@@ -368,18 +367,19 @@
             "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_11.value }}",
-            "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.featured_description_11 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
         },
         "row_x8DDMt": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_12.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_12 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

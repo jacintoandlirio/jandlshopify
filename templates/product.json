@@ -317,17 +317,6 @@
             "button_link": ""
           }
         },
-        "row_gxmw46": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
         "row_QmaRkV": {
           "type": "row",
           "settings": {
@@ -415,7 +404,6 @@
         "row_VhPk6E",
         "row_eBHjgJ",
         "row_ymcD9U",
-        "row_gxmw46",
         "row_QmaRkV",
         "row_9VMGXc",
         "row_NViciX",

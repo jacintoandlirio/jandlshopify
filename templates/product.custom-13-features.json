@@ -349,6 +349,16 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_aEyW3t": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -360,7 +370,8 @@
         "row_ymcD9U",
         "row_QmaRkV",
         "row_z9mDzW",
-        "row_NViciX"
+        "row_NViciX",
+        "row_aEyW3t"
       ],
       "settings": {
         "image_height": "medium",

@@ -345,14 +345,13 @@
             "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_9.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_9 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
         },
         "row_fVTY8G": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",
@@ -363,7 +362,6 @@
         },
         "row_CzV8AX": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",

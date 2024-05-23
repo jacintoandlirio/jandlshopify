@@ -387,11 +387,12 @@
         },
         "row_V3RPL8": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_13.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_13 | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

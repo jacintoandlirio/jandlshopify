@@ -410,6 +410,7 @@
         },
         "row_ERWwTk": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",
@@ -420,6 +421,7 @@
         },
         "row_rtGNpe": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",
@@ -430,6 +432,7 @@
         },
         "row_HDzewD": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",

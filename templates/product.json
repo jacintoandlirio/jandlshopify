@@ -428,9 +428,9 @@
         "row_HDzewD": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_15.value }}",
+            "text": "{{ product.metafields.custom.feature_description_15 | metafield_tag }}",
             "button_label": "Button label",
             "button_link": ""
           }

@@ -398,7 +398,7 @@
           "type": "row",
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_14.value }}",
-            "caption": "Caption",
+            "caption": "{{ product.metafields.custom.feature_title_14.value }}",
             "heading": "{{ product.metafields.custom.feature_title_14.value }}",
             "text": "{{ product.metafields.custom.feature_description_14 | metafield_tag }}",
             "button_label": "",

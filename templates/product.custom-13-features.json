@@ -382,6 +382,17 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_4yKdXP": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_13.value }}",
+            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -396,7 +407,8 @@
         "row_NViciX",
         "row_aEyW3t",
         "row_LadMhh",
-        "row_rTXGEw"
+        "row_rTXGEw",
+        "row_4yKdXP"
       ],
       "settings": {
         "image_height": "medium",

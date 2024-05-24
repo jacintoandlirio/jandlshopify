@@ -313,7 +313,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
-            "text": "<p><\/p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "text": "<p><\/p><p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -342,6 +342,7 @@
         },
         "row_NViciX": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
@@ -353,6 +354,7 @@
         },
         "row_CzV8AX": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
@@ -364,6 +366,7 @@
         },
         "row_YczNzx": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
             "caption": "",
@@ -375,6 +378,7 @@
         },
         "row_x8DDMt": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
             "caption": "",
@@ -386,6 +390,7 @@
         },
         "row_V3RPL8": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
             "caption": "",
@@ -428,7 +433,6 @@
         },
         "row_HDzewD": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",

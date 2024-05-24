@@ -353,6 +353,7 @@
         },
         "row_CzV8AX": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
@@ -412,6 +413,7 @@
         },
         "row_ERWwTk": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",
@@ -422,6 +424,7 @@
         },
         "row_rtGNpe": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",

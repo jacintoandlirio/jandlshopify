@@ -375,10 +375,11 @@
         "row_rTXGEw": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_12.value }}",
+            "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
+            "button_label": "",
             "button_link": ""
           }
         }

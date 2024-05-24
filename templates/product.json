@@ -428,9 +428,10 @@
         "row_HDzewD": {
           "type": "row",
           "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_15.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_15.value }}",
-            "text": "{{ product.metafields.custom.feature_description_15 | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_15 | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }

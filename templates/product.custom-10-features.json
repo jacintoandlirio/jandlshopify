@@ -353,10 +353,10 @@
         "row_HDzewD": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_15.value }}",
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
             "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_15.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_15 | metafield_tag }}<\/p>",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }

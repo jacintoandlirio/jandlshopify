@@ -350,47 +350,13 @@
             "button_link": ""
           }
         },
-        "row_aEyW3t": {
+        "row_mEVx8h": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
-            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_LadMhh": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_11.value }}",
-            "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_rTXGEw": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_12.value }}",
-            "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_4yKdXP": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_13.value }}",
-            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
-            "button_label": "",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
@@ -405,10 +371,7 @@
         "row_QmaRkV",
         "row_z9mDzW",
         "row_NViciX",
-        "row_aEyW3t",
-        "row_LadMhh",
-        "row_rTXGEw",
-        "row_4yKdXP"
+        "row_mEVx8h"
       ],
       "settings": {
         "image_height": "medium",

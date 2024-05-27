@@ -359,6 +359,16 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "row_V3W9PN": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -371,7 +381,8 @@
         "row_QmaRkV",
         "row_z9mDzW",
         "row_NViciX",
-        "row_mEVx8h"
+        "row_mEVx8h",
+        "row_V3W9PN"
       ],
       "settings": {
         "image_height": "medium",

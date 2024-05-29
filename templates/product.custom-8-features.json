@@ -341,7 +341,6 @@
         },
         "row_zp8TGe": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",

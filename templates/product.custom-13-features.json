@@ -357,7 +357,7 @@
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_10.value }}",
             "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },

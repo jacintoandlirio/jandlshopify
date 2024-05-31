@@ -312,8 +312,18 @@
             "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
-            "text": "<p><\/p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "text": "<p><\/p><p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}<\/p>",
             "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_W4h7K6": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
@@ -324,7 +334,8 @@
         "row_E9tXrN",
         "row_VhPk6E",
         "row_eBHjgJ",
-        "row_ymcD9U"
+        "row_ymcD9U",
+        "row_W4h7K6"
       ],
       "settings": {
         "image_height": "medium",

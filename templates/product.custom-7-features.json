@@ -330,6 +330,7 @@
         },
         "row_j37NJf": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "heading": "Row",

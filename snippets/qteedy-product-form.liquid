@@ -16,8 +16,38 @@
   </div>
   <br/>
   <div class="field">
-    <input type="text" id="Company" class="field__input" placeholder="Company" name="Company" required/>
-    <label for="Company" class="field__label">Other information</label>
+    <input type="text" id="OtherInfo" class="field__input" placeholder="Other Information" name="OtherInfo"/>
+    <label for="OtherInfo" class="field__label">Other Information</label>
+  </div>
+  <br/>
+  <div class="field">
+    <input type="text" id="Budget" class="field__input" placeholder="Budget" name="Budget" required/>
+    <label for="Budget" class="field__label">Budget</label>
+  </div>
+  <br/>
+  <div class="field">
+    <input type="date" id="DateQuotationNeeded" class="field__input" placeholder="Date Quotation Needed" name="DateQuotationNeeded" required/>
+    <label for="DateQuotationNeeded" class="field__label">Date Quotation Needed</label>
+  </div>
+  <br/>
+  <div class="field">
+    <input type="date" id="DateItemsNeeded" class="field__input" placeholder="Date Items Needed if Ordered" name="DateItemsNeeded" required/>
+    <label for="DateItemsNeeded" class="field__label">Date Items Needed if Ordered</label>
+  </div>
+  <br/>
+  <div class="field">
+    <input type="text" id="ProfileOfRecipients" class="field__input" placeholder="Profile of Recipients" name="ProfileOfRecipients" required/>
+    <label for="ProfileOfRecipients" class="field__label">Profile of Recipients</label>
+  </div>
+  <br/>
+  <div class="field">
+    <label for="RegularRequirement" class="field__label">Is this a Regular Requirement?</label>
+    <select id="RegularRequirement" class="field__input" name="RegularRequirement" required>
+      <option value="Yearly">Yearly</option>
+      <option value="Every Quarter">Every Quarter</option>
+      <option value="Semi-Annual">Semi-Annual</option>
+      <option value="Others">Others: <input type="text" id="OtherFrequency" name="OtherFrequency" placeholder="State When" /></option>
+    </select>
   </div>
   <br/>
   <a href="#" class="cart__checkout-button button" id="create_quote_from_product">Request Quote</a>

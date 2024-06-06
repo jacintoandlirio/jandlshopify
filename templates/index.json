@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_Father_s_Day_Special_Banner.png",
-            "image_link": "shopify:\/\/collections\/travel-accessories",
+            "image_link": "",
             "heading": "Eco-Friendly Leather Goods For Sustainable Travel.",
             "heading_size": "h1",
             "subheading": "Pick from our travel efficient eco-friendly and  multi-functional collections",
@@ -74,7 +74,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,

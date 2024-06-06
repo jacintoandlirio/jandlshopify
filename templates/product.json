@@ -15,6 +15,11 @@
           "settings": {
           }
         },
+        "price_HrNzUY": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "text_GGrbeM": {
           "type": "text",
           "settings": {
@@ -154,6 +159,7 @@
       "block_order": [
         "vendor",
         "title",
+        "price_HrNzUY",
         "text_GGrbeM",
         "variant_picker",
         "custom_liquid_4xnYLk",

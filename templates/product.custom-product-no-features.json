@@ -47,19 +47,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "qteedy_qteedy_extended_product_form_7hcCqb": {
-          "type": "shopify:\/\/apps\/qteedy\/blocks\/qteedy_extended_product_form\/fe69a84a-7558-4693-b16c-57a414940105",
-          "settings": {
-            "email_required": "required",
-            "phone_required": "false",
-            "company_required": "false",
-            "email_label_text": "Customer Email",
-            "phone_label_text": "Phone",
-            "company_label_text": "Company",
-            "quote_button_label_text": "Create Quote",
-            "heading_label_text": "Need a Quote?"
-          }
-        },
         "text_MHzQNc": {
           "type": "text",
           "settings": {
@@ -162,6 +149,19 @@
             "text": "",
             "text_style": "body"
           }
+        },
+        "qteedy_qteedy_extended_product_form_7hcCqb": {
+          "type": "shopify:\/\/apps\/qteedy\/blocks\/qteedy_extended_product_form\/fe69a84a-7558-4693-b16c-57a414940105",
+          "settings": {
+            "email_required": "required",
+            "phone_required": "false",
+            "company_required": "false",
+            "email_label_text": "Customer Email",
+            "phone_label_text": "Phone",
+            "company_label_text": "Company",
+            "quote_button_label_text": "Create Quote",
+            "heading_label_text": "Need a Quote?"
+          }
         }
       },
       "block_order": [
@@ -172,7 +172,6 @@
         "custom_liquid_4xnYLk",
         "quantity_selector",
         "buy_buttons",
-        "qteedy_qteedy_extended_product_form_7hcCqb",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
         "collapsible_tab_A8kRt8",
@@ -185,7 +184,8 @@
         "description",
         "share",
         "custom_liquid_gCgtYY",
-        "text_kxHrGD"
+        "text_kxHrGD",
+        "qteedy_qteedy_extended_product_form_7hcCqb"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -237,6 +237,22 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "image_banner_jNfj8k": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_PAGER_4th_Layout_-_MARA.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "rich_text_tPrHhy": {
@@ -582,6 +598,7 @@
     "custom_liquid_MGyNjt",
     "image_banner_pPezFi",
     "custom_liquid_BMzEeU",
+    "image_banner_jNfj8k",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",
     "rich_text_3tqc9D",

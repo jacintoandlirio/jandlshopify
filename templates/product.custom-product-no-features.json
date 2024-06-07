@@ -264,6 +264,9 @@
     },
     "image_banner_jNfj8k": {
       "type": "image-banner",
+      "custom_css": [
+
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1_PAGER_4th_Layout_-_MARA.png",
         "image_overlay_opacity": 0,

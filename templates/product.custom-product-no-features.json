@@ -239,6 +239,29 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_fznFjr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qfLXUV": {
+          "type": "heading",
+          "settings": {
+            "heading": "CORPORATE GIFTING SERVICES",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qfLXUV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_jNfj8k": {
       "type": "image-banner",
       "settings": {
@@ -598,6 +621,7 @@
     "custom_liquid_MGyNjt",
     "image_banner_pPezFi",
     "custom_liquid_BMzEeU",
+    "rich_text_fznFjr",
     "image_banner_jNfj8k",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",

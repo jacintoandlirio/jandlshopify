@@ -281,14 +281,17 @@
         "show_text_below": true
       }
     },
-    "contact_form_pzYRbt": {
-      "type": "contact-form",
+    "request_for_quotation_form_M7gfwk": {
+      "type": "request-for-quotation-form",
+      "custom_css": [
+
+      ],
       "settings": {
         "heading": "Need Quotation?",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading_size": "h2",
+        "color_scheme": "light",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "rich_text_tPrHhy": {
@@ -636,7 +639,7 @@
     "custom_liquid_BMzEeU",
     "rich_text_fznFjr",
     "image_banner_jNfj8k",
-    "contact_form_pzYRbt",
+    "request_for_quotation_form_M7gfwk",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",
     "rich_text_3tqc9D",

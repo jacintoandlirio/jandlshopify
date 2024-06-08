@@ -281,6 +281,16 @@
         "show_text_below": true
       }
     },
+    "contact_form_pzYRbt": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Need Quotation?",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_tPrHhy": {
       "type": "rich-text",
       "blocks": {
@@ -626,6 +636,7 @@
     "custom_liquid_BMzEeU",
     "rich_text_fznFjr",
     "image_banner_jNfj8k",
+    "contact_form_pzYRbt",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",
     "rich_text_3tqc9D",

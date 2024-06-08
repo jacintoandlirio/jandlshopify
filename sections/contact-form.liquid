@@ -168,9 +168,12 @@
           <option value="Yearly">Yearly</option>
           <option value="Every Quarter">Every Quarter</option>
           <option value="Semi-Annual">Semi-Annual</option>
-          <option value="Others">Others: <input type="text" id="OtherFrequency" name="contact[other_frequency]" placeholder="State When" /></option>
+          <option value="Others">
+            Others: <input type="text" id="OtherFrequency" name="contact[other_frequency]" placeholder="State When">
+          </option>
         </select>
       </div>
+      <br>
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}

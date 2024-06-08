@@ -10,6 +10,34 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .contact__field-wrapper {
+    position: relative;
+  }
+
+  .contact__field-wrapper .field__input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  .contact__field-wrapper select.field__input {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .contact__field-wrapper select.field__input + .other-frequency {
+    display: none;
+  }
+
+  .contact__field-wrapper select.field__input[data-show-other="true"] + .other-frequency {
+    display: block;
+  }
+
+  .contact__button {
+    margin-top: 16px;
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -162,16 +190,15 @@
         >
         <label class="field__label" for="ContactForm-profile-recipients">Profile of Recipients</label>
       </div>
-      <div class="field">
+      <div class="field contact__field-wrapper">
         <label class="field__label" for="ContactForm-regular-requirement">Is this a Regular Requirement?</label>
-        <select id="ContactForm-regular-requirement" class="field__input" name="contact[regular_requirement]">
+        <select id="ContactForm-regular-requirement" class="field__input" name="contact[regular_requirement]" onchange="this.dataset.showOther = this.value === 'Others' ? 'true' : 'false'">
           <option value="Yearly">Yearly</option>
           <option value="Every Quarter">Every Quarter</option>
           <option value="Semi-Annual">Semi-Annual</option>
-          <option value="Others">
-            Others: <input type="text" id="OtherFrequency" name="contact[other_frequency]" placeholder="State When">
-          </option>
+          <option value="Others">Others</option>
         </select>
+        <input type="text" id="OtherFrequency" class="other-frequency field__input" name="contact[other_frequency]" placeholder="State When">
       </div>
       <br>
       <div class="contact__button">

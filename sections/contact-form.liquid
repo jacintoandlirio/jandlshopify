@@ -1,3 +1,5 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -9,34 +11,6 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-  }
-
-  .contact__field-wrapper {
-    position: relative;
-  }
-
-  .contact__field-wrapper .field__input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 8px;
-  }
-
-  .contact__field-wrapper select.field__input {
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-  }
-
-  .contact__field-wrapper select.field__input + .other-frequency {
-    display: none;
-  }
-
-  .contact__field-wrapper select.field__input[data-show-other="true"] + .other-frequency {
-    display: block;
-  }
-
-  .contact__button {
-    margin-top: 16px;
   }
 {%- endstyle -%}
 
@@ -150,57 +124,6 @@
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
-      <div class="field">
-        <input
-          type="text"
-          id="ContactForm-budget"
-          class="field__input"
-          name="contact[budget]"
-          placeholder="Budget"
-        >
-        <label class="field__label" for="ContactForm-budget">Budget</label>
-      </div>
-      <div class="field">
-        <input
-          type="date"
-          id="ContactForm-date-quotation-needed"
-          class="field__input"
-          name="contact[date_quotation_needed]"
-          placeholder="Date Quotation Needed"
-        >
-        <label class="field__label" for="ContactForm-date-quotation-needed">Date Quotation Needed</label>
-      </div>
-      <div class="field">
-        <input
-          type="date"
-          id="ContactForm-date-items-needed"
-          class="field__input"
-          name="contact[date_items_needed]"
-          placeholder="Date Items Needed if Ordered"
-        >
-        <label class="field__label" for="ContactForm-date-items-needed">Date Items Needed if Ordered</label>
-      </div>
-      <div class="field">
-        <input
-          type="text"
-          id="ContactForm-profile-recipients"
-          class="field__input"
-          name="contact[profile_recipients]"
-          placeholder="Profile of Recipients"
-        >
-        <label class="field__label" for="ContactForm-profile-recipients">Profile of Recipients</label>
-      </div>
-      <div class="field contact__field-wrapper">
-        <label class="field__label" for="ContactForm-regular-requirement">Is this a Regular Requirement?</label>
-        <select id="ContactForm-regular-requirement" class="field__input" name="contact[regular_requirement]" onchange="this.dataset.showOther = this.value === 'Others' ? 'true' : 'false'">
-          <option value="Yearly">Yearly</option>
-          <option value="Every Quarter">Every Quarter</option>
-          <option value="Semi-Annual">Semi-Annual</option>
-          <option value="Others">Others</option>
-        </select>
-        <input type="text" id="OtherFrequency" class="other-frequency field__input" name="contact[other_frequency]" placeholder="State When">
-      </div>
-      <br>
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}

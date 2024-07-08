@@ -261,16 +261,16 @@
         >
         <label class="field__label" for="ContactForm-profile-recipients">Profile of Recipients</label>
       </div>
-      <div class="field contact__field-wrapper">
-        <label class="field__label" for="ContactForm-regular-requirement">Is this a Regular Requirement?</label>
-        <select id="ContactForm-regular-requirement" class="field__input" name="contact[regular_requirement]" onchange="this.dataset.showOther = this.value === 'Others' ? 'true' : 'false'">
-          <option value="Yearly">Yearly</option>
-          <option value="Every Quarter">Every Quarter</option>
-          <option value="Semi-Annual">Semi-Annual</option>
-          <option value="Others">Others</option>
-        </select>
-        <input type="text" id="OtherFrequency" class="other-frequency field__input" name="contact[other_frequency]" placeholder="State When">
-      </div>
+     <div class="field contact__field-wrapper">
+    <label class="field__label" for="ContactForm-regular-requirement">Is this a Regular Requirement?</label>
+    <select id="ContactForm-regular-requirement" class="field__input" name="contact[regular_requirement]" onchange="toggleOtherFrequency(this)">
+      <option value="Yearly">Yearly</option>
+      <option value="Every Quarter">Every Quarter</option>
+      <option value="Semi-Annual">Semi-Annual</option>
+      <option value="Others">Others</option>
+    </select>
+    <input type="text" id="OtherFrequency" class="other-frequency field__input" name="contact[other_frequency]" placeholder="State When" style="display: none;">
+  </div>
       <br>
       <div class="contact__button">
         <button type="submit" class="button">

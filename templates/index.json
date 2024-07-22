@@ -12,25 +12,6 @@
     "slideshow_ri7rcw": {
       "type": "slideshow",
       "blocks": {
-        "slide_BKfmUb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Father_s_Day_Special_Banner.png",
-            "image_link": "",
-            "heading": "Express Your Familial Love This Father's Day!",
-            "heading_size": "h1",
-            "subheading": "Celebrate Father's Day with the eco-friendly, trendy Style from Jacinto & Lirio!",
-            "button_label": "Shop Now!",
-            "link": "shopify:\/\/collections\/fathers-day",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 30,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_7mMHRC": {
           "type": "slide",
           "settings": {
@@ -90,7 +71,6 @@
         }
       },
       "block_order": [
-        "slide_BKfmUb",
         "slide_7mMHRC",
         "slide_VF4bMU",
         "slide_CTGXc9"

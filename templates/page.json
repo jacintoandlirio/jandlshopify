@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "custom_liquid_jVa7ez": {
@@ -37,6 +46,7 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.image_banner.value }}",
+        "image_2": "shopify:\/\/shop_images\/Career-banner.jpg",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",

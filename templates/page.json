@@ -246,6 +246,64 @@
         "padding_bottom": 28
       }
     },
+    "multirow_UQcnaH": {
+      "type": "multirow",
+      "blocks": {
+        "row_kYLGPY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8c8b58c7b67f49a4aec611eb546cb028_1_1.gif",
+            "caption": "Jacinto & Lirio",
+            "heading": "WATER HYACINTH LEATHERIZATION",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_hR9cGL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/environmental_impact_add_2439cb7a-cb3f-4ee8-90f9-ad7cf08a36c8.jpg",
+            "caption": "Jacinto & Lirio",
+            "heading": "OUR ENVIRONMENTAL IMPACT",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_9kHYmq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SOCIAL_IMPACT_2020.jpg",
+            "caption": "Jacinto & Lirio",
+            "heading": "OUR SOCIAL IMPACT",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kYLGPY",
+        "row_hR9cGL",
+        "row_9kHYmq"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_3c8QpU": {
       "type": "rich-text",
       "blocks": {
@@ -1016,6 +1074,7 @@
     "image_with_text_anJUaQ",
     "multicolumn_mNTXWC",
     "main",
+    "multirow_UQcnaH",
     "rich_text_3c8QpU",
     "rich_text_z6KajG",
     "multicolumn_JpQDMk",

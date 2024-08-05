@@ -239,7 +239,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1 {font-family: \"luna itc\"; font-size: 50px; text-align: center;}"
+        "h1 {font-family: \"luna itc\"; font-size: 50px; text-align: right;}"
       ],
       "settings": {
         "padding_top": 28,

@@ -76,8 +76,13 @@
             endif
           -%}
           {% assign quote_tags = "Corporate, Desk Accessories, mto-50, MTO" | split: ", " %}
-          TAGS
-          {{ product.tags }}
+          <div style="disaply:none;">
+            TAGS
+            {{ product.tags }}
+
+            QTEEDY_FORM
+            {{ qteedy_form }}
+          </div>
           
           {% assign qteedy_form = false %}
           
@@ -87,9 +92,6 @@
               {% break %}
             {% endif %}
           {% endfor %}
-
-          QTEEDY_FORM
-          {{ qteedy_form }}
 
           {% if qteedy_form %}
             {% render 'qteedy-product-form' %}

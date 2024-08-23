@@ -77,12 +77,12 @@
           -%}
           {% assign quote_tags = "Corporate, Desk Accessories, mto-50, MTO" | split: ", " %}
           TAGS
+          {% assign qteedy_form = false %}
           {{ product.tags }}
           {% for t in quote_tags %}
             {% if product.tags contains t %}
               {% assign qteedy_form = true %}
-            {% else %}
-              {% assign qteedy_form = false %}
+              {% break %}
             {% endif %}
           {% endfor %}
 

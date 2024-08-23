@@ -76,6 +76,7 @@
             endif
           -%}
           {% assign quote_tags = "Corporate, Desk Accessories, mto-50, MTO" | split: ", " %}
+          TAGS
           {{ product.tags }}
           {% for t in quote_tags %}
             {% if product.tags contains t %}

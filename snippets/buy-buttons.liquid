@@ -80,8 +80,15 @@
           {{ product.tags }}
           {% for t in quote_tags %}
             {% if product.tags contains t %}
-              {% render 'qteedy-product-form' %}
+              {% assign qteedy_form = true %}
             {% else %}
+              {% assign qteedy_form = false %}
+            {% endif %}
+          {% endfor %}
+
+          {% if qteedy_form %}
+            {% render 'qteedy-product-form' %}
+          {% else %}
               <button
                 id="ProductSubmitButton-{{ section_id }}"
                 type="submit"
@@ -102,11 +109,8 @@
               </button>
               {%- if show_dynamic_checkout -%}
                 {{ form | payment_button }}
-              {%- endif -%}              
-            {% endif %}
-          {% endfor %}
-          
-          
+              {%- endif -%}                                    
+          {% endif %}
         </div>
       {%- endform -%}
     </product-form>

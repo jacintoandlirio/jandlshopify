@@ -17,7 +17,9 @@
   <br/>
   <a href="#" class="cart__checkout-button button" id="create_quote_from_product">Create Quote</a>
   <p id="easyquote-status"></p>
-
+  
+  <input type="hidden" id="qteedy-product-id" value="{{ product.id }}"/>
+  <input type="hidden" id="qteedy-variant-id" value="{{ product.selected_or_first_available_variant.id }}"/>
 </div>
 
 
@@ -79,7 +81,4 @@ OLD QTEEDY FORM
   <a href="#" class="cart__checkout-button button" id="create_quote_from_product">Request Quote</a>
 
   <p id="easyquote-status"></p>
-
-  <input type="hidden" id="qteedy-product-id" value="{{ product.id }}"/>
-  <input type="hidden" id="qteedy-variant-id" value="{{ product.selected_or_first_available_variant.id }}"/>
 </div>-->

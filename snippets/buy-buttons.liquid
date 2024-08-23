@@ -86,6 +86,9 @@
             {% endif %}
           {% endfor %}
 
+          QTEEDY_FORM
+          {{ qteedy_form }}
+
           {% if qteedy_form %}
             {% render 'qteedy-product-form' %}
           {% else %}

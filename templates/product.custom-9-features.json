@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -12,6 +21,11 @@
         },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "price_Y8WPVT": {
+          "type": "price",
           "settings": {
           }
         },
@@ -154,6 +168,7 @@
       "block_order": [
         "vendor",
         "title",
+        "price_Y8WPVT",
         "text_GGrbeM",
         "variant_picker",
         "custom_liquid_4xnYLk",
@@ -683,7 +698,7 @@
       "type": "apps",
       "blocks": {
         "stamped_product_reviews_ugc_main_widget_6DFK8k": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": false,
             "offset": -1,

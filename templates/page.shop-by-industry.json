@@ -115,19 +115,43 @@
         "row_9kHYmq": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SOCIAL_IMPACT_2020.jpg",
-            "caption": "Jacinto & Lirio",
-            "heading": "OUR SOCIAL IMPACT",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Layout_1_5_2.jpg",
+            "caption": "",
+            "heading": "Architecture & Interior Design",
+            "text": "<p>Create a space you'll love<\/p>",
+            "button_label": "Shop Architecture & Interior Design",
+            "button_link": "shopify:\/\/collections\/architect-interior-design"
+          }
+        },
+        "row_GQTcKx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banking_1.jpg",
+            "caption": "",
+            "heading": "Banking & Finance",
+            "text": "<p>Keep your finances safe and stylish with J&L's eco-friendly accessories<\/p>",
+            "button_label": "Shop Banking & Finance",
+            "button_link": "shopify:\/\/collections\/banking-finance"
+          }
+        },
+        "row_kaHkej": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_11_1_7ebc0751-11d2-479e-abcc-7fd11fc9d2c4.jpg",
+            "caption": "",
+            "heading": "Corporate Events",
+            "text": "<p>Memorable and useful items for your corporate events<\/p>",
+            "button_label": "Shop Corporate Events",
+            "button_link": "shopify:\/\/collections\/corporate-events"
           }
         }
       },
       "block_order": [
         "row_kYLGPY",
         "row_hR9cGL",
-        "row_9kHYmq"
+        "row_9kHYmq",
+        "row_GQTcKx",
+        "row_kaHkej"
       ],
       "settings": {
         "image_height": "small",

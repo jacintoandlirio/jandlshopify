@@ -68,51 +68,6 @@
         "padding_bottom": 0
       }
     },
-    "multicolumn_cEgTBi": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_tYaLxJ": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.graphic_placements.value }}",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_k6j4yg": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.graphic_placements_two.value }}",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_tYaLxJ",
-        "column_k6j4yg"
-      ],
-      "settings": {
-        "title": "Customized design etches on covers of water hyacinth journals.",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "See more",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_liquid_D6t6zx": {
       "type": "custom-liquid",
       "settings": {
@@ -120,120 +75,6 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "image_with_text_anJUaQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_BnQxci": {
-          "type": "heading",
-          "settings": {
-            "heading": "Eco friendly fully colored graphic placements.",
-            "heading_size": "h1"
-          }
-        },
-        "text_Y4JP8j": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We offer customized design imprint on water hyacinth planner and journal, as well as laser engraving, laser cut, embroidery and silkscreen.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_MdMqpW": {
-          "type": "button",
-          "settings": {
-            "button_label": "See more",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_BnQxci",
-        "text_Y4JP8j",
-        "button_MdMqpW"
-      ],
-      "settings": {
-        "image": "{{ page.metafields.custom.customized_design.value }}",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_mNTXWC": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_TLGBww": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.laser_engraving.value }}",
-            "title": "Laser cut on water hyacinth",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_fV8riq": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.laser_engraving2.value }}",
-            "title": "Laser engraving and embroidery",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_jNpXVM": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.laser_engraving3.value }}",
-            "title": "Foil stamp",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3nUTgQ": {
-          "type": "column",
-          "settings": {
-            "image": "{{ page.metafields.custom.laser_engraving4.value }}",
-            "title": "Emboss",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_TLGBww",
-        "column_fV8riq",
-        "column_jNpXVM",
-        "column_3nUTgQ"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "See more",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "main": {
@@ -252,23 +93,23 @@
         "row_kYLGPY": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8c8b58c7b67f49a4aec611eb546cb028_1_1.gif",
-            "caption": "Jacinto & Lirio",
-            "heading": "WATER HYACINTH LEATHERIZATION",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/7N8A8370_copy.jpg",
+            "caption": "",
+            "heading": "Travel and Tourism",
+            "text": "<p>Your travels and adventures made easy with our chic must-haves<\/p>",
+            "button_label": "Shop Travel and Tourism",
+            "button_link": "shopify:\/\/collections\/travel-and-tourism"
           }
         },
         "row_hR9cGL": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/environmental_impact_add_2439cb7a-cb3f-4ee8-90f9-ad7cf08a36c8.jpg",
-            "caption": "Jacinto & Lirio",
-            "heading": "OUR ENVIRONMENTAL IMPACT",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Restaurant_3.jpg",
+            "caption": "",
+            "heading": "Restaurant",
+            "text": "<p>Elevate the dining experience in your restaurant, with a touch of sustainability<\/p>",
+            "button_label": "Shop Restaurant",
+            "button_link": "shopify:\/\/collections\/restaurant"
           }
         },
         "row_9kHYmq": {
@@ -289,8 +130,8 @@
         "row_9kHYmq"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "image_height": "small",
+        "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
@@ -299,9 +140,9 @@
         "image_layout": "alternate-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 24
       }
     },
     "rich_text_3c8QpU": {
@@ -1069,10 +910,7 @@
     "custom_liquid_jVa7ez",
     "image_banner_ty6n7M",
     "custom_liquid_UbhBVB",
-    "multicolumn_cEgTBi",
     "custom_liquid_D6t6zx",
-    "image_with_text_anJUaQ",
-    "multicolumn_mNTXWC",
     "main",
     "multirow_UQcnaH",
     "rich_text_3c8QpU",

@@ -144,6 +144,28 @@
             "button_label": "Shop Corporate Events",
             "button_link": "shopify:\/\/collections\/corporate-events"
           }
+        },
+        "row_dCdTr9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layout_13_5_8c232ed8-d0a8-4b8d-9a85-14791e541713.jpg",
+            "caption": "",
+            "heading": "Hospital & Pharma",
+            "text": "<p>Items that will make Healthcare a little more stylish for you<\/p>",
+            "button_label": "Shop Hospital & Pharma",
+            "button_link": "shopify:\/\/collections\/hospital-pharma"
+          }
+        },
+        "row_JMXPTJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-09-07_153012.png",
+            "caption": "",
+            "heading": "Hotel & Resorts",
+            "text": "<p>Jazz up rooms and make guests never want to leave<\/p>",
+            "button_label": "Shop Hotel & Resorts",
+            "button_link": "shopify:\/\/collections\/hotel-resorts"
+          }
         }
       },
       "block_order": [
@@ -151,7 +173,9 @@
         "row_hR9cGL",
         "row_9kHYmq",
         "row_GQTcKx",
-        "row_kaHkej"
+        "row_kaHkej",
+        "row_dCdTr9",
+        "row_JMXPTJ"
       ],
       "settings": {
         "image_height": "small",

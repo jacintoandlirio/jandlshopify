@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -396,6 +405,134 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_UkdGk9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4rjTwp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>PRODUCT USES<\/strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4rjTwp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ss_instafeed_2_qgAQH8": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_j9cTcK": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_VPkNgw": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_bGFADt": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_WftyhR": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_YYAcmV": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_HwWcP6": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_j9cTcK",
+        "slide_VPkNgw",
+        "slide_bGFADt",
+        "slide_WftyhR",
+        "slide_YYAcmV",
+        "slide_HwWcP6"
+      ],
+      "settings": {
+        "top": "",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 6,
+        "top_height": 60,
+        "top_align": "center",
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 0,
+        "heading_height": 50,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 0,
+        "slider_mt": 4,
+        "slider_row": "6",
+        "slider_row_mobile": "1",
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#FFFFFF",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#FFFFFF",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "rich_text_tPrHhy": {
       "type": "rich-text",
       "blocks": {
@@ -689,7 +826,7 @@
       "type": "apps",
       "blocks": {
         "stamped_product_reviews_ugc_main_widget_6DFK8k": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": false,
             "offset": -1,
@@ -741,6 +878,8 @@
     "custom_liquid_BMzEeU",
     "rich_text_TzcpnA",
     "multirow_6tNPA3",
+    "rich_text_UkdGk9",
+    "ss_instafeed_2_qgAQH8",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",
     "rich_text_3tqc9D",

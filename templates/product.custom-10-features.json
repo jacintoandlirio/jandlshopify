@@ -434,36 +434,70 @@
         "slide_j9cTcK": {
           "type": "slide",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
             "url": ""
           }
         },
         "slide_VPkNgw": {
           "type": "slide",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
+            "url": ""
+          }
+        },
+        "slide_bitpRr": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
             "url": ""
           }
         },
         "slide_bGFADt": {
           "type": "slide",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
             "url": ""
           }
         },
         "slide_WftyhR": {
           "type": "slide",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
             "url": ""
           }
         },
         "slide_YYAcmV": {
           "type": "slide",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_6.value }}",
             "url": ""
           }
         },
         "slide_HwWcP6": {
           "type": "slide",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
+            "url": ""
+          }
+        },
+        "slide_xwgFtx": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
+            "url": ""
+          }
+        },
+        "slide_hKwe8t": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_9.value }}",
+            "url": ""
+          }
+        },
+        "slide_FQnJA6": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_10.value }}",
             "url": ""
           }
         }
@@ -471,10 +505,14 @@
       "block_order": [
         "slide_j9cTcK",
         "slide_VPkNgw",
+        "slide_bitpRr",
         "slide_bGFADt",
         "slide_WftyhR",
         "slide_YYAcmV",
-        "slide_HwWcP6"
+        "slide_HwWcP6",
+        "slide_xwgFtx",
+        "slide_hKwe8t",
+        "slide_FQnJA6"
       ],
       "settings": {
         "top": "",

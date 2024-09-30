@@ -46,7 +46,7 @@
         "custom_liquid_4xnYLk": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  <\/style>\n  <label>Min. Qty<\/label>\n{%endif%}"
+            "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  </style>\n  <label>Min. Qty</label>\n{%endif%}"
           }
         },
         "quantity_selector": {
@@ -71,7 +71,7 @@
         "custom_liquid_fAJeVf": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n<\/style>"
+            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16/9;\nwidth:100%;\nheight:auto;\n}\n</style>"
           }
         },
         "collapsible_tab_A8kRt8": {
@@ -135,7 +135,7 @@
           "settings": {
             "heading": "Corporate Giveaways",
             "icon": "leaf",
-            "content": "{{ product.metafields.custom.corporate_giveaways | metafield_tag }}<p><strong>For bulk corporate orders consisting of 100pcs and above email us at: <\/strong><span style=\"text-decoration:underline\">corporategiveaways@jacintoandlirio.com<\/span><\/p><p><strong>For wedding and event inquiries email us at: <\/strong><span style=\"text-decoration:underline\">jacintomarrieslirio@jacintoandlirio.com            <\/span><\/p><p><strong>For international bulk orders email us at:<\/strong><span style=\"text-decoration:underline\">helloworld@jacintoandlirio.com<\/span><\/p><p><\/p><p><\/p><p><\/p>",
+            "content": "{{ product.metafields.custom.corporate_giveaways | metafield_tag }}<p><strong>For bulk corporate orders consisting of 100pcs and above email us at: </strong><span style=\"text-decoration:underline\">corporategiveaways@jacintoandlirio.com</span></p><p><strong>For wedding and event inquiries email us at: </strong><span style=\"text-decoration:underline\">jacintomarrieslirio@jacintoandlirio.com            </span></p><p><strong>For international bulk orders email us at:</strong><span style=\"text-decoration:underline\">helloworld@jacintoandlirio.com</span></p><p></p><p></p><p></p>",
             "page": ""
           }
         },
@@ -154,7 +154,7 @@
         "custom_liquid_gCgtYY": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<script>\nconst variantSelects = (document.querySelector('variant-selects')) ? document.querySelector('variant-selects') : document.querySelector('variant-radios');\nconst pickerType = (variantSelects.querySelectorAll('fieldset').length > 0) ? 'radios' : 'selects';\nconst fieldsets = (pickerType == 'radios') ? Array.from(variantSelects.querySelectorAll('fieldset')) : Array.from(variantSelects.querySelectorAll('.product-form__input--dropdown'));\nconst productJson = JSON.parse(variantSelects.querySelector('[type=\"application\/json\"]').textContent);\nlet selectedOptions = [];\nvariantSelects.addEventListener('change', rebuildOptions);\nthis.rebuildOptions();\n\nfunction validCombo(inputValue, optionLevel) {\n  for(let i = 0; i < productJson.length; i++) {\n    if(optionLevel == 1){\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == inputValue) {  return true; }\n    } else {\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == selectedOptions[1] && productJson[i].option3 == inputValue) {  return true; }\n    }\n  }\n}\n\nfunction rebuildOptions() {\n    selectedOptions = fieldsets.map((fieldset) => {\n        return (pickerType == 'radios') ? Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value : Array.from(fieldset.querySelectorAll('select'), (select) => select.value);\n    });\n    for(let optionLevel = 1, n = fieldsets.length; optionLevel < n; optionLevel++) {\n        const inputs = (pickerType == 'radios') ? fieldsets[optionLevel].querySelectorAll('input') : fieldsets[optionLevel].querySelectorAll('option');\n\n        inputs.forEach(input => {\n        input.disabled = (validCombo(input.value,optionLevel)) ? false : true;\n        if(pickerType == 'radios'){\n            const label = fieldsets[optionLevel].querySelector(`label[for=\"${input.id}\"]`);\n\n            label.style.display = (input.disabled) ? \"none\" : \"\"; \/\/Hide the option, or comment this line out and use the following lines to style it..\n            \/\/label.style.opacity = (input.disabled) ? 0.5 : 1;\n            \/\/label.style.borderStyle = (input.disabled) ? \"dashed\" : \"solid\";\n            \/\/label.style.textDecoration = (input.disabled) ? \"none\" : \"\";\n        } else {\n            input.hidden = (validCombo(input.value,optionLevel)) ? false : true;\n        }\n        });\n    }\n    for (let optionLevel = 1, fieldsetsLength = fieldsets.length, change = false; optionLevel < fieldsetsLength && !change; optionLevel++) {\n        if(pickerType == 'radios'){\n        if(fieldsets[optionLevel].querySelector('input:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('input:not(:disabled)').checked = true);\n        }\n        } else {\n        if(fieldsets[optionLevel].querySelector('option:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('option:not(:disabled)').selected = \"selected\");\n        }\n        }\n        if(change) variantSelects.dispatchEvent(new Event('change', { bubbles: true }));\n    }\n}\n<\/script>"
+            "custom_liquid": "<script>\nconst variantSelects = (document.querySelector('variant-selects')) ? document.querySelector('variant-selects') : document.querySelector('variant-radios');\nconst pickerType = (variantSelects.querySelectorAll('fieldset').length > 0) ? 'radios' : 'selects';\nconst fieldsets = (pickerType == 'radios') ? Array.from(variantSelects.querySelectorAll('fieldset')) : Array.from(variantSelects.querySelectorAll('.product-form__input--dropdown'));\nconst productJson = JSON.parse(variantSelects.querySelector('[type=\"application/json\"]').textContent);\nlet selectedOptions = [];\nvariantSelects.addEventListener('change', rebuildOptions);\nthis.rebuildOptions();\n\nfunction validCombo(inputValue, optionLevel) {\n  for(let i = 0; i < productJson.length; i++) {\n    if(optionLevel == 1){\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == inputValue) {  return true; }\n    } else {\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == selectedOptions[1] && productJson[i].option3 == inputValue) {  return true; }\n    }\n  }\n}\n\nfunction rebuildOptions() {\n    selectedOptions = fieldsets.map((fieldset) => {\n        return (pickerType == 'radios') ? Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value : Array.from(fieldset.querySelectorAll('select'), (select) => select.value);\n    });\n    for(let optionLevel = 1, n = fieldsets.length; optionLevel < n; optionLevel++) {\n        const inputs = (pickerType == 'radios') ? fieldsets[optionLevel].querySelectorAll('input') : fieldsets[optionLevel].querySelectorAll('option');\n\n        inputs.forEach(input => {\n        input.disabled = (validCombo(input.value,optionLevel)) ? false : true;\n        if(pickerType == 'radios'){\n            const label = fieldsets[optionLevel].querySelector(`label[for=\"${input.id}\"]`);\n\n            label.style.display = (input.disabled) ? \"none\" : \"\"; //Hide the option, or comment this line out and use the following lines to style it..\n            //label.style.opacity = (input.disabled) ? 0.5 : 1;\n            //label.style.borderStyle = (input.disabled) ? \"dashed\" : \"solid\";\n            //label.style.textDecoration = (input.disabled) ? \"none\" : \"\";\n        } else {\n            input.hidden = (validCombo(input.value,optionLevel)) ? false : true;\n        }\n        });\n    }\n    for (let optionLevel = 1, fieldsetsLength = fieldsets.length, change = false; optionLevel < fieldsetsLength && !change; optionLevel++) {\n        if(pickerType == 'radios'){\n        if(fieldsets[optionLevel].querySelector('input:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('input:not(:disabled)').checked = true);\n        }\n        } else {\n        if(fieldsets[optionLevel].querySelector('option:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('option:not(:disabled)').selected = \"selected\");\n        }\n        }\n        if(change) variantSelects.dispatchEvent(new Event('change', { bubbles: true }));\n    }\n}\n</script>"
           }
         },
         "text_kxHrGD": {
@@ -208,7 +208,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16\/9;\nwidth:100%;\nheight:auto;\n}\n.hide-media{\ndisplay: block;\n}\n<\/style>",
+        "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16/9;\nwidth:100%;\nheight:auto;\n}\n.hide-media{\ndisplay: block;\n}\n</style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -218,7 +218,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_6054.jpg",
+        "image": "shopify://shop_images/IMG_6054.jpg",
         "image_overlay_opacity": 50,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -246,7 +246,7 @@
         "heading_E7dEk8": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>FEATURES<\/strong>",
+            "heading": "<strong>FEATURES</strong>",
             "heading_size": "h0"
           }
         }
@@ -327,7 +327,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.featured_title_6.value }}",
-            "text": "<p><\/p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "text": "<p></p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -338,7 +338,7 @@
             "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
             "caption": "",
             "heading": "{{ product.metafields.custom.feature_title_7.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_7 | metafield_tag }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.feature_description_7 | metafield_tag }}</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -371,18 +371,6 @@
     },
     "rich_text_tPrHhy": {
       "type": "rich-text",
-      "blocks": {
-        "heading_x3Cdbi": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Jacinto & Lirio",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "heading_x3Cdbi"
-      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -395,7 +383,7 @@
     "image_banner_RBQPxq": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/viber_image_2024-02-28_09-32-00-667.jpg",
+        "image": "shopify://shop_images/viber_image_2024-02-28_09-32-00-667.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -421,7 +409,7 @@
         "text_39bGPA": {
           "type": "text",
           "settings": {
-            "text": "<p>J&L serves as a viable environmental, social, and commercial solution for the water hyacinth infestation plaguing several communities in the Philippines.<\/p><p><\/p><p>Through the creation of functional, well-designed, Philippine-inspired plant leathergoods, enables us to help with the growth of affected communities' livelihood and extend their craft together with our designers' works to the popular market.<\/p>"
+            "text": "<p>J&L serves as a viable environmental, social, and commercial solution for the water hyacinth infestation plaguing several communities in the Philippines.</p><p></p><p>Through the creation of functional, well-designed, Philippine-inspired plant leathergoods, enables us to help with the growth of affected communities' livelihood and extend their craft together with our designers' works to the popular market.</p>"
           }
         }
       },
@@ -451,7 +439,7 @@
         "text_xR9Ptg": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>1. Harvesting<\/strong><\/p><p>With a boat to scour through a river infested with water hyacinth.<\/p><p><strong>2. Cut the leaves and roots<\/strong><\/p><p>Prepare for thorough cleaning of the stalks.<\/p><p><strong>3. Clean the stalks<\/strong><\/p><p>Make sure insects and other river debris are cleaned off.<\/p><p><strong>4. Drying<\/strong><\/p><p>The stalks can be hanged and sun-dried or machine-dried<\/p><p><strong>5. Scrape the fibers<\/strong><\/p><p>The stalks are scraped by the fibers<\/p><p><strong>6. Flattening<\/strong><\/p><p>The stalks are flattened using a machine.<\/p><p><strong>7. Stick stalks to fabric<\/strong><\/p><p>Refining the stalks into a fabric-like material<\/p><p><strong>8. Ironing<\/strong><\/p><p>Fabric is ironed with the pasted dried plant sheet.<\/p><p><strong>9. Anti-mold<\/strong><\/p><p>Anti-mold preventive coat is applied.<\/p><p><strong>10. Protective top coat <\/strong><\/p><p>A protective top coat is applied after anti-mold layer dries.<\/p><p><strong>11. Sewing<\/strong><\/p><p>The plant leather sheet is then sewn on a fabric.<\/p>"
+            "text": "<p><strong>1. Harvesting</strong></p><p>With a boat to scour through a river infested with water hyacinth.</p><p><strong>2. Cut the leaves and roots</strong></p><p>Prepare for thorough cleaning of the stalks.</p><p><strong>3. Clean the stalks</strong></p><p>Make sure insects and other river debris are cleaned off.</p><p><strong>4. Drying</strong></p><p>The stalks can be hanged and sun-dried or machine-dried</p><p><strong>5. Scrape the fibers</strong></p><p>The stalks are scraped by the fibers</p><p><strong>6. Flattening</strong></p><p>The stalks are flattened using a machine.</p><p><strong>7. Stick stalks to fabric</strong></p><p>Refining the stalks into a fabric-like material</p><p><strong>8. Ironing</strong></p><p>Fabric is ironed with the pasted dried plant sheet.</p><p><strong>9. Anti-mold</strong></p><p>Anti-mold preventive coat is applied.</p><p><strong>10. Protective top coat </strong></p><p>A protective top coat is applied after anti-mold layer dries.</p><p><strong>11. Sewing</strong></p><p>The plant leather sheet is then sewn on a fabric.</p>"
           }
         }
       },
@@ -517,9 +505,9 @@
         "column_4diB3c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/leatherstep1.png",
+            "image": "shopify://shop_images/leatherstep1.png",
             "title": "1. Harvesting",
-            "text": "<p>Use a boat to harvest Water hyacinth from an infested river<\/p>",
+            "text": "<p>Use a boat to harvest Water hyacinth from an infested river</p>",
             "link_label": "",
             "link": ""
           }
@@ -527,9 +515,9 @@
         "column_jxtqEE": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step2.png",
+            "image": "shopify://shop_images/step2.png",
             "title": "2. Cut the leaves and roots",
-            "text": "<p>Preparing for thorough cleaning of the stalks<\/p>",
+            "text": "<p>Preparing for thorough cleaning of the stalks</p>",
             "link_label": "",
             "link": ""
           }
@@ -537,9 +525,9 @@
         "column_6Bnr3d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step3.png",
+            "image": "shopify://shop_images/step3.png",
             "title": "3. Clean the stalks",
-            "text": "<p>Making sure insects and other debris are cleaned off the plant.<\/p>",
+            "text": "<p>Making sure insects and other debris are cleaned off the plant.</p>",
             "link_label": "",
             "link": ""
           }
@@ -547,9 +535,9 @@
         "column_z6VGLB": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step4.png",
+            "image": "shopify://shop_images/step4.png",
             "title": "4. Drying",
-            "text": "<p>The stalks can be hanged, sun-dried or machine dried.<\/p>",
+            "text": "<p>The stalks can be hanged, sun-dried or machine dried.</p>",
             "link_label": "",
             "link": ""
           }
@@ -557,7 +545,7 @@
         "column_fNtUqq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step5.png",
+            "image": "shopify://shop_images/step5.png",
             "title": "5. Scrape the fibers",
             "text": "",
             "link_label": "",
@@ -567,9 +555,9 @@
         "column_9D9hjL": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step6.png",
+            "image": "shopify://shop_images/step6.png",
             "title": "6. Flattening",
-            "text": "<p>The stalks are flattened using a flattening machine.<\/p>",
+            "text": "<p>The stalks are flattened using a flattening machine.</p>",
             "link_label": "",
             "link": ""
           }
@@ -577,7 +565,7 @@
         "column_iwernz": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step7.png",
+            "image": "shopify://shop_images/step7.png",
             "title": "7. Stick Stalks to fabric",
             "text": "",
             "link_label": "",
@@ -587,9 +575,9 @@
         "column_amAKkk": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step8.png",
+            "image": "shopify://shop_images/step8.png",
             "title": "7. Ironing",
-            "text": "<p>Fabric is ironed with the pasted fried flat sheet<\/p>",
+            "text": "<p>Fabric is ironed with the pasted fried flat sheet</p>",
             "link_label": "",
             "link": ""
           }
@@ -597,9 +585,9 @@
         "column_6ztVaV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step9.png",
+            "image": "shopify://shop_images/step9.png",
             "title": "8. Anti mold",
-            "text": "<p>Anti mold preventive coat is applied<\/p>",
+            "text": "<p>Anti mold preventive coat is applied</p>",
             "link_label": "",
             "link": ""
           }
@@ -607,9 +595,9 @@
         "column_z6wmhD": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step_9_part_2.png",
+            "image": "shopify://shop_images/step_9_part_2.png",
             "title": "9. Protective top coat",
-            "text": "<p>A protective top coat is applied after the anti-mold layer dries<\/p>",
+            "text": "<p>A protective top coat is applied after the anti-mold layer dries</p>",
             "link_label": "",
             "link": ""
           }
@@ -617,9 +605,9 @@
         "column_DnJgMQ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step10.png",
+            "image": "shopify://shop_images/step10.png",
             "title": "10. Sewing",
-            "text": "<p>The plant leather sheet is then sewed to the fabric.<\/p>",
+            "text": "<p>The plant leather sheet is then sewed to the fabric.</p>",
             "link_label": "",
             "link": ""
           }
@@ -662,7 +650,7 @@
       "type": "apps",
       "blocks": {
         "stamped_product_reviews_ugc_main_widget_6DFK8k": {
-          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": false,
             "offset": -1,

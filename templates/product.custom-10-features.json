@@ -582,6 +582,60 @@
         "lazy": true
       }
     },
+    "multicolumn_F33hc9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4BE9Wc": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
+            "title": "shfjhsjkdf",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zTmcNK": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jngXL9": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4BE9Wc",
+        "column_zTmcNK",
+        "column_jngXL9"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_RBQPxq": {
       "type": "image-banner",
       "settings": {
@@ -907,6 +961,7 @@
     "rich_text_tPrHhy",
     "rich_text_UkdGk9",
     "ss_instafeed_2_qgAQH8",
+    "multicolumn_F33hc9",
     "image_banner_RBQPxq",
     "rich_text_3tqc9D",
     "rich_text_TYjiMN",

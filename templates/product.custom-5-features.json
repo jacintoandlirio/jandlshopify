@@ -246,13 +246,169 @@
         "heading_E7dEk8": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>FEATURES</strong>",
+            "heading": "<strong>PRODUCT USES</strong>",
             "heading_size": "h0"
           }
         }
       },
       "block_order": [
         "heading_E7dEk8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_89c9Np": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cjUhDt": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_1.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XHBnfU": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_2.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dDdKMk": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_3.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tqF6TH": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_4.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gWncUN": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_5.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nCzgab": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_6.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_6.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iAeztU": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
+            "title": "{{ product.metafields.custom.product_title_7.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ANBR4n": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_8.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_X6bhJF": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_9.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_9.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gH8axE": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_10.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_10.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cjUhDt",
+        "column_XHBnfU",
+        "column_dDdKMk",
+        "column_tqF6TH",
+        "column_gWncUN",
+        "column_nCzgab",
+        "column_iAeztU",
+        "column_ANBR4n",
+        "column_X6bhJF",
+        "column_gH8axE"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Xfa3a9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_946aLD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>FEATURES</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_946aLD"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -677,6 +833,8 @@
     "image_banner_pPezFi",
     "custom_liquid_BMzEeU",
     "rich_text_TzcpnA",
+    "multicolumn_89c9Np",
+    "rich_text_Xfa3a9",
     "multirow_6tNPA3",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",

@@ -270,7 +270,7 @@
           "type": "column",
           "settings": {
             "image": "{{ product.metafields.custom.product_use_img_1.value }}",
-            "title": "Calling Card holder{{ product.metafields.custom.product_use_title_1.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_1.value }}",
             "text": "",
             "link_label": "",
             "link": ""

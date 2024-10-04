@@ -269,8 +269,9 @@
         "column_tnxyDV": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_1.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -278,8 +279,9 @@
         "column_mcDDe9": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_2.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -287,8 +289,9 @@
         "column_TfFX4G": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_3.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -296,8 +299,9 @@
         "column_XqLMty": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_4.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -305,8 +309,9 @@
         "column_RDwcxh": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_5.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -314,8 +319,9 @@
         "column_xk9ANg": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_6.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_6.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -323,8 +329,9 @@
         "column_L8BEJA": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
+            "title": "{{ product.metafields.custom.product_title_7.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -332,8 +339,9 @@
         "column_pwA7aA": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_8.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -341,8 +349,9 @@
         "column_9r4bdb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_9.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_9.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -350,8 +359,9 @@
         "column_ULr4rF": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "{{ product.metafields.custom.product_use_img_10.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_10.value }}",
+            "text": "",
             "link_label": "",
             "link": ""
           }

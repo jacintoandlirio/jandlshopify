@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo_width": 230,
@@ -97,7 +106,7 @@
     "sale_badge_color_scheme": "scheme-2",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -138,7 +147,7 @@
             "settings": {
               "name": "header",
               "custom_font_weight": "normal",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0054\/5996\/8113\/files\/luna_itc.woff?v=1709260033",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0054/5996/8113/files/luna_itc.woff?v=1709260033",
               "apply_h1": true,
               "apply_h2": true,
               "apply_h3": true,
@@ -164,7 +173,7 @@
             "settings": {
               "name": "secondry font",
               "custom_font_weight": "none",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0054\/5996\/8113\/files\/Alfon.woff?v=1709260648",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Alfon.woff?v=1709260648",
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
@@ -191,7 +200,7 @@
             "settings": {
               "name": "paragraph font",
               "custom_font_weight": "none",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0054\/5996\/8113\/files\/TheSans-B5-Plain-Regular.woff?v=1709265358",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0054/5996/8113/files/TheSans-B5-Plain-Regular.woff?v=1709265358",
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
@@ -217,7 +226,7 @@
             "settings": {
               "name": "button font",
               "custom_font_weight": "normal",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0054\/5996\/8113\/files\/Montserrat-Regular.woff2?v=1711161432",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Montserrat-Regular.woff2?v=1711161432",
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
@@ -255,26 +264,26 @@
     ],
     "blocks": {
       "10042746950867549768": {
-        "type": "shopify:\/\/apps\/hulk-product-options\/blocks\/app-embed\/380168ef-9475-4244-a291-f66b189208b5",
+        "type": "shopify://apps/hulk-product-options/blocks/app-embed/380168ef-9475-4244-a291-f66b189208b5",
         "disabled": false,
         "settings": {
         }
       },
       "16278478101612877664": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {
         }
       },
       "1575957009345749421": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/side-drawer\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/side-drawer/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "show_avatar": true,
           "position": "left",
           "text": "",
           "title": "Reviews",
-          "link": "https:\/\/jacintoandlirio.com\/products\/jacinto-lirio-guhit-valet-tray-pencil-case-wallet-1?_pos=1&_psq=GUhit+vegan+leat&_ss=e&_v=1.0",
+          "link": "https://jacintoandlirio.com/products/jacinto-lirio-guhit-valet-tray-pencil-case-wallet-1?_pos=1&_psq=GUhit+vegan+leat&_ss=e&_v=1.0",
           "link_text": "",
           "background_color": "",
           "style_color_button_text": "",
@@ -293,13 +302,13 @@
         }
       },
       "6097499278999377719": {
-        "type": "shopify:\/\/apps\/globo-mega-menu\/blocks\/app-embed\/7a00835e-fe40-45a5-a615-2eb4ab697b58",
+        "type": "shopify://apps/globo-mega-menu/blocks/app-embed/7a00835e-fe40-45a5-a615-2eb4ab697b58",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#000000",
@@ -313,7 +322,7 @@
         }
       },
       "4697538150380142411": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/reviews-popup\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/reviews-popup/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "layout": "horizontal",
@@ -337,20 +346,26 @@
         }
       },
       "8194784159926722659": {
-        "type": "shopify:\/\/apps\/gg-product-page-slider-gallery\/blocks\/app-embed-block\/09c0440b-b921-435c-a2f5-3fc8f53b0424",
+        "type": "shopify://apps/gg-product-page-slider-gallery/blocks/app-embed-block/09c0440b-b921-435c-a2f5-3fc8f53b0424",
         "disabled": true,
         "settings": {
         }
       },
       "9144908965052497053": {
-        "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-embed\/75cf2d86-3988-45e7-8f28-ada23c99704f",
+        "type": "shopify://apps/glo-related-products-upsell/blocks/app-embed/75cf2d86-3988-45e7-8f28-ada23c99704f",
         "disabled": false,
         "settings": {
         }
       },
       "14280642947000332093": {
-        "type": "shopify:\/\/apps\/warnify-pro-warnings\/blocks\/main\/b82106ea-6172-4ab0-814f-17df1cb2b18a",
+        "type": "shopify://apps/warnify-pro-warnings/blocks/main/b82106ea-6172-4ab0-814f-17df1cb2b18a",
         "disabled": true,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
         "settings": {
         }
       }
@@ -580,7 +595,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

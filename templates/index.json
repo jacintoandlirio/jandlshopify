@@ -32,12 +32,14 @@
         "text_xkFXqq"
       ],
       "custom_css": [
-        ".button {display: inline-block; padding: 12px 24px; background: linear-gradient(90deg, #ff4d4d, #ff9900); color: #fff; font-family: \"Montserrat\", sans-serif; font-size: 16px; font-weight: bold; text-transform: uppercase; border: none; border-radius: 25px; cursor: pointer; transition: background 0.3s, transform 0.2s; }",
-        ".button:hover {background: linear-gradient(90deg, #ff3333, #ff8000); transform: translateY(-2px); }"
+        "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
+        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
+        ".banner__text {color: #f7e2ad;}",
+        "@media screen and (max-width: 500px) {.banner__text {color: #926f2b; } .image-with-text__heading {color: #926f2b; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/Corporate_Events_Marketing.png",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,

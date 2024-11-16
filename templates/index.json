@@ -9,11 +9,48 @@
  */
 {
   "sections": {
+    "image_banner_J9BE3f": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DnBaBg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Holiday Cheer: Get up to 10% Off Sitewide!</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_xkFXqq": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Celebrate the season with exclusive savings. Shop now and make your holidays brighter with the perfect gifts for everyone!</strong>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DnBaBg",
+        "text_xkFXqq"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Corporate_Events_Marketing.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "slideshow_ri7rcw": {
       "type": "slideshow",
       "blocks": {
         "slide_7mMHRC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/02-coverPhotozOptimized.jpg",
             "image_link": "",
@@ -33,6 +70,7 @@
         },
         "slide_VF4bMU": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
             "image_link": "shopify://pages/how-to-order-eco-friendly-corporate-giveaways-1",
@@ -52,6 +90,7 @@
         },
         "slide_CTGXc9": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/OUR-WHY_2b0f937b-7855-4de9-b406-8cf4f2a2d59e.jpg",
             "image_link": "",
@@ -68,32 +107,12 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_krjGTX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Corporate_Events_Marketing.png",
-            "image_link": "",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_7mMHRC",
         "slide_VF4bMU",
-        "slide_CTGXc9",
-        "slide_krjGTX"
+        "slide_CTGXc9"
       ],
       "disabled": true,
       "custom_css": [
@@ -1507,6 +1526,7 @@
     }
   },
   "order": [
+    "image_banner_J9BE3f",
     "slideshow_ri7rcw",
     "featured_collection",
     "rich_text_cGb6gm",

@@ -22,14 +22,26 @@
         "text_xkFXqq": {
           "type": "text",
           "settings": {
-            "text": "<strong>Celebrate the season with exclusive savings. Shop now and make your holidays brighter with the perfect gifts for everyone!</strong>",
+            "text": "<em><strong>Celebrate the season with exclusive savings. Shop now and make your holidays brighter with the perfect gifts for everyone!</strong></em>",
             "text_style": "subtitle"
+          }
+        },
+        "buttons_JXmK3E": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "https://jacintoandlirio.com/collections/travel-accessories-retail",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_DnBaBg",
-        "text_xkFXqq"
+        "text_xkFXqq",
+        "buttons_JXmK3E"
       ],
       "custom_css": [],
       "settings": {

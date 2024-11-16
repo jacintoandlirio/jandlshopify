@@ -155,15 +155,15 @@
         "@media screen and (max-width: 400px) {h2 {font-size: 23px; }}"
       ],
       "settings": {
-        "title": "Travel Accessories",
+        "title": "<strong>Travel Accessories</strong>",
         "heading_size": "h1",
         "description": "",
-        "show_description": false,
-        "description_style": "subtitle",
+        "show_description": true,
+        "description_style": "uppercase",
         "collection": "travel-accessories-retail",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
@@ -186,14 +186,14 @@
         "heading_QkCDA3": {
           "type": "heading",
           "settings": {
-            "heading": "Why Trust Us",
+            "heading": "<strong>Why Trust Us</strong>",
             "heading_size": "h1"
           }
         },
         "text_FTiafA": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Company can transform a water damaging plant into well made products such as office desk accessories, travel accessories, stationary, bags & wallets, Home & Living items, & many more. --All of which are made out of<strong> water hyacinth plants.</strong></p>"
+            "text": "<p>Our Company can transform a water damaging plant into well made products such as office desk accessories, travel accessories, stationary, bags & wallets, home & Living items, & many more. All of which are made out of<strong> water hyacinth plants.</strong></p>"
           }
         }
       },
@@ -205,7 +205,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 44
@@ -262,8 +262,8 @@
         "heading_6LtF84": {
           "type": "heading",
           "settings": {
-            "heading": "Why Do We Use Water Hyacinth?",
-            "heading_size": "h1"
+            "heading": "<strong>Why Do We Use Water Hyacinth?</strong>",
+            "heading_size": "h0"
           }
         }
       },
@@ -285,7 +285,7 @@
         "column_GnDw7D": {
           "type": "column",
           "settings": {
-            "title": "Impactful",
+            "title": "<strong>Impactful</strong>",
             "text": "<p>Our business has given livelihood to the poor and marginalized</p>",
             "link_label": "",
             "link": ""
@@ -294,7 +294,7 @@
         "column_nXtrft": {
           "type": "column",
           "settings": {
-            "title": "Sustainable",
+            "title": "<strong>Sustainable</strong>",
             "text": "<p>We use harmful water hyacinth plants as replacement for traditional leather in an effort to save our river ecosystems</p>",
             "link_label": "",
             "link": ""
@@ -303,7 +303,7 @@
         "column_UyqcDy": {
           "type": "column",
           "settings": {
-            "title": "Eco_Friendly design",
+            "title": "<strong>Eco_Friendly design</strong>",
             "text": "<p>We Design Our products with eco friendly water hyacinth without compromise of quality</p>",
             "link_label": "",
             "link": ""
@@ -325,7 +325,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,

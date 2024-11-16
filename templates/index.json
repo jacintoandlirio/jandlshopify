@@ -31,6 +31,10 @@
         "heading_DnBaBg",
         "text_xkFXqq"
       ],
+      "custom_css": [
+        ".button {display: inline-block; padding: 12px 24px; background: linear-gradient(90deg, #ff4d4d, #ff9900); color: #fff; font-family: \"Montserrat\", sans-serif; font-size: 16px; font-weight: bold; text-transform: uppercase; border: none; border-radius: 25px; cursor: pointer; transition: background 0.3s, transform 0.2s; }",
+        ".button:hover {background: linear-gradient(90deg, #ff3333, #ff8000); transform: translateY(-2px); }"
+      ],
       "settings": {
         "image": "shopify://shop_images/Corporate_Events_Marketing.png",
         "image_overlay_opacity": 0,

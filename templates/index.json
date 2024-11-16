@@ -68,13 +68,34 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_krjGTX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Corporate_Events_Marketing.png",
+            "image_link": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_7mMHRC",
         "slide_VF4bMU",
-        "slide_CTGXc9"
+        "slide_CTGXc9",
+        "slide_krjGTX"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
         ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",

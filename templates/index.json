@@ -11,15 +11,31 @@
   "sections": {
     "image_banner_J9BE3f": {
       "type": "image-banner",
+      "blocks": {
+        "buttons_tzyAaW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_tzyAaW"
+      ],
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Website_Banner_Christmas_-01-_updated.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "top-right",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "right",
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,

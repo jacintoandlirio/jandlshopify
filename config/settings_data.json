@@ -259,21 +259,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "10042746950867549768": {
         "type": "shopify://apps/hulk-product-options/blocks/app-embed/380168ef-9475-4244-a291-f66b189208b5",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16278478101612877664": {
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1575957009345749421": {
         "type": "shopify://apps/stamped-product-reviews-ugc/blocks/side-drawer/a103faaf-2125-4b0e-89fa-de5149736723",
@@ -304,8 +300,7 @@
       "6097499278999377719": {
         "type": "shopify://apps/globo-mega-menu/blocks/app-embed/7a00835e-fe40-45a5-a615-2eb4ab697b58",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -348,26 +343,27 @@
       "8194784159926722659": {
         "type": "shopify://apps/gg-product-page-slider-gallery/blocks/app-embed-block/09c0440b-b921-435c-a2f5-3fc8f53b0424",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "9144908965052497053": {
         "type": "shopify://apps/glo-related-products-upsell/blocks/app-embed/75cf2d86-3988-45e7-8f28-ada23c99704f",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14280642947000332093": {
         "type": "shopify://apps/warnify-pro-warnings/blocks/main/b82106ea-6172-4ab0-814f-17df1cb2b18a",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "18033625872343595788": {
+        "type": "shopify://apps/seguno-banners/blocks/banners-app-embed/2c1cadd0-9036-4e28-9827-9a97eb288153",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -632,8 +628,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }

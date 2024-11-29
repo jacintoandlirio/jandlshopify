@@ -145,7 +145,7 @@
         "show_description": true,
         "description_style": "uppercase",
         "collection": "travel-accessories-retail",
-        "products_to_show": 5,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,

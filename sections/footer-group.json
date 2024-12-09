@@ -11,19 +11,14 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_liquid_RjExdc": {
+    "custom_liquid_4gjkbL": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".footer-icons a img {transition: transform 0.3s;}",
+        ".footer-icons a img:hover {transform: scale(1.1); /* Slightly enlarges icon on hover */}"
+      ],
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_nBgabm": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"footer-icons\">\n  <a href=\"https://shopee.ph/jacintoandlirio\" target=\"_blank\">\n    <img src=\"https://admin.shopify.com/store/jacinto-lirio/content/files/42012567142717?selectedView=all\" alt=\"Shopee\" style=\"width:30px; margin-right:10px;\">\n  </a>\n  <a href=\"https://www.lazada.com.ph/shop/jacinto-lirio-/?path=index.htm\" target=\"_blank\">\n    <img src=\"https://admin.shopify.com/store/jacinto-lirio/content/files/42012567175485?selectedView=all\" alt=\"Lazada\" style=\"width:30px; margin-right:10px;\">\n  </a>\n</div>",
+        "custom_liquid": "<div class=\"footer-icons\" style=\"text-align: center;\">\n  <a href=\"https://shopee.ph/jacintoandlirio\" target=\"_blank\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/777dc8f47b66af05caff4015d5f416d8.png?v=1733706886\" alt=\"Shopee\" style=\"width:30px; margin-right:10px;\">\n  </a>\n  <a href=\"https://www.lazada.com.ph/shop/jacinto-lirio-/?path=index.htm\"_blank\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/images.png?v=1733706887\" alt=\"Lazada\" style=\"width:30px; margin-right:10px;\"> \n  </a>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -124,8 +119,7 @@
     }
   },
   "order": [
-    "custom_liquid_RjExdc",
-    "custom_liquid_nBgabm",
+    "custom_liquid_4gjkbL",
     "footer",
     "newsletter_ByhRMK"
   ]

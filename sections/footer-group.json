@@ -1,40 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "newsletter_ByhRMK": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_JgFnfB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to Our Newsletter",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_zJza3D": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "email_form_AYKqcD": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_JgFnfB",
-        "paragraph_zJza3D",
-        "email_form_AYKqcD"
-      ],
-      "custom_css": [
-        ".field__input {font-family: \"Montserrat\" !important;}"
-      ],
+    "custom_liquid_RjExdc": {
+      "type": "custom-liquid",
       "settings": {
+        "custom_liquid": "",
         "color_scheme": "",
-        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_nBgabm": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"footer-icons\">\n  <a href=\"https://shopee.ph/jacintoandlirio\" target=\"_blank\">\n    <img src=\"https://admin.shopify.com/store/jacinto-lirio/content/files/42012567142717?selectedView=all\" alt=\"Shopee\" style=\"width:30px; margin-right:10px;\">\n  </a>\n  <a href=\"https://www.lazada.com.ph/shop/jacinto-lirio-/?path=index.htm\" target=\"_blank\">\n    <img src=\"https://admin.shopify.com/store/jacinto-lirio/content/files/42012567175485?selectedView=all\" alt=\"Lazada\" style=\"width:30px; margin-right:10px;\">\n  </a>\n</div>",
+        "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -67,7 +57,7 @@
           "type": "text",
           "settings": {
             "heading": "SAY HELLO!",
-            "subtext": "<p>Unit 506 Omm Citra Bldg, San Miguel Avenue, Pasig City<\/p><p>+632 7 7446166<\/p>"
+            "subtext": "<p>Unit 506 Omm Citra Bldg, San Miguel Avenue, Pasig City</p><p>+632 7 7446166</p>"
           }
         }
       },
@@ -95,10 +85,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "newsletter_ByhRMK": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_JgFnfB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to Our Newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_zJza3D": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_AYKqcD": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_JgFnfB",
+        "paragraph_zJza3D",
+        "email_form_AYKqcD"
+      ],
+      "custom_css": [
+        ".field__input {font-family: \"Montserrat\" !important;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "newsletter_ByhRMK",
-    "footer"
+    "custom_liquid_RjExdc",
+    "custom_liquid_nBgabm",
+    "footer",
+    "newsletter_ByhRMK"
   ]
 }

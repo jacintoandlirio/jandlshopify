@@ -70,13 +70,12 @@
     },
     "custom_liquid_4gjkbL": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         ".footer-icons a img {transition: transform 0.3s;}",
         ".footer-icons a img:hover {transform: scale(1.1); /* Slightly enlarges icon on hover */}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"footer-icons\" style=\"text-align: center;\">\n  <a href=\"https://shopee.ph/jacintoandlirio\" target=\"_blank\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Untitled_design_2_99dfe1f1-ef3e-4d35-9992-a2b57124a349.png?v=1733819184\" style=\"width:30px; margin-right:10px;\">\n  </a>\n  <a href=\"https://www.lazada.com.ph/shop/jacinto-lirio-/?path=index.htm\"_blank\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Untitled_design_1_9e6d0b1f-21a4-4cbd-8f46-2c1f0cea58ef.png?v=1733819192\" alt=\"Lazada\" style=\"width:30px; margin-right:10px;\"> \n  </a>\n</div>",
+        "custom_liquid": "<div class=\"footer-icons\" style=\"text-align: center;\">\n  <a href=\"https://shopee.ph/jacintoandlirio\" target=\"_blank\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Untitled_design_2_99dfe1f1-ef3e-4d35-9992-a2b57124a349.png?v=1733819184\" style=\"width:120px; margin-right:20px;\">\n  </a>\n  <a href=\"https://www.lazada.com.ph/shop/jacinto-lirio-/?path=index.htm\"_blank\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/Untitled_design_1_9e6d0b1f-21a4-4cbd-8f46-2c1f0cea58ef.png?v=1733819192\" alt=\"Lazada\" style=\"width:120px; margin-right:20px;\"> \n  </a>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

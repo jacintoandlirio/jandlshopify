@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price_gtaygV": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_GGrbeM": {
           "type": "text",
@@ -51,8 +49,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -142,8 +139,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -1016,7 +1012,31 @@
     "pagefly-product-section": {
       "type": "pagefly-product-section",
       "disabled": true,
+      "settings": {}
+    },
+    "173451745312a1c774": {
+      "type": "apps",
+      "blocks": {
+        "mw_product_bundles_bundle_app_block_eChTR4": {
+          "type": "shopify://apps/mw-product-bundles/blocks/bundle-app-block/5bcb1a6d-53b5-4d9c-b4f9-19f6620da62b",
+          "settings": {
+            "offer_ordinal_number": "0"
+          }
+        }
+      },
+      "block_order": [
+        "mw_product_bundles_bundle_app_block_eChTR4"
+      ],
+      "custom_css": [
+        ".product-addons-widget {background: #f5f5f5; padding: 15px; border: 1px solid #ddd; max-width: 400px; margin: 20px auto; text-align: center; border-radius: 8px;}",
+        ".addons-title {font-size: 24px; font-weight: bold; color: #333; margin-bottom: 8px;}",
+        ".addons-description {font-size: 16px; color: #666; margin-bottom: 15px;}",
+        ".addons-options {display: flex; justify-content: center; gap: 10px;}",
+        ".addon-button {padding: 8px 18px; background: #007bff; color: #fff; border-radius: 5px; font-size: 14px; cursor: pointer;}",
+        ".addon-button:hover {background: #0056b3;}"
+      ],
       "settings": {
+        "include_margins": true
       }
     }
   },
@@ -1037,6 +1057,7 @@
     "multicolumn_jMicRg",
     "1712193503b0b2c3bf",
     "related-products",
-    "pagefly-product-section"
+    "pagefly-product-section",
+    "173451745312a1c774"
   ]
 }

@@ -379,7 +379,7 @@
         "type": "shopify://apps/mw-product-bundles/blocks/app-embed-block/5bcb1a6d-53b5-4d9c-b4f9-19f6620da62b",
         "disabled": false,
         "settings": {
-          "theme_text_primary_color": "#1A1C1D",
+          "theme_text_primary_color": "#a68633",
           "theme_text_secondary_color": "#7C8488",
           "theme_primary_button_background_color": "#1A1C1D",
           "theme_primary_button_text_color": "#FFFFFF",

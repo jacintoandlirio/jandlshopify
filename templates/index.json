@@ -335,10 +335,10 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
@@ -347,7 +347,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 80
       }
     },
     "slideshow_AGJPzh": {

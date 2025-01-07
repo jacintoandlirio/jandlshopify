@@ -319,11 +319,20 @@
     "multicolumn_DrUwxt": {
       "type": "multicolumn",
       "blocks": {
+        "column_De8tP8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>Water Hyacinth has Major Consequences on Our Communities</h1>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_DRKwQE": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Water_Hyacinth_Facts_updated.png",
-            "title": "Water Hyacinth has major consequences on our water systems.",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -331,6 +340,7 @@
         }
       },
       "block_order": [
+        "column_De8tP8",
         "column_DRKwQE"
       ],
       "settings": {

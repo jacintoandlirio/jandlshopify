@@ -316,15 +316,6 @@
     "multicolumn_DrUwxt": {
       "type": "multicolumn",
       "blocks": {
-        "column_De8tP8": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<h1>Water Hyacinth has Major Consequences on Our Communities</h1>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_DRKwQE": {
           "type": "column",
           "settings": {
@@ -337,7 +328,6 @@
         }
       },
       "block_order": [
-        "column_De8tP8",
         "column_DRKwQE"
       ],
       "settings": {

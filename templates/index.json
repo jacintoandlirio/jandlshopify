@@ -27,6 +27,7 @@
       "block_order": [
         "buttons_tzyAaW"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Website_Banner_Christmas_-01-_updated.png",
@@ -47,7 +48,6 @@
       "blocks": {
         "slide_7mMHRC": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/02-coverPhotozOptimized.jpg",
             "image_link": "",
@@ -67,7 +67,6 @@
         },
         "slide_VF4bMU": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
             "image_link": "shopify://pages/how-to-order-eco-friendly-corporate-giveaways-1",
@@ -87,7 +86,6 @@
         },
         "slide_CTGXc9": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/OUR-WHY_2b0f937b-7855-4de9-b406-8cf4f2a2d59e.jpg",
             "image_link": "",
@@ -111,7 +109,6 @@
         "slide_VF4bMU",
         "slide_CTGXc9"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
         ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
@@ -331,7 +328,7 @@
         "column_DRKwQE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Water_Hyacinth_Facts_updated.png",
+            "image": "shopify://shop_images/1_a7948744-7939-40df-8af2-2c5faad71c28.png",
             "title": "",
             "text": "",
             "link_label": "",

@@ -360,6 +360,73 @@
         "padding_bottom": 80
       }
     },
+    "multicolumn_WUwKDW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3naBx9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sustainable_Development_Goal_1.png",
+            "title": "<strong>No Poverty </strong>",
+            "text": "<p>We empower marginalized communities, particularly farmers and artisans, by providing livelihood opportunities through the sustainable production of our plant leather products.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bT7Xin": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E_SDG_Icons-04.jpg",
+            "title": "<strong>Quality Education </strong>",
+            "text": "<p>Through advocacy campaigns, we educate communities about sustainability, eco-friendly practices, and entrepreneurship.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JiKAnT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E_SDG-goals_icons-individual-rgb-05-1024x1024.png",
+            "title": "<strong>Gender Equality </strong>",
+            "text": "<p>Our initiatives include working with women artisans, helping them gain financial independence and skills development.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iFFrF3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E_SDG_goals_icons-individual-rgb-08.png",
+            "title": "<strong>Decent Work and Economic Growth </strong>",
+            "text": "<p>We promote fair trade and provide decent, stable jobs for local farmers and artisans involved in our supply chain.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_3naBx9",
+        "column_bT7Xin",
+        "column_JiKAnT",
+        "column_iFFrF3"
+      ],
+      "settings": {
+        "title": "Sustainable Development Goals",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "slideshow_AGJPzh": {
       "type": "slideshow",
       "blocks": {
@@ -1496,6 +1563,7 @@
     "rich_text_UgmE98",
     "multicolumn_WU3efy",
     "multicolumn_DrUwxt",
+    "multicolumn_WUwKDW",
     "slideshow_AGJPzh",
     "collection_list_3D64bq",
     "testimonials_KhJrbH",

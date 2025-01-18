@@ -665,6 +665,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".gm-target {cursor: pointer; pointer-events: auto;}"
+    ]
   }
 }

@@ -267,7 +267,17 @@
           "settings": {
             "image": "shopify://shop_images/3_bbe11800-97f3-4966-bf95-8c5310c970a3.png",
             "title": "{{ product.metafields.custom.product_use_title_1.value }}",
-            "text": "",
+            "text": "<p>Discover the practicality of our lanyards designed to carry both alcohol and sanitizer effortlessly. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VGNFhg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/10_fb40c70a-9371-497e-8b5f-6509b940b45a.png",
+            "title": "",
+            "text": "<p>Customize your lanyard with colored printing or laser engraving options. Personalize every detail and make a statement.</p>",
             "link_label": "",
             "link": ""
           }
@@ -275,9 +285,9 @@
         "column_bpdrbz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/9_4f0890c9-c2e3-48d9-bf5d-57a40dae8a10.png",
+            "image": "shopify://shop_images/6_d53f5984-f9ac-4f47-af8d-1fef44992065.png",
             "title": "{{ product.metafields.custom.product_use_title_2.value }}",
-            "text": "",
+            "text": "<p>Transform your everyday essentials with our multifunctional lanyards that double as cellphone holders. </p>",
             "link_label": "",
             "link": ""
           }
@@ -285,19 +295,9 @@
         "column_JwzmtG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/10_fb40c70a-9371-497e-8b5f-6509b940b45a.png",
+            "image": "shopify://shop_images/5_a37298c6-e4b9-4b13-8ba3-d32fc1cdeb57.png",
             "title": "{{ product.metafields.custom.product_use_title_3.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4c8P7P": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/6_d53f5984-f9ac-4f47-af8d-1fef44992065.png",
-            "title": "",
-            "text": "",
+            "text": "<p>Keep your mask close with our customizable lanyards, designed to complement any reusable face covering.</p>",
             "link_label": "",
             "link": ""
           }
@@ -307,7 +307,7 @@
           "settings": {
             "image": "shopify://shop_images/7_648c5f92-e7bc-4f0c-969a-b9f61aef1d23.png",
             "title": "{{ product.metafields.custom.product_use_title_4.value }}",
-            "text": "",
+            "text": "<p>Elevate your professional look with our stylish and functional lanyards for company ID. </p>",
             "link_label": "",
             "link": ""
           }
@@ -317,7 +317,7 @@
           "settings": {
             "image": "shopify://shop_images/11_d466a57d-76d4-45b9-b043-f11d44743707.png",
             "title": "{{ product.metafields.custom.product_use_title_5.value }}",
-            "text": "",
+            "text": "<p>Unveil the unbeatable combination of our lanyard and neck wallet. Stay organized, stylish, and unstoppable with these versatile accessories.</p>",
             "link_label": "",
             "link": ""
           }
@@ -375,9 +375,9 @@
       },
       "block_order": [
         "column_qhmiGi",
+        "column_VGNFhg",
         "column_bpdrbz",
         "column_JwzmtG",
-        "column_4c8P7P",
         "column_wnQWam",
         "column_BQeEc3",
         "column_mqN3Ni",

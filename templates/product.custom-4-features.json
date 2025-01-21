@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price_UxmPww": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_GGrbeM": {
           "type": "text",
@@ -51,8 +49,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -142,8 +139,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -269,7 +265,7 @@
         "column_qhmiGi": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
+            "image": "shopify://shop_images/3_bbe11800-97f3-4966-bf95-8c5310c970a3.png",
             "title": "{{ product.metafields.custom.product_use_title_1.value }}",
             "text": "",
             "link_label": "",
@@ -279,7 +275,7 @@
         "column_bpdrbz": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
+            "image": "shopify://shop_images/9_4f0890c9-c2e3-48d9-bf5d-57a40dae8a10.png",
             "title": "{{ product.metafields.custom.product_use_title_2.value }}",
             "text": "",
             "link_label": "",
@@ -289,8 +285,18 @@
         "column_JwzmtG": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "image": "shopify://shop_images/10_fb40c70a-9371-497e-8b5f-6509b940b45a.png",
             "title": "{{ product.metafields.custom.product_use_title_3.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4c8P7P": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6_d53f5984-f9ac-4f47-af8d-1fef44992065.png",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -299,7 +305,7 @@
         "column_wnQWam": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
+            "image": "shopify://shop_images/7_648c5f92-e7bc-4f0c-969a-b9f61aef1d23.png",
             "title": "{{ product.metafields.custom.product_use_title_4.value }}",
             "text": "",
             "link_label": "",
@@ -309,7 +315,7 @@
         "column_BQeEc3": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
+            "image": "shopify://shop_images/11_d466a57d-76d4-45b9-b043-f11d44743707.png",
             "title": "{{ product.metafields.custom.product_use_title_5.value }}",
             "text": "",
             "link_label": "",
@@ -371,6 +377,7 @@
         "column_qhmiGi",
         "column_bpdrbz",
         "column_JwzmtG",
+        "column_4c8P7P",
         "column_wnQWam",
         "column_BQeEc3",
         "column_mqN3Ni",
@@ -811,8 +818,7 @@
     "pagefly-product-section": {
       "type": "pagefly-product-section",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

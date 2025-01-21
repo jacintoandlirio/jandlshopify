@@ -241,6 +241,7 @@
       "blocks": {
         "heading_E7dEk8": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>PRODUCT USES</strong>",
             "heading_size": "h0"
@@ -250,6 +251,7 @@
       "block_order": [
         "heading_E7dEk8"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -264,6 +266,7 @@
       "blocks": {
         "column_qhmiGi": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/3_bbe11800-97f3-4966-bf95-8c5310c970a3.png",
             "title": "{{ product.metafields.custom.product_use_title_1.value }}",
@@ -274,6 +277,7 @@
         },
         "column_VGNFhg": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/10_fb40c70a-9371-497e-8b5f-6509b940b45a.png",
             "title": "",
@@ -284,6 +288,7 @@
         },
         "column_bpdrbz": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/6_d53f5984-f9ac-4f47-af8d-1fef44992065.png",
             "title": "{{ product.metafields.custom.product_use_title_2.value }}",
@@ -294,6 +299,7 @@
         },
         "column_JwzmtG": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/5_a37298c6-e4b9-4b13-8ba3-d32fc1cdeb57.png",
             "title": "{{ product.metafields.custom.product_use_title_3.value }}",
@@ -304,6 +310,7 @@
         },
         "column_wnQWam": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/7_648c5f92-e7bc-4f0c-969a-b9f61aef1d23.png",
             "title": "{{ product.metafields.custom.product_use_title_4.value }}",
@@ -314,6 +321,7 @@
         },
         "column_BQeEc3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/11_d466a57d-76d4-45b9-b043-f11d44743707.png",
             "title": "{{ product.metafields.custom.product_use_title_5.value }}",

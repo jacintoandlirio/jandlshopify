@@ -295,16 +295,6 @@
         "column_JwzmtG": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_3.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wnQWam": {
-          "type": "column",
-          "settings": {
             "image": "{{ product.metafields.custom.product_use_img_4.value }}",
             "title": "{{ product.metafields.custom.product_use_title_4.value }}",
             "text": "",
@@ -312,7 +302,7 @@
             "link": ""
           }
         },
-        "column_BQeEc3": {
+        "column_wnQWam": {
           "type": "column",
           "settings": {
             "image": "{{ product.metafields.custom.product_use_img_5.value }}",
@@ -322,7 +312,7 @@
             "link": ""
           }
         },
-        "column_mqN3Ni": {
+        "column_BQeEc3": {
           "type": "column",
           "settings": {
             "image": "{{ product.metafields.custom.product_use_6.value }}",
@@ -332,11 +322,21 @@
             "link": ""
           }
         },
-        "column_wtGFdH": {
+        "column_mqN3Ni": {
           "type": "column",
           "settings": {
             "image": "{{ product.metafields.custom.product_use_img_7.value }}",
             "title": "{{ product.metafields.custom.product_title_7.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wtGFdH": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_8.value }}",
             "text": "",
             "link_label": "",
             "link": ""

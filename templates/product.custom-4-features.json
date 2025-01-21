@@ -265,6 +265,7 @@
         "column_qhmiGi": {
           "type": "column",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
             "title": "{{ product.metafields.custom.product_use_title_1.value }}",
             "text": "",
             "link_label": "",
@@ -274,6 +275,7 @@
         "column_bpdrbz": {
           "type": "column",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
             "title": "{{ product.metafields.custom.product_use_title_2.value }}",
             "text": "",
             "link_label": "",
@@ -283,7 +285,8 @@
         "column_VGNFhg": {
           "type": "column",
           "settings": {
-            "title": "",
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_3.value }}",
             "text": "",
             "link_label": "",
             "link": ""
@@ -292,6 +295,7 @@
         "column_JwzmtG": {
           "type": "column",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
             "title": "{{ product.metafields.custom.product_use_title_3.value }}",
             "text": "",
             "link_label": "",
@@ -301,6 +305,7 @@
         "column_wnQWam": {
           "type": "column",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
             "title": "{{ product.metafields.custom.product_use_title_4.value }}",
             "text": "",
             "link_label": "",
@@ -310,6 +315,7 @@
         "column_BQeEc3": {
           "type": "column",
           "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
             "title": "{{ product.metafields.custom.product_use_title_5.value }}",
             "text": "",
             "link_label": "",

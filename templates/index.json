@@ -316,6 +316,15 @@
     "multicolumn_DrUwxt": {
       "type": "multicolumn",
       "blocks": {
+        "column_mtWKGz": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_knT3pB": {
           "type": "column",
           "settings": {
@@ -328,6 +337,7 @@
         }
       },
       "block_order": [
+        "column_mtWKGz",
         "column_knT3pB"
       ],
       "custom_css": [],

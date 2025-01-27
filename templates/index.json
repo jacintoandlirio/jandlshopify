@@ -325,11 +325,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_knT3pB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_a7948744-7939-40df-8af2-2c5faad71c28.v1_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "column_DRKwQE"
+        "column_DRKwQE",
+        "column_knT3pB"
       ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h0",
@@ -370,12 +382,30 @@
             "link": ""
           }
         },
+        "column_YWhdnN": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_JiKAnT": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/E_SDG-goals_icons-individual-rgb-05-1024x1024.png",
             "title": "<strong>Gender Equality </strong>",
             "text": "<p>Our initiatives include working with women artisans, helping them gain financial independence and skills development.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EUKULC": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -394,7 +424,9 @@
       "block_order": [
         "column_3naBx9",
         "column_bT7Xin",
+        "column_YWhdnN",
         "column_JiKAnT",
+        "column_EUKULC",
         "column_iFFrF3"
       ],
       "settings": {

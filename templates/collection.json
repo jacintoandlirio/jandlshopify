@@ -24,38 +24,6 @@
     },
     "image_banner_e8B36P": {
       "type": "image-banner",
-      "blocks": {
-        "heading_8ArLGx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_mPggKy": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_D7XMi3": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_8ArLGx",
-        "text_mPggKy",
-        "buttons_D7XMi3"
-      ],
       "settings": {
         "image": "{{ collection.metafields.custom.imagebanner1.value }}",
         "image_overlay_opacity": 0,

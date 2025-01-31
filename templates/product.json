@@ -159,6 +159,12 @@
             "text": "",
             "text_style": "body"
           }
+        },
+        "tepo_product_options_product_app_block_NxgR3P": {
+          "type": "shopify://apps/tepo-product-options/blocks/product-app-block/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -182,7 +188,8 @@
         "description",
         "share",
         "custom_liquid_gCgtYY",
-        "text_kxHrGD"
+        "text_kxHrGD",
+        "tepo_product_options_product_app_block_NxgR3P"
       ],
       "settings": {
         "enable_sticky_info": true,

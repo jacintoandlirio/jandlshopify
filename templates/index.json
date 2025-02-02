@@ -136,12 +136,12 @@
         "@media screen and (max-width: 400px) {h2 {font-size: 23px; }}"
       ],
       "settings": {
-        "title": "<strong>Travel Accessories</strong>",
+        "title": "<strong>His & Hers Collection</strong>",
         "heading_size": "h1",
-        "description": "",
-        "show_description": true,
+        "description": "<p>Celebrate Valentine’s Day with a touch of sophistication and practicality in your stationery essentials.</p>",
+        "show_description": false,
         "description_style": "uppercase",
-        "collection": "travel-accessories-retail",
+        "collection": "valentines",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": true,

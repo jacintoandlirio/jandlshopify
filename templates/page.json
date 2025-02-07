@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_liquid_jVa7ez": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%if page.metafields.custom.page_title == blank%}\n<style>\n.banner__box{\n display: none;\n}\n<\/style>\n\n{%endif%}",
+        "custom_liquid": "{%if page.metafields.custom.page_title == blank%}\n<style>\n.banner__box{\n display: none;\n}\n</style>\n\n{%endif%}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -46,7 +46,7 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.image_banner.value }}",
-        "image_2": "shopify:\/\/shop_images\/Career-banner.jpg",
+        "image_2": "shopify://shop_images/Career-banner.jpg",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
@@ -62,7 +62,7 @@
     "custom_liquid_UbhBVB": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%if page.metafields.custom.image_banner != blank%}\n<style>\n\n\n#shopify-section-template--22140844540221__image_with_text_exbeQp{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_h9cijn{\ndisplay: none;\n}\n<\/style>\n{%endif%}",
+        "custom_liquid": "{%if page.metafields.custom.image_banner != blank%}\n<style>\n\n\n#shopify-section-template--22140844540221__image_with_text_exbeQp{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_h9cijn{\ndisplay: none;\n}\n</style>\n{%endif%}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -116,7 +116,7 @@
     "custom_liquid_D6t6zx": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.graphic_placements == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__image_with_text_anJUaQ{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n<\/style>\n{%endif%}\n{%if page.metafields.custom.corporate_gifting == blank%}\n<style>\n#shopify-section-template--22140844540221__rich_text_3c8QpU{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_z6KajG{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__ss_instafeed_2_tB3zFm{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__featured_collection_iCbeq9{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_tJkHXX{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__multicolumn_bCUKr6{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_E3GfGW{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_UFJKqy{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_aPbmMH{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_aPbmMH{display:none;}\n#shopify-section-template--22140844540221__image_with_text_zp4CyR{display:none;}\n#shopify-section-template--22140844540221__image_with_text_QUGKWK{display:none;}\n#shopify-section-template--22140844540221__image_with_text_HcqEYi{display:none;}\n#shopify-section-template--22140844540221__image_with_text_8XtHL6{display:none;}\n#shopify-section-template--22140844540221__image_with_text_aUaqwQ{\ndisplay:none;\n}\n<\/style>\n{%endif%}",
+        "custom_liquid": "{% if page.metafields.custom.graphic_placements == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__image_with_text_anJUaQ{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n</style>\n{%endif%}\n{%if page.metafields.custom.corporate_gifting == blank%}\n<style>\n#shopify-section-template--22140844540221__rich_text_3c8QpU{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_z6KajG{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__ss_instafeed_2_tB3zFm{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__featured_collection_iCbeq9{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_tJkHXX{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__multicolumn_bCUKr6{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_E3GfGW{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_UFJKqy{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_aPbmMH{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_aPbmMH{display:none;}\n#shopify-section-template--22140844540221__image_with_text_zp4CyR{display:none;}\n#shopify-section-template--22140844540221__image_with_text_QUGKWK{display:none;}\n#shopify-section-template--22140844540221__image_with_text_HcqEYi{display:none;}\n#shopify-section-template--22140844540221__image_with_text_8XtHL6{display:none;}\n#shopify-section-template--22140844540221__image_with_text_aUaqwQ{\ndisplay:none;\n}\n</style>\n{%endif%}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -135,7 +135,7 @@
         "text_Y4JP8j": {
           "type": "text",
           "settings": {
-            "text": "<p>We offer customized design imprint on water hyacinth planner and journal, as well as laser engraving, laser cut, embroidery and silkscreen.<\/p>",
+            "text": "<p>We offer customized design imprint on water hyacinth planner and journal, as well as laser engraving, laser cut, embroidery and silkscreen.</p>",
             "text_style": "body"
           }
         },
@@ -252,7 +252,7 @@
         "row_kYLGPY": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8c8b58c7b67f49a4aec611eb546cb028_1_1.gif",
+            "image": "shopify://shop_images/8c8b58c7b67f49a4aec611eb546cb028_1_1.gif",
             "caption": "Jacinto & Lirio",
             "heading": "WATER HYACINTH LEATHERIZATION",
             "text": "",
@@ -263,7 +263,7 @@
         "row_hR9cGL": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/environmental_impact_add_2439cb7a-cb3f-4ee8-90f9-ad7cf08a36c8.jpg",
+            "image": "shopify://shop_images/environmental_impact_j_l.jpg",
             "caption": "Jacinto & Lirio",
             "heading": "OUR ENVIRONMENTAL IMPACT",
             "text": "",
@@ -274,7 +274,7 @@
         "row_9kHYmq": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SOCIAL_IMPACT_2020.jpg",
+            "image": "shopify://shop_images/SOCIAL_IMPACT_2020.jpg",
             "caption": "Jacinto & Lirio",
             "heading": "OUR SOCIAL IMPACT",
             "text": "",
@@ -317,19 +317,19 @@
         "text_mdKr9A": {
           "type": "text",
           "settings": {
-            "text": "<p>We’re glad you’re here because we want to give you and your recipients the best experience possible<\/p>"
+            "text": "<p>We’re glad you’re here because we want to give you and your recipients the best experience possible</p>"
           }
         },
         "text_nhrznY": {
           "type": "text",
           "settings": {
-            "text": "<p>Imagine receiving a pen with the company’s logo printed on it. It’s nice and functional but you’re probably going to use it a few times and then forget about it. You’ve probably received something like this countless times before in different corporate events and conferences. To be frank, they’re so plain and boring! We know you’re here because you’re struggling to think of one of a kind corporate giveaway ideas that your recipients will definitely remember you by.<\/p>"
+            "text": "<p>Imagine receiving a pen with the company’s logo printed on it. It’s nice and functional but you’re probably going to use it a few times and then forget about it. You’ve probably received something like this countless times before in different corporate events and conferences. To be frank, they’re so plain and boring! We know you’re here because you’re struggling to think of one of a kind corporate giveaway ideas that your recipients will definitely remember you by.</p>"
           }
         },
         "text_3YAL6L": {
           "type": "text",
           "settings": {
-            "text": "<p>We know planning and thinking of thoughtful and unique giveaways can be quite stressful. Of course, you want to incorporate your brand to be professional but you also want your recipients to feel a little bit special. Jacinto & Lirio is here to ease your stress by giving you a wide variety of Philippine-inspired artisan giveaway ideas that will make your company stand out. Our products are multi-functional, handmade and eco-friendly.<\/p><p> We believe that giving your attendees or employees a nice gift is a way of telling them that the company cares. It’s important that they feel appreciated, so we offer products that are customizable to add a bit of a personal touch. <strong>We’ll take care of everything, from the product to the packaging, and even delivery. <\/strong>We’ll make sure that the level of care and attention that we give to the product is the same level of care you want to give to your employees and attendees.<\/p><p><\/p><p><\/p>"
+            "text": "<p>We know planning and thinking of thoughtful and unique giveaways can be quite stressful. Of course, you want to incorporate your brand to be professional but you also want your recipients to feel a little bit special. Jacinto & Lirio is here to ease your stress by giving you a wide variety of Philippine-inspired artisan giveaway ideas that will make your company stand out. Our products are multi-functional, handmade and eco-friendly.</p><p> We believe that giving your attendees or employees a nice gift is a way of telling them that the company cares. It’s important that they feel appreciated, so we offer products that are customizable to add a bit of a personal touch. <strong>We’ll take care of everything, from the product to the packaging, and even delivery. </strong>We’ll make sure that the level of care and attention that we give to the product is the same level of care you want to give to your employees and attendees.</p><p></p><p></p>"
           }
         }
       },
@@ -364,13 +364,13 @@
         "text_bB6EbA": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Our<\/em> water hyacinth products + <em>Your<\/em> branding<\/p>"
+            "text": "<p><em>Our</em> water hyacinth products + <em>Your</em> branding</p>"
           }
         },
         "text_96h8We": {
           "type": "text",
           "settings": {
-            "text": "<p>Visit our mockups and we remove our Jacinto & Lirio branding then replace us with ours instead!<\/p>"
+            "text": "<p>Visit our mockups and we remove our Jacinto & Lirio branding then replace us with ours instead!</p>"
           }
         }
       },
@@ -397,9 +397,9 @@
         "column_jxi6JD": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sept172018-Spesmini_fa0b9eb9-1832-4508-ab8a-c42ac1892675.jpg",
+            "image": "shopify://shop_images/Sept172018-Spesmini_fa0b9eb9-1832-4508-ab8a-c42ac1892675.jpg",
             "title": "Choose among our available water hyacinth products",
-            "text": "<p>Our on hand products and virtual gift cards will have <strong>no<\/strong> MOQ.<\/p>",
+            "text": "<p>Our on hand products and virtual gift cards will have <strong>no</strong> MOQ.</p>",
             "link_label": "",
             "link": ""
           }
@@ -407,31 +407,31 @@
         "column_6x7xjY": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mar25-Perseverance_Journal_Lilac-Personalization.png",
+            "image": "shopify://shop_images/Mar25-Perseverance_Journal_Lilac-Personalization.png",
             "title": "Choose among our sample personalization options",
-            "text": "<p>Our <em>name and logo engraving<\/em> will have <strong>no<\/strong> MOQ (Minimum order quantity)<\/p>",
+            "text": "<p>Our <em>name and logo engraving</em> will have <strong>no</strong> MOQ (Minimum order quantity)</p>",
             "link_label": "Click Here for Personalization",
-            "link": "shopify:\/\/collections\/personalization"
+            "link": "shopify://collections/personalization"
           }
         },
         "column_3qyk4k": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mar3-SpesMediumBrown-Customization_2.jpg",
+            "image": "shopify://shop_images/Mar3-SpesMediumBrown-Customization_2.jpg",
             "title": "Choose customization options",
-            "text": "<p>Made to order and customized vegan leather goods vary by<strong> 50 - 100<\/strong> MOQ.<\/p>",
+            "text": "<p>Made to order and customized vegan leather goods vary by<strong> 50 - 100</strong> MOQ.</p>",
             "link_label": "Click Here For Customization",
-            "link": "shopify:\/\/collections\/customizations"
+            "link": "shopify://collections/customizations"
           }
         },
         "column_U4Kx8B": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/packaging.jpg",
+            "image": "shopify://shop_images/packaging.jpg",
             "title": "Choose packaging options",
-            "text": "<p>Wooden Box, Card Board Boxes, Acrylic Boxes, Eco-bags and more with matching gift tags, ribbons and accents<\/p>",
+            "text": "<p>Wooden Box, Card Board Boxes, Acrylic Boxes, Eco-bags and more with matching gift tags, ribbons and accents</p>",
             "link_label": "Packaging",
-            "link": "shopify:\/\/collections\/packaging-1"
+            "link": "shopify://collections/packaging-1"
           }
         }
       },
@@ -467,42 +467,42 @@
         "slide_8BcPx4": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Logo-pwc_1eded6d8-a372-4ceb-8e69-ae0b10a0d50a.png",
+            "image": "shopify://shop_images/Logo-pwc_1eded6d8-a372-4ceb-8e69-ae0b10a0d50a.png",
             "url": ""
           }
         },
         "slide_DgpH3z": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
+            "image": "shopify://shop_images/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
             "url": ""
           }
         },
         "slide_WaX7wp": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
+            "image": "shopify://shop_images/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
             "url": ""
           }
         },
         "slide_qC4tVU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Globe-logo.png",
+            "image": "shopify://shop_images/Globe-logo.png",
             "url": ""
           }
         },
         "slide_GLgLiD": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hyundai-logo-1.png",
+            "image": "shopify://shop_images/hyundai-logo-1.png",
             "url": ""
           }
         },
         "slide_wCPaNY": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Unilab.png",
+            "image": "shopify://shop_images/Unilab.png",
             "url": ""
           }
         }
@@ -616,7 +616,7 @@
         "text_eaVnhV": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Company can transform a damaging aquatic plant into well-made products such as.. <\/p>"
+            "text": "<p>Our Company can transform a damaging aquatic plant into well-made products such as.. </p>"
           }
         }
       },
@@ -639,7 +639,7 @@
         "column_4GqrAW": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_-Square-gif_0fae35ff-537e-473d-a98d-6cdc5d4f13fb.gif",
+            "image": "shopify://shop_images/2_-Square-gif_0fae35ff-537e-473d-a98d-6cdc5d4f13fb.gif",
             "title": "Office Desk Accessories",
             "text": "",
             "link_label": "",
@@ -649,7 +649,7 @@
         "column_nhtjV7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jun19-Bucket_List_Travel_Wallet-Carrot_Orange.png",
+            "image": "shopify://shop_images/Jun19-Bucket_List_Travel_Wallet-Carrot_Orange.png",
             "title": "Travel Accessories",
             "text": "",
             "link_label": "",
@@ -659,7 +659,7 @@
         "column_YG3Kew": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7N8A6174_98bff4cb-23fe-4866-b437-3d5769f908a0.jpg",
+            "image": "shopify://shop_images/7N8A6174_98bff4cb-23fe-4866-b437-3d5769f908a0.jpg",
             "title": "Stationary",
             "text": "",
             "link_label": "",
@@ -669,7 +669,7 @@
         "column_8jVe9K": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bags.jpg",
+            "image": "shopify://shop_images/Bags.jpg",
             "title": "Bags & Wallets",
             "text": "",
             "link_label": "",
@@ -679,7 +679,7 @@
         "column_U9UVpH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8489.jpg",
+            "image": "shopify://shop_images/IMG_8489.jpg",
             "title": "Home Living and other items",
             "text": "",
             "link_label": "",
@@ -747,7 +747,7 @@
         "text_pM6iHL": {
           "type": "text",
           "settings": {
-            "text": "<p>Employee appreciation gift, employee vegan leather badge holders<\/p>",
+            "text": "<p>Employee appreciation gift, employee vegan leather badge holders</p>",
             "text_style": "body"
           }
         },
@@ -755,7 +755,7 @@
           "type": "button",
           "settings": {
             "button_label": "View kit",
-            "button_link": "shopify:\/\/products\/dare-to-begin-employee-welcome-kit",
+            "button_link": "shopify://products/dare-to-begin-employee-welcome-kit",
             "button_style_secondary": false
           }
         }
@@ -794,7 +794,7 @@
         "text_kf4GGg": {
           "type": "text",
           "settings": {
-            "text": "<p>Celebrating Your Dedication – One Gift at a Time!<\/p>",
+            "text": "<p>Celebrating Your Dedication – One Gift at a Time!</p>",
             "text_style": "body"
           }
         }
@@ -804,7 +804,7 @@
         "text_kf4GGg"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Employee_Loyalty_Award.png",
+        "image": "shopify://shop_images/Employee_Loyalty_Award.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -832,7 +832,7 @@
         "text_bBHnP4": {
           "type": "text",
           "settings": {
-            "text": "<p>Your dedication shines as bright as your talent!<\/p>",
+            "text": "<p>Your dedication shines as bright as your talent!</p>",
             "text_style": "body"
           }
         },
@@ -840,7 +840,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Kit",
-            "button_link": "shopify:\/\/collections\/employee-appreciation-gifts",
+            "button_link": "shopify://collections/employee-appreciation-gifts",
             "button_style_secondary": false
           }
         }
@@ -851,7 +851,7 @@
         "button_FpF8Kx"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/EmployeeWelcomeKit.jpg",
+        "image": "shopify://shop_images/EmployeeWelcomeKit.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -879,7 +879,7 @@
         "text_Qjtmjn": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome your clients to their new home and make them rememeber you even after the initial purchase with Eco-Friendly Turnover Kit contents like keychains for their keys, a folder to palce your contract and other property details, valet tray for their house trinkets, coasters, do not disturb sign and a planner.<\/p>",
+            "text": "<p>Welcome your clients to their new home and make them rememeber you even after the initial purchase with Eco-Friendly Turnover Kit contents like keychains for their keys, a folder to palce your contract and other property details, valet tray for their house trinkets, coasters, do not disturb sign and a planner.</p>",
             "text_style": "body"
           }
         },
@@ -887,7 +887,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Kit",
-            "button_link": "shopify:\/\/products\/home-sweet-home-real-estate-turnover-kit",
+            "button_link": "shopify://products/home-sweet-home-real-estate-turnover-kit",
             "button_style_secondary": false
           }
         }
@@ -898,7 +898,7 @@
         "button_exnXYV"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/homesweet.png",
+        "image": "shopify://shop_images/homesweet.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -926,7 +926,7 @@
         "text_GjqwmY": {
           "type": "text",
           "settings": {
-            "text": "<p>We accept brand collaborations of customized designs for your brand merchandise<\/p>",
+            "text": "<p>We accept brand collaborations of customized designs for your brand merchandise</p>",
             "text_style": "body"
           }
         },
@@ -934,7 +934,7 @@
           "type": "button",
           "settings": {
             "button_label": "View kit",
-            "button_link": "shopify:\/\/products\/tatak-pinoy-brand-merchandise-kit",
+            "button_link": "shopify://products/tatak-pinoy-brand-merchandise-kit",
             "button_style_secondary": false
           }
         }
@@ -945,7 +945,7 @@
         "button_WJCbyb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Lifestyle-Makeup_537d6330-0ce6-45fb-9b60-d3ea97b10d5d.jpg",
+        "image": "shopify://shop_images/Lifestyle-Makeup_537d6330-0ce6-45fb-9b60-d3ea97b10d5d.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -973,7 +973,7 @@
         "text_Gdcmck": {
           "type": "text",
           "settings": {
-            "text": "<p><em>ID Holder + Checkbook Holder + Pencil Case + Desk Pen Holder + iPad Holder + Desk Accessories + Mouse Pad + Desk Pad + Desk Organizer + Wrist Rest<\/em><\/p>",
+            "text": "<p><em>ID Holder + Checkbook Holder + Pencil Case + Desk Pen Holder + iPad Holder + Desk Accessories + Mouse Pad + Desk Pad + Desk Organizer + Wrist Rest</em></p>",
             "text_style": "body"
           }
         },
@@ -981,7 +981,7 @@
           "type": "button",
           "settings": {
             "button_label": "View kit",
-            "button_link": "shopify:\/\/products\/corporate-holiday-christmas-holiday-gift-set",
+            "button_link": "shopify://products/corporate-holiday-christmas-holiday-gift-set",
             "button_style_secondary": false
           }
         }
@@ -992,7 +992,7 @@
         "button_kYYcxW"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/layout1_02_1.jpg",
+        "image": "shopify://shop_images/layout1_02_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -1020,7 +1020,7 @@
         "text_eUQYKX": {
           "type": "text",
           "settings": {
-            "text": "<p>Folders + Conference Bags + Journals + Executive planners + Certificate holder + Tumblers.<\/p>",
+            "text": "<p>Folders + Conference Bags + Journals + Executive planners + Certificate holder + Tumblers.</p>",
             "text_style": "body"
           }
         },
@@ -1028,7 +1028,7 @@
           "type": "button",
           "settings": {
             "button_label": "View kit",
-            "button_link": "shopify:\/\/products\/rise-above-virtual-event-kit",
+            "button_link": "shopify://products/rise-above-virtual-event-kit",
             "button_style_secondary": false
           }
         }
@@ -1039,7 +1039,7 @@
         "button_NXQhKa"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Virtual_Event_Kit.jpg",
+        "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

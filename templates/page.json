@@ -24,14 +24,14 @@
         "heading_66PNyw": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.metafields.custom.page_title.value }}SADASLHDKAJSDA",
-            "heading_size": "h0"
+            "heading": "{{ page.metafields.custom.page_title.value }}",
+            "heading_size": "h1"
           }
         },
         "text_DGd8w4": {
           "type": "text",
           "settings": {
-            "text": "TEST",
+            "text": "{{ page.metafields.custom.subtitle.value }}sdawdasdawdsdasd",
             "text_style": "body"
           }
         }
@@ -697,6 +697,7 @@
         "column_8jVe9K",
         "column_U9UVpH"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",

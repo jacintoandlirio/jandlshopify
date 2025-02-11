@@ -58,6 +58,12 @@
           "disabled": true,
           "settings": {}
         },
+        "tepo_product_options_product_app_block_cwpK3a": {
+          "type": "shopify://apps/tepo-product-options/blocks/product-app-block/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -190,6 +196,7 @@
         "custom_liquid_4xnYLk",
         "custom_liquid_NTcbUC",
         "quantity_selector",
+        "tepo_product_options_product_app_block_cwpK3a",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",

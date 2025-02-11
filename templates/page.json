@@ -31,7 +31,7 @@
         "text_DGd8w4": {
           "type": "text",
           "settings": {
-            "text": "{{ page.metafields.custom.subtitle.value }}",
+            "text": "TEST",
             "text_style": "body"
           }
         }
@@ -219,6 +219,7 @@
         "column_jNpXVM",
         "column_3nUTgQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -251,6 +252,7 @@
       "blocks": {
         "row_kYLGPY": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/8c8b58c7b67f49a4aec611eb546cb028_1_1.gif",
             "caption": "Jacinto & Lirio",
@@ -273,6 +275,7 @@
         },
         "row_9kHYmq": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/social_impact_d81c0b8e-fbd4-4cc5-80f1-4a33d3cf22d5.png",
             "caption": "Jacinto & Lirio",

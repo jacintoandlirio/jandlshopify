@@ -73,6 +73,7 @@
       "blocks": {
         "column_tYaLxJ": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "{{ page.metafields.custom.graphic_placements.value }}",
             "title": "",
@@ -83,6 +84,7 @@
         },
         "column_k6j4yg": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "{{ page.metafields.custom.graphic_placements_two.value }}",
             "title": "",
@@ -96,6 +98,7 @@
         "column_tYaLxJ",
         "column_k6j4yg"
       ],
+      "disabled": true,
       "settings": {
         "title": "Customized design etches on covers of water hyacinth journals.",
         "heading_size": "h1",
@@ -115,6 +118,7 @@
     },
     "custom_liquid_D6t6zx": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% if page.metafields.custom.graphic_placements == blank %}\n\n<style>\n#sshopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_cEgTBi{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__image_with_text_anJUaQ{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n\n#shopify-section-template--22140844540221__multicolumn_mNTXWC{\ndisplay: none;\n}\n</style>\n{%endif%}\n{%if page.metafields.custom.corporate_gifting == blank%}\n<style>\n#shopify-section-template--22140844540221__rich_text_3c8QpU{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_z6KajG{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__multicolumn_JpQDMk{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__ss_instafeed_2_tB3zFm{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__featured_collection_iCbeq9{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_tJkHXX{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__multicolumn_bCUKr6{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__rich_text_E3GfGW{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_UFJKqy{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_aPbmMH{\ndisplay:none;\n}\n#shopify-section-template--22140844540221__image_with_text_aPbmMH{display:none;}\n#shopify-section-template--22140844540221__image_with_text_zp4CyR{display:none;}\n#shopify-section-template--22140844540221__image_with_text_QUGKWK{display:none;}\n#shopify-section-template--22140844540221__image_with_text_HcqEYi{display:none;}\n#shopify-section-template--22140844540221__image_with_text_8XtHL6{display:none;}\n#shopify-section-template--22140844540221__image_with_text_aUaqwQ{\ndisplay:none;\n}\n</style>\n{%endif%}",
         "color_scheme": "",
@@ -141,6 +145,7 @@
         },
         "button_MdMqpW": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "See more",
             "button_link": "",
@@ -153,6 +158,7 @@
         "text_Y4JP8j",
         "button_MdMqpW"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ page.metafields.custom.customized_design.value }}",
         "height": "adapt",
@@ -239,6 +245,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         "h1 {font-family: \"luna itc\"; font-size: 50px; text-align: center;}"
       ],
@@ -250,6 +257,16 @@
     "multirow_UQcnaH": {
       "type": "multirow",
       "blocks": {
+        "row_wDQrPH": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
         "row_kYLGPY": {
           "type": "row",
           "disabled": true,
@@ -287,10 +304,12 @@
         }
       },
       "block_order": [
+        "row_wDQrPH",
         "row_kYLGPY",
         "row_hR9cGL",
         "row_9kHYmq"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -342,6 +361,7 @@
         "text_nhrznY",
         "text_3YAL6L"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {border-bottom: 1px solid #765920;}"
       ],
@@ -382,6 +402,7 @@
         "text_bB6EbA",
         "text_96h8We"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {border-bottom: 1px solid #765920;}"
       ],
@@ -444,6 +465,7 @@
         "column_3qyk4k",
         "column_U4Kx8B"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {margin: 0 auto; border-bottom: 1px solid #765920;}"
       ],
@@ -518,6 +540,7 @@
         "slide_GLgLiD",
         "slide_wCPaNY"
       ],
+      "disabled": true,
       "settings": {
         "top": "social proof",
         "top_custom": false,
@@ -627,6 +650,7 @@
         "heading_TbmBki",
         "text_eaVnhV"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -729,6 +753,7 @@
       "block_order": [
         "heading_Cd79CY"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -769,6 +794,7 @@
         "text_pM6iHL",
         "button_YVrfBR"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ page.metafields.custom.corporate_gifting.value }}",
         "height": "adapt",
@@ -807,6 +833,7 @@
         "heading_qmjQF7",
         "text_kf4GGg"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Employee_Loyalty_Award.png",
         "height": "adapt",
@@ -854,6 +881,7 @@
         "text_bBHnP4",
         "button_FpF8Kx"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/EmployeeWelcomeKit.jpg",
         "height": "adapt",
@@ -901,6 +929,7 @@
         "text_Qjtmjn",
         "button_exnXYV"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/homesweet.png",
         "height": "adapt",
@@ -948,6 +977,7 @@
         "text_GjqwmY",
         "button_WJCbyb"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Lifestyle-Makeup_537d6330-0ce6-45fb-9b60-d3ea97b10d5d.jpg",
         "height": "medium",
@@ -995,6 +1025,7 @@
         "text_Gdcmck",
         "button_kYYcxW"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/layout1_02_1.jpg",
         "height": "adapt",
@@ -1042,6 +1073,7 @@
         "text_eUQYKX",
         "button_NXQhKa"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
         "height": "adapt",

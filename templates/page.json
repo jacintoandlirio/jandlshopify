@@ -363,7 +363,6 @@
         "text_nhrznY",
         "text_3YAL6L"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {border-bottom: 1px solid #765920;}"
       ],
@@ -404,7 +403,6 @@
         "text_bB6EbA",
         "text_96h8We"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {border-bottom: 1px solid #765920;}"
       ],
@@ -467,7 +465,6 @@
         "column_3qyk4k",
         "column_U4Kx8B"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {margin: 0 auto; border-bottom: 1px solid #765920;}"
       ],
@@ -542,7 +539,6 @@
         "slide_GLgLiD",
         "slide_wCPaNY"
       ],
-      "disabled": true,
       "settings": {
         "top": "social proof",
         "top_custom": false,
@@ -652,7 +648,6 @@
         "heading_TbmBki",
         "text_eaVnhV"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -723,7 +718,6 @@
         "column_8jVe9K",
         "column_U9UVpH"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -755,7 +749,6 @@
       "block_order": [
         "heading_Cd79CY"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -796,7 +789,6 @@
         "text_pM6iHL",
         "button_YVrfBR"
       ],
-      "disabled": true,
       "settings": {
         "image": "{{ page.metafields.custom.corporate_gifting.value }}",
         "height": "adapt",
@@ -835,7 +827,6 @@
         "heading_qmjQF7",
         "text_kf4GGg"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Employee_Loyalty_Award.png",
         "height": "adapt",
@@ -883,7 +874,6 @@
         "text_bBHnP4",
         "button_FpF8Kx"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/EmployeeWelcomeKit.jpg",
         "height": "adapt",
@@ -931,7 +921,6 @@
         "text_Qjtmjn",
         "button_exnXYV"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/homesweet.png",
         "height": "adapt",
@@ -979,7 +968,6 @@
         "text_GjqwmY",
         "button_WJCbyb"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Lifestyle-Makeup_537d6330-0ce6-45fb-9b60-d3ea97b10d5d.jpg",
         "height": "medium",
@@ -1027,7 +1015,6 @@
         "text_Gdcmck",
         "button_kYYcxW"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/layout1_02_1.jpg",
         "height": "adapt",
@@ -1075,7 +1062,6 @@
         "text_eUQYKX",
         "button_NXQhKa"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
         "height": "adapt",

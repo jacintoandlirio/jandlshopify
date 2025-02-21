@@ -12,5 +12,13 @@
   "context": {
     "market": "ph"
   },
-  "sections": {}
+  "sections": {
+    "footer": {
+      "settings": {
+        "enable_country_selector": false,
+        "show_policy": true
+      },
+      "blocks": {}
+    }
+  }
 }

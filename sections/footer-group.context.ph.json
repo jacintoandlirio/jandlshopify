@@ -16,7 +16,8 @@
     "footer": {
       "settings": {
         "enable_country_selector": false,
-        "show_policy": true
+        "show_policy": true,
+        "payment_enable": false
       },
       "blocks": {}
     }

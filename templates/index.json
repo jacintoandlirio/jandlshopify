@@ -128,6 +128,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"luna itc\"; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
         "button {font-family: \"luna itc\" !important;}",
@@ -159,6 +160,62 @@
         "swipe_on_mobile": true,
         "padding_top": 72,
         "padding_bottom": 80
+      }
+    },
+    "multicolumn_gcFr3i": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WGAhb3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/alamat_ng_pakwan.png",
+            "title": "<strong>Vision Board Monthly Vegan Leather Desk Planner</strong>",
+            "text": "<p>Visualize your dreams wherever you go. This desk planner lets you see your vision board regularly as you plot your daily plans activities.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/vision-board-monthly-vegan-leather-desk-planner-alamat-ng-pinya-copy?_pos=3&_sid=01f445076&_ss=r&variant=49665527415101"
+          }
+        },
+        "column_phiNRx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/akap.jpg",
+            "title": "<strong>Akap Artisan Vegan Leather Apron</strong>",
+            "text": "<p>Made from sustainable vegan leather, it features adjustable cross-back straps for a comfortable fit and convenient chest pockets for easy storage. </p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/akap-artisan-vegan-leather-family-matching-apron-with-adjustable-cross-back-straps-and-chest-pockets?_pos=1&_sid=1936f4ea8&_ss=r"
+          }
+        },
+        "column_JCTxmX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/artisan.png",
+            "title": "<strong>Dual Cover Refillable Vegan Leather Journal</strong>",
+            "text": "<p>This journal offers a bold, unique design with a reversible two-fold flap, buckle closure, hand-stitched spine, and interior slots for cards, papers, and money.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/jacinto-lirio-artisan-dual-cover-journals-medium?_pos=1&_sid=b6cd8a372&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "column_WGAhb3",
+        "column_phiNRx",
+        "column_JCTxmX"
+      ],
+      "settings": {
+        "title": "<strong>Celebrate Womanhood</strong>",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "View Collection",
+        "button_link": "shopify://collections/celebrate-womanhood",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_cGb6gm": {
@@ -1623,6 +1680,7 @@
     "image_banner_J9BE3f",
     "slideshow_ri7rcw",
     "featured_collection",
+    "multicolumn_gcFr3i",
     "rich_text_cGb6gm",
     "multicolumn_LQJyjD",
     "rich_text_UgmE98",

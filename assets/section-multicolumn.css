@@ -225,3 +225,7 @@
     display: list-item;
   }
 }
+
+.multicolumn .button {
+    display: none !important;
+}

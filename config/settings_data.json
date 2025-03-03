@@ -470,6 +470,11 @@
         "type": "shopify://apps/scroll-to-top-button/blocks/app-embed-block/6834cf1c-7dfe-49db-850d-5e0d94ae2b72",
         "disabled": false,
         "settings": {}
+      },
+      "8171265131012698934": {
+        "type": "shopify://apps/oc-quantity-breaks-limit/blocks/orichi-discount/3f38eaa3-2a3f-4e55-bcc9-df5d3f75e351",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {

@@ -175,6 +175,56 @@
             "link": "https://jacintoandlirio.com/products/vision-board-monthly-vegan-leather-desk-planner-alamat-ng-pinya-copy?_pos=3&_sid=01f445076&_ss=r&variant=49665527415101"
           }
         },
+        "column_6b3Kwe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bucketlist_1.png",
+            "title": "<strong>Bucketlist Zippered Travel Wallet with Retractable Wristlet</strong>",
+            "text": "<p>Whatever you need to be, this travel wallet is here to help you store, organize, and protect your outdoor essentials. </p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/bucket-list-zippered-checkbook-wallet-essentials-purse-with-retractable-wristlet?_pos=7&_sid=512063ebf&_ss=r"
+          }
+        },
+        "column_AXKDhU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fiesta_5308a379-8d1a-4351-8b88-7f30f0431908.jpg",
+            "title": "<strong>Traveler's Notebook Planner with Zipper</strong>",
+            "text": "<p>There are multiple pockets for tools that will help you creatively express where life has taken you, even to where it’s taking you next!</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/refillable-vegan-leather-fiesta-travelers-notebook-planner-with-zipper-standard-size?_pos=2&_psq=fiesta&_ss=e&_v=1.0&variant=49693535732029"
+          }
+        },
+        "column_h684X8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lakbay_and_lanyard.jpg",
+            "title": "<strong>Lakbay Travel Essentials Kit</strong>",
+            "text": "<p>This travel essentials kit is the answer to being able to carry your passport, boarding pass, cell phone and money in one hand while carrying your luggage in another.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/lakbay-with-lanyard?_pos=1&_sid=2e575f82b&_ss=r&variant=32140786663537"
+          }
+        },
+        "column_fBqb88": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/laro.jpg",
+            "title": "<strong>A5 Undated Refillable Traveler’s Notebook</strong>",
+            "text": "<p>The cover is carefully burnt and etched on the water hyacinth vegan leather. More than the design, this planner has value-added uses which can be personalized to fit your lifestyle.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/laro-customizable-vegan-a5-dateless-planner?variant=48791080304957"
+          }
+        },
+        "column_FJT7Gq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pinto_medium_b241d7d1-46d4-42bf-a6a9-d0aac0e7133b.png",
+            "title": "<strong>Personalizable Refillable Vegan Leather Journal</strong>",
+            "text": "<p>It’s the best travel companion for wanderlusts who want to keep their travel memories or be reminded of their next adventures.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/pinto-medium-personalizable-refillable-vegan-leather-journal?variant=48950586802493"
+          }
+        },
         "column_phiNRx": {
           "type": "column",
           "settings": {
@@ -198,6 +248,11 @@
       },
       "block_order": [
         "column_WGAhb3",
+        "column_6b3Kwe",
+        "column_AXKDhU",
+        "column_h684X8",
+        "column_fBqb88",
+        "column_FJT7Gq",
         "column_phiNRx",
         "column_JCTxmX"
       ],

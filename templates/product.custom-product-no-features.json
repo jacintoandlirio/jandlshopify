@@ -48,16 +48,15 @@
             "banner_id": "00a7a421-9dc4-4d6a-b19f-5e7a60bcbcc7"
           }
         },
+        "custom_liquid_4xnYLk": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  </style>\n  <label>Min. Qty</label>\n{%endif%}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
         },
         "text_MHzQNc": {
           "type": "text",
@@ -182,8 +181,8 @@
         "text_GGrbeM",
         "variant_picker",
         "essential_trust_badges_app_block_c3JM3U",
+        "custom_liquid_4xnYLk",
         "quantity_selector",
-        "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
         "collapsible_tab_A8kRt8",

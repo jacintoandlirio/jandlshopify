@@ -65,13 +65,6 @@
           "disabled": true,
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
         "text_MHzQNc": {
           "type": "text",
           "settings": {
@@ -198,7 +191,6 @@
         "custom_liquid_4xnYLk",
         "custom_liquid_NTcbUC",
         "quantity_selector",
-        "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
         "collapsible_tab_A8kRt8",

@@ -54,9 +54,23 @@
             "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  </style>\n  <label>Min. Qty</label>\n{%endif%}"
           }
         },
+        "custom_liquid_NTcbUC": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Quantity Selector -->\n<div class=\"quantity-container\">\n  <label for=\"quantity\">Quantity:</label>\n  <input \n    type=\"number\" \n    id=\"quantity\" \n    name=\"quantity\" \n    value=\"50\" \n    min=\"50\" \n    step=\"5\" \n    class=\"quantity-selector\">\n</div>\n\n<!-- Qteedy Extended Form -->\n<form method=\"post\" action=\"/cart/add\">\n  <input type=\"hidden\" name=\"id\" value=\"{{ product.variants.first.id }}\">\n  <input type=\"hidden\" id=\"qteedy-quantity\" name=\"quantity\" value=\"50\"> <!-- Hidden input for Qteedy form -->\n  \n  <!-- Other Qteedy form fields can be added here -->\n  \n  <button type=\"submit\">Add to Cart</button>\n</form>\n\n<script>\n  document.addEventListener('DOMContentLoaded', () => {\n    const quantityInput = document.getElementById('quantity');\n    const qteedyQuantity = document.getElementById('qteedy-quantity');\n\n    // Sync Qteedy form quantity with the input field\n    quantityInput.addEventListener('input', () => {\n      let value = parseInt(quantityInput.value);\n      const min = parseInt(quantityInput.min);\n      if (value < min) value = min; // Enforce minimum quantity\n\n      qteedyQuantity.value = value; // Update hidden form field\n    });\n  });\n</script>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
         },
         "text_MHzQNc": {
           "type": "text",
@@ -182,7 +196,9 @@
         "variant_picker",
         "essential_trust_badges_app_block_c3JM3U",
         "custom_liquid_4xnYLk",
+        "custom_liquid_NTcbUC",
         "quantity_selector",
+        "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
         "collapsible_tab_A8kRt8",

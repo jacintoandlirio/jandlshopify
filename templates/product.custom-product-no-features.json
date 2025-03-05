@@ -60,10 +60,6 @@
             "custom_liquid": "<style>\n\t  /* Styling for the quantity label */\n\t  label[for=\"quantity\"] {\n\t\tfont-family: Arial, sans-serif;\n\t\tfont-size: 18px;\n\t\tfont-weight: bold;\n\t\tcolor: #8C6D5A; /* light brown tone */\n\t\tmargin-right: 10px;\n\t  }\n\n\t  /* Styling for the quantity input */\n\t  .quantity-selector {\n\t\twidth: 80px;\n\t\theight: 40px;\n\t\tfont-size: 18px;\n\t\ttext-align: center;\n\t\tborder: 2px solid #8C6D5A; /* light brown */\n\t\tborder-radius: 5px;\n\t\toutline: none;\n\t\ttransition: border-color 0.3s ease, box-shadow 0.3s ease;\n\t\tbackground-color: #FAF3E0; /* Light beige background */\n\t\tcolor: #5A4033; /* Earthy brown tone for text */\n\t  }\n\n\t  /* Focus state for the input */\n\t  .quantity-selector:focus {\n\t\tborder-color: #8C6D5A; /* light brown for focus */\n\t\tbox-shadow: 0 0 5px rgba(111, 78, 55, 0.5); /* Subtle brown glow */\n\t  }\n\n\t  /* Hover effect for the input */\n\t  .quantity-selector:hover {\n\t\tborder-color: #6F4E37; /* Rich brown */\n\t  }\n\n\t  /* Container for better alignment */\n\t  .quantity-container {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tgap: 10px;\n\t\tmargin-top: 10px;\n\t  }\n\t</style>\n\n\t<div class=\"quantity-container\">\n\t  <label for=\"quantity\">Quantity:</label>\n\t  <input \n\t\ttype=\"number\" \n\t\tid=\"quantity\" \n\t\tname=\"quantity\" \n\t\tvalue=\"50\" \n\t\tmin=\"50\" \n\t\tstep=\"5\" \n\t\tclass=\"quantity-selector\">\n\t</div>\n\n\t<script>\n\t  document.addEventListener('DOMContentLoaded', () => {\n\t\tconst quantityInput = document.getElementById('quantity');\n\n\t\t// Ensure the initial value respects the minimum\n\t\tquantityInput.value = Math.max(quantityInput.min, quantityInput.value);\n\n\t\t// Enforce the minimum limit and step value when the input changes\n\t\tquantityInput.addEventListener('input', () => {\n\t\t  let value = parseInt(quantityInput.value);\n\t\t  const min = parseInt(quantityInput.min);\n\t\t  const step = parseInt(quantityInput.step);\n\n\t\t  // Ensure the value does not go below the minimum\n\t\t  if (value < min) value = min;\n\n\t\t  // Adjust value to nearest step increment\n\t\t  value = Math.round(value / step) * step;\n\n\t\t  quantityInput.value = value;\n\t\t});\n\t  });\n\t</script>"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -196,7 +192,6 @@
         "essential_trust_badges_app_block_c3JM3U",
         "custom_liquid_4xnYLk",
         "custom_liquid_NTcbUC",
-        "quantity_selector",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",

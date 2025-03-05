@@ -510,7 +510,7 @@
           "storefront_layout_type": "as-modal",
           "storefront_layout_collection_enabled": false,
           "storefront_layout_primary_bg_color": "#926f2b",
-          "storefront_layout_primary_text_color": "#121212",
+          "storefront_layout_primary_text_color": "#ffffff",
           "storefront_layout_secondary_bg_color": "#f4f8fe",
           "storefront_layout_secondary_text_color": "#333333",
           "storefront_layout_ui_border_radius": 6,

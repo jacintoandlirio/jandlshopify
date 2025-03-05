@@ -837,6 +837,13 @@
         "column_7jNiyP",
         "column_4jwUDp"
       ],
+      "custom_css": [
+        "::-webkit-scrollbar {width: 0px; height: 8px;}",
+        "::-webkit-scrollbar-track {background: #f0f0f0; border-radius: 50px;}",
+        "::-webkit-scrollbar-thumb {background: rgba(0, 0, 0, 0.4); border-radius: 50px; transition: background 0.3s ease-in-out;}",
+        "::-webkit-scrollbar-thumb:hover {background: rgba(0, 0, 0, 0.6);}",
+        ".container {overflow-y: hidden; overflow-x: auto;}"
+      ],
       "settings": {
         "title": "Testimonials",
         "heading_size": "h0",

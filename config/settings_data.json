@@ -326,11 +326,6 @@
           "with_photos": false
         }
       },
-      "8194784159926722659": {
-        "type": "shopify://apps/gg-product-page-slider-gallery/blocks/app-embed-block/09c0440b-b921-435c-a2f5-3fc8f53b0424",
-        "disabled": true,
-        "settings": {}
-      },
       "9144908965052497053": {
         "type": "shopify://apps/glo-related-products-upsell/blocks/app-embed/75cf2d86-3988-45e7-8f28-ada23c99704f",
         "disabled": false,
@@ -471,11 +466,6 @@
         "disabled": false,
         "settings": {}
       },
-      "8171265131012698934": {
-        "type": "shopify://apps/oc-quantity-breaks-limit/blocks/orichi-discount/3f38eaa3-2a3f-4e55-bcc9-df5d3f75e351",
-        "disabled": false,
-        "settings": {}
-      },
       "10274264662263595587": {
         "type": "shopify://apps/wishlist-plus/blocks/wishlist-collections-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
         "disabled": false,
@@ -526,6 +516,11 @@
           "storefront_layout_drawer_width": 400,
           "storefront_layout_as_section_page": "swym-share-wishlist"
         }
+      },
+      "8194784159926722659": {
+        "type": "shopify://apps/gg-product-gallery/blocks/app-embed-block/09c0440b-b921-435c-a2f5-3fc8f53b0424",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {

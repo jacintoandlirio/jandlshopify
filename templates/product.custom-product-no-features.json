@@ -54,15 +54,8 @@
             "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  </style>\n  <label>Min. Qty</label>\n{%endif%}"
           }
         },
-        "custom_liquid_NTcbUC": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n  /* Styling for the quantity label */\n  label[for=\"quantity\"] {\n    font-family: Arial, sans-serif;\n    font-size: 18px;\n    font-weight: bold;\n    color: #8C6D5A; /* light brown tone */\n    margin-right: 10px;\n  }\n\n  /* Styling for the quantity input */\n  .quantity-selector {\n    width: 80px;\n    height: 40px;\n    font-size: 18px;\n    text-align: center;\n    border: 2px solid #8C6D5A; /* light brown */\n    border-radius: 5px;\n    outline: none;\n    transition: border-color 0.3s ease, box-shadow 0.3s ease;\n    background-color: #FAF3E0; /* Light beige background */\n    color: #5A4033; /* Earthy brown tone for text */\n  }\n\n  /* Focus state for the input */\n  .quantity-selector:focus {\n    border-color: #8C6D5A; /* light brown for focus */\n    box-shadow: 0 0 5px rgba(111, 78, 55, 0.5); /* Subtle brown glow */\n  }\n\n  /* Hover effect for the input */\n  .quantity-selector:hover {\n    border-color: #6F4E37; /* Rich brown */\n  }\n\n  /* Container for better alignment */\n  .quantity-container {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    margin-top: 10px;\n  }\n</style>\n\n<div class=\"quantity-container\">\n  <label for=\"quantity\">Quantity:</label>\n  <input \n    type=\"number\" \n    id=\"quantity\" \n    name=\"quantity\" \n    value=\"50\" \n    min=\"50\" \n    step=\"5\" \n    class=\"quantity-selector\">\n</div>\n\n<script>\n  document.addEventListener('DOMContentLoaded', () => {\n    const quantityInput = document.getElementById('quantity');\n\n    // Ensure the initial value respects the minimum\n    quantityInput.value = Math.max(quantityInput.min, quantityInput.value);\n\n    // Enforce the step value when the input changes\n    quantityInput.addEventListener('input', (e) => {\n      const min = parseInt(quantityInput.min);"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
@@ -196,7 +189,6 @@
         "variant_picker",
         "essential_trust_badges_app_block_c3JM3U",
         "custom_liquid_4xnYLk",
-        "custom_liquid_NTcbUC",
         "quantity_selector",
         "buy_buttons",
         "text_MHzQNc",

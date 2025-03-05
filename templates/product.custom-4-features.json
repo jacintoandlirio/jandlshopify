@@ -51,6 +51,13 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "essential_trust_badges_app_block_i4kghm": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "settings": {
+            "banner_display": "all",
+            "banner_id": "00a7a421-9dc4-4d6a-b19f-5e7a60bcbcc7"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -169,6 +176,7 @@
         "variant_picker",
         "custom_liquid_4xnYLk",
         "quantity_selector",
+        "essential_trust_badges_app_block_i4kghm",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",

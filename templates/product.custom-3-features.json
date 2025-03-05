@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price_RDPA7B": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_GGrbeM": {
           "type": "text",
@@ -51,7 +49,13 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {}
+        },
+        "essential_trust_badges_app_block_K8UJQk": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
           "settings": {
+            "banner_display": "all",
+            "banner_id": "00a7a421-9dc4-4d6a-b19f-5e7a60bcbcc7"
           }
         },
         "buy_buttons": {
@@ -142,8 +146,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -173,6 +176,7 @@
         "variant_picker",
         "custom_liquid_4xnYLk",
         "quantity_selector",
+        "essential_trust_badges_app_block_K8UJQk",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
@@ -799,8 +803,7 @@
     "pagefly-product-section": {
       "type": "pagefly-product-section",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

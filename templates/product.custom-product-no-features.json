@@ -41,6 +41,13 @@
             "swatch_shape": "circle"
           }
         },
+        "essential_trust_badges_app_block_c3JM3U": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "settings": {
+            "banner_display": "all",
+            "banner_id": "00a7a421-9dc4-4d6a-b19f-5e7a60bcbcc7"
+          }
+        },
         "custom_liquid_4xnYLk": {
           "type": "custom_liquid",
           "settings": {
@@ -57,12 +64,6 @@
           "type": "quantity_selector",
           "disabled": true,
           "settings": {}
-        },
-        "tepo_product_options_product_app_block_cwpK3a": {
-          "type": "shopify://apps/tepo-product-options/blocks/product-app-block/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
-          "settings": {
-            "product": "{{product}}"
-          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -193,10 +194,10 @@
         "price_TG9hrb",
         "text_GGrbeM",
         "variant_picker",
+        "essential_trust_badges_app_block_c3JM3U",
         "custom_liquid_4xnYLk",
         "custom_liquid_NTcbUC",
         "quantity_selector",
-        "tepo_product_options_product_app_block_cwpK3a",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",

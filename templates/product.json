@@ -41,6 +41,10 @@
             "swatch_shape": "circle"
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "buy_buttons_8XJJDD": {
           "type": "buy_buttons",
           "settings": {
@@ -54,9 +58,12 @@
             "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  </style>\n  <label>Min. Qty</label>\n{%endif%}"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
+        "essential_trust_badges_app_block_UpUnR7": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "settings": {
+            "banner_display": "all",
+            "banner_id": "00a7a421-9dc4-4d6a-b19f-5e7a60bcbcc7"
+          }
         },
         "text_MHzQNc": {
           "type": "text",
@@ -159,12 +166,6 @@
             "text": "",
             "text_style": "body"
           }
-        },
-        "tepo_product_options_product_app_block_NxgR3P": {
-          "type": "shopify://apps/tepo-product-options/blocks/product-app-block/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
-          "settings": {
-            "product": "{{product}}"
-          }
         }
       },
       "block_order": [
@@ -173,9 +174,10 @@
         "price_HrNzUY",
         "text_GGrbeM",
         "variant_picker",
+        "quantity_selector",
         "buy_buttons_8XJJDD",
         "custom_liquid_4xnYLk",
-        "quantity_selector",
+        "essential_trust_badges_app_block_UpUnR7",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",
         "collapsible_tab_A8kRt8",
@@ -188,8 +190,7 @@
         "description",
         "share",
         "custom_liquid_gCgtYY",
-        "text_kxHrGD",
-        "tepo_product_options_product_app_block_NxgR3P"
+        "text_kxHrGD"
       ],
       "settings": {
         "enable_sticky_info": true,

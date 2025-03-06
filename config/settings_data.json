@@ -521,6 +521,11 @@
         "type": "shopify://apps/gg-product-gallery/blocks/app-embed-block/09c0440b-b921-435c-a2f5-3fc8f53b0424",
         "disabled": true,
         "settings": {}
+      },
+      "8857984110089213392": {
+        "type": "shopify://apps/hextom-sales-boost/blocks/usb-embeded-block/00e81c42-8ae7-4b0b-b43d-99393b885fc4",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {

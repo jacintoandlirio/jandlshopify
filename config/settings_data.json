@@ -476,11 +476,6 @@
         "disabled": true,
         "settings": {}
       },
-      "8857984110089213392": {
-        "type": "shopify://apps/hextom-sales-boost/blocks/usb-embeded-block/00e81c42-8ae7-4b0b-b43d-99393b885fc4",
-        "disabled": false,
-        "settings": {}
-      },
       "5946647744298494267": {
         "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
         "disabled": true,
@@ -526,6 +521,11 @@
           "swym_variant_selector_create_list_placeholder_text": "Enter wishlist name",
           "swym_variant_selector_create_list_title": "Name Your Wishlist"
         }
+      },
+      "8857984110089213392": {
+        "type": "shopify://apps/hextom-sales-boost/blocks/usb-embeded-block/00e81c42-8ae7-4b0b-b43d-99393b885fc4",
+        "disabled": true,
+        "settings": {}
       }
     },
     "color_schemes": {

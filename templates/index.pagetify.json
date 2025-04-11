@@ -1,0 +1,1779 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_J9BE3f": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_tzyAaW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "https://jacintoandlirio.com/pages/catalogs",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_tzyAaW"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/Website_Banner_Christmas_-01-_updated.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "slideshow_ri7rcw": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_7mMHRC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/02-coverPhotozOptimized.jpg",
+            "image_link": "",
+            "heading": "Eco-Friendly Leather Goods For Sustainable Travel.",
+            "heading_size": "h1",
+            "subheading": "Pick from our travel efficient eco-friendly and  multi-functional collections",
+            "button_label": "Shop now!",
+            "link": "shopify://collections/travel-accessories-retail",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 30,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VF4bMU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
+            "image_link": "shopify://pages/how-to-order-eco-friendly-corporate-giveaways-1",
+            "heading": "J&L's Corporate Gifting Service",
+            "heading_size": "h1",
+            "subheading": "Make your mark, show your style",
+            "button_label": "Click here to learn more",
+            "link": "shopify://pages/how-to-order-eco-friendly-corporate-giveaways-1",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 30,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_CTGXc9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/OUR-WHY_2b0f937b-7855-4de9-b406-8cf4f2a2d59e.jpg",
+            "image_link": "",
+            "heading": "Become A J&L Institutional Partner.",
+            "heading_size": "h1",
+            "subheading": "Be a J&L earth care champion and add to your companies' social and environmental impact by adding us as our CSR partner.",
+            "button_label": "Click to know more",
+            "link": "shopify://pages/institutional-partner",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_7mMHRC",
+        "slide_VF4bMU",
+        "slide_CTGXc9"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
+        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
+        ".banner__text {color: #f7e2ad;}",
+        "@media screen and (max-width: 500px) {.banner__text {color: #926f2b; } .image-with-text__heading {color: #926f2b; }}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
+        "button {font-family: \"luna itc\" !important;}",
+        ".price {font-size: 13px;}",
+        ".card__information .card__heading a {font-family: \"Montserrat\" !important;}",
+        "@media screen and (max-width: 400px) {h2 {font-size: 23px; }}"
+      ],
+      "settings": {
+        "title": "<strong>His & Hers Collection</strong>",
+        "heading_size": "h1",
+        "description": "<p>Celebrate Valentine’s Day with a touch of sophistication and practicality in your stationery essentials.</p>",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "valentines",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 72,
+        "padding_bottom": 80
+      }
+    },
+    "multicolumn_gcFr3i": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WGAhb3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/alamat_ng_pakwan.png",
+            "title": "<strong>Vision Board Monthly Vegan Leather Desk Planner</strong>",
+            "text": "<p>Visualize your dreams wherever you go. This desk planner lets you see your vision board regularly as you plot your daily plans activities.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/vision-board-monthly-vegan-leather-desk-planner-alamat-ng-pinya-copy?_pos=3&_sid=01f445076&_ss=r&variant=49665527415101"
+          }
+        },
+        "column_6b3Kwe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bucketlist_1.png",
+            "title": "<strong>Bucketlist Zippered Travel Wallet with Retractable Wristlet</strong>",
+            "text": "<p>Whatever you need to be, this travel wallet is here to help you store, organize, and protect your outdoor essentials. </p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/bucket-list-zippered-checkbook-wallet-essentials-purse-with-retractable-wristlet?_pos=7&_sid=512063ebf&_ss=r"
+          }
+        },
+        "column_AXKDhU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fiesta_5308a379-8d1a-4351-8b88-7f30f0431908.jpg",
+            "title": "<strong>Traveler's Notebook Planner with Zipper</strong>",
+            "text": "<p>There are multiple pockets for tools that will help you creatively express where life has taken you, even to where it’s taking you next!</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/refillable-vegan-leather-fiesta-travelers-notebook-planner-with-zipper-standard-size?_pos=2&_psq=fiesta&_ss=e&_v=1.0&variant=49693535732029"
+          }
+        },
+        "column_h684X8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lakbay_and_lanyard.jpg",
+            "title": "<strong>Lakbay Travel Essentials Kit</strong>",
+            "text": "<p>This travel essentials kit is the answer to being able to carry your passport, boarding pass, cell phone and money in one hand while carrying your luggage in another.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/lakbay-with-lanyard?_pos=1&_sid=2e575f82b&_ss=r&variant=32140786663537"
+          }
+        },
+        "column_fBqb88": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/laro.jpg",
+            "title": "<strong>A5 Undated Refillable Traveler’s Notebook</strong>",
+            "text": "<p>The cover is carefully burnt and etched on the water hyacinth vegan leather. More than the design, this planner has value-added uses which can be personalized to fit your lifestyle.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/laro-customizable-vegan-a5-dateless-planner?variant=48791080304957"
+          }
+        },
+        "column_FJT7Gq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pinto_medium_b241d7d1-46d4-42bf-a6a9-d0aac0e7133b.png",
+            "title": "<strong>Personalizable Refillable Vegan Leather Journal</strong>",
+            "text": "<p>It’s the best travel companion for wanderlusts who want to keep their travel memories or be reminded of their next adventures.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/pinto-medium-personalizable-refillable-vegan-leather-journal?variant=48950586802493"
+          }
+        },
+        "column_phiNRx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/akap.jpg",
+            "title": "<strong>Akap Artisan Vegan Leather Apron</strong>",
+            "text": "<p>Made from sustainable vegan leather, it features adjustable cross-back straps for a comfortable fit and convenient chest pockets for easy storage. </p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/akap-artisan-vegan-leather-family-matching-apron-with-adjustable-cross-back-straps-and-chest-pockets?_pos=1&_sid=1936f4ea8&_ss=r"
+          }
+        },
+        "column_JCTxmX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/artisan.png",
+            "title": "<strong>Dual Cover Refillable Vegan Leather Journal</strong>",
+            "text": "<p>This journal offers a bold, unique design with a reversible two-fold flap, buckle closure, hand-stitched spine, and interior slots for cards, papers, and money.</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://jacintoandlirio.com/products/jacinto-lirio-artisan-dual-cover-journals-medium?_pos=1&_sid=b6cd8a372&_ss=r"
+          }
+        },
+        "column_UtHCqh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/celebrate.jpg",
+            "title": "<strong>Medium Blank Refillable Vegan Journal</strong>",
+            "text": "<p>No need to stress yourself out by keeping everything in your head. List them down, write your thoughts and express your feelings on clear, smooth pages in a journal you can call your own.</p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify://products/pacem-ii-medium-blank-refillable-vegan-leather-journal-1pc-gift-box-packaging-bundle-copy"
+          }
+        }
+      },
+      "block_order": [
+        "column_WGAhb3",
+        "column_6b3Kwe",
+        "column_AXKDhU",
+        "column_h684X8",
+        "column_fBqb88",
+        "column_FJT7Gq",
+        "column_phiNRx",
+        "column_JCTxmX",
+        "column_UtHCqh"
+      ],
+      "settings": {
+        "title": "<strong>Celebrate Womanhood</strong>",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "View Collection",
+        "button_link": "shopify://collections/celebrate-womanhood",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_cGb6gm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QkCDA3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why Trust Us</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_FTiafA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Company can transform a water damaging plant into well made products such as office desk accessories, travel accessories, stationary, bags & wallets, home & Living items, & many more. All of which are made out of<strong> water hyacinth plants.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QkCDA3",
+        "text_FTiafA"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 44
+      }
+    },
+    "multicolumn_LQJyjD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4GihPh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Leatherization-Process.gif",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AJktQm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PintoGif_945f350b-20fc-4ef0-98cc-4b671aafe9ff.gif",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4GihPh",
+        "column_AJktQm"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "rich_text_UgmE98": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6LtF84": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why Do We Use Water Hyacinth?</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6LtF84"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_WU3efy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GnDw7D": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Impactful</strong>",
+            "text": "<p>Our business has given livelihood to the poor and marginalized</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nXtrft": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Sustainable</strong>",
+            "text": "<p>We use harmful water hyacinth plants as replacement for traditional leather in an effort to save our river ecosystems</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UyqcDy": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Eco-Friendly design</strong>",
+            "text": "<p>We design our products with eco-friendly water hyacinth without compromise of quality</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GnDw7D",
+        "column_nXtrft",
+        "column_UyqcDy"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_DrUwxt": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mtWKGz": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_knT3pB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_a7948744-7939-40df-8af2-2c5faad71c28.v1_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mtWKGz",
+        "column_knT3pB"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    },
+    "multicolumn_WUwKDW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3naBx9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sustainable_Development_Goal_1.png",
+            "title": "<strong>No Poverty </strong>",
+            "text": "<p>We empower marginalized communities, particularly farmers and artisans, by providing livelihood opportunities through the sustainable production of our plant leather products.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bT7Xin": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E_SDG_Icons-04.jpg",
+            "title": "<strong>Quality Education </strong>",
+            "text": "<p>Through advocacy campaigns, we educate communities about sustainability, eco-friendly practices, and entrepreneurship.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JiKAnT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E_SDG-goals_icons-individual-rgb-05-1024x1024.png",
+            "title": "<strong>Gender Equality </strong>",
+            "text": "<p>Our initiatives include working with women artisans, helping them gain financial independence and skills development.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iFFrF3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E_SDG_goals_icons-individual-rgb-08.png",
+            "title": "<strong>Decent Work and Economic Growth </strong>",
+            "text": "<p>We promote fair trade and provide decent, stable jobs for local farmers and artisans involved in our supply chain.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_3naBx9",
+        "column_bT7Xin",
+        "column_JiKAnT",
+        "column_iFFrF3"
+      ],
+      "settings": {
+        "title": "Sustainable Development Goals",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_6Nkcnk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Gr6kK9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
+            "title": "<strong>Industry, Innovation, and Infrastructure</strong>",
+            "text": "<p>Our innovation lies in upcycling and processing native plants like water hyacinths into sustainable materials, creating eco-friendly alternatives to traditional leather.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ik4MRJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E_SDG-goals_icons-individual-rgb-12-1024x1024.png",
+            "title": "<strong>Responsible Consumption and Production</strong>",
+            "text": "<p>We design multifunctional products with sustainability in mind, encouraging responsible consumer behavior and reducing waste.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_W9gnGq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E_SDG-goals_icons-individual-rgb-05-1024x1024.png",
+            "title": "<strong>Climate Action</strong>",
+            "text": "<p>By using water hyacinth, an invasive plant, we help mitigate its environmental impact on waterways, contributing to climate action and biodiversity conservation.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_t4RNhJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sustainable_Development_Goal_17Partnerships_svg.png",
+            "title": "<strong>Partnerships for the Goals</strong>",
+            "text": "<p>We collaborate with local governments, NGOs, and other organizations to scale sustainable practices and amplify our impact. Through these efforts, Jacinto & Lirio integrates sustainability into its core mission, actively contributing to global development.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Gr6kK9",
+        "column_ik4MRJ",
+        "column_W9gnGq",
+        "column_t4RNhJ"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_AGJPzh": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_NkC6kz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Jun19-Bucket_List_Travel_Wallet-Carrot_Orange.png",
+            "image_link": "shopify://collections/wallet",
+            "heading": "Wallet",
+            "heading_size": "h1",
+            "subheading": "Explore our eco-friendly wallets with premium vegan design.",
+            "button_label": "Click here",
+            "link": "shopify://collections/wallet",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_EYPiAE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/layout1_03_1_e6d5263e-e564-4193-ae50-f3d7f2f9bf85.jpg",
+            "image_link": "shopify://collections/journals-1",
+            "heading": "Journals and Planners",
+            "heading_size": "h1",
+            "subheading": "Craft your thoughts sustainably with our elegant vegan leather journals and planners.",
+            "button_label": "Click here",
+            "link": "shopify://collections/journals-1",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_BNnMzt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Jun6-iPadH-Brown_PintoMini-AshGrey.png",
+            "image_link": "shopify://collections/gadget-accessories",
+            "heading": "Gadget Accessories",
+            "heading_size": "h1",
+            "subheading": "Discover cruelty-free gadget covers for conscious consumers.",
+            "button_label": "Click here",
+            "link": "shopify://collections/gadget-accessories",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_irkrab": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1W0B9948_82eb2a25-7e7d-414f-896e-9f9f17ecf479.jpg",
+            "image_link": "shopify://collections/travel-accessories-retail",
+            "heading": "Travel Accessories",
+            "heading_size": "h1",
+            "subheading": "Travel responsibly with our durable vegan leather travel accessories, designed for both style and sustainability.",
+            "button_label": "Click here",
+            "link": "shopify://collections/travel-accessories-retail",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_AFdRyU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/viber_image_2022-10-13_13-10-57-984.jpg",
+            "image_link": "shopify://collections/tahanan-home-living",
+            "heading": "Home and Living",
+            "heading_size": "h1",
+            "subheading": "Transform your living space with our eco-conscious home essentials.",
+            "button_label": "Click here",
+            "link": "shopify://collections/tahanan-home-living",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_NkC6kz",
+        "slide_EYPiAE",
+        "slide_BNnMzt",
+        "slide_irkrab",
+        "slide_AFdRyU"
+      ],
+      "custom_css": [
+        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_list_3D64bq": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_KNnpT7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bags-wallets"
+          }
+        },
+        "featured_collection_BzHy7A": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "laptop-essentials"
+          }
+        },
+        "featured_collection_mTbN9N": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "refillable-journals"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_KNnpT7",
+        "featured_collection_BzHy7A",
+        "featured_collection_mTbN9N"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials_KhJrbH": {
+      "type": "testimonials",
+      "blocks": {
+        "column_BncwLw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5069.jpg",
+            "title": "<a href=\"/products/bucket-list-zippered-checkbook-wallet-essentials-purse-with-retractable-wristlet\" title=\"Bucket List Zippered Travel Wallet or Checkbook Wallet Essentials Purse with Retractable Wristlet\"><strong> Purposeful Advocacy</strong></a>",
+            "text": "<p>Hi, I didn't expect the product to be this big as a journal. Expect the unexpected talaga because the sleeve cover or journal cover is super makapal. And I really admire the advocacy of the company kudos to that ! I can't wait to enjoy my new journal thank you so much.<br/>- <em>Michelle F.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ak78Xc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DESKMAT1.png",
+            "title": "<a href=\"/products/wfh-desk-mat\" title=\"WFH Desk Mat or Gaming Pad with Pockets and Card Holders\"><strong>Creative and Sustainable</strong></a>",
+            "text": "<p>This is my first Jacinto & Lirio notebook and truly it was beautiful indeed. The water hyacinth as a front cover embellishment feature is so creative and sustainable as well.<br/>- <em>Sky Lily</em></p><p></p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BjyrLt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1W0B9950_1.jpg",
+            "title": "<a href=\"https://stamped.io/go/d3xXaWRnZXRDYXJvdXNlbHw3Njk1MnxyfDEyMjQzMjkzNg2\"><strong>Proudly Locally Made</strong></a>",
+            "text": "<p>Good material, proudly locally made, and even came with a handwritten thank you letter. Really appreciate the format of the product: all the right pockets in all the right places.</p><p></p><p><em>- Skip L.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AwXwwi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Layout_6_5.jpg",
+            "title": "<a href=\"https://stamped.io/go/d3xXaWRnZXRDYXJvdXNlbHw3Njk1MnxyfDEyMTM1Mzg4OA2\"><strong>Reasonable Price and Inspirational</strong></a>",
+            "text": "<p>Its has nice compartments Very reasonable price Most importantly, I like the message behind the products</p><p></p><p>– <em>Belina M.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7jNiyP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mar20-ArtisanMediumPink.png",
+            "title": "<a href=\"/products/artisan-medium-2-medium-refills-bundle\" title=\"Artisan II Medium Dual Cover Refillable Vegan Leather Journal + 2pcs Medium Refills Blank Notebook Journal Inserts Bundle\"><strong>Well made and nice to look at.</strong></a>",
+            "text": "<p><em>I have been getting back into journaling since the pandemic started and this has been one of the better journals I've seen so far!<br/>Simple looking but not cheap, the product itself is quite sturdy and well put together. Kudos to the people who designed and crafted this product, I hope to see more.</em></p><p></p><p>- <em>Anthony J.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4jwUDp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Capture_2ad7a29b-4992-4653-921e-caad8d13ee9b.png",
+            "title": "<a href=\"/products/alamat-vegan-dream-board-desk-monthly-planner\" title=\"Vision Board Monthly Vegan Leather Desk Planner (Alamat)\"><strong>Go Eco-warrior!</strong></a>",
+            "text": "<p><em>I recommend Jacinto & Lirio if you are one of the eco-friendly enthusiasts and want the water hyacinth problem resolved. I highly recommend their products, mostly their planners and journals because they have an offer in which you can personalize your order. And, you can choose your own design for your name personalization. Try it because it's worth it!</em>                                 </p><p>- <em>Diane T.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BncwLw",
+        "column_ak78Xc",
+        "column_BjyrLt",
+        "column_AwXwwi",
+        "column_7jNiyP",
+        "column_4jwUDp"
+      ],
+      "custom_css": [
+        "::-webkit-scrollbar {width: 0px; height: 8px;}",
+        "::-webkit-scrollbar-track {background: #f0f0f0; border-radius: 50px;}",
+        "::-webkit-scrollbar-thumb {background: rgba(0, 0, 0, 0.4); border-radius: 50px; transition: background 0.3s ease-in-out;}",
+        "::-webkit-scrollbar-thumb:hover {background: rgba(0, 0, 0, 0.6);}",
+        ".container {overflow-y: hidden; overflow-x: auto;}"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "heading_size": "h0",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-e17cacee-f400-4cbc-8bc4-255186893473",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "testimonial_section_background": "#eaeaea",
+        "testimonial_background": "#ffffff",
+        "testimonial_title_color": "#000000",
+        "testimonials_text_color": "#000000",
+        "arrow_color": "#ffffff",
+        "arrow_bg_color": "#000000"
+      }
+    },
+    "background_video_rc6E3d": {
+      "type": "background-video",
+      "blocks": {
+        "video_Xjx86R": {
+          "type": "video",
+          "settings": {
+            "video_link": "https://cdn.shopify.com/videos/c/o/v/8c8b58c7b67f49a4aec611eb546cb028.mp4",
+            "video_image": "shopify://shop_images/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
+            "title": "-- Our Story --",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_Xjx86R"
+      ],
+      "settings": {}
+    },
+    "rich_text_aewJAB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_99VbbG": {
+          "type": "heading",
+          "settings": {
+            "heading": "--  Our Story  --",
+            "heading_size": "h1"
+          }
+        },
+        "text_XreM9k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Through the creation of well-designed, functional and Philippine-inspired plant leather goods, Jacinto & Lirio aims to improve the lives of people from both ends of the spectrum—the water hyacinth communities who are empowered through meaningful work, and the people purchasing who are enriched by the eco-friendly products. We aim to work within a collaborative business model for the purpose stated in the mission-- social impact in livelihood, environmental protection and product innovation.</p>"
+          }
+        },
+        "button_qGMdPh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Our Story Here",
+            "button_link": "https://www.youtube.com/watch?v=RpHevqq8YPs",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_99VbbG",
+        "text_XreM9k",
+        "button_qGMdPh"
+      ],
+      "custom_css": [
+        ".button {font-family: \"luna itc\" !important; font-size: 24px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_ymLrV7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kmHFYd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/7N8A8551_77c48b08-c90d-4905-96dc-cdb974aed406.jpg",
+            "title": "Stylish",
+            "text": "<p>Our beautifully handcrafted plant leather goods are impressively multi-functional and stylish conversational pieces with a lifestyle appeal for professionals.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://products/laro-customizable-vegan-a5-dateless-planner"
+          }
+        },
+        "column_wGBCkr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Water_Hyacinth-2_f64d6f39-eab8-46ce-bdfa-901571180f33.jpg",
+            "title": "Sustainable",
+            "text": "<p>Eco-friendly craftsmanship at its finest. We transform the water hyacinth plant, considered a \"pest\" to society, into a product of value with good quality.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://pages/environmental-impact"
+          }
+        },
+        "column_mqdDjP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Community_e6f78aae-7cf1-4d2c-af5e-c45d419b5b93.jpg",
+            "title": "Empowering",
+            "text": "<p>We are focused on providing livelihood to our partnered communities that are affected by the water hyacinth infestation problem in Laguna and Rizal.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://pages/community-partners"
+          }
+        }
+      },
+      "block_order": [
+        "column_kmHFYd",
+        "column_wGBCkr",
+        "column_mqdDjP"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px; margin: 0 auto; color: #6b501b;}",
+        "h3 {font-size: 24px;}",
+        ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
+      ],
+      "settings": {
+        "title": "We Do It Better",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "shopify://pages/environmental-impact",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 96
+      }
+    },
+    "custom_liquid_YxBfei": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_HyQkcC": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6P43M4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Corporate Gifting Service",
+            "heading_size": "h1"
+          }
+        },
+        "text_94UMhH": {
+          "type": "text",
+          "settings": {
+            "text": "We offer high quality corporate giveaways with a touch of social and environmental responsibility with Water hyacinth.",
+            "text_style": "body"
+          }
+        },
+        "buttons_XR6yie": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn more",
+            "button_link_1": "shopify://pages/how-to-order-eco-friendly-corporate-giveaways-1",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6P43M4",
+        "text_94UMhH",
+        "buttons_XR6yie"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 40px; color: #6b501b; border-bottom: solid 1px;}",
+        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
+        ".banner__box {border: 2px dashed #926f2a; border: 5px double #926f2a;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Client_PR_Kit_6.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_UWrfNG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XN9Qy7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1706515956_0.jpg",
+            "title": "Product",
+            "text": "<p>Choose from our extensive line of water hyacinth vegan leathergoods  which can be customized into different kinds of products from bags, wallets, travel accessories, hotel in room accessories, restaurant accessories, media kits, PR Kits, new hire kits, real estate turn over kit and more!</p>",
+            "link_label": "All Products",
+            "link": "shopify://collections/all"
+          }
+        },
+        "column_nacLfi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mar25-Perseverance_Journal_Lilac-Personalization.png",
+            "title": "Personalization",
+            "text": "<p>We have no minimum order quantity for personalization using laser engraving or colored printing. MOQ applies for other personalization finishes like embroidery, glitter, hologram, vinyl etc..</p>",
+            "link_label": "Choose personalization lineup",
+            "link": "shopify://collections/personalization"
+          }
+        },
+        "column_emmj4j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fiesta_Reminiscence_16_30294be0-2852-4545-9569-bc22b267f1ad.jpg",
+            "title": "Packaging",
+            "text": "<p>We stylize your packaging with packaging options like box made from water hyacinth, wood, card board, acrylic and whatever material suits your theme and budget. This is accented with ribbons, gift cards, paper fillers and other accents upon request.</p>",
+            "link_label": "Learn More",
+            "link": ""
+          }
+        },
+        "column_UyYaP6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Layout_9_1_copy_f75b9916-43df-4872-b85a-3c96422136da.jpg",
+            "title": "Delivery",
+            "text": "<p>We do last mile delivery to ALL your recipients nationwide and worldwide. Meaning we can send send swag to one location or to thousands of locations for you so that you can sit back and relax.</p>",
+            "link_label": "Learn More",
+            "link": "shopify://pages/last-mile-delivery-service"
+          }
+        }
+      },
+      "block_order": [
+        "column_XN9Qy7",
+        "column_nacLfi",
+        "column_emmj4j",
+        "column_UyYaP6"
+      ],
+      "custom_css": [
+        "h3 {font-size: 24px;}"
+      ],
+      "settings": {
+        "title": "Hassle Free Corporate Giveaways",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ss_instafeed_2_3RqEpe": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_HwPXmb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/advertising_and_marketing_slider.png",
+            "url": ""
+          }
+        },
+        "slide_EGmRqY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/taroaox.png",
+            "url": ""
+          }
+        },
+        "slide_ntL8xz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pocket_rocket_baaa3734-852c-42f0-a4e3-9049e5885dd6.png",
+            "url": ""
+          }
+        },
+        "slide_QqCxCz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banking_and_finance_slider.png",
+            "url": ""
+          }
+        },
+        "slide_hkDcEX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
+            "url": ""
+          }
+        },
+        "slide_RytXfX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/metrobank_adf3e0d6-96f1-4194-8c44-b2b554bfdeff.png",
+            "url": ""
+          }
+        },
+        "slide_W7Wbiq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/emsavvil.png",
+            "url": ""
+          }
+        },
+        "slide_qpgKxD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/actuarial_socofthephilippines_f88f60d2-7d33-4fd6-ac15-b620575e5f5c.png",
+            "url": ""
+          }
+        },
+        "slide_p6KdwV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/agriculture_slider.png",
+            "url": ""
+          }
+        },
+        "slide_arRjGz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/leadsAgriLogo.png",
+            "url": ""
+          }
+        },
+        "slide_EJqyjG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/atlasFertilizerCorp.png",
+            "url": ""
+          }
+        },
+        "slide_KXmktJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/gaia_south_inc_4aaaec9d-2993-4fba-bc98-e276adeae814.png",
+            "url": ""
+          }
+        },
+        "slide_QKfmtG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/telecommunications_slider.png",
+            "url": ""
+          }
+        },
+        "slide_xxPz8x": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Globe-logo.png",
+            "url": ""
+          }
+        },
+        "slide_gfpnLY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/automotive_slider.png",
+            "url": ""
+          }
+        },
+        "slide_nHw8h6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hyundai.png",
+            "url": ""
+          }
+        },
+        "slide_AVkhcL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/government_agencies_slider.png",
+            "url": ""
+          }
+        },
+        "slide_Q7azqH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FSI_logo_resized.png",
+            "url": ""
+          }
+        },
+        "slide_PMRVhC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cccp.png",
+            "url": ""
+          }
+        },
+        "slide_A6P8B3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hospital_slider.png",
+            "url": ""
+          }
+        },
+        "slide_yntKhQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/unilabfound.png",
+            "url": ""
+          }
+        },
+        "slide_kANWVA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/architectural_slider.png",
+            "url": ""
+          }
+        },
+        "slide_hwLUGH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/260architectsLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_zGWiLT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/dow_corp.png",
+            "url": ""
+          }
+        },
+        "slide_gWpWGE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/itc_corp_2.png",
+            "url": ""
+          }
+        },
+        "slide_txzK6J": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hotels_slider.png",
+            "url": ""
+          }
+        },
+        "slide_tjDwUa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/VillaCaemillaresizedlogo.png",
+            "url": ""
+          }
+        },
+        "slide_R7WKCj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/thelighthouselogo.png",
+            "url": ""
+          }
+        },
+        "slide_mTEKgX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/human_resources_slider.png",
+            "url": ""
+          }
+        },
+        "slide_jye8ag": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pwcLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_NTtRXY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/non_profits_slider.png",
+            "url": ""
+          }
+        },
+        "slide_Wtf89w": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ayala-foundation_90e68d8d-7e4f-48a3-8406-c05b69d9d4ef.png",
+            "url": ""
+          }
+        },
+        "slide_YQKDWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/restaurants_slider.png",
+            "url": ""
+          }
+        },
+        "slide_4mzULD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/islasPinasLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_Hr8hzV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/boscoffeeresizedlogo.png",
+            "url": ""
+          }
+        },
+        "slide_fcUWdW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rmboxes.png",
+            "url": ""
+          }
+        },
+        "slide_xrNWr4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/real_estate_slider.png",
+            "url": ""
+          }
+        },
+        "slide_DEfzUw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AlveoLogoResized.png",
+            "url": ""
+          }
+        },
+        "slide_aKkHnr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_cbe8da9c-654a-42cf-b92e-a6a555e17816.png",
+            "url": ""
+          }
+        },
+        "slide_RecVte": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2_027b2fb5-284e-495d-8370-dfcb8461b8ff.png",
+            "url": ""
+          }
+        },
+        "slide_iN79DB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_17ef1cf1-5ae0-4181-9675-eb3bce19028e.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_HwPXmb",
+        "slide_EGmRqY",
+        "slide_ntL8xz",
+        "slide_QqCxCz",
+        "slide_hkDcEX",
+        "slide_RytXfX",
+        "slide_W7Wbiq",
+        "slide_qpgKxD",
+        "slide_p6KdwV",
+        "slide_arRjGz",
+        "slide_EJqyjG",
+        "slide_KXmktJ",
+        "slide_QKfmtG",
+        "slide_xxPz8x",
+        "slide_gfpnLY",
+        "slide_nHw8h6",
+        "slide_AVkhcL",
+        "slide_Q7azqH",
+        "slide_PMRVhC",
+        "slide_A6P8B3",
+        "slide_yntKhQ",
+        "slide_kANWVA",
+        "slide_hwLUGH",
+        "slide_zGWiLT",
+        "slide_gWpWGE",
+        "slide_txzK6J",
+        "slide_tjDwUa",
+        "slide_R7WKCj",
+        "slide_mTEKgX",
+        "slide_jye8ag",
+        "slide_NTtRXY",
+        "slide_Wtf89w",
+        "slide_YQKDWB",
+        "slide_4mzULD",
+        "slide_Hr8hzV",
+        "slide_fcUWdW",
+        "slide_xrNWr4",
+        "slide_DEfzUw",
+        "slide_aKkHnr",
+        "slide_RecVte",
+        "slide_iN79DB"
+      ],
+      "settings": {
+        "top": "INDUSTRY PARTNERS",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 13,
+        "top_height": 90,
+        "top_align": "center",
+        "heading": "Our Eco-Warrior Clients",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "<h3>Do you also want to add our CSR to yours?</h3>",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "6",
+        "slider_row_mobile": "1",
+        "slider_gap": 2,
+        "slider_gap_mobile": 16,
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#ffffff",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "multirow_wmBax8": {
+      "type": "multirow",
+      "blocks": {
+        "row_VAWAnU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Layout_11_1_fe899397-01f9-4794-8560-c7e5c703baab.jpg",
+            "caption": "INDUSTRY",
+            "heading": "CORPORATE EVENTS",
+            "text": "<p>Conference Bags</p><p>Conference Kit: Journals & Pens</p><p>Virtual Event Kit </p><p>and more</p>",
+            "button_label": "View More",
+            "button_link": "shopify://collections/corporate-events"
+          }
+        },
+        "row_RiB4D3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Employee_Loyalty_Award.png",
+            "caption": "INDUSTRY",
+            "heading": "HUMAN RESOURCES",
+            "text": "<p>Employee Welcome Kit</p><p>Employee Appreciation Gift</p><p>Refillable Journal</p><p>and more</p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify://collections/employee-appreciation-gifts"
+          }
+        },
+        "row_fWpKhG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/viber_image_2022-08-25_13-57-45-836.jpg",
+            "caption": "INDUSTRY",
+            "heading": "ARCHITECTURE AND INTERIOR DESIGN",
+            "text": "<p>Vegan Leather sheet</p><p>Canvas Wall Art</p><p>Apron Bundle</p><p>and more</p><p></p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify://collections/tahanan-home-living"
+          }
+        },
+        "row_p4pDLN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Hotel_Welcome_Kit.png",
+            "caption": "INDUSTRY",
+            "heading": "HOTEL & RESORTS",
+            "text": "<p>Do Not Disturb Sign</p><p>Key Card Holder</p><p>Welcome Gift for Guests</p><p>and more</p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify://collections/hotel-resorts"
+          }
+        },
+        "row_dLgExx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/0724_741a5b80-e4ba-4bdd-b7ac-3f978d0bda64.png",
+            "caption": "INDUSTRY",
+            "heading": "REAL ESTATE",
+            "text": "<p>Vegan Leather sheet</p><p>Picture Frame and Canvas Wall Art</p><p>Apron Bundle</p><p>and more</p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify://collections/tahanan-home-living"
+          }
+        },
+        "row_ifp9tX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/7N8A0259.jpg",
+            "caption": "INDUSTRY",
+            "heading": "RESTAURANTS",
+            "text": "<p>Amenity Tray</p><p>Menu Holder</p><p> Bill Holder</p><p> and more</p>",
+            "button_label": "VIEW MORE",
+            "button_link": "shopify://collections/restaurant-amenities"
+          }
+        }
+      },
+      "block_order": [
+        "row_VAWAnU",
+        "row_RiB4D3",
+        "row_fWpKhG",
+        "row_p4pDLN",
+        "row_dLgExx",
+        "row_ifp9tX"
+      ],
+      "custom_css": [
+        ".button {font-family: \"luna itc\" !important; font-size: 24px;}"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_AUa9f7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mMa847": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ezgif.com-gif-maker.png",
+            "title": "Review Our Products in Amazon",
+            "text": "<p>Are you an Amazon shopper? If yes, we need your help! If you've purchased any J&L product before from any of our sales channels, please help us share Filipino craftsmanship to the world by ADDING A REVIEW IN OUR AMAZON STORE.  </p><p>1. Click the product in our <a href=\"https://www.amazon.com/handmade/JacintoandLirio\" target=\"_blank\" title=\"https://www.amazon.com/handmade/JacintoandLirio\">Amazon store. </a><br/>2. Select the J&L product you bought. <br/>3. Click <strong>Write a customer review</strong>. <br/>4. Select star rating and/or add text, photo, and video. <br/>5. Click submit. </p>",
+            "link_label": "Add a review",
+            "link": ""
+          }
+        },
+        "column_YmtQYm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Layout_9_3_62cca02f-80de-4bce-ad14-6f1cf497b3dd.jpg",
+            "title": "Do You Want to Be a RESELLER?",
+            "text": "<p>The Sales Engagement and Economic Development (SEED) is a reseller program that engages nationwide and international sales through reselling</p>",
+            "link_label": "Join Now",
+            "link": "shopify://pages/seed-program"
+          }
+        },
+        "column_hYJxCn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Flexisource_-_1.png",
+            "title": "We Offer Employee Perks!",
+            "text": "<p>Add exclusive perks for your employees with Jacinto & Lirio. Email us at stories@jacintoandlirio.com to discuss the details.</p>",
+            "link_label": "Let's Collaborate",
+            "link": "shopify://pages/j-l-with-p-g"
+          }
+        },
+        "column_t6yNTA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/The_Sketchbook_-_Oct_3_page-0001_8640e71e-7c08-4526-a892-dc2b0dab1bd7.jpg",
+            "title": "FREE printables",
+            "text": "<p>We officially launch “The Sketchbook”, a series where we will be releasing a free set of printables designed by our very own! Use these printables to spice up things with your own Jacinto & Lirio’s journal or planner and unleash the creativity within you!</p>",
+            "link_label": "Print",
+            "link": ""
+          }
+        },
+        "column_xBirHM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/SAY-I-DO_Pre-wedding_Wedding_Proper_Gifts_for_Guests_Giftbundles_in_Personalized_boxes_and_Name_Wedding_Logo_Personalization._e579b8a7-3663-49da-8a97-ed60356ded53.jpg",
+            "title": "Say I Do",
+            "text": "<p>Pre-wedding, wedding proper, gifts for guests, gift bundles in personalized boxes and name & wedding logo personalization.</p>",
+            "link_label": "Say I Do",
+            "link": "shopify://pages/jacinto-marries-lirio"
+          }
+        }
+      },
+      "block_order": [
+        "column_mMa847",
+        "column_YmtQYm",
+        "column_hYJxCn",
+        "column_t6yNTA",
+        "column_xBirHM"
+      ],
+      "settings": {
+        "title": "ANNOUNCEMENTS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_K9DnLq": {
+      "type": "featured-blog",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px; color: #6b501b;}",
+        "div a {font-family: \"luna itc\" !important; font-size: 23px;}"
+      ],
+      "settings": {
+        "heading": "J&L EXCLUSIVE COMPANY PERKS & PROMOS",
+        "heading_size": "h1",
+        "blog": "j-l-exclusive-company-employee-perks-promos",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_blog_hbVnVc": {
+      "type": "featured-blog",
+      "custom_css": [
+        "h2 {font-family: \"luna itc\"; font-size: 55px;}",
+        "div a {font-family: \"luna itc\" !important; font-size: 23px;}"
+      ],
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "stories",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_J9BE3f",
+    "slideshow_ri7rcw",
+    "featured_collection",
+    "multicolumn_gcFr3i",
+    "rich_text_cGb6gm",
+    "multicolumn_LQJyjD",
+    "rich_text_UgmE98",
+    "multicolumn_WU3efy",
+    "multicolumn_DrUwxt",
+    "multicolumn_WUwKDW",
+    "multicolumn_6Nkcnk",
+    "slideshow_AGJPzh",
+    "collection_list_3D64bq",
+    "testimonials_KhJrbH",
+    "background_video_rc6E3d",
+    "rich_text_aewJAB",
+    "multicolumn_ymLrV7",
+    "custom_liquid_YxBfei",
+    "image_banner_HyQkcC",
+    "multicolumn_UWrfNG",
+    "ss_instafeed_2_3RqEpe",
+    "multirow_wmBax8",
+    "multicolumn_AUa9f7",
+    "featured_blog_K9DnLq",
+    "featured_blog_hbVnVc"
+  ]
+}

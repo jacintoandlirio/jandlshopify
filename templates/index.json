@@ -126,6 +126,34 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "custom_liquid_9nrPtW": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "TRAVEL ACCESSORIES",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "travel-accessories-retail",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -137,18 +165,8 @@
         "@media screen and (max-width: 400px) {h2 {font-size: 23px; }}"
       ],
       "settings": {
-        "title": "<strong>His & Hers Collection</strong>",
-        "heading_size": "h1",
-        "description": "<p>Celebrate Valentine’s Day with a touch of sophistication and practicality in your stationery essentials.</p>",
-        "show_description": false,
-        "description_style": "uppercase",
-        "collection": "valentines",
-        "products_to_show": 8,
+        "products_per_page": 16,
         "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
@@ -156,132 +174,12 @@
         "show_vendor": true,
         "show_rating": true,
         "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
         "padding_top": 72,
         "padding_bottom": 80
-      }
-    },
-    "multicolumn_gcFr3i": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_WGAhb3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/alamat_ng_pakwan.png",
-            "title": "<strong>Vision Board Monthly Vegan Leather Desk Planner</strong>",
-            "text": "<p>Visualize your dreams wherever you go. This desk planner lets you see your vision board regularly as you plot your daily plans activities.</p>",
-            "link_label": "SHOP NOW",
-            "link": "https://jacintoandlirio.com/products/vision-board-monthly-vegan-leather-desk-planner-alamat-ng-pinya-copy?_pos=3&_sid=01f445076&_ss=r&variant=49665527415101"
-          }
-        },
-        "column_6b3Kwe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/bucketlist_1.png",
-            "title": "<strong>Bucketlist Zippered Travel Wallet with Retractable Wristlet</strong>",
-            "text": "<p>Whatever you need to be, this travel wallet is here to help you store, organize, and protect your outdoor essentials. </p>",
-            "link_label": "SHOP NOW",
-            "link": "https://jacintoandlirio.com/products/bucket-list-zippered-checkbook-wallet-essentials-purse-with-retractable-wristlet?_pos=7&_sid=512063ebf&_ss=r"
-          }
-        },
-        "column_AXKDhU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/fiesta_5308a379-8d1a-4351-8b88-7f30f0431908.jpg",
-            "title": "<strong>Traveler's Notebook Planner with Zipper</strong>",
-            "text": "<p>There are multiple pockets for tools that will help you creatively express where life has taken you, even to where it’s taking you next!</p>",
-            "link_label": "SHOP NOW",
-            "link": "https://jacintoandlirio.com/products/refillable-vegan-leather-fiesta-travelers-notebook-planner-with-zipper-standard-size?_pos=2&_psq=fiesta&_ss=e&_v=1.0&variant=49693535732029"
-          }
-        },
-        "column_h684X8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/lakbay_and_lanyard.jpg",
-            "title": "<strong>Lakbay Travel Essentials Kit</strong>",
-            "text": "<p>This travel essentials kit is the answer to being able to carry your passport, boarding pass, cell phone and money in one hand while carrying your luggage in another.</p>",
-            "link_label": "SHOP NOW",
-            "link": "https://jacintoandlirio.com/products/lakbay-with-lanyard?_pos=1&_sid=2e575f82b&_ss=r&variant=32140786663537"
-          }
-        },
-        "column_fBqb88": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/laro.jpg",
-            "title": "<strong>A5 Undated Refillable Traveler’s Notebook</strong>",
-            "text": "<p>The cover is carefully burnt and etched on the water hyacinth vegan leather. More than the design, this planner has value-added uses which can be personalized to fit your lifestyle.</p>",
-            "link_label": "SHOP NOW",
-            "link": "https://jacintoandlirio.com/products/laro-customizable-vegan-a5-dateless-planner?variant=48791080304957"
-          }
-        },
-        "column_FJT7Gq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/pinto_medium_b241d7d1-46d4-42bf-a6a9-d0aac0e7133b.png",
-            "title": "<strong>Personalizable Refillable Vegan Leather Journal</strong>",
-            "text": "<p>It’s the best travel companion for wanderlusts who want to keep their travel memories or be reminded of their next adventures.</p>",
-            "link_label": "SHOP NOW",
-            "link": "https://jacintoandlirio.com/products/pinto-medium-personalizable-refillable-vegan-leather-journal?variant=48950586802493"
-          }
-        },
-        "column_phiNRx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/akap.jpg",
-            "title": "<strong>Akap Artisan Vegan Leather Apron</strong>",
-            "text": "<p>Made from sustainable vegan leather, it features adjustable cross-back straps for a comfortable fit and convenient chest pockets for easy storage. </p>",
-            "link_label": "SHOP NOW",
-            "link": "https://jacintoandlirio.com/products/akap-artisan-vegan-leather-family-matching-apron-with-adjustable-cross-back-straps-and-chest-pockets?_pos=1&_sid=1936f4ea8&_ss=r"
-          }
-        },
-        "column_JCTxmX": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/artisan.png",
-            "title": "<strong>Dual Cover Refillable Vegan Leather Journal</strong>",
-            "text": "<p>This journal offers a bold, unique design with a reversible two-fold flap, buckle closure, hand-stitched spine, and interior slots for cards, papers, and money.</p>",
-            "link_label": "SHOP NOW",
-            "link": "https://jacintoandlirio.com/products/jacinto-lirio-artisan-dual-cover-journals-medium?_pos=1&_sid=b6cd8a372&_ss=r"
-          }
-        },
-        "column_UtHCqh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/celebrate.jpg",
-            "title": "<strong>Medium Blank Refillable Vegan Journal</strong>",
-            "text": "<p>No need to stress yourself out by keeping everything in your head. List them down, write your thoughts and express your feelings on clear, smooth pages in a journal you can call your own.</p>",
-            "link_label": "SHOP NOW",
-            "link": "shopify://products/pacem-ii-medium-blank-refillable-vegan-leather-journal-1pc-gift-box-packaging-bundle-copy"
-          }
-        }
-      },
-      "block_order": [
-        "column_WGAhb3",
-        "column_6b3Kwe",
-        "column_AXKDhU",
-        "column_h684X8",
-        "column_fBqb88",
-        "column_FJT7Gq",
-        "column_phiNRx",
-        "column_JCTxmX",
-        "column_UtHCqh"
-      ],
-      "settings": {
-        "title": "<strong>Celebrate Womanhood</strong>",
-        "heading_size": "h0",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "View Collection",
-        "button_link": "shopify://collections/celebrate-womanhood",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "rich_text_cGb6gm": {
@@ -1010,8 +908,27 @@
     "custom_liquid_YxBfei": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -1752,8 +1669,8 @@
   "order": [
     "image_banner_J9BE3f",
     "slideshow_ri7rcw",
+    "custom_liquid_9nrPtW",
     "featured_collection",
-    "multicolumn_gcFr3i",
     "rich_text_cGb6gm",
     "multicolumn_LQJyjD",
     "rich_text_UgmE98",

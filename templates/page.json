@@ -24,14 +24,14 @@
         "heading_66PNyw": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.metafields.custom.page_title.value }}",
+            "heading": "<strong>CORPORATE GIFTS                                             WITH A HEART</strong>",
             "heading_size": "h1"
           }
         },
         "text_DGd8w4": {
           "type": "text",
           "settings": {
-            "text": "{{ page.metafields.custom.subtitle.value }}sdawdasdawdsdasd",
+            "text": "{{ page.metafields.custom.subtitle.value }}",
             "text_style": "body"
           }
         }

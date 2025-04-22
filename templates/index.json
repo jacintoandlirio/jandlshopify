@@ -879,7 +879,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/7N8A8551_77c48b08-c90d-4905-96dc-cdb974aed406.jpg",
-            "title": "<strong>Stylish</strong>",
+            "title": "Stylish",
             "text": "<p>Our beautifully handcrafted plant leather goods are impressively multi-functional and stylish conversational pieces with a lifestyle appeal for professionals.</p>",
             "link_label": "Learn more",
             "link": "shopify://products/laro-customizable-vegan-a5-dateless-planner"
@@ -889,7 +889,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Water_Hyacinth-2_f64d6f39-eab8-46ce-bdfa-901571180f33.jpg",
-            "title": "<strong>Sustainable</strong>",
+            "title": "Sustainable",
             "text": "<p>Eco-friendly craftsmanship at its finest. We transform the water hyacinth plant, considered a \"pest\" to society, into a product of value with good quality.</p>",
             "link_label": "Learn more",
             "link": "shopify://pages/environmental-impact"
@@ -899,7 +899,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Community_e6f78aae-7cf1-4d2c-af5e-c45d419b5b93.jpg",
-            "title": "<strong>Empowering</strong>",
+            "title": "Empowering",
             "text": "<p>We are focused on providing livelihood to our partnered communities that are affected by the water hyacinth infestation problem in Laguna and Rizal.</p>",
             "link_label": "Learn more",
             "link": "shopify://pages/community-partners"
@@ -912,7 +912,8 @@
         "column_mqdDjP"
       ],
       "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px;}",
+        "h2 {font-family: \"luna itc\"; font-size: 55px; margin: 0 auto; color: #6b501b;}",
+        "h3 {font-size: 24px;}",
         ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
       ],
       "settings": {
@@ -928,8 +929,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 96
       }
     },
     "image_banner_HyQkcC": {

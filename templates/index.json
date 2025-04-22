@@ -154,33 +154,58 @@
         "padding_bottom": 80
       }
     },
-    "custom_liquid_qLqUeX": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "h2 {font-family: \"luna itc\"; font-size: 55px; font-weight: 500; line-height: 1.4em;}"
+    "multicolumn_gcFr3i": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WGAhb3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FamilyGift_ForMom_0519ebdc-2ae2-4da3-86cb-f2cef35aefbf.jpg",
+            "title": "<strong>Embrace Elegance: Family Gift Set - For Mom</strong>",
+            "text": "<p>Simple, chic, stylish, and unique. This gift set is perfect for the most important woman on the planet.</p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify://products/embrace-elegance-family-gift-set-for-mom"
+          }
+        },
+        "column_6b3Kwe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mset.png",
+            "title": "<strong>I Love You Nay: Mother's Day Gift Set</strong>",
+            "text": "<p>Trying to find the spectacular gift for the most wonderful person? Cherish the most important woman in the world with this gift set.</p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify://products/i-love-you-nay-mothers-day-gift-set"
+          }
+        },
+        "column_AXKDhU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/241_eb26c910-f468-40fa-92de-97443ebbd050.png",
+            "title": "<strong>Super Mama: Mother's Day Special Gift Set</strong>",
+            "text": "<p>Wanting to greet your mother a very heartfelt \"Happy Mother's Day\"? Give this gift set to the super mama, the most selfless and loving person in the whole world.</p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify://products/super-mama-mothers-day-special-gift-set"
+          }
+        }
+      },
+      "block_order": [
+        "column_WGAhb3",
+        "column_6b3Kwe",
+        "column_AXKDhU"
       ],
       "settings": {
-        "title": "<strong>Gifts for Mom</strong>",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "mothers-day",
-        "products_to_show": 3,
+        "title": "<strong>GIFTS FOR MOM</strong>",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
         "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "View Collection",
+        "button_link": "shopify://collections/celebrate-womanhood",
         "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1673,7 +1698,7 @@
     "image_banner_J9BE3f",
     "slideshow_ri7rcw",
     "featured_collection",
-    "custom_liquid_qLqUeX",
+    "multicolumn_gcFr3i",
     "rich_text_cGb6gm",
     "multicolumn_LQJyjD",
     "rich_text_UgmE98",

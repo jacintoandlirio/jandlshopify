@@ -993,9 +993,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/1706515956_0.jpg",
-            "title": "Product",
+            "title": "<strong>Product</strong>",
             "text": "<p>Choose from our extensive line of water hyacinth vegan leathergoods  which can be customized into different kinds of products from bags, wallets, travel accessories, hotel in room accessories, restaurant accessories, media kits, PR Kits, new hire kits, real estate turn over kit and more!</p>",
-            "link_label": "All Products",
+            "link_label": "Learn More",
             "link": "shopify://collections/all"
           }
         },
@@ -1003,9 +1003,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Mar25-Perseverance_Journal_Lilac-Personalization.png",
-            "title": "Personalization",
+            "title": "<strong>Personalization</strong>",
             "text": "<p>We have no minimum order quantity for personalization using laser engraving or colored printing. MOQ applies for other personalization finishes like embroidery, glitter, hologram, vinyl etc..</p>",
-            "link_label": "Choose personalization lineup",
+            "link_label": "Learn More",
             "link": "shopify://collections/personalization"
           }
         },
@@ -1013,7 +1013,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Fiesta_Reminiscence_16_30294be0-2852-4545-9569-bc22b267f1ad.jpg",
-            "title": "Packaging",
+            "title": "<strong>Packaging</strong>",
             "text": "<p>We stylize your packaging with packaging options like box made from water hyacinth, wood, card board, acrylic and whatever material suits your theme and budget. This is accented with ribbons, gift cards, paper fillers and other accents upon request.</p>",
             "link_label": "Learn More",
             "link": ""
@@ -1023,7 +1023,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Layout_9_1_copy_f75b9916-43df-4872-b85a-3c96422136da.jpg",
-            "title": "Delivery",
+            "title": "<strong>Delivery</strong>",
             "text": "<p>We do last mile delivery to ALL your recipients nationwide and worldwide. Meaning we can send send swag to one location or to thousands of locations for you so that you can sit back and relax.</p>",
             "link_label": "Learn More",
             "link": "shopify://pages/last-mile-delivery-service"

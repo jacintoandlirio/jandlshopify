@@ -3611,7 +3611,7 @@ details-disclosure > details {
 }
 
 .inline-richtext{
-  font-family: "luna itc", sans-serif, !important;
+  font-family: "luna itc", sans-serif !important;
 }
 
 .cart__checkout-button{

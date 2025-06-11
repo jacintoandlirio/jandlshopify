@@ -225,12 +225,7 @@
               endif
             -%}
 
-            {% if card_product.price == 0 and card_product.tags contains "Request quote" %}
-                    
-                    {{ 'products.product.request_quote' | t }}
-                  {% else %}
-                      {{ 'products.product.choose_options' | t }}
-                  {% endif %}
+            
             {%- if card_product.variants.size > 1 or qty_rules -%}
               <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
                 <button

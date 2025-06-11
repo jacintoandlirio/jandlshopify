@@ -3,9 +3,11 @@
 # Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
 {% endcomment %}
 
+# Allow Pinterestbot full access
 User-agent: Pinterestbot
 Allow: /
 
+# Default Shopify robots.txt rules
 {% for group in robots.default_groups %}
   {{- group.user_agent -}}
 

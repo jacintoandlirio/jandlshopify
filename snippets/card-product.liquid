@@ -239,10 +239,10 @@
                   {%  endif %}
                 > 
                   {%- if card_product.price == 0.00 -%}
-                    <!-- {{ 'products.product.request_quote' | t }} -->
+                   
                     
-                    <!-- {{ products.product.choose_options | remove: "Choose options" | append: "Request quote" | t }}
-                    {{ 'products.product.choose_options' | t }}, -->
+                    {{ products.product.choose_options | remove: "Choose options" | append: "Request quote" | t }}
+                    {{ 'products.product.choose_options' | t }},
                     {%- else -%}
                       {{ 'products.product.choose_options' | t }}
                   {%- endif -%}

@@ -61,14 +61,14 @@
             </div>
             <noscript>
               <button type="submit" class="facets__button-no-js button button--secondary"
-               {% if product.tags contains 'disable add to cart' or product.tags contains 'Request quote' %}
-                 <button type="submit" class="disabled" disabled</button>
+                {% if product.tags contains 'disable add to cart' or product.tags contains 'Request quote' %}
+                 <button type="button" class="disabled" disabled>Request for Quotation</button>
                 {% else %}
                  {{ 'products.facets.sort_button' | t }}
                 {%  endif %}
       >
                
-                  
+                  {{ 'products.facets.sort_button' | t }}
                
 
               </button>

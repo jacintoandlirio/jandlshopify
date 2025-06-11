@@ -234,10 +234,15 @@
                   aria-haspopup="dialog"
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
+                  {% if price == 0.00 %}
+                    disabled
+                  {% endif %}
+
+              
                 > 
                   {%- if price == 0.00 -%}
                     {{ products.product.choose_options | remove: "Choose options" | append: "Request quote" | t }}
-                    disabled
+                    
                     <!-- {{ 'products.product.choose_options' | t }}, -->
                     {%- else -%}
                       {{ 'products.product.choose_options' | t }}

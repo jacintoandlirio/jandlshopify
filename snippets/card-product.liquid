@@ -238,7 +238,7 @@
                     disabled
                   {% endif %}
                 > 
-                  {%- if price == 0.00 -%}
+                  {%- if card_product.tags contains "Request quote" -%}
                     <!-- {{ products.product.choose_options | remove: "Choose options" | append: "Request quote" | t }} -->
                     {{ 'products.product.request_quote' | t }}
                     {%- else -%}

@@ -241,7 +241,7 @@
                   
                   
                 > 
-                  {% if card_product.price == 0 or card_product.tags contains "Request quote" %}
+                  {% if card_product.tags contains "Request quote" %}
                     {{ 'products.product.request_quote' | t }}
                   {% else %}
                       {{ 'products.product.choose_options' | t }}

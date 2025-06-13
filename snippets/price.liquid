@@ -47,7 +47,13 @@
     {%- if show_badges %} price--show-badge{% endif -%}
   "
 >
-
+    {% if compare_at_price > price %}
+    <span class="price__sale">{{ price | money }}</span>
+    <span class="price__compare">{{ compare_at_price | money }}</span>
+  {% else %}
+    <span class="price__regular">{{ price | money }}</span>
+  {% endif %}
+  </div>
 
   <div class="price__container">
     {%- comment -%}

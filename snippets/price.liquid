@@ -56,7 +56,7 @@
         - div.price__sale: Displayed when a variant is a sale
     {%- endcomment -%}
 
-    <p>Raw price: {{ target.price }}</p>
+
     {% if price != 0.00 %}
     <div class="price__regular">
       {%- if product.quantity_price_breaks_configured? -%}
@@ -77,26 +77,27 @@
           {%- endunless -%}
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-        <span class="price-item price-item--regular"
+        <span class="price-item price-item--regular">
           {% if price == blank or price == 0 or price == '0.00' %}
             <b>Request for Quotation</b>
           {% else %}
             {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
           {% endif %}
-          >
+          
 
         </span>
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
           {% if price == 0.00 %}
+            <b>Request for quotation</b>
           <style>
             /* .price__container .price__regular .price-item .money{
               display:none; */
             }
             
           </style>
-             <b>Request for quotation</b>
+             
            {% else %}  
              {{ money_price | remove: "From" | remove: "PHP"  }}
                <style>

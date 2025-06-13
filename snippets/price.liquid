@@ -57,7 +57,7 @@
     {%- endcomment -%}
 
 
-    {% if price != 0.00 %}
+    {% if price == 0.00 %}
     <div class="price__regular">
       {%- if product.quantity_price_breaks_configured? -%}
         {%- if show_compare_at_price and compare_at_price -%}
@@ -90,7 +90,7 @@
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
           {% if price == 0.00 %}
-            <b>Request for quotation</b>
+            <b>Request for Quotation</b>
           <style>
             /* .price__container .price__regular .price-item .money{
               display:none; */

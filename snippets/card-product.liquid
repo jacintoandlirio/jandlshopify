@@ -132,11 +132,9 @@
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
-                {% if card_product.price == 0 or card_product.price == 0.00 %}
-                  <b>Request for Quotation</b>
-                {% else %}
-                  {{- 'products.product.on_sale' | t -}}
-                {% endif %}
+                
+                {{- 'products.product.on_sale' | t -}}
+        
               </span>
             {%- endif -%}
           </div>

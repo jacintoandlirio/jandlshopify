@@ -199,7 +199,7 @@
               </p>
             {%- endif -%}
 
-            <p> {{ card_product.price | money }}</p>
+            <!-- <p> {{ card_product.price | money }}</p> -->
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               <div class="card__information-volume-pricing-note">
@@ -242,7 +242,6 @@
                   
                 > 
                   {% if card_product.price == 0 or card_product.tags contains "Request quote" %}
-                    
                     {{ 'products.product.request_quote' | t }}
                   {% else %}
                       {{ 'products.product.choose_options' | t }}

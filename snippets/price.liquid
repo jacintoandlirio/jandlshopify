@@ -79,7 +79,7 @@
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
           {% if price == blank or price == 0 or price == '0.00' %}
-            <b>Request for Quotation</b>
+            <b>Test: Request for Quotation</b>
             
           {% else %}
             {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}

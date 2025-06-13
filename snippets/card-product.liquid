@@ -237,7 +237,9 @@
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
 
-                  
+                  {% if card_product.available == false %}
+                    disabled
+                  {% endif %}
 
           
                 > 
@@ -245,7 +247,6 @@
                       {{ 'products.product.request_quote' | t }}
                     {% elsif card_product.available == false %}
                        {{ 'products.product.sold_out' | t }}
-                        disabled
                     {% else %}
                       {{ 'products.product.choose_options' | t }}
                     {% endif %}

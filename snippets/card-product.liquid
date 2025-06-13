@@ -199,6 +199,7 @@
               </p>
             {%- endif -%}
 
+            <p>Test Price: {{ card_product.price | money }}</p>
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               <div class="card__information-volume-pricing-note">

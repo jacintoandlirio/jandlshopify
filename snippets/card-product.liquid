@@ -245,6 +245,7 @@
                       {{ 'products.product.request_quote' | t }}
                     {% elsif card_product.available == false %}
                        {{ 'products.product.sold_out' | t }}
+                        disabled
                     {% else %}
                       {{ 'products.product.choose_options' | t }}
                     {% endif %}

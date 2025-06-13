@@ -243,7 +243,7 @@
 
           
                 > 
-                    {% if card_product.price == 0 and card_product.tags contains "Request quote" %}
+                    {% if card_product.price == 0 or card_product.tags contains "Request quote" %}
                       {{ 'products.product.request_quote' | t }}
                     {% elsif card_product.available == false %}
                        {{ 'products.product.sold_out' | t }}

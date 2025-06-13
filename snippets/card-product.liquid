@@ -241,12 +241,12 @@
                   
                   
                 > 
-                  {% if card_product.tags contains "Request quote" %}
-                    {{ 'products.product.request_quote' | t }}
-                  {% else %}
+                  {%- if price == 0.00 -%}
+                    {{ products.product.choose_options | remove: "Choose options" | append: "Request quote" | t }}
+                    {{ 'products.product.choose_options' | t }}
+                    {%- else -%}
                       {{ 'products.product.choose_options' | t }}
-                  {% endif %}
-                  
+                  {%- endif -%}
                   
                   {%- if horizontal_quick_add -%}
                     <span class="icon-wrap">{% render 'icon-arrow' %}</span>

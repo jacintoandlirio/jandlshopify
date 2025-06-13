@@ -55,7 +55,7 @@
         - div.price__sale: Displayed when a variant is a sale
     {%- endcomment -%}
 
-    {% if price == 0.00 %}
+    {% if price != 0.00 %}
     <div class="price__regular">
       {%- if product.quantity_price_breaks_configured? -%}
         {%- if show_compare_at_price and compare_at_price -%}

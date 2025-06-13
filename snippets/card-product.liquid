@@ -243,10 +243,9 @@
                   
                 > 
                   
-                  {%- if price == 0 and card_product.tags contains "Request quote"-%}
-                    <!-- {{ products.product.choose_options | remove: "Choose options" | append: "Request quote" | t }} -->
-                    <!-- {{ 'products.product.choose_options' | t }} -->
+                  {%- if card_product.price == 0 and card_product.tags contains "Request Quote"-%}
                     {{ 'products.product.request_quote' | t }}
+                    
                     {%- else -%}
                       
                       {{ 'products.product.choose_options' | t }}

@@ -240,6 +240,7 @@
                   
                   
                 > 
+                  <p>Price: {{ price }}</p>
                   {%- if price == 0 -%}
                     {{ products.product.choose_options | remove: "Choose options" | append: "Request quote" | t }}
                     {{ 'products.product.choose_options' | t }}

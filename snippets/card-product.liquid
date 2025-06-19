@@ -247,7 +247,9 @@
                 {% comment %} 
                   ** CAUTION BEFORE MODIFYING ** 
                   Checks if the product's price is either EQUAL TO 0 OR has the "Request quote" tag
-                  Ensure that Made-To-Order (MTO) products have the "Request quote" tag when creating the product listing  
+                  If so, changes the button's label from "Add to Cart" to "Request Quote" to minimize bulk orders from being added to cart/checkout
+                  
+                  NOTE: Ensure that Made-To-Order (MTO) products have the "Request quote" tag when creating the product listing  
                 {% endcomment %}
                     {% if card_product.price == 0 or card_product.tags contains "Request quote" %}
                       {{ 'products.product.request_quote' | t }}

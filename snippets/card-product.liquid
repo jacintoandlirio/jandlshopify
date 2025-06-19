@@ -244,6 +244,10 @@
 
           
                 > 
+                {% comment %} 
+                  Checks if the product's price is either EQUAL TO 0 OR has the "Request quote" tag
+                  Ensure that Made-To-Order (MTO) products have the "Request quote" tag when creating the product listing  
+                {% endcomment %}
                     {% if card_product.price == 0 or card_product.tags contains "Request quote" %}
                       {{ 'products.product.request_quote' | t }}
                     {% elsif card_product.available == false %}

@@ -74,6 +74,14 @@
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
+          
+        {% comment %} 
+          ** CAUTION BEFORE MODIFYING ** 
+           Checks if the product's price is either EQUAL TO 0 OR has the "Request quote" tag
+           If so, changes the product price to "Request for Quotation"
+          
+          NOTE: Ensure that Made-To-Order (MTO) products have the "Request quote" tag when creating the product listing  
+        {% endcomment %}
           {% if price == 0.00 or price == 0 or product.tags contains "Request quote" %}
           <b>Request for Quotation</b>
           <style>

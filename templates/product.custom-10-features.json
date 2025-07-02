@@ -340,31 +340,21 @@
             "link": ""
           }
         },
-        "column_D4d9Kk": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
-            "title": "{{ product.metafields.custom.product_title_7.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_VMhVpk": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_8.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_hLCbNb": {
           "type": "column",
           "settings": {
             "image": "{{ product.metafields.custom.product_use_img_9.value }}",
             "title": "{{ product.metafields.custom.product_use_title_9.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_D4d9Kk": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
+            "title": "{{ product.metafields.custom.product_title_7.value }}",
             "text": "",
             "link_label": "",
             "link": ""
@@ -388,9 +378,8 @@
         "column_zdE7Bk",
         "column_ydABWr",
         "column_EbBhXp",
-        "column_D4d9Kk",
-        "column_VMhVpk",
         "column_hLCbNb",
+        "column_D4d9Kk",
         "column_whMYcc"
       ],
       "settings": {
@@ -501,50 +490,6 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "row_9VMGXc": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_7.value }}",
-            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_NViciX": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_8.value }}",
-            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_HDzewD": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
-            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_Mq8UjC": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
-            "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
-            "text": "<p></p>{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
@@ -553,11 +498,7 @@
         "row_VhPk6E",
         "row_eBHjgJ",
         "row_ymcD9U",
-        "row_QmaRkV",
-        "row_9VMGXc",
-        "row_NViciX",
-        "row_HDzewD",
-        "row_Mq8UjC"
+        "row_QmaRkV"
       ],
       "settings": {
         "image_height": "medium",

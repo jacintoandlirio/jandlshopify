@@ -329,26 +329,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_EbBhXp": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.custom.product_use_6.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_6.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_D4d9Kk": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
-            "title": "{{ product.metafields.custom.product_title_7.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -356,9 +336,7 @@
         "column_zTmcNK",
         "column_jngXL9",
         "column_zdE7Bk",
-        "column_ydABWr",
-        "column_EbBhXp",
-        "column_D4d9Kk"
+        "column_ydABWr"
       ],
       "settings": {
         "title": "",

@@ -23,10 +23,6 @@
           "type": "title",
           "settings": {}
         },
-        "price_TG9hrb": {
-          "type": "price",
-          "settings": {}
-        },
         "text_GGrbeM": {
           "type": "text",
           "settings": {
@@ -41,28 +37,14 @@
             "swatch_shape": "circle"
           }
         },
-        "essential_trust_badges_app_block_c3JM3U": {
-          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
-          "settings": {
-            "banner_display": "all",
-            "banner_id": "00a7a421-9dc4-4d6a-b19f-5e7a60bcbcc7"
-          }
-        },
         "custom_liquid_4xnYLk": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  </style>\n  <label>Min. Qty</label>\n{%endif%}"
           }
         },
-        "custom_liquid_NTcbUC": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n\t  /* Styling for the quantity label */\n\t  label[for=\"quantity\"] {\n\t\tfont-family: Arial, sans-serif;\n\t\tfont-size: 18px;\n\t\tfont-weight: bold;\n\t\tcolor: #8C6D5A; /* light brown tone */\n\t\tmargin-right: 10px;\n\t  }\n\n\t  /* Styling for the quantity input */\n\t  .quantity-selector {\n\t\twidth: 80px;\n\t\theight: 40px;\n\t\tfont-size: 18px;\n\t\ttext-align: center;\n\t\tborder: 2px solid #8C6D5A; /* light brown */\n\t\tborder-radius: 5px;\n\t\toutline: none;\n\t\ttransition: border-color 0.3s ease, box-shadow 0.3s ease;\n\t\tbackground-color: #FAF3E0; /* Light beige background */\n\t\tcolor: #5A4033; /* Earthy brown tone for text */\n\t  }\n\n\t  /* Focus state for the input */\n\t  .quantity-selector:focus {\n\t\tborder-color: #8C6D5A; /* light brown for focus */\n\t\tbox-shadow: 0 0 5px rgba(111, 78, 55, 0.5); /* Subtle brown glow */\n\t  }\n\n\t  /* Hover effect for the input */\n\t  .quantity-selector:hover {\n\t\tborder-color: #6F4E37; /* Rich brown */\n\t  }\n\n\t  /* Container for better alignment */\n\t  .quantity-container {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tgap: 10px;\n\t\tmargin-top: 10px;\n\t  }\n\t</style>\n\n\t<div class=\"quantity-container\">\n\t  <label for=\"quantity\">Quantity:</label>\n\t  <input \n\t\ttype=\"number\" \n\t\tid=\"quantity\" \n\t\tname=\"quantity\" \n\t\tvalue=\"50\" \n\t\tmin=\"50\" \n\t\tstep=\"5\" \n\t\tclass=\"quantity-selector\">\n\t</div>\n\n\t<script>\n\t  document.addEventListener('DOMContentLoaded', () => {\n\t\tconst quantityInput = document.getElementById('quantity');\n\n\t\t// Ensure the initial value respects the minimum\n\t\tquantityInput.value = Math.max(quantityInput.min, quantityInput.value);\n\n\t\t// Enforce the minimum limit and step value when the input changes\n\t\tquantityInput.addEventListener('input', () => {\n\t\t  let value = parseInt(quantityInput.value);\n\t\t  const min = parseInt(quantityInput.min);\n\t\t  const step = parseInt(quantityInput.step);\n\n\t\t  // Ensure the value does not go below the minimum\n\t\t  if (value < min) value = min;\n\n\t\t  // Adjust value to nearest step increment\n\t\t  value = Math.round(value / step) * step;\n\n\t\t  quantityInput.value = value;\n\t\t});\n\t  });\n\t</script>"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
@@ -173,30 +155,14 @@
             "text": "",
             "text_style": "body"
           }
-        },
-        "qteedy_qteedy_extended_product_form_7hcCqb": {
-          "type": "shopify://apps/qteedy/blocks/qteedy_extended_product_form/fe69a84a-7558-4693-b16c-57a414940105",
-          "settings": {
-            "email_required": "required",
-            "phone_required": "false",
-            "company_required": "false",
-            "email_label_text": "Customer Email",
-            "phone_label_text": "Phone",
-            "company_label_text": "Company",
-            "quote_button_label_text": "Create Quote",
-            "heading_label_text": "Need a Quote?"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "price_TG9hrb",
         "text_GGrbeM",
         "variant_picker",
-        "essential_trust_badges_app_block_c3JM3U",
         "custom_liquid_4xnYLk",
-        "custom_liquid_NTcbUC",
         "quantity_selector",
         "buy_buttons",
         "text_MHzQNc",
@@ -211,8 +177,7 @@
         "description",
         "share",
         "custom_liquid_gCgtYY",
-        "text_kxHrGD",
-        "qteedy_qteedy_extended_product_form_7hcCqb"
+        "text_kxHrGD"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -234,27 +199,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -276,21 +221,28 @@
         "show_text_below": true
       }
     },
-    "rich_text_fznFjr": {
+    "custom_liquid_BMzEeU": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_TzcpnA": {
       "type": "rich-text",
       "blocks": {
-        "heading_qfLXUV": {
+        "heading_E7dEk8": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>PRODUCT USES</strong>",
+            "heading": "<strong>FEATURES</strong>",
             "heading_size": "h0"
           }
         }
       },
       "block_order": [
-        "heading_qfLXUV"
+        "heading_E7dEk8"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -300,192 +252,205 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn_Kh6ARH": {
-      "type": "multicolumn",
+    "multirow_6tNPA3": {
+      "type": "multirow",
       "blocks": {
-        "column_K3g9hb": {
-          "type": "column",
+        "row_tGKpUq": {
+          "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_1.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_1.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_1.value }}",
+            "text": "{{ product.metafields.custom.feature_description_1 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_KWPgzD": {
-          "type": "column",
+        "row_ALXwjd": {
+          "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_2.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_2.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_2.value }}",
+            "text": "{{ product.metafields.custom.feature_description_2 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_QYiBHV": {
-          "type": "column",
+        "row_E9tXrN": {
+          "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_3.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_3.value }}",
+            "text": "<p>{{ product.metafields.custom.feature_description_3 | metafield_tag }}</p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_kcYE9A": {
-          "type": "column",
+        "row_VhPk6E": {
+          "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_4.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_4.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_4.value }}",
+            "text": "{{ product.metafields.custom.feature_description_4 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_ijeti9": {
-          "type": "column",
+        "row_eBHjgJ": {
+          "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_5.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_5.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featured_title_5.value }}",
+            "text": "{{ product.metafields.custom.featured_description_5 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_YnFjpf": {
-          "type": "column",
+        "row_ymcD9U": {
+          "type": "row",
+          "disabled": true,
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_6.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_6.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_6.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.featured_title_6.value }}",
+            "text": "<p></p>{{ product.metafields.custom.featured_description_6 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_jzBBNb": {
-          "type": "column",
+        "row_QmaRkV": {
+          "type": "row",
+          "disabled": true,
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
-            "title": "{{ product.metafields.custom.product_title_7.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_7.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_7.value }}",
+            "text": "{{ product.metafields.custom.feature_description_7 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_bUkHf8": {
-          "type": "column",
+        "row_z9mDzW": {
+          "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_8.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_8.value }}",
+            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_kMFEj4": {
-          "type": "column",
+        "row_qJtJbf": {
+          "type": "row",
+          "disabled": true,
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_9.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_9.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "column_H3Rncb": {
-          "type": "column",
+        "row_CzV8AX": {
+          "type": "row",
+          "disabled": true,
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_10.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_10.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_YczNzx": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_11.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_11.value }}",
+            "text": "{{ product.metafields.custom.featured_description_11 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_x8DDMt": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_12.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_12.value }}",
+            "text": "{{ product.metafields.custom.feature_description_12 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_V3RPL8": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_13.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_13.value }}",
+            "text": "{{ product.metafields.custom.feature_description_13 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "column_K3g9hb",
-        "column_KWPgzD",
-        "column_QYiBHV",
-        "column_kcYE9A",
-        "column_ijeti9",
-        "column_YnFjpf",
-        "column_jzBBNb",
-        "column_bUkHf8",
-        "column_kMFEj4",
-        "column_H3Rncb"
+        "row_tGKpUq",
+        "row_ALXwjd",
+        "row_E9tXrN",
+        "row_VhPk6E",
+        "row_eBHjgJ",
+        "row_ymcD9U",
+        "row_QmaRkV",
+        "row_z9mDzW",
+        "row_qJtJbf",
+        "row_CzV8AX",
+        "row_YczNzx",
+        "row_x8DDMt",
+        "row_V3RPL8"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h0",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "rich_text_RtDHQQ": {
+    "rich_text_tPrHhy": {
       "type": "rich-text",
       "blocks": {
-        "heading_8bJNYw": {
+        "heading_x3Cdbi": {
           "type": "heading",
           "settings": {
-            "heading": "CORPORATE GIFTING SERVICES",
-            "heading_size": "h1"
+            "heading": "About Jacinto & Lirio",
+            "heading_size": "h0"
           }
         }
       },
       "block_order": [
-        "heading_8bJNYw"
+        "heading_x3Cdbi"
       ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_banner_jNfj8k": {
-      "type": "image-banner",
-      "custom_css": [],
-      "settings": {
-        "image": "shopify://shop_images/1_PAGER_4th_Layout_-_MARA.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "request_for_quotation_form_M7gfwk": {
-      "type": "request-for-quotation-form",
-      "custom_css": [],
-      "settings": {
-        "heading": "Need Quotation?",
-        "heading_size": "h2",
-        "color_scheme": "light",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "rich_text_tPrHhy": {
-      "type": "rich-text",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -813,11 +778,9 @@
     "main",
     "custom_liquid_MGyNjt",
     "image_banner_pPezFi",
-    "rich_text_fznFjr",
-    "multicolumn_Kh6ARH",
-    "rich_text_RtDHQQ",
-    "image_banner_jNfj8k",
-    "request_for_quotation_form_M7gfwk",
+    "custom_liquid_BMzEeU",
+    "rich_text_TzcpnA",
+    "multirow_6tNPA3",
     "rich_text_tPrHhy",
     "image_banner_RBQPxq",
     "rich_text_3tqc9D",

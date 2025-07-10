@@ -349,16 +349,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_w69Ehn": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_8.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -368,8 +358,7 @@
         "column_zdE7Bk",
         "column_ydABWr",
         "column_EbBhXp",
-        "column_D4d9Kk",
-        "column_w69Ehn"
+        "column_D4d9Kk"
       ],
       "settings": {
         "title": "",

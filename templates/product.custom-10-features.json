@@ -505,10 +505,21 @@
         "row_dY6Cj8": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_8.value }}",
+            "image": "{{ product.metafields.custom.lorikeet_img_9.value }}",
             "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_8.value }}",
-            "text": "{{ product.metafields.custom.feature_description_8 | metafield_tag }}",
+            "heading": "{{ product.metafields.custom.feature_title_9.value }}",
+            "text": "{{ product.metafields.custom.feature_description_9 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_4TFYar": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.lorikeet_img_10.value }}",
+            "caption": "",
+            "heading": "{{ product.metafields.custom.feature_title_10.value }}",
+            "text": "{{ product.metafields.custom.feature_description_10 | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -523,7 +534,8 @@
         "row_Xyd4kK",
         "row_8GwpHn",
         "row_kTWtXN",
-        "row_dY6Cj8"
+        "row_dY6Cj8",
+        "row_4TFYar"
       ],
       "settings": {
         "image_height": "medium",

@@ -69,12 +69,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
-            "image_link": "shopify://pages/how-to-order-eco-friendly-corporate-giveaways-1",
+            "image_link": "shopify://pages/jacinto-lirio-how-to-order-eco-friendly-corporate-giveaways",
             "heading": "J&L's Corporate Gifting Service",
             "heading_size": "h1",
             "subheading": "Make your mark, show your style",
             "button_label": "Click here to learn more",
-            "link": "shopify://pages/how-to-order-eco-friendly-corporate-giveaways-1",
+            "link": "shopify://pages/jacinto-lirio-how-to-order-eco-friendly-corporate-giveaways",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -137,18 +137,7 @@
         "@media screen and (max-width: 400px) {h2 {font-size: 23px; }}"
       ],
       "settings": {
-        "title": "<strong>His & Hers Collection</strong>",
-        "heading_size": "h1",
-        "description": "<p>Celebrate Valentine’s Day with a touch of sophistication and practicality in your stationery essentials.</p>",
-        "show_description": false,
-        "description_style": "uppercase",
-        "collection": "valentines",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
@@ -157,7 +146,6 @@
         "show_rating": true,
         "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
         "padding_top": 72,
         "padding_bottom": 80
       }
@@ -1010,7 +998,6 @@
     "custom_liquid_YxBfei": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -1037,7 +1024,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Learn more",
-            "button_link_1": "shopify://pages/how-to-order-eco-friendly-corporate-giveaways-1",
+            "button_link_1": "shopify://pages/jacinto-lirio-how-to-order-eco-friendly-corporate-giveaways",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",

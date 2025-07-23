@@ -9,47 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_ty6n7M": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_66PNyw": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>CORPORATE GIFTS                                             WITH A HEART</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_DGd8w4": {
-          "type": "text",
-          "settings": {
-            "text": "{{ page.metafields.custom.subtitle.value }}",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_66PNyw",
-        "text_DGd8w4"
-      ],
-      "custom_css": [
-        "h2 {font-size: 55px; color: #ffffff; border-bottom: 2px solid #f7e2ad;}",
-        ".banner__text {color: #ffffff;}"
-      ],
-      "settings": {
-        "image": "{{ page.metafields.custom.image_banner.value }}",
-        "image_2": "shopify://shop_images/Career-banner.jpg",
-        "image_overlay_opacity": 30,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "main": {
       "type": "main-page",
       "custom_css": [
@@ -96,7 +55,6 @@
     }
   },
   "order": [
-    "image_banner_ty6n7M",
     "main",
     "featured_collection_iCbeq9",
     "contact_form_GVNnMy"

@@ -20,7 +20,7 @@
       "type": "contact-form",
       "name": "t:sections.contact-form.presets.name",
       "settings": {
-        "heading": "Contact form",
+        "heading": "Contact Us",
         "heading_size": "h1",
         "color_scheme": "",
         "padding_top": 36,

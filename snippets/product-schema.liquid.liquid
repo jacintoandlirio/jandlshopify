@@ -1,0 +1,16 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "description": {{ product.description }},
+  "name": {{ product.title }},
+  "url": {{ shop.url }}{{ product.url }},
+  "image": {{ shop.url }}{{ product.featured_image }},
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": {{ shop.currency }},
+    "price": {{ product.price | money_without_currency }},
+    "itemCondition": "https://schema.org/NewCondition",
+  },
+}
+</script>

@@ -1286,6 +1286,13 @@
             "url": ""
           }
         },
+        "slide_H7JPWD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image-removebg-preview.png",
+            "url": ""
+          }
+        },
         "slide_xrNWr4": {
           "type": "slide",
           "settings": {
@@ -1359,6 +1366,7 @@
         "slide_4mzULD",
         "slide_Hr8hzV",
         "slide_fcUWdW",
+        "slide_H7JPWD",
         "slide_xrNWr4",
         "slide_DEfzUw",
         "slide_aKkHnr",

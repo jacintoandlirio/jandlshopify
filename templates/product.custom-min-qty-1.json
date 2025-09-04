@@ -1,0 +1,860 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_TG9hrb": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_GGrbeM": {
+          "type": "text",
+          "settings": {
+            "text": "Philippine Made Water Hyacinth Vegan Leather",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "essential_trust_badges_app_block_c3JM3U": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "settings": {
+            "banner_display": "all",
+            "banner_id": "00a7a421-9dc4-4d6a-b19f-5e7a60bcbcc7"
+          }
+        },
+        "custom_liquid_4xnYLk": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  </style>\n  <label>Min. Qty</label>\n{%endif%}"
+          }
+        },
+        "custom_liquid_NTcbUC": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n\t  /* Styling for the quantity label */\n\t  label[for=\"quantity\"] {\n\t\tfont-family: Arial, sans-serif;\n\t\tfont-size: 18px;\n\t\tfont-weight: bold;\n\t\tcolor: #8C6D5A; /* light brown tone */\n\t\tmargin-right: 10px;\n\t  }\n\n\t  /* Styling for the quantity input */\n\t  .quantity-selector {\n\t\twidth: 80px;\n\t\theight: 40px;\n\t\tfont-size: 18px;\n\t\ttext-align: center;\n\t\tborder: 2px solid #8C6D5A; /* light brown */\n\t\tborder-radius: 5px;\n\t\toutline: none;\n\t\ttransition: border-color 0.3s ease, box-shadow 0.3s ease;\n\t\tbackground-color: #FAF3E0; /* Light beige background */\n\t\tcolor: #5A4033; /* Earthy brown tone for text */\n\t  }\n\n\t  /* Focus state for the input */\n\t  .quantity-selector:focus {\n\t\tborder-color: #8C6D5A; /* light brown for focus */\n\t\tbox-shadow: 0 0 5px rgba(111, 78, 55, 0.5); /* Subtle brown glow */\n\t  }\n\n\t  /* Hover effect for the input */\n\t  .quantity-selector:hover {\n\t\tborder-color: #6F4E37; /* Rich brown */\n\t  }\n\n\t  /* Container for better alignment */\n\t  .quantity-container {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tgap: 10px;\n\t\tmargin-top: 10px;\n\t  }\n\t</style>\n\n\t<div class=\"quantity-container\">\n\t  <label for=\"quantity\">Quantity:</label>\n\t  <input \n\t\ttype=\"number\" \n\t\tid=\"quantity\" \n\t\tname=\"quantity\" \n\t\tvalue=\"100\" \n\t\tmin=\"100\" \n\t\tstep=\"1\" \n\t\tclass=\"quantity-selector\">\n\t</div>\n\n\t<script>\n\t  document.addEventListener('DOMContentLoaded', () => {\n\t\tconst quantityInput = document.getElementById('quantity');\n\n\t\t// Ensure the initial value respects the minimum\n\t\tquantityInput.value = Math.max(quantityInput.min, quantityInput.value);\n\n\t\t// Enforce the minimum limit and step value when the input changes\n\t\tquantityInput.addEventListener('input', () => {\n\t\t  let value = parseInt(quantityInput.value);\n\t\t  const min = parseInt(quantityInput.min);\n\t\t  const step = parseInt(quantityInput.step);\n\n\t\t  // Ensure the value does not go below the minimum\n\t\t  if (value < min) value = min;\n\n\t\t  // Adjust value to nearest step increment\n\t\t  value = Math.round(value / step) * step;\n\n\t\t  quantityInput.value = value;\n\t\t});\n\t  });\n\t</script>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_MHzQNc": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.description_title.value }}",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_fAJeVf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16/9;\nwidth:100%;\nheight:auto;\n}\n</style>"
+          }
+        },
+        "collapsible_tab_A8kRt8": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Features (prototype)",
+            "icon": "dryer",
+            "content": "{{ product.metafields.custom.features_prototype_ | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_TRdX7q": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Bulk Order Discounts",
+            "icon": "price_tag",
+            "content": "",
+            "page": "discount-table-logo-engraving"
+          }
+        },
+        "collapsible_tab_CkXfJg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "clipboard",
+            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_BNcJ3p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Personalization",
+            "icon": "eye",
+            "content": "{{ product.metafields.custom.personalization | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_C9dk6J": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Package Contents",
+            "icon": "shirt",
+            "content": "{{ product.metafields.custom.package_contents | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gwTwWg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "{{ product.metafields.custom.care_instructions | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_qwQNcQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Corporate Giveaways",
+            "icon": "leaf",
+            "content": "{{ product.metafields.custom.corporate_giveaways | metafield_tag }}<p><strong>For bulk corporate orders consisting of 100pcs and above email us at: </strong><span style=\"text-decoration:underline\">corporategiveaways@jacintoandlirio.com</span></p><p><strong>For wedding and event inquiries email us at: </strong><span style=\"text-decoration:underline\">jacintomarrieslirio@jacintoandlirio.com            </span></p><p><strong>For international bulk orders email us at:</strong><span style=\"text-decoration:underline\">helloworld@jacintoandlirio.com</span></p><p></p><p></p><p></p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "custom_liquid_gCgtYY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<script>\nconst variantSelects = (document.querySelector('variant-selects')) ? document.querySelector('variant-selects') : document.querySelector('variant-radios');\nconst pickerType = (variantSelects.querySelectorAll('fieldset').length > 0) ? 'radios' : 'selects';\nconst fieldsets = (pickerType == 'radios') ? Array.from(variantSelects.querySelectorAll('fieldset')) : Array.from(variantSelects.querySelectorAll('.product-form__input--dropdown'));\nconst productJson = JSON.parse(variantSelects.querySelector('[type=\"application/json\"]').textContent);\nlet selectedOptions = [];\nvariantSelects.addEventListener('change', rebuildOptions);\nthis.rebuildOptions();\n\nfunction validCombo(inputValue, optionLevel) {\n  for(let i = 0; i < productJson.length; i++) {\n    if(optionLevel == 1){\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == inputValue) {  return true; }\n    } else {\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == selectedOptions[1] && productJson[i].option3 == inputValue) {  return true; }\n    }\n  }\n}\n\nfunction rebuildOptions() {\n    selectedOptions = fieldsets.map((fieldset) => {\n        return (pickerType == 'radios') ? Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value : Array.from(fieldset.querySelectorAll('select'), (select) => select.value);\n    });\n    for(let optionLevel = 1, n = fieldsets.length; optionLevel < n; optionLevel++) {\n        const inputs = (pickerType == 'radios') ? fieldsets[optionLevel].querySelectorAll('input') : fieldsets[optionLevel].querySelectorAll('option');\n\n        inputs.forEach(input => {\n        input.disabled = (validCombo(input.value,optionLevel)) ? false : true;\n        if(pickerType == 'radios'){\n            const label = fieldsets[optionLevel].querySelector(`label[for=\"${input.id}\"]`);\n\n            label.style.display = (input.disabled) ? \"none\" : \"\"; //Hide the option, or comment this line out and use the following lines to style it..\n            //label.style.opacity = (input.disabled) ? 0.5 : 1;\n            //label.style.borderStyle = (input.disabled) ? \"dashed\" : \"solid\";\n            //label.style.textDecoration = (input.disabled) ? \"none\" : \"\";\n        } else {\n            input.hidden = (validCombo(input.value,optionLevel)) ? false : true;\n        }\n        });\n    }\n    for (let optionLevel = 1, fieldsetsLength = fieldsets.length, change = false; optionLevel < fieldsetsLength && !change; optionLevel++) {\n        if(pickerType == 'radios'){\n        if(fieldsets[optionLevel].querySelector('input:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('input:not(:disabled)').checked = true);\n        }\n        } else {\n        if(fieldsets[optionLevel].querySelector('option:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('option:not(:disabled)').selected = \"selected\");\n        }\n        }\n        if(change) variantSelects.dispatchEvent(new Event('change', { bubbles: true }));\n    }\n}\n</script>"
+          }
+        },
+        "text_kxHrGD": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "qteedy_qteedy_extended_product_form_7hcCqb": {
+          "type": "shopify://apps/qteedy/blocks/qteedy_extended_product_form/fe69a84a-7558-4693-b16c-57a414940105",
+          "settings": {
+            "email_required": "required",
+            "phone_required": "false",
+            "company_required": "false",
+            "email_label_text": "Customer Email",
+            "phone_label_text": "Phone",
+            "company_label_text": "Company",
+            "quote_button_label_text": "Create Quote",
+            "heading_label_text": "Need a Quote?"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price_TG9hrb",
+        "text_GGrbeM",
+        "variant_picker",
+        "essential_trust_badges_app_block_c3JM3U",
+        "custom_liquid_4xnYLk",
+        "custom_liquid_NTcbUC",
+        "quantity_selector",
+        "buy_buttons",
+        "text_MHzQNc",
+        "custom_liquid_fAJeVf",
+        "collapsible_tab_A8kRt8",
+        "collapsible_tab_TRdX7q",
+        "collapsible_tab_CkXfJg",
+        "collapsible_tab_BNcJ3p",
+        "collapsible_tab_C9dk6J",
+        "collapsible_tab_gwTwWg",
+        "collapsible_tab_qwQNcQ",
+        "description",
+        "share",
+        "custom_liquid_gCgtYY",
+        "text_kxHrGD",
+        "qteedy_qteedy_extended_product_form_7hcCqb"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_MGyNjt": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_pPezFi": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/IMG_6054.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_BMzEeU": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "journals-1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_fznFjr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qfLXUV": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>PRODUCT USES</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qfLXUV"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_Kh6ARH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_K3g9hb": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_1.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KWPgzD": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_2.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QYiBHV": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_3.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kcYE9A": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_4.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ijeti9": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_5.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YnFjpf": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_6.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_6.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jzBBNb": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
+            "title": "{{ product.metafields.custom.product_title_7.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bUkHf8": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_8.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kMFEj4": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_9.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_9.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H3Rncb": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.custom.product_use_img_10.value }}",
+            "title": "{{ product.metafields.custom.product_use_title_10.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_K3g9hb",
+        "column_KWPgzD",
+        "column_QYiBHV",
+        "column_kcYE9A",
+        "column_ijeti9",
+        "column_YnFjpf",
+        "column_jzBBNb",
+        "column_bUkHf8",
+        "column_kMFEj4",
+        "column_H3Rncb"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_RtDHQQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8bJNYw": {
+          "type": "heading",
+          "settings": {
+            "heading": "CORPORATE GIFTING SERVICES",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8bJNYw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_jNfj8k": {
+      "type": "image-banner",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/1_PAGER_4th_Layout_-_MARA.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "request_for_quotation_form_M7gfwk": {
+      "type": "request-for-quotation-form",
+      "custom_css": [],
+      "settings": {
+        "heading": "Need Quotation?",
+        "heading_size": "h2",
+        "color_scheme": "light",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_tPrHhy": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_RBQPxq": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/viber_image_2024-02-28_09-32-00-667.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_3tqc9D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iP3DjD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jacinto & Lirio means \"Hyacinth and Lily\"",
+            "heading_size": "h2"
+          }
+        },
+        "text_39bGPA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>J&L serves as a viable environmental, social, and commercial solution for the water hyacinth infestation plaguing several communities in the Philippines.</p><p></p><p>Through the creation of functional, well-designed, Philippine-inspired plant leathergoods, enables us to help with the growth of affected communities' livelihood and extend their craft together with our designers' works to the popular market.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iP3DjD",
+        "text_39bGPA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_TYjiMN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wALUgB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leatherize Process",
+            "heading_size": "h1"
+          }
+        },
+        "text_xR9Ptg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1. Harvesting</strong></p><p>With a boat to scour through a river infested with water hyacinth.</p><p><strong>2. Cut the leaves and roots</strong></p><p>Prepare for thorough cleaning of the stalks.</p><p><strong>3. Clean the stalks</strong></p><p>Make sure insects and other river debris are cleaned off.</p><p><strong>4. Drying</strong></p><p>The stalks can be hanged and sun-dried or machine-dried</p><p><strong>5. Scrape the fibers</strong></p><p>The stalks are scraped by the fibers</p><p><strong>6. Flattening</strong></p><p>The stalks are flattened using a machine.</p><p><strong>7. Stick stalks to fabric</strong></p><p>Refining the stalks into a fabric-like material</p><p><strong>8. Ironing</strong></p><p>Fabric is ironed with the pasted dried plant sheet.</p><p><strong>9. Anti-mold</strong></p><p>Anti-mold preventive coat is applied.</p><p><strong>10. Protective top coat </strong></p><p>A protective top coat is applied after anti-mold layer dries.</p><p><strong>11. Sewing</strong></p><p>The plant leather sheet is then sewn on a fabric.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wALUgB",
+        "text_xR9Ptg"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_J67Bff": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_btJChR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Water Hyacinth Leatherization Process",
+            "heading_size": "h1"
+          }
+        },
+        "text_78Ygf3": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_NbxDUJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_btJChR",
+        "text_78Ygf3",
+        "button_NbxDUJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_jMicRg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4diB3c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/leatherstep1.png",
+            "title": "1. Harvesting",
+            "text": "<p>Use a boat to harvest Water hyacinth from an infested river</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jxtqEE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step2.png",
+            "title": "2. Cut the leaves and roots",
+            "text": "<p>Preparing for thorough cleaning of the stalks</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6Bnr3d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step3.png",
+            "title": "3. Clean the stalks",
+            "text": "<p>Making sure insects and other debris are cleaned off the plant.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z6VGLB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step4.png",
+            "title": "4. Drying",
+            "text": "<p>The stalks can be hanged, sun-dried or machine dried.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fNtUqq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step5.png",
+            "title": "5. Scrape the fibers",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9D9hjL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step6.png",
+            "title": "6. Flattening",
+            "text": "<p>The stalks are flattened using a flattening machine.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iwernz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step7.png",
+            "title": "7. Stick Stalks to fabric",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_amAKkk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step8.png",
+            "title": "7. Ironing",
+            "text": "<p>Fabric is ironed with the pasted fried flat sheet</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6ztVaV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step9.png",
+            "title": "8. Anti mold",
+            "text": "<p>Anti mold preventive coat is applied</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z6wmhD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step_9_part_2.png",
+            "title": "9. Protective top coat",
+            "text": "<p>A protective top coat is applied after the anti-mold layer dries</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DnJgMQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/step10.png",
+            "title": "10. Sewing",
+            "text": "<p>The plant leather sheet is then sewed to the fabric.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4diB3c",
+        "column_jxtqEE",
+        "column_6Bnr3d",
+        "column_z6VGLB",
+        "column_fNtUqq",
+        "column_9D9hjL",
+        "column_iwernz",
+        "column_amAKkk",
+        "column_6ztVaV",
+        "column_z6wmhD",
+        "column_DnJgMQ"
+      ],
+      "custom_css": [
+        ".inline-richtext {font-size: 24px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1712193503b0b2c3bf": {
+      "type": "apps",
+      "blocks": {
+        "stamped_product_reviews_ugc_main_widget_6DFK8k": {
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": false,
+            "offset": -1,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "stamped_product_reviews_ugc_main_widget_6DFK8k"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "pagefly-product-section": {
+      "type": "pagefly-product-section",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_MGyNjt",
+    "image_banner_pPezFi",
+    "custom_liquid_BMzEeU",
+    "rich_text_fznFjr",
+    "multicolumn_Kh6ARH",
+    "rich_text_RtDHQQ",
+    "image_banner_jNfj8k",
+    "request_for_quotation_form_M7gfwk",
+    "rich_text_tPrHhy",
+    "image_banner_RBQPxq",
+    "rich_text_3tqc9D",
+    "rich_text_TYjiMN",
+    "rich_text_J67Bff",
+    "multicolumn_jMicRg",
+    "1712193503b0b2c3bf",
+    "related-products",
+    "pagefly-product-section"
+  ]
+}

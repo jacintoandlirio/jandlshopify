@@ -65,6 +65,12 @@
           "disabled": true,
           "settings": {}
         },
+        "custom_liquid_yxgTF7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"discount-table-wrapper\">\n  <h3>Bulk Order Discounts</h3>\n  <table class=\"discount-table\">\n    <thead>\n      <tr>\n        <th>Minimum Qty</th>\n        <th>Discount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Buy 2 +</td>\n        <td>₱180.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 3 +</td>\n        <td>₱240.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 4 +</td>\n        <td>₱270.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 5 +</td>\n        <td>₱288.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 6 +</td>\n        <td>₱300.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 7 +</td>\n        <td>₱308.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 8 +</td>\n        <td>₱315.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 9 +</td>\n        <td>₱320.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 10 +</td>\n        <td>₱324.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 11 +</td>\n        <td>₱324.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 12 +</td>\n        <td>₱324.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 13 +</td>\n        <td>₱352.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 14 +</td>\n        <td>₱352.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 15 +</td>\n        <td>₱352.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 16 +</td>\n        <td>₱352.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 17 +</td>\n        <td>₱377.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 18 +</td>\n        <td>₱377.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 19 +</td>\n        <td>₱377.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 20 +</td>\n        <td>₱377.00 Off</td>\n      </tr>\n      <tr>\n        <td>Buy 50 +</td>\n        <td>₱385.00 Off</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<style>\n.discount-table-wrapper {\n  margin-top: 20px;\n}\n\n.discount-table {\n  width: 100%;\n  border-collapse: collapse;\n  margin-top: 10px;\n  font-size: 15px;\n}\n\n.discount-table th,\n.discount-table td {\n  border: 1px solid #ddd;\n  padding: 10px;\n  text-align: center;\n}\n\n.discount-table th {\n  background-color: #f8f8f8;\n  font-weight: 600;\n}\n\n.discount-table tr:nth-child(even) {\n  background-color: #fafafa;\n}\n</style>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -198,6 +204,7 @@
         "custom_liquid_4xnYLk",
         "custom_liquid_NTcbUC",
         "quantity_selector",
+        "custom_liquid_yxgTF7",
         "buy_buttons",
         "text_MHzQNc",
         "custom_liquid_fAJeVf",

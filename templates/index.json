@@ -1289,7 +1289,7 @@
         "slide_H7JPWD": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/image-removebg-preview.png",
+            "image": "shopify://shop_images/Screenshot_2025-09-05_104228-removebg-preview.png",
             "url": ""
           }
         },
@@ -1325,6 +1325,13 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/3_17ef1cf1-5ae0-4181-9675-eb3bce19028e.png",
+            "url": ""
+          }
+        },
+        "slide_LH7FAQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-05_104059-removebg-preview.png",
             "url": ""
           }
         }
@@ -1371,7 +1378,8 @@
         "slide_DEfzUw",
         "slide_aKkHnr",
         "slide_RecVte",
-        "slide_iN79DB"
+        "slide_iN79DB",
+        "slide_LH7FAQ"
       ],
       "settings": {
         "top": "INDUSTRY PARTNERS",

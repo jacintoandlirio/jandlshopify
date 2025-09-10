@@ -73,7 +73,7 @@
     "custom_liquid_MdpJJP": {
       "type": "custom-liquid",
       "custom_css": [
-        ".button {font-family: montserrat !important;}"
+        ".button {font-family: 'button font' !important;}"
       ],
       "settings": {
         "title": "Productivity Collection",

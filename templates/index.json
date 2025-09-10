@@ -1013,7 +1013,7 @@
       ],
       "custom_css": [
         "h3 {font-size: 24px;}",
-        ".multicolumn-card__info a {font-family: \"montserrat\" !important;}"
+        ".multicolumn-card__info a {font-family: 'button font' !important;}"
       ],
       "settings": {
         "title": "END TO END HASSLE FREE GREEN CORPORATE GIFTS",

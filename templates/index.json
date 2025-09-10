@@ -765,17 +765,17 @@
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "scheme-e17cacee-f400-4cbc-8bc4-255186893473",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 100,
-        "testimonial_section_background": "#eaeaea",
+        "testimonial_section_background": "#ffffff",
         "testimonial_background": "#ffffff",
-        "testimonial_title_color": "#000000",
-        "testimonials_text_color": "#000000",
-        "arrow_color": "#ffffff",
-        "arrow_bg_color": "#000000"
+        "testimonial_title_color": "#a68633",
+        "testimonials_text_color": "#a68633",
+        "arrow_color": "#a68633",
+        "arrow_bg_color": "#926f2b"
       }
     },
     "background_video_rc6E3d": {

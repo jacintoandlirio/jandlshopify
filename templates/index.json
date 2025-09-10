@@ -46,10 +46,10 @@
       "type": "featured-collection",
       "disabled": true,
       "custom_css": [
-        "h2 {font-family: 'header'; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
-        "button {font-family: 'header' !important;}",
+        "h2 {font-family: \"header\"; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
+        "button {font-family: \"header\" !important;}",
         ".price {font-size: 13px;}",
-        ".card__information .card__heading a {font-family: 'button font' !important;}",
+        ".card__information .card__heading a {font-family: \"button font\" !important;}",
         "@media screen and (max-width: 400px) {h2 {font-size: 23px; }}"
       ],
       "settings": {
@@ -73,7 +73,7 @@
     "custom_liquid_MdpJJP": {
       "type": "custom-liquid",
       "custom_css": [
-        ".button {font-family: 'button font' !important;}"
+        ".button {font-family: \"button font\" !important;}"
       ],
       "settings": {
         "title": "Productivity Collection",
@@ -169,7 +169,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
-        ".banner__buttons .button {font-size: 19px; font-family: 'button font' !important;}",
+        ".banner__buttons .button {font-size: 19px; font-family: \"button font\" !important;}",
         ".banner__text {color: #f7e2ad;}",
         "@media screen and (max-width: 500px) {.banner__text {color: #926f2b; } .image-with-text__heading {color: #926f2b; }}"
       ],
@@ -622,7 +622,7 @@
         "slide_AFdRyU"
       ],
       "custom_css": [
-        ".banner__buttons .button {font-size: 19px; font-family: 'button font' !important;}"
+        ".banner__buttons .button {font-size: 19px; font-family: \"button font\" !important;}"
       ],
       "settings": {
         "layout": "grid",
@@ -754,7 +754,7 @@
         "::-webkit-scrollbar-thumb {background: rgba(0, 0, 0, 0.4); border-radius: 50px; transition: background 0.3s ease-in-out;}",
         "::-webkit-scrollbar-thumb:hover {background: rgba(0, 0, 0, 0.6);}",
         ".container {overflow-y: hidden; overflow-x: auto;}",
-        ".multicolumn-card__info a {font-family: 'header' !important;}"
+        ".multicolumn-card__info a {font-family: \"header\" !important;}"
       ],
       "settings": {
         "title": "Testimonials",
@@ -836,7 +836,7 @@
         "button_qGMdPh"
       ],
       "custom_css": [
-        ".button {font-family: 'button font' !important; font-size: 24px;}"
+        ".button {font-family: \"button font\" !important; font-size: 24px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -887,9 +887,10 @@
         "column_mqdDjP"
       ],
       "custom_css": [
-        "h2 {font-family: 'header'; font-size: 55px; margin: 0 auto; color: #6b501b;}",
+        "h2 {font-family: \"header\"; font-size: 55px; margin: 0 auto; color: #6b501b;}",
         "h3 {font-size: 24px;}",
-        ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}"
+        ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}",
+        ".multicolumn-card__info a {font-family: 'button font' !important;}"
       ],
       "settings": {
         "title": "We Do It Better",
@@ -943,8 +944,8 @@
         "buttons_XR6yie"
       ],
       "custom_css": [
-        "h2 {font-family: 'header'; font-size: 40px; color: #6b501b; border-bottom: solid 1px;}",
-        ".banner__buttons .button {font-size: 19px; font-family: 'button font' !important;}",
+        "h2 {font-family: \"header\"; font-size: 40px; color: #6b501b; border-bottom: solid 1px;}",
+        ".banner__buttons .button {font-size: 19px; font-family: \"button font\" !important;}",
         ".banner__box {border: 2px dashed #926f2a; border: 5px double #926f2a;}"
       ],
       "settings": {
@@ -1013,7 +1014,7 @@
       ],
       "custom_css": [
         "h3 {font-size: 24px;}",
-        ".multicolumn-card__info a {font-family: 'button font' !important;}"
+        ".multicolumn-card__info a {font-family: \"button font\" !important;}"
       ],
       "settings": {
         "title": "END TO END HASSLE FREE GREEN CORPORATE GIFTS",
@@ -1518,7 +1519,7 @@
         "row_ifp9tX"
       ],
       "custom_css": [
-        ".button {font-family: 'button font' !important; font-size: 24px;}"
+        ".button {font-family: \"button font\" !important; font-size: 24px;}"
       ],
       "settings": {
         "image_height": "medium",
@@ -1618,8 +1619,8 @@
     "featured_blog_K9DnLq": {
       "type": "featured-blog",
       "custom_css": [
-        "h2 {font-family: 'header'; font-size: 55px; color: #6b501b;}",
-        "div a {font-family: 'header' !important; font-size: 23px;}"
+        "h2 {font-family: \"header\"; font-size: 55px; color: #6b501b;}",
+        "div a {font-family: \"header\" !important; font-size: 23px;}"
       ],
       "settings": {
         "heading": "J&L EXCLUSIVE COMPANY PERKS & PROMOS",
@@ -1639,8 +1640,8 @@
     "featured_blog_hbVnVc": {
       "type": "featured-blog",
       "custom_css": [
-        "h2 {font-family: 'header'; font-size: 55px;}",
-        "div a {font-family: 'header' !important; font-size: 23px;}"
+        "h2 {font-family: \"header\"; font-size: 55px;}",
+        "div a {font-family: \"header\" !important; font-size: 23px;}"
       ],
       "settings": {
         "heading": "Blog posts",

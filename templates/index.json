@@ -754,7 +754,7 @@
         "::-webkit-scrollbar-thumb {background: rgba(0, 0, 0, 0.4); border-radius: 50px; transition: background 0.3s ease-in-out;}",
         "::-webkit-scrollbar-thumb:hover {background: rgba(0, 0, 0, 0.6);}",
         ".container {overflow-y: hidden; overflow-x: auto;}",
-        ".multicolumn-card__info a {font-family: \"header\" !important;}"
+        ".multicolumn-card__info a {font-family: 'header' !important;}"
       ],
       "settings": {
         "title": "Testimonials",

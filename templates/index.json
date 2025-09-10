@@ -169,7 +169,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
-        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
+        ".banner__buttons .button {font-size: 19px; font-family: 'button font' !important;}",
         ".banner__text {color: #f7e2ad;}",
         "@media screen and (max-width: 500px) {.banner__text {color: #926f2b; } .image-with-text__heading {color: #926f2b; }}"
       ],
@@ -622,7 +622,7 @@
         "slide_AFdRyU"
       ],
       "custom_css": [
-        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}"
+        ".banner__buttons .button {font-size: 19px; font-family: 'button font' !important;}"
       ],
       "settings": {
         "layout": "grid",
@@ -836,7 +836,7 @@
         "button_qGMdPh"
       ],
       "custom_css": [
-        ".button {font-family: \"luna itc\" !important; font-size: 24px;}"
+        ".button {font-family: 'button font' !important; font-size: 24px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -944,7 +944,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"luna itc\"; font-size: 40px; color: #6b501b; border-bottom: solid 1px;}",
-        ".banner__buttons .button {font-size: 19px; font-family: \"luna itc\" !important;}",
+        ".banner__buttons .button {font-size: 19px; font-family: 'button font' !important;}",
         ".banner__box {border: 2px dashed #926f2a; border: 5px double #926f2a;}"
       ],
       "settings": {
@@ -1518,7 +1518,7 @@
         "row_ifp9tX"
       ],
       "custom_css": [
-        ".button {font-family: \"luna itc\" !important; font-size: 24px;}"
+        ".button {font-family: 'button font' !important; font-size: 24px;}"
       ],
       "settings": {
         "image_height": "medium",

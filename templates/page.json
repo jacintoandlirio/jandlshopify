@@ -19,6 +19,117 @@
         "padding_bottom": 28
       }
     },
+    "ss_instafeed_2_BmLU9n": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_3RGAV6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/advertising_and_marketing_slider.png",
+            "url": ""
+          }
+        },
+        "slide_FtR4AC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/taroaox.png",
+            "url": ""
+          }
+        },
+        "slide_n8YPzd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pocket_rocket_baaa3734-852c-42f0-a4e3-9049e5885dd6.png",
+            "url": ""
+          }
+        },
+        "slide_479jN7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banking_and_finance_slider.png",
+            "url": ""
+          }
+        },
+        "slide_WaPkNV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
+            "url": ""
+          }
+        },
+        "slide_Md663d": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_3RGAV6",
+        "slide_FtR4AC",
+        "slide_n8YPzd",
+        "slide_479jN7",
+        "slide_WaPkNV",
+        "slide_Md663d"
+      ],
+      "name": "SS - Instafeed #2",
+      "settings": {
+        "top": "INDUSTRY PARTNERS",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 29,
+        "top_height": 90,
+        "top_align": "center",
+        "heading": "ECO-WARRIOR CLIENTS",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "<h3>Do you also want to add our CSR to yours?</h3>",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "6",
+        "slider_row_mobile": "1",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#FFFFFF",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#FFFFFF",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "featured_collection_iCbeq9": {
       "type": "featured-collection",
       "disabled": true,
@@ -56,6 +167,7 @@
   },
   "order": [
     "main",
+    "ss_instafeed_2_BmLU9n",
     "featured_collection_iCbeq9",
     "contact_form_GVNnMy"
   ]

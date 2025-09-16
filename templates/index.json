@@ -1601,7 +1601,7 @@
       ],
       "custom_css": [
         ".multicolumn-card__info a {font-family: \"button font\" !important;}",
-        ".inline-richtext {font-family: \"header\" !important;}"
+        ".inline-richtext {font-family: \"header\" !important; font-size: 24px; font-weight: bolder !important;}"
       ],
       "settings": {
         "title": "ANNOUNCEMENTS",

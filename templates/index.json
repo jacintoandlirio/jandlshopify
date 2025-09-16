@@ -1647,7 +1647,9 @@
       "type": "featured-blog",
       "custom_css": [
         "h2 {font-family: \"header\"; font-size: 55px;}",
-        "div a {font-family: \"header\" !important; font-size: 23px;}"
+        "div a {font-family: \"header\" !important; font-size: 23px;}",
+        ".card__information .card__heading a {font-family: \"header\" !important; font-size: 24px; font-weight: bolder !important;}",
+        ".button {font-family: \"button font\" !important; font-size: 16px;}"
       ],
       "settings": {
         "heading": "Blog posts",

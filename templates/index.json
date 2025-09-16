@@ -890,7 +890,7 @@
         "h2 {font-family: \"header\"; font-size: 55px; margin: 0 auto; color: #6b501b;}",
         "h3 {font-size: 24px;}",
         ".slideshow__text {border: 2px dashed #926f2a; border: 5px double #926f2a; background-color: #fadeb9;}",
-        ".multicolumn-card__info a {font-family: 'button font' !important;}"
+        ".multicolumn-card__info a {font-family: \"button font\" !important;}"
       ],
       "settings": {
         "title": "We Do It Better",
@@ -1598,6 +1598,10 @@
         "column_hYJxCn",
         "column_t6yNTA",
         "column_xBirHM"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info a {font-family: \"button font\" !important;}",
+        ".inline-richtext {font-family: \"header\" !important;}"
       ],
       "settings": {
         "title": "ANNOUNCEMENTS",

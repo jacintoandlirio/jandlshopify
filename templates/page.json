@@ -60,6 +60,57 @@
         "slide_Md663d": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/metrobank_adf3e0d6-96f1-4194-8c44-b2b554bfdeff.png",
+            "url": ""
+          }
+        },
+        "slide_78brL6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/emsavvil.png",
+            "url": ""
+          }
+        },
+        "slide_LCF3tG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/actuarial_socofthephilippines_f88f60d2-7d33-4fd6-ac15-b620575e5f5c.png",
+            "url": ""
+          }
+        },
+        "slide_An7GBX": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_V99ULY": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_RRVUmY": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_WQX4xC": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_PUzMyC": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_mQqKGk": {
+          "type": "slide",
+          "settings": {
             "url": ""
           }
         }
@@ -70,7 +121,15 @@
         "slide_n8YPzd",
         "slide_479jN7",
         "slide_WaPkNV",
-        "slide_Md663d"
+        "slide_Md663d",
+        "slide_78brL6",
+        "slide_LCF3tG",
+        "slide_An7GBX",
+        "slide_V99ULY",
+        "slide_RRVUmY",
+        "slide_WQX4xC",
+        "slide_PUzMyC",
+        "slide_mQqKGk"
       ],
       "name": "SS - Instafeed #2",
       "settings": {
@@ -109,13 +168,13 @@
         "top_color": "#e69e6c",
         "heading_color": "#746661",
         "subheading_color": "#aba49d",
-        "nav_btn_bg": "#FFFFFF",
+        "nav_btn_bg": "#ffffff",
         "nav_btn_hover_bg": "#e69e6c",
         "nav_border": "#e69e6c",
         "nav_border_hover": "#e69e6c",
         "nav_icon": "#e69e6c",
-        "nav_hover_icon": "#FFFFFF",
-        "background_color": "#FFFFFF",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,

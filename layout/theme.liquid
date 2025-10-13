@@ -424,6 +424,26 @@
 });
     </script>
 
+<!-- Background Music -->
+<audio id="bg-music" loop>
+  <source src="{{ 'background.mp3' | asset_url }}" type="audio/mpeg">
+</audio>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const music = document.getElementById('bg-music');
+
+    // Optional: autoplay on user click
+    document.body.addEventListener('click', function playMusic() {
+      music.play();
+      document.body.removeEventListener('click', playMusic);
+    });
+
+    // If you want autoplay without click (not recommended due to browser restrictions)
+    // music.play();
+  });
+</script>
+
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}

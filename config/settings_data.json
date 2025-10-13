@@ -429,18 +429,14 @@
         "disabled": true,
         "settings": {
           "storefront_layout_enabled": true,
-          "storefront_layout_type": "as-modal",
-          "storefront_layout_collection_enabled": false,
           "storefront_layout_primary_bg_color": "#926f2b",
           "storefront_layout_primary_text_color": "#ffffff",
           "storefront_layout_secondary_bg_color": "#f4f8fe",
           "storefront_layout_secondary_text_color": "#333333",
           "storefront_layout_ui_border_radius": 6,
-          "storefront_layout_notification_enabled_as_default": true,
           "storefront_layout_notification_position": "left",
           "storefront_layout_action_popup_position": "left",
           "storefront_layout_drawer_position": "left",
-          "storefront_layout_drawer_width": 400,
           "storefront_layout_as_section_page": "swym-share-wishlist"
         }
       },
@@ -487,10 +483,6 @@
           "option_classic_flag_style": "square",
           "option_classic_currency_type": "none",
           "search_country": true,
-          "block_background": "#ffffff",
-          "style_colors_background": "#ffffff",
-          "style_colors_border": "#000000",
-          "style_colors_text": "#000000",
           "option_modal_continent": false,
           "option_flag_style": "square",
           "option_currency_type": "iso",
@@ -498,6 +490,10 @@
           "title": "Select Your Region",
           "language_title": "Preferred Language",
           "helper_text": "Changing language will not affect your selected region",
+          "block_background": "#ffffff",
+          "style_colors_background": "#ffffff",
+          "style_colors_border": "#000000",
+          "style_colors_text": "#000000",
           "block_alignement": "center"
         }
       },
@@ -530,8 +526,8 @@
           "style_colors_text": "#000000"
         }
       },
-      "15623156175785154009": {
-        "type": "shopify://apps/qikify-smart-menu-mega-menu/blocks/app-embed/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+      "12042751398604708466": {
+        "type": "shopify://apps/rt-background-music-player/blocks/app-embed/fa302603-80f3-48ed-964d-7b0f09cd2f8d",
         "disabled": false,
         "settings": {}
       }

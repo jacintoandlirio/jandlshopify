@@ -76,13 +76,13 @@
         ".button {font-family: \"button font\" !important;}"
       ],
       "settings": {
-        "title": "Productivity Collection",
+        "title": "BAGO",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "bago",
-        "products_to_show": 6,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,

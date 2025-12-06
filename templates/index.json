@@ -1627,7 +1627,7 @@
         ".button {font-family: \"button font\" !important; font-size: 16px;}"
       ],
       "settings": {
-        "heading": "J&L EXCLUSIVE COMPANY PERKS & PROMOS",
+        "heading": "J&L EXCLUSIVE COMPANY PERKS",
         "heading_size": "h1",
         "blog": "j-l-exclusive-company-employee-perks-promos",
         "post_limit": 3,
@@ -1650,7 +1650,7 @@
         ".button {font-family: \"button font\" !important; font-size: 16px;}"
       ],
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Kwentong Kwaderno",
         "heading_size": "h1",
         "blog": "stories",
         "post_limit": 3,

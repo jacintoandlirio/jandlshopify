@@ -44,7 +44,6 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"header\"; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
         "button {font-family: \"header\" !important;}",
@@ -662,7 +661,6 @@
         "featured_collection_BzHy7A",
         "featured_collection_mTbN9N"
       ],
-      "disabled": true,
       "settings": {
         "title": "Collections",
         "heading_size": "h1",

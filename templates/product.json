@@ -831,10 +831,6 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "pagefly-product-section": {
-      "type": "pagefly-product-section",
-      "settings": {}
     }
   },
   "order": [
@@ -850,7 +846,6 @@
     "rich_text_J67Bff",
     "multicolumn_jMicRg",
     "1712193503b0b2c3bf",
-    "related-products",
-    "pagefly-product-section"
+    "related-products"
   ]
 }

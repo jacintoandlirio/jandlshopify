@@ -44,6 +44,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"header\"; color: #6b501b; font-size: 55px; font-weight: 500; width: 600px;}",
         "button {font-family: \"header\" !important;}",

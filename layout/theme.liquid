@@ -1,6 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+<!-- BEAE-GLOBAL-FONT --> 
+{% capture the_snippet_global_font %}{% include 'beae-global-font' %}{% endcapture %} {% unless the_snippet_global_font contains 'Liquid error' %} {{ the_snippet_global_font }} {% endunless %} 
+ <!-- END BEAE-GLOBAL-FONT -->
+<!-- BEAE-HEADER --> 
+{%- render 'beae_header' -%}
+<!-- END BEAE-HEADER -->
 
     <script type="application/ld+json">
     { 
@@ -428,5 +434,11 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  
+<!-- BEAE-FOOTER --> 
+{%- render 'beae_footer' -%}
+<!-- END BEAE-FOOTER -->
+<!-- BEAE-AB-SNIPPET --> 
+{%- render 'beae_ab_snippet' -%}
+<!-- END BEAE-AB-SNIPPET --></body>
 </html>

@@ -348,16 +348,6 @@
         "disabled": false,
         "settings": {}
       },
-      "10418379418838805511": {
-        "type": "shopify://apps/seo-king/blocks/seo-king-jsonld-faqpage/4aa30173-495d-4e49-b377-c5ee4024262f",
-        "disabled": false,
-        "settings": {}
-      },
-      "18393503268697261835": {
-        "type": "shopify://apps/seo-king/blocks/seo-king-jsonld-collections/4aa30173-495d-4e49-b377-c5ee4024262f",
-        "disabled": false,
-        "settings": {}
-      },
       "15909290956780699707": {
         "type": "shopify://apps/mw-product-bundles/blocks/app-embed-block/5bcb1a6d-53b5-4d9c-b4f9-19f6620da62b",
         "disabled": false,
@@ -528,6 +518,11 @@
       },
       "12042751398604708466": {
         "type": "shopify://apps/rt-background-music-player/blocks/app-embed/fa302603-80f3-48ed-964d-7b0f09cd2f8d",
+        "disabled": false,
+        "settings": {}
+      },
+      "558381514691908246": {
+        "type": "shopify://apps/hulk-discounts/blocks/app-embed/25745434-52e7-4378-88f1-890df18a0110",
         "disabled": false,
         "settings": {}
       }

@@ -65,6 +65,7 @@
         },
         "slide_CTGXc9": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/OUR-WHY_2b0f937b-7855-4de9-b406-8cf4f2a2d59e.jpg",
             "image_link": "",
@@ -124,6 +125,30 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "background_video_Gthhgi": {
+      "type": "background-video",
+      "blocks": {
+        "video_bMDr6m": {
+          "type": "video",
+          "settings": {
+            "video_link": "https://studio.youtube.com/video/p-VIFBNPqxo/edit",
+            "video_image": "shopify://shop_images/make-it-look-more-lifestyle-looking-with-no-plain-background-space.png",
+            "title": "ECO-CORPORATE GIFTS WITH A HEART",
+            "text": "<p></p><p><em><strong>End-to-end corporate gifting solutions that protect the environment, empower Filipino communities, and help organizations meet their CSR and green procurement goals.</strong></em></p>",
+            "color_text": "#21584d",
+            "button_label": "REQUEST FOR A QUOTE",
+            "button_link": "https://jacintoandlirio.com/pages/contact",
+            "color_btn_bg": "#a68633",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_bMDr6m"
+      ],
+      "custom_css": [],
+      "settings": {}
     },
     "ss_instafeed_2_3RqEpe": {
       "type": "ss-instafeed-2",
@@ -479,8 +504,8 @@
         "top": "INDUSTRY PARTNERS",
         "top_custom": false,
         "top_font": "josefin_sans_n4",
-        "top_size": 13,
-        "top_height": 90,
+        "top_size": 5,
+        "top_height": 80,
         "top_align": "center",
         "heading": "SUSTAINABILITY CHAMPIONS",
         "heading_custom": false,
@@ -652,6 +677,7 @@
         "column_4GihPh",
         "column_AJktQm"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -668,6 +694,29 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "background_video_rc6E3d": {
+      "type": "background-video",
+      "blocks": {
+        "video_Xjx86R": {
+          "type": "video",
+          "settings": {
+            "video_link": "https://cdn.shopify.com/videos/c/o/v/8c8b58c7b67f49a4aec611eb546cb028.mp4",
+            "video_image": "shopify://shop_images/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
+            "title": "-- Our Story --",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_Xjx86R"
+      ],
+      "settings": {}
     },
     "rich_text_UgmE98": {
       "type": "rich-text",
@@ -965,29 +1014,6 @@
         "padding_bottom": 36
       }
     },
-    "background_video_rc6E3d": {
-      "type": "background-video",
-      "blocks": {
-        "video_Xjx86R": {
-          "type": "video",
-          "settings": {
-            "video_link": "https://cdn.shopify.com/videos/c/o/v/8c8b58c7b67f49a4aec611eb546cb028.mp4",
-            "video_image": "shopify://shop_images/7N8A0740_75eb9876-5a59-4c84-b969-85e9c37ccbd8.jpg",
-            "title": "-- Our Story --",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "video_Xjx86R"
-      ],
-      "settings": {}
-    },
     "rich_text_aewJAB": {
       "type": "rich-text",
       "blocks": {
@@ -1079,7 +1105,7 @@
         ".multicolumn-card__info a {font-family: \"button font\" !important;}"
       ],
       "settings": {
-        "title": "We Do It Better",
+        "title": "Why Organizations Choose Us for Corporate Gifting: WE DO IT BETTER",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -1672,18 +1698,19 @@
   "order": [
     "rich_text_cGb6gm",
     "slideshow_ri7rcw",
+    "background_video_Gthhgi",
     "ss_instafeed_2_3RqEpe",
     "image_banner_J9BE3f",
     "featured_collection",
     "custom_liquid_MdpJJP",
     "multicolumn_LQJyjD",
+    "background_video_rc6E3d",
     "rich_text_UgmE98",
     "multicolumn_WU3efy",
     "multicolumn_DrUwxt",
     "multicolumn_WUwKDW",
     "multicolumn_6Nkcnk",
     "collection_list_3D64bq",
-    "background_video_rc6E3d",
     "rich_text_aewJAB",
     "multicolumn_ymLrV7",
     "image_banner_HyQkcC",

@@ -517,126 +517,6 @@
         "padding_bottom": 36
       }
     },
-    "slideshow_AGJPzh": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_NkC6kz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Jun19-Bucket_List_Travel_Wallet-Carrot_Orange.png",
-            "image_link": "shopify://collections/wallet",
-            "heading": "Wallet",
-            "heading_size": "h1",
-            "subheading": "Explore our eco-friendly wallets with premium vegan design.",
-            "button_label": "Click here",
-            "link": "shopify://collections/wallet",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_EYPiAE": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/layout1_03_1_e6d5263e-e564-4193-ae50-f3d7f2f9bf85.jpg",
-            "image_link": "shopify://collections/journals-1",
-            "heading": "Journals and Planners",
-            "heading_size": "h1",
-            "subheading": "Craft your thoughts sustainably with our elegant vegan leather journals and planners.",
-            "button_label": "Click here",
-            "link": "shopify://collections/journals-1",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_BNnMzt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Jun6-iPadH-Brown_PintoMini-AshGrey.png",
-            "image_link": "shopify://collections/gadget-accessories",
-            "heading": "Gadget Accessories",
-            "heading_size": "h1",
-            "subheading": "Discover cruelty-free gadget covers for conscious consumers.",
-            "button_label": "Click here",
-            "link": "shopify://collections/gadget-accessories",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_irkrab": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/1W0B9948_82eb2a25-7e7d-414f-896e-9f9f17ecf479.jpg",
-            "image_link": "shopify://collections/travel-accessories-retail",
-            "heading": "Travel Accessories",
-            "heading_size": "h1",
-            "subheading": "Travel responsibly with our durable vegan leather travel accessories, designed for both style and sustainability.",
-            "button_label": "Click here",
-            "link": "shopify://collections/travel-accessories-retail",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_AFdRyU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/viber_image_2022-10-13_13-10-57-984.jpg",
-            "image_link": "shopify://collections/tahanan-home-living",
-            "heading": "Home and Living",
-            "heading_size": "h1",
-            "subheading": "Transform your living space with our eco-conscious home essentials.",
-            "button_label": "Click here",
-            "link": "shopify://collections/tahanan-home-living",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_NkC6kz",
-        "slide_EYPiAE",
-        "slide_BNnMzt",
-        "slide_irkrab",
-        "slide_AFdRyU"
-      ],
-      "custom_css": [
-        ".banner__buttons .button {font-size: 19px; font-family: \"button font\" !important;}"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "large",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "image_behavior": "ambient",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "collection_list_3D64bq": {
       "type": "collection-list",
       "blocks": {
@@ -1436,6 +1316,126 @@
         "padding_bottom": 36
       }
     },
+    "slideshow_AGJPzh": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_NkC6kz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Jun19-Bucket_List_Travel_Wallet-Carrot_Orange.png",
+            "image_link": "shopify://collections/wallet",
+            "heading": "Wallet",
+            "heading_size": "h1",
+            "subheading": "Explore our eco-friendly wallets with premium vegan design.",
+            "button_label": "Click here",
+            "link": "shopify://collections/wallet",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_EYPiAE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/layout1_03_1_e6d5263e-e564-4193-ae50-f3d7f2f9bf85.jpg",
+            "image_link": "shopify://collections/journals-1",
+            "heading": "Journals and Planners",
+            "heading_size": "h1",
+            "subheading": "Craft your thoughts sustainably with our elegant vegan leather journals and planners.",
+            "button_label": "Click here",
+            "link": "shopify://collections/journals-1",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_BNnMzt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Jun6-iPadH-Brown_PintoMini-AshGrey.png",
+            "image_link": "shopify://collections/gadget-accessories",
+            "heading": "Gadget Accessories",
+            "heading_size": "h1",
+            "subheading": "Discover cruelty-free gadget covers for conscious consumers.",
+            "button_label": "Click here",
+            "link": "shopify://collections/gadget-accessories",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_irkrab": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1W0B9948_82eb2a25-7e7d-414f-896e-9f9f17ecf479.jpg",
+            "image_link": "shopify://collections/travel-accessories-retail",
+            "heading": "Travel Accessories",
+            "heading_size": "h1",
+            "subheading": "Travel responsibly with our durable vegan leather travel accessories, designed for both style and sustainability.",
+            "button_label": "Click here",
+            "link": "shopify://collections/travel-accessories-retail",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_AFdRyU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/viber_image_2022-10-13_13-10-57-984.jpg",
+            "image_link": "shopify://collections/tahanan-home-living",
+            "heading": "Home and Living",
+            "heading_size": "h1",
+            "subheading": "Transform your living space with our eco-conscious home essentials.",
+            "button_label": "Click here",
+            "link": "shopify://collections/tahanan-home-living",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_NkC6kz",
+        "slide_EYPiAE",
+        "slide_BNnMzt",
+        "slide_irkrab",
+        "slide_AFdRyU"
+      ],
+      "custom_css": [
+        ".banner__buttons .button {font-size: 19px; font-family: \"button font\" !important;}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "testimonials_KhJrbH": {
       "type": "testimonials",
       "blocks": {
@@ -1672,6 +1672,7 @@
   "order": [
     "rich_text_cGb6gm",
     "slideshow_ri7rcw",
+    "ss_instafeed_2_3RqEpe",
     "image_banner_J9BE3f",
     "featured_collection",
     "custom_liquid_MdpJJP",
@@ -1681,15 +1682,14 @@
     "multicolumn_DrUwxt",
     "multicolumn_WUwKDW",
     "multicolumn_6Nkcnk",
-    "slideshow_AGJPzh",
     "collection_list_3D64bq",
     "background_video_rc6E3d",
     "rich_text_aewJAB",
     "multicolumn_ymLrV7",
     "image_banner_HyQkcC",
     "multicolumn_UWrfNG",
-    "ss_instafeed_2_3RqEpe",
     "multirow_wmBax8",
+    "slideshow_AGJPzh",
     "testimonials_KhJrbH",
     "multicolumn_AUa9f7",
     "featured_blog_K9DnLq",

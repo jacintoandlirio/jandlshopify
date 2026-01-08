@@ -109,6 +109,7 @@
         "slide_CTGXc9",
         "slide_7mMHRC"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 40px; color: #f7e2ad; border-bottom: 2px solid #f7e2ad;}",
         ".banner__buttons .button {font-size: 19px; font-family: \"button font\" !important;}",

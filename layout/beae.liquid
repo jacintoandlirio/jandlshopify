@@ -8,9 +8,11 @@
  <!-- START THEME HEADER --> 
 
  {%- render 'ecom_header' -%}
+
 <!-- BEAE-GLOBAL-FONT --> 
 {% capture the_snippet_global_font %}{% include 'beae-global-font' %}{% endcapture %} {% unless the_snippet_global_font contains 'Liquid error' %} {{ the_snippet_global_font }} {% endunless %} 
  <!-- END BEAE-GLOBAL-FONT -->
+
 <!-- BEAE-HEADER --> 
 {%- render 'beae_header' -%}
 <!-- END BEAE-HEADER -->
@@ -327,12 +329,6 @@
     
   <script src="{{ 'global.js' | asset_url }}" defer="defer"></script> 
  <!-- END THEME HEADER --> 
-
-  
-
-  
-
-  
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

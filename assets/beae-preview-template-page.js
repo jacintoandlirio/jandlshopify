@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "Ricco_Internship-Landing Page "; 
               window.beaePageSetting.pageType = "page";
 
-          let js_6IN6P431 = () => { let BeaeUseHooks = {};
+          let js_2AGTLDTB = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-69par8h8section-js',
           args = window.BEAEARGS[argid];
@@ -751,6 +751,23 @@ if (headerElement) {
         ((P) => { var I;let H=(I=P.el)==null?void 0:I.querySelectorAll(".beae-x-text a");H==null||H.forEach(A=>{let O=A==null?void 0:A.getAttribute("href");A&&P.mode.value!=="builder"&&(O!=null&&O.includes("#"))&&A.addEventListener("click",z=>{let D=document.querySelector(O+","+(O==null?void 0:O.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),z.preventDefault(),!1})}) })(args);
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-lel56gf9: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-8gccjgk3block-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-8gccjgk3',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-8gccjgk3');
+        args.el = args.els[0];
+        ((P) => { var I;let H=(I=P.el)==null?void 0:I.querySelectorAll(".beae-x-text a");H==null||H.forEach(A=>{let O=A==null?void 0:A.getAttribute("href");A&&P.mode.value!=="builder"&&(O!=null&&O.includes("#"))&&A.addEventListener("click",z=>{let D=document.querySelector(O+","+(O==null?void 0:O.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),z.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-8gccjgk3: ', ex)
       };
     
 
@@ -1569,4 +1586,4 @@ if (headerElement) {
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-o2jml8cl: ', ex)
       };
-    }; if (window.BEAEBASE) {js_6IN6P431()} else {window.BEAEPAGEJS.push(js_6IN6P431)} })(); 
+    }; if (window.BEAEBASE) {js_2AGTLDTB()} else {window.BEAEPAGEJS.push(js_2AGTLDTB)} })(); 

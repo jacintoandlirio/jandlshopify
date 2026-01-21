@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "Ricco_Internship-Landing Page "; 
               window.beaePageSetting.pageType = "page";
 
-          let js_2AGTLDTB = () => { let BeaeUseHooks = {};
+          let js_ITRJHQJ1 = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-69par8h8section-js',
           args = window.BEAEARGS[argid];
@@ -772,200 +772,6 @@ if (headerElement) {
     
 
       try {
-        let argid = 'beae-v710utx0section-js',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-v710utx0',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-v710utx0');
-        args.el = args.els[0];
-        ((t) => { var o;if((o=t.el.querySelector(".beae-grid-system"))==null||o.addEventListener("scroll",a=>{var r,l;let n=a.target;if(!n.classList.contains("beae-grid-carousel"))return;let s=Math.round((n.scrollLeft+n.querySelector(".beae-grid-carousel__snaps").offsetLeft)/(n.offsetWidth*.8))+1;(r=t.el.querySelector(".beae-grid-carousel__pagination div.active"))==null||r.classList.remove("active"),(l=t.el.querySelector('.beae-grid-carousel__pagination div[data-index="'+s+'"]'))==null||l.classList.add("active")}),t.mode.value=="live"){const a=t.el.querySelector('.beae-section-background-video[data-device="desktop"]'),n=t.el.querySelector('.beae-section-background-video[data-device="mobile"]'),s=[];window.BEAEVIDEO&&window.BEAEVIDEO.convertBackgroundSection&&(window.innerWidth>=768?a&&window.BEAEVIDEO.convertBackgroundSection(t.optionsVideo,a)&&s.push("desktop"):n&&window.BEAEVIDEO.convertBackgroundSection(t.optionsVideoMobile,n)&&s.push("mobile")),(a||n)&&window.addEventListener("resize",()=>{if(window.BEAEVIDEO&&window.BEAEVIDEO.convertBackgroundSection){if(!s.includes("desktop")&&window.innerWidth>=768&&a){const r=window.BEAEVIDEO.convertBackgroundSection(t.optionsVideo,a);r&&(a.innerHTML=r.html,s.push("desktop"))}if(!s.includes("mobile")&&window.innerWidth<768&&n){const r=window.BEAEVIDEO.convertBackgroundSection(t.optionsVideoMobile,n);r&&(n.innerHTML=r.html,s.push("mobile"))}}})}t.el.querySelectorAll(".beae-text-highlight").forEach(a=>{new IntersectionObserver((s,r)=>{s.forEach(l=>{l.isIntersecting&&(l.target.querySelectorAll("path, line").forEach(c=>{c.style.strokeDasharray=parseFloat(c.getAttribute("data-dash-ratio")*l.target.offsetWidth*2)+"px, 999999px"}),r.unobserve(l.target))})},{root:document,rootMargin:"0px 0px -40%"}).observe(a)}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-v710utx0: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-4g12g4e9block-text',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-4g12g4e9',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-4g12g4e9');
-        args.el = args.els[0];
-        ((P) => { var I;let H=(I=P.el)==null?void 0:I.querySelectorAll(".beae-x-text a");H==null||H.forEach(A=>{let O=A==null?void 0:A.getAttribute("href");A&&P.mode.value!=="builder"&&(O!=null&&O.includes("#"))&&A.addEventListener("click",z=>{let D=document.querySelector(O+","+(O==null?void 0:O.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),z.preventDefault(),!1})}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-4g12g4e9: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-zo5efeksblock-text',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-zo5efeks',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-zo5efeks');
-        args.el = args.els[0];
-        ((P) => { var I;let H=(I=P.el)==null?void 0:I.querySelectorAll(".beae-x-text a");H==null||H.forEach(A=>{let O=A==null?void 0:A.getAttribute("href");A&&P.mode.value!=="builder"&&(O!=null&&O.includes("#"))&&A.addEventListener("click",z=>{let D=document.querySelector(O+","+(O==null?void 0:O.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),z.preventDefault(),!1})}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-zo5efeks: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-fruffldisection-slide-show',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-fruffldi',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-fruffldi');
-        args.el = args.els[0];
-        ((h) => { window.BeaeSlider&&!h.noRunJs&&window.BeaeSlider(h) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-fruffldi: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-6mf9rebmblock-imageloop-0',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-6mf9rebm',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-6mf9rebm');
-        args.el = args.els[0];
-        ((M) => { var P;if(M.el){if(M.shape){const O=M.el.closest(".beae-slider-items");O&&!O.hasAttribute("data-svg")&&(O==null||O.closest(".beae-section").insertAdjacentHTML("beforeend",`
-                            <svg width="0" height="0" style="height: 0px !important; width: 0px !important; opacity: 0 !important;">
-                            <defs>
-                                <clipPath id="shape-${M.id}" clipPathUnits="objectBoundingBox">
-                                ${M.shape.clipPath}
-                                </clipPath>
-                            </defs>
-                            </svg>
-                        `),O.setAttribute("data-svg","true"))}let H=M.el.querySelector(".beae-image-content-position"),I,A=window.innerWidth>=768&&M.autoHover;var L=H.querySelector(".beae-img-ratio-control"),V=H.querySelector(".beae-img-comp-container"),T=H.querySelector(".beae-img-comp-container--second");if(L&&T){let O=function(z){let D=0,F;j(),A?H.onmouseover=function(G){W(G)}:z.onmousedown=function(G){W(G)},H.onmouseup=function(){q()},z.ontouchstart=function(G){W(G)},H.ontouchend=function(){q()};function j(){new ResizeObserver(()=>{window.requestAnimationFrame(()=>{I=T.offsetWidth})}).observe(T),z.style.left&&parseInt(z.style.left)}function W(G){check=!1,G.preventDefault(),G.clientX?G.clientX:G.touches[0].clientX,parseInt(z.style.left),D=1,H.onmousemove=function(X){R(X)},H.ontouchmove=function(X){R(X)}}function q(){D=0,check=!0}function R(G){if(D==0)return!1;F=U(G),F<0&&(F=0),F>100&&(F=100),Z(F)}function U(G){const X=H.getBoundingClientRect(),ie=(G.changedTouches?G.changedTouches[0].clientX:G.clientX)-X.left;return Math.max(0,Math.min(100,Math.round(ie*100/I)))}function Z(G){z.style.left=G+"%",T.style.clipPath=`polygon(${G}% 0%, ${G}% 100%, 100% 100%, 100% 0)`,V.style.clipPath=`polygon(0% 100%, 0% 0%, ${G}% 0%, ${G}% 100%)`}};L&&T&&O(L),window.addEventListener("resize",function(){L&&T&&(new ResizeObserver(()=>{window.requestAnimationFrame(()=>{I=T.offsetWidth})}).observe(T),O(L))})}}let N=(P=M.el)==null?void 0:P.querySelector("a.beae-x-image"),E=N==null?void 0:N.getAttribute("href");N&&M.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&N.addEventListener("click",H=>{let I=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(I)return I.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),H.preventDefault(),!1}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-6mf9rebm: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-6b1e1zx5block-textloop-0',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-6b1e1zx5',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-6b1e1zx5');
-        args.el = args.els[0];
-        ((P) => { var I;let H=(I=P.el)==null?void 0:I.querySelectorAll(".beae-x-text a");H==null||H.forEach(A=>{let O=A==null?void 0:A.getAttribute("href");A&&P.mode.value!=="builder"&&(O!=null&&O.includes("#"))&&A.addEventListener("click",z=>{let D=document.querySelector(O+","+(O==null?void 0:O.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),z.preventDefault(),!1})}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-6b1e1zx5: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-6mf9rebmblock-imageloop-1',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-6mf9rebm',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-6mf9rebm');
-        args.el = args.els[1];
-        ((M) => { var P;if(M.el){if(M.shape){const O=M.el.closest(".beae-slider-items");O&&!O.hasAttribute("data-svg")&&(O==null||O.closest(".beae-section").insertAdjacentHTML("beforeend",`
-                            <svg width="0" height="0" style="height: 0px !important; width: 0px !important; opacity: 0 !important;">
-                            <defs>
-                                <clipPath id="shape-${M.id}" clipPathUnits="objectBoundingBox">
-                                ${M.shape.clipPath}
-                                </clipPath>
-                            </defs>
-                            </svg>
-                        `),O.setAttribute("data-svg","true"))}let H=M.el.querySelector(".beae-image-content-position"),I,A=window.innerWidth>=768&&M.autoHover;var L=H.querySelector(".beae-img-ratio-control"),V=H.querySelector(".beae-img-comp-container"),T=H.querySelector(".beae-img-comp-container--second");if(L&&T){let O=function(z){let D=0,F;j(),A?H.onmouseover=function(G){W(G)}:z.onmousedown=function(G){W(G)},H.onmouseup=function(){q()},z.ontouchstart=function(G){W(G)},H.ontouchend=function(){q()};function j(){new ResizeObserver(()=>{window.requestAnimationFrame(()=>{I=T.offsetWidth})}).observe(T),z.style.left&&parseInt(z.style.left)}function W(G){check=!1,G.preventDefault(),G.clientX?G.clientX:G.touches[0].clientX,parseInt(z.style.left),D=1,H.onmousemove=function(X){R(X)},H.ontouchmove=function(X){R(X)}}function q(){D=0,check=!0}function R(G){if(D==0)return!1;F=U(G),F<0&&(F=0),F>100&&(F=100),Z(F)}function U(G){const X=H.getBoundingClientRect(),ie=(G.changedTouches?G.changedTouches[0].clientX:G.clientX)-X.left;return Math.max(0,Math.min(100,Math.round(ie*100/I)))}function Z(G){z.style.left=G+"%",T.style.clipPath=`polygon(${G}% 0%, ${G}% 100%, 100% 100%, 100% 0)`,V.style.clipPath=`polygon(0% 100%, 0% 0%, ${G}% 0%, ${G}% 100%)`}};L&&T&&O(L),window.addEventListener("resize",function(){L&&T&&(new ResizeObserver(()=>{window.requestAnimationFrame(()=>{I=T.offsetWidth})}).observe(T),O(L))})}}let N=(P=M.el)==null?void 0:P.querySelector("a.beae-x-image"),E=N==null?void 0:N.getAttribute("href");N&&M.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&N.addEventListener("click",H=>{let I=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(I)return I.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),H.preventDefault(),!1}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-6mf9rebm: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-6b1e1zx5block-textloop-1',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-6b1e1zx5',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-6b1e1zx5');
-        args.el = args.els[1];
-        ((P) => { var I;let H=(I=P.el)==null?void 0:I.querySelectorAll(".beae-x-text a");H==null||H.forEach(A=>{let O=A==null?void 0:A.getAttribute("href");A&&P.mode.value!=="builder"&&(O!=null&&O.includes("#"))&&A.addEventListener("click",z=>{let D=document.querySelector(O+","+(O==null?void 0:O.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),z.preventDefault(),!1})}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-6b1e1zx5: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-6mf9rebmblock-imageloop-2',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-6mf9rebm',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-6mf9rebm');
-        args.el = args.els[2];
-        ((M) => { var P;if(M.el){if(M.shape){const O=M.el.closest(".beae-slider-items");O&&!O.hasAttribute("data-svg")&&(O==null||O.closest(".beae-section").insertAdjacentHTML("beforeend",`
-                            <svg width="0" height="0" style="height: 0px !important; width: 0px !important; opacity: 0 !important;">
-                            <defs>
-                                <clipPath id="shape-${M.id}" clipPathUnits="objectBoundingBox">
-                                ${M.shape.clipPath}
-                                </clipPath>
-                            </defs>
-                            </svg>
-                        `),O.setAttribute("data-svg","true"))}let H=M.el.querySelector(".beae-image-content-position"),I,A=window.innerWidth>=768&&M.autoHover;var L=H.querySelector(".beae-img-ratio-control"),V=H.querySelector(".beae-img-comp-container"),T=H.querySelector(".beae-img-comp-container--second");if(L&&T){let O=function(z){let D=0,F;j(),A?H.onmouseover=function(G){W(G)}:z.onmousedown=function(G){W(G)},H.onmouseup=function(){q()},z.ontouchstart=function(G){W(G)},H.ontouchend=function(){q()};function j(){new ResizeObserver(()=>{window.requestAnimationFrame(()=>{I=T.offsetWidth})}).observe(T),z.style.left&&parseInt(z.style.left)}function W(G){check=!1,G.preventDefault(),G.clientX?G.clientX:G.touches[0].clientX,parseInt(z.style.left),D=1,H.onmousemove=function(X){R(X)},H.ontouchmove=function(X){R(X)}}function q(){D=0,check=!0}function R(G){if(D==0)return!1;F=U(G),F<0&&(F=0),F>100&&(F=100),Z(F)}function U(G){const X=H.getBoundingClientRect(),ie=(G.changedTouches?G.changedTouches[0].clientX:G.clientX)-X.left;return Math.max(0,Math.min(100,Math.round(ie*100/I)))}function Z(G){z.style.left=G+"%",T.style.clipPath=`polygon(${G}% 0%, ${G}% 100%, 100% 100%, 100% 0)`,V.style.clipPath=`polygon(0% 100%, 0% 0%, ${G}% 0%, ${G}% 100%)`}};L&&T&&O(L),window.addEventListener("resize",function(){L&&T&&(new ResizeObserver(()=>{window.requestAnimationFrame(()=>{I=T.offsetWidth})}).observe(T),O(L))})}}let N=(P=M.el)==null?void 0:P.querySelector("a.beae-x-image"),E=N==null?void 0:N.getAttribute("href");N&&M.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&N.addEventListener("click",H=>{let I=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(I)return I.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),H.preventDefault(),!1}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-6mf9rebm: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-6b1e1zx5block-textloop-2',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-6b1e1zx5',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-6b1e1zx5');
-        args.el = args.els[2];
-        ((P) => { var I;let H=(I=P.el)==null?void 0:I.querySelectorAll(".beae-x-text a");H==null||H.forEach(A=>{let O=A==null?void 0:A.getAttribute("href");A&&P.mode.value!=="builder"&&(O!=null&&O.includes("#"))&&A.addEventListener("click",z=>{let D=document.querySelector(O+","+(O==null?void 0:O.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),z.preventDefault(),!1})}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-6b1e1zx5: ', ex)
-      };
-    
-
-      try {
         let argid = 'beae-q1qjx3h5section-js',
           args = window.BEAEARGS[argid];
         if (!args) {
@@ -1586,4 +1392,21 @@ if (headerElement) {
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-o2jml8cl: ', ex)
       };
-    }; if (window.BEAEBASE) {js_2AGTLDTB()} else {window.BEAEPAGEJS.push(js_2AGTLDTB)} })(); 
+    
+
+      try {
+        let argid = 'beae-l10biripsection-js',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-l10birip',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-l10birip');
+        args.el = args.els[0];
+        ((t) => { var o;if((o=t.el.querySelector(".beae-grid-system"))==null||o.addEventListener("scroll",a=>{var r,l;let n=a.target;if(!n.classList.contains("beae-grid-carousel"))return;let s=Math.round((n.scrollLeft+n.querySelector(".beae-grid-carousel__snaps").offsetLeft)/(n.offsetWidth*.8))+1;(r=t.el.querySelector(".beae-grid-carousel__pagination div.active"))==null||r.classList.remove("active"),(l=t.el.querySelector('.beae-grid-carousel__pagination div[data-index="'+s+'"]'))==null||l.classList.add("active")}),t.mode.value=="live"){const a=t.el.querySelector('.beae-section-background-video[data-device="desktop"]'),n=t.el.querySelector('.beae-section-background-video[data-device="mobile"]'),s=[];window.BEAEVIDEO&&window.BEAEVIDEO.convertBackgroundSection&&(window.innerWidth>=768?a&&window.BEAEVIDEO.convertBackgroundSection(t.optionsVideo,a)&&s.push("desktop"):n&&window.BEAEVIDEO.convertBackgroundSection(t.optionsVideoMobile,n)&&s.push("mobile")),(a||n)&&window.addEventListener("resize",()=>{if(window.BEAEVIDEO&&window.BEAEVIDEO.convertBackgroundSection){if(!s.includes("desktop")&&window.innerWidth>=768&&a){const r=window.BEAEVIDEO.convertBackgroundSection(t.optionsVideo,a);r&&(a.innerHTML=r.html,s.push("desktop"))}if(!s.includes("mobile")&&window.innerWidth<768&&n){const r=window.BEAEVIDEO.convertBackgroundSection(t.optionsVideoMobile,n);r&&(n.innerHTML=r.html,s.push("mobile"))}}})}t.el.querySelectorAll(".beae-text-highlight").forEach(a=>{new IntersectionObserver((s,r)=>{s.forEach(l=>{l.isIntersecting&&(l.target.querySelectorAll("path, line").forEach(c=>{c.style.strokeDasharray=parseFloat(c.getAttribute("data-dash-ratio")*l.target.offsetWidth*2)+"px, 999999px"}),r.unobserve(l.target))})},{root:document,rootMargin:"0px 0px -40%"}).observe(a)}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-l10birip: ', ex)
+      };
+    }; if (window.BEAEBASE) {js_ITRJHQJ1()} else {window.BEAEPAGEJS.push(js_ITRJHQJ1)} })(); 

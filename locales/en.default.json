@@ -458,9 +458,9 @@
       "be2569319_html": "Sale",
       "be402479859_html": "ECO-CORPORATE&nbsp;",
       "be1824836051_html": "WITH A HEART",
-      "be320833568_html": "EXPLORE GIFT KITS",
-      "be1388152847_html": "Learn More",
+      "be110923829021_html": "<br>EXPLORE GIFT KITS",
       "be79860682_html": "Shop ",
+      "be1388152847_html": "Learn More",
       "be1752107994_html": "Trusted By Leading Brands",
       "be125253932_html": "Work &amp; Travel",
       "be556339932_html": "Everyday Carry",
@@ -481,10 +481,12 @@
       "be679965416_html": "Quick view",
       "be1182278043_html": "Added to cart",
       "be1427617666_html": "Added to cart successfully",
+      "be371614704_html": "View More",
       "be1561874631_html": "Curated Gifts Kits for Lasting Impressions",
       "be1191347862_html": "Shop our year's biggest studio sale!",
       "be988294548_html": "See Gift Sets",
       "be1649205972_html": "Request a Quote",
+      "be82920161_html": "Our Story",
       "be384201462_html": "The Solutions to Your Corporate Gifting Challenges",
       "be1100320430_html": "Our Recognized Designers",
       "be1614864044_html": "Dive into Our Products",
@@ -504,7 +506,6 @@
       "be1811335208_html": "Shop by Brand",
       "be772643246_html": "Shop by Item",
       "be1986743461343_html": "Bedroom<div>Living Room</div><div>Dining Room</div><div>Office</div><div>Lighting</div><div>Textiles<div><span style=\"background-color: rgb(255 255 255 / var(--tw-bg-opacity)); font-size: var(--p-font-size-100); color: var(--p-color-text); font-family: var(--p-font-family-sans); font-weight: var(--p-font-weight-regular);\"></span></div></div>",
-      "be283006761_html": "Family-friendly designs",
       "be157010447_html": "Custom-Made",
       "be263193353_html": "Discover more about our bespoke orders.",
       "be1387199535_html": "Learn more",
@@ -517,9 +518,7 @@
       "be908549803_html": "Give 20%, Get $20!",
       "be1148188517_html": "Sign up for our newsletter today and get 20% off for a friend, plus $20 for yourself!",
       "be1466350579_html": "Subscribe failed",
-      "be406277700_html": "Thanks for subscribe",
-      "be110923829021_html": "<br>EXPLORE GIFT KITS",
-      "be82920161_html": "Our Story"
+      "be406277700_html": "Thanks for subscribe"
     }
   },
   "localization": {

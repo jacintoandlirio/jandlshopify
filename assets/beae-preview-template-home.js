@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "j&l-homepage_ric-internship "; 
               window.beaePageSetting.pageType = "home";
 
-          let js_1A7RETV8 = () => { let BeaeUseHooks = {};
+          let js_G9N61HF5 = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-he568u2hsection-js',
           args = window.BEAEARGS[argid];
@@ -2594,4 +2594,4 @@
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-ea6of52m: ', ex)
       };
-    }; if (window.BEAEBASE) {js_1A7RETV8()} else {window.BEAEPAGEJS.push(js_1A7RETV8)} })(); 
+    }; if (window.BEAEBASE) {js_G9N61HF5()} else {window.BEAEPAGEJS.push(js_G9N61HF5)} })(); 

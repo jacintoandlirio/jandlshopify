@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "j&l-homepage_ric-internship "; 
               window.beaePageSetting.pageType = "home";
 
-          let js_247M7GHK = () => { let BeaeUseHooks = {};
+          let js_38S68JOR = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-590fmwxrsection-js',
           args = window.BEAEARGS[argid];
@@ -3140,6 +3140,23 @@
     
 
       try {
+        let argid = 'beae-6golbmhgblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-6golbmhg',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-6golbmhg');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-6golbmhg: ', ex)
+      };
+    
+
+      try {
         let argid = 'beae-y9dcyk3rsection-js',
           args = window.BEAEARGS[argid];
         if (!args) {
@@ -3341,4 +3358,4 @@
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-0ownrcr8: ', ex)
       };
-    }; if (window.BEAEBASE) {js_247M7GHK()} else {window.BEAEPAGEJS.push(js_247M7GHK)} })(); 
+    }; if (window.BEAEBASE) {js_38S68JOR()} else {window.BEAEPAGEJS.push(js_38S68JOR)} })(); 

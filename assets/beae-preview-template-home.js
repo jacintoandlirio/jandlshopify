@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "j&l-homepage_ric-internship "; 
               window.beaePageSetting.pageType = "home";
 
-          let js_I52LEST2 = () => { let BeaeUseHooks = {};
+          let js_83VN7QIA = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-lievuun6section-js',
           args = window.BEAEARGS[argid];
@@ -2802,6 +2802,81 @@
     
 
       try {
+        let argid = 'beae-qr2pq27nblock-image',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-qr2pq27n',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-qr2pq27n');
+        args.el = args.els[0];
+        ((M) => { var O;if(M.el){if(M.shape){const E=M.el.closest(".beae-slider-items");E&&!E.hasAttribute("data-svg")&&(E==null||E.closest(".beae-section").insertAdjacentHTML("beforeend",`
+                            <svg width="0" height="0" style="height: 0px !important; width: 0px !important; opacity: 0 !important;">
+                            <defs>
+                                <clipPath id="shape-${M.id}" clipPathUnits="objectBoundingBox">
+                                ${M.shape.clipPath}
+                                </clipPath>
+                            </defs>
+                            </svg>
+                        `),E.setAttribute("data-svg","true"))}let H=M.el.querySelector(".beae-image-content-position"),z,I=window.innerWidth>=768&&M.autoHover;var V=H.querySelector(".beae-img-ratio-control"),L=H.querySelector(".beae-img-comp-container"),T=H.querySelector(".beae-img-comp-container--second");if(V&&T){let E=function(A){let D=0,q;j(),I?H.onmouseover=function(G){F(G)}:A.onmousedown=function(G){F(G)},H.onmouseup=function(){R()},A.ontouchstart=function(G){F(G)},H.ontouchend=function(){R()};function j(){new ResizeObserver(()=>{window.requestAnimationFrame(()=>{z=T.offsetWidth})}).observe(T),A.style.left&&parseInt(A.style.left)}function F(G){check=!1,G.preventDefault(),G.clientX?G.clientX:G.touches[0].clientX,parseInt(A.style.left),D=1,H.onmousemove=function(Y){W(Y)},H.ontouchmove=function(Y){W(Y)}}function R(){D=0,check=!0}function W(G){if(D==0)return!1;q=U(G),q<0&&(q=0),q>100&&(q=100),Z(q)}function U(G){const Y=H.getBoundingClientRect(),ie=(G.changedTouches?G.changedTouches[0].clientX:G.clientX)-Y.left;return Math.max(0,Math.min(100,Math.round(ie*100/z)))}function Z(G){A.style.left=G+"%",T.style.clipPath=`polygon(${G}% 0%, ${G}% 100%, 100% 100%, 100% 0)`,L.style.clipPath=`polygon(0% 100%, 0% 0%, ${G}% 0%, ${G}% 100%)`}};V&&T&&E(V),window.addEventListener("resize",function(){V&&T&&(new ResizeObserver(()=>{window.requestAnimationFrame(()=>{z=T.offsetWidth})}).observe(T),E(V))})}}let N=(O=M.el)==null?void 0:O.querySelector("a.beae-x-image"),P=N==null?void 0:N.getAttribute("href");N&&M.mode.value!=="builder"&&(P!=null&&P.includes("#"))&&N.addEventListener("click",H=>{let z=document.querySelector(P+","+(P==null?void 0:P.replace("#",".")));if(z)return z.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),H.preventDefault(),!1}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-qr2pq27n: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-6f4l90h9block-image',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-6f4l90h9',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-6f4l90h9');
+        args.el = args.els[0];
+        ((M) => { var O;if(M.el){if(M.shape){const E=M.el.closest(".beae-slider-items");E&&!E.hasAttribute("data-svg")&&(E==null||E.closest(".beae-section").insertAdjacentHTML("beforeend",`
+                            <svg width="0" height="0" style="height: 0px !important; width: 0px !important; opacity: 0 !important;">
+                            <defs>
+                                <clipPath id="shape-${M.id}" clipPathUnits="objectBoundingBox">
+                                ${M.shape.clipPath}
+                                </clipPath>
+                            </defs>
+                            </svg>
+                        `),E.setAttribute("data-svg","true"))}let H=M.el.querySelector(".beae-image-content-position"),z,I=window.innerWidth>=768&&M.autoHover;var V=H.querySelector(".beae-img-ratio-control"),L=H.querySelector(".beae-img-comp-container"),T=H.querySelector(".beae-img-comp-container--second");if(V&&T){let E=function(A){let D=0,q;j(),I?H.onmouseover=function(G){F(G)}:A.onmousedown=function(G){F(G)},H.onmouseup=function(){R()},A.ontouchstart=function(G){F(G)},H.ontouchend=function(){R()};function j(){new ResizeObserver(()=>{window.requestAnimationFrame(()=>{z=T.offsetWidth})}).observe(T),A.style.left&&parseInt(A.style.left)}function F(G){check=!1,G.preventDefault(),G.clientX?G.clientX:G.touches[0].clientX,parseInt(A.style.left),D=1,H.onmousemove=function(Y){W(Y)},H.ontouchmove=function(Y){W(Y)}}function R(){D=0,check=!0}function W(G){if(D==0)return!1;q=U(G),q<0&&(q=0),q>100&&(q=100),Z(q)}function U(G){const Y=H.getBoundingClientRect(),ie=(G.changedTouches?G.changedTouches[0].clientX:G.clientX)-Y.left;return Math.max(0,Math.min(100,Math.round(ie*100/z)))}function Z(G){A.style.left=G+"%",T.style.clipPath=`polygon(${G}% 0%, ${G}% 100%, 100% 100%, 100% 0)`,L.style.clipPath=`polygon(0% 100%, 0% 0%, ${G}% 0%, ${G}% 100%)`}};V&&T&&E(V),window.addEventListener("resize",function(){V&&T&&(new ResizeObserver(()=>{window.requestAnimationFrame(()=>{z=T.offsetWidth})}).observe(T),E(V))})}}let N=(O=M.el)==null?void 0:O.querySelector("a.beae-x-image"),P=N==null?void 0:N.getAttribute("href");N&&M.mode.value!=="builder"&&(P!=null&&P.includes("#"))&&N.addEventListener("click",H=>{let z=document.querySelector(P+","+(P==null?void 0:P.replace("#",".")));if(z)return z.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),H.preventDefault(),!1}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-6f4l90h9: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-4hf5tnxnblock-image',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-4hf5tnxn',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-4hf5tnxn');
+        args.el = args.els[0];
+        ((M) => { var O;if(M.el){if(M.shape){const E=M.el.closest(".beae-slider-items");E&&!E.hasAttribute("data-svg")&&(E==null||E.closest(".beae-section").insertAdjacentHTML("beforeend",`
+                            <svg width="0" height="0" style="height: 0px !important; width: 0px !important; opacity: 0 !important;">
+                            <defs>
+                                <clipPath id="shape-${M.id}" clipPathUnits="objectBoundingBox">
+                                ${M.shape.clipPath}
+                                </clipPath>
+                            </defs>
+                            </svg>
+                        `),E.setAttribute("data-svg","true"))}let H=M.el.querySelector(".beae-image-content-position"),z,I=window.innerWidth>=768&&M.autoHover;var V=H.querySelector(".beae-img-ratio-control"),L=H.querySelector(".beae-img-comp-container"),T=H.querySelector(".beae-img-comp-container--second");if(V&&T){let E=function(A){let D=0,q;j(),I?H.onmouseover=function(G){F(G)}:A.onmousedown=function(G){F(G)},H.onmouseup=function(){R()},A.ontouchstart=function(G){F(G)},H.ontouchend=function(){R()};function j(){new ResizeObserver(()=>{window.requestAnimationFrame(()=>{z=T.offsetWidth})}).observe(T),A.style.left&&parseInt(A.style.left)}function F(G){check=!1,G.preventDefault(),G.clientX?G.clientX:G.touches[0].clientX,parseInt(A.style.left),D=1,H.onmousemove=function(Y){W(Y)},H.ontouchmove=function(Y){W(Y)}}function R(){D=0,check=!0}function W(G){if(D==0)return!1;q=U(G),q<0&&(q=0),q>100&&(q=100),Z(q)}function U(G){const Y=H.getBoundingClientRect(),ie=(G.changedTouches?G.changedTouches[0].clientX:G.clientX)-Y.left;return Math.max(0,Math.min(100,Math.round(ie*100/z)))}function Z(G){A.style.left=G+"%",T.style.clipPath=`polygon(${G}% 0%, ${G}% 100%, 100% 100%, 100% 0)`,L.style.clipPath=`polygon(0% 100%, 0% 0%, ${G}% 0%, ${G}% 100%)`}};V&&T&&E(V),window.addEventListener("resize",function(){V&&T&&(new ResizeObserver(()=>{window.requestAnimationFrame(()=>{z=T.offsetWidth})}).observe(T),E(V))})}}let N=(O=M.el)==null?void 0:O.querySelector("a.beae-x-image"),P=N==null?void 0:N.getAttribute("href");N&&M.mode.value!=="builder"&&(P!=null&&P.includes("#"))&&N.addEventListener("click",H=>{let z=document.querySelector(P+","+(P==null?void 0:P.replace("#",".")));if(z)return z.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),H.preventDefault(),!1}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-4hf5tnxn: ', ex)
+      };
+    
+
+      try {
         let argid = 'beae-vxt2qj8mblock-image',
           args = window.BEAEARGS[argid];
         if (!args) {
@@ -2878,6 +2953,57 @@
     
 
       try {
+        let argid = 'beae-88dxpc71block-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-88dxpc71',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-88dxpc71');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-88dxpc71: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-9p4c5d2yblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-9p4c5d2y',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-9p4c5d2y');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-9p4c5d2y: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-s7s8xdj2block-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-s7s8xdj2',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-s7s8xdj2');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-s7s8xdj2: ', ex)
+      };
+    
+
+      try {
         let argid = 'beae-6lbhr0ppblock-text',
           args = window.BEAEARGS[argid];
         if (!args) {
@@ -2929,6 +3055,57 @@
     
 
       try {
+        let argid = 'beae-7xn3m0x3block-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-7xn3m0x3',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-7xn3m0x3');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-7xn3m0x3: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-oee5k0orblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-oee5k0or',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-oee5k0or');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-oee5k0or: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-fwc37ozbblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-fwc37ozb',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-fwc37ozb');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-fwc37ozb: ', ex)
+      };
+    
+
+      try {
         let argid = 'beae-xyl6smkdblock-text',
           args = window.BEAEARGS[argid];
         if (!args) {
@@ -2942,6 +3119,23 @@
         ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-xyl6smkd: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-32ccuo54button-js',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-32ccuo54',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-32ccuo54');
+        args.el = args.els[0];
+        ((data) => { let buttonElm=data.el.querySelector("a.beae-button-js");buttonElm==null||buttonElm.addEventListener("click",e=>{var n,t;let extOptions={};if(data.extendOptions)try{eval("extOptions = "+data.extendOptions)}catch(o){extOptions={},console.error(o)}if(data.mode.value==="builder")return e.preventDefault(),!1;let selector=e.currentTarget.getAttribute("href");if(selector.indexOf("#")===0&&selector!=="#"){let o=document.querySelector(selector+","+selector.replace("#","."));if(o)return o.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),e.preventDefault(),!1}if(data.type==="popup"){if(window.isPreviewTemplate){let s=data.el.querySelector(".beae-content-size-chart-preview");window.BeaePopupLibrary.createPopup(s,{id:data.id,...extOptions}),e.preventDefault();return}const o=window.createLoading(e.currentTarget);let r=(t=(n=window.BEAE_HELPER)==null?void 0:n.routes)==null?void 0:t.root_url;return window.BeaePopupLibrary.lightbox({id:data.id,url:(r!=="/"?r:"")+((data==null?void 0:data.url)??"").replace("/popup/","/?view=beae-"),...extOptions}).then(s=>{s.querySelector(".beae-product-form-next")&&window.handleEventFormProductCard(s),o.remove()}),e.preventDefault(),!1}else if(data.type==="pages"&&data.lightbox){let o=data.pageContent.replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'");return window.isPreviewTemplate&&(o=data.el.querySelector(".beae-content-size-chart-preview")),window.BeaePopupLibrary.createPopup(o,{id:data.id,...extOptions}),e.preventDefault(),!1}}),data.type==="popup"&&data.lightbox&&new IntersectionObserver((t,o)=>{t.forEach(r=>{r.isIntersecting&&(o.unobserve(r.target),r.target.click())})}).observe(buttonElm) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-32ccuo54: ', ex)
       };
     
 
@@ -3147,4 +3341,4 @@
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-38in0bux: ', ex)
       };
-    }; if (window.BEAEBASE) {js_I52LEST2()} else {window.BEAEPAGEJS.push(js_I52LEST2)} })(); 
+    }; if (window.BEAEBASE) {js_83VN7QIA()} else {window.BEAEPAGEJS.push(js_83VN7QIA)} })(); 

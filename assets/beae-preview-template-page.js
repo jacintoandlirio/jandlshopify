@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "Hiraya Bag"; 
               window.beaePageSetting.pageType = "page";
 
-          let js_V5DQ9TLH = () => { let BeaeUseHooks = {};
+          let js_HQV8U4B0 = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-phfdjxcesection-js',
           args = window.BEAEARGS[argid];
@@ -1877,4 +1877,4 @@
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-79gyi6ag: ', ex)
       };
-    }; if (window.BEAEBASE) {js_V5DQ9TLH()} else {window.BEAEPAGEJS.push(js_V5DQ9TLH)} })(); 
+    }; if (window.BEAEBASE) {js_HQV8U4B0()} else {window.BEAEPAGEJS.push(js_HQV8U4B0)} })(); 

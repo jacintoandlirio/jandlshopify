@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "HirayaBag-LandingPage"; 
               window.beaePageSetting.pageType = "page";
 
-          let js_9F5LSCO0 = () => { let BeaeUseHooks = {};
+          let js_N4C056PA = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-j0jf6g9ssection-js',
           args = window.BEAEARGS[argid];
@@ -1337,4 +1337,4 @@ window.addEventListener('scroll', updateStickyState); })(args);
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-so5bddau: ', ex)
       };
-    }; if (window.BEAEBASE) {js_9F5LSCO0()} else {window.BEAEPAGEJS.push(js_9F5LSCO0)} })(); 
+    }; if (window.BEAEBASE) {js_N4C056PA()} else {window.BEAEPAGEJS.push(js_N4C056PA)} })(); 

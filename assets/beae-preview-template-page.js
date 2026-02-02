@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "HirayaBag-LandingPage"; 
               window.beaePageSetting.pageType = "page";
 
-          let js_8P97D166 = () => { let BeaeUseHooks = {};
+          let js_U1AEPMNO = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-w4k0vf97section-js',
           args = window.BEAEARGS[argid];
@@ -804,31 +804,6 @@ window.addEventListener('scroll', updateStickyState); })(args);
     
 
       try {
-        let argid = 'beae-3ndx3j1fblock-image',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-3ndx3j1f',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-3ndx3j1f');
-        args.el = args.els[0];
-        ((M) => { var O;if(M.el){if(M.shape){const E=M.el.closest(".beae-slider-items");E&&!E.hasAttribute("data-svg")&&(E==null||E.closest(".beae-section").insertAdjacentHTML("beforeend",`
-                            <svg width="0" height="0" style="height: 0px !important; width: 0px !important; opacity: 0 !important;">
-                            <defs>
-                                <clipPath id="shape-${M.id}" clipPathUnits="objectBoundingBox">
-                                ${M.shape.clipPath}
-                                </clipPath>
-                            </defs>
-                            </svg>
-                        `),E.setAttribute("data-svg","true"))}let H=M.el.querySelector(".beae-image-content-position"),z,I=window.innerWidth>=768&&M.autoHover;var V=H.querySelector(".beae-img-ratio-control"),L=H.querySelector(".beae-img-comp-container"),T=H.querySelector(".beae-img-comp-container--second");if(V&&T){let E=function(A){let D=0,q;j(),I?H.onmouseover=function(G){F(G)}:A.onmousedown=function(G){F(G)},H.onmouseup=function(){R()},A.ontouchstart=function(G){F(G)},H.ontouchend=function(){R()};function j(){new ResizeObserver(()=>{window.requestAnimationFrame(()=>{z=T.offsetWidth})}).observe(T),A.style.left&&parseInt(A.style.left)}function F(G){check=!1,G.preventDefault(),G.clientX?G.clientX:G.touches[0].clientX,parseInt(A.style.left),D=1,H.onmousemove=function(Y){W(Y)},H.ontouchmove=function(Y){W(Y)}}function R(){D=0,check=!0}function W(G){if(D==0)return!1;q=U(G),q<0&&(q=0),q>100&&(q=100),Z(q)}function U(G){const Y=H.getBoundingClientRect(),ie=(G.changedTouches?G.changedTouches[0].clientX:G.clientX)-Y.left;return Math.max(0,Math.min(100,Math.round(ie*100/z)))}function Z(G){A.style.left=G+"%",T.style.clipPath=`polygon(${G}% 0%, ${G}% 100%, 100% 100%, 100% 0)`,L.style.clipPath=`polygon(0% 100%, 0% 0%, ${G}% 0%, ${G}% 100%)`}};V&&T&&E(V),window.addEventListener("resize",function(){V&&T&&(new ResizeObserver(()=>{window.requestAnimationFrame(()=>{z=T.offsetWidth})}).observe(T),E(V))})}}let N=(O=M.el)==null?void 0:O.querySelector("a.beae-x-image"),P=N==null?void 0:N.getAttribute("href");N&&M.mode.value!=="builder"&&(P!=null&&P.includes("#"))&&N.addEventListener("click",H=>{let z=document.querySelector(P+","+(P==null?void 0:P.replace("#",".")));if(z)return z.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),H.preventDefault(),!1}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-3ndx3j1f: ', ex)
-      };
-    
-
-      try {
         let argid = 'beae-34jbgcwdblock-text',
           args = window.BEAEARGS[argid];
         if (!args) {
@@ -842,23 +817,6 @@ window.addEventListener('scroll', updateStickyState); })(args);
         ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-34jbgcwd: ', ex)
-      };
-    
-
-      try {
-        let argid = 'beae-mlczscw5block-text',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-mlczscw5',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-mlczscw5');
-        args.el = args.els[0];
-        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-mlczscw5: ', ex)
       };
     
 
@@ -1281,6 +1239,108 @@ window.addEventListener('scroll', updateStickyState); })(args);
     
 
       try {
+        let argid = 'beae-vecrhpz0block-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-vecrhpz0',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-vecrhpz0');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-vecrhpz0: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-bw60y14hblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-bw60y14h',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-bw60y14h');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-bw60y14h: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-grqdsy4sblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-grqdsy4s',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-grqdsy4s');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-grqdsy4s: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-2hfkga9tblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-2hfkga9t',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-2hfkga9t');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-2hfkga9t: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-tsdelbxtblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-tsdelbxt',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-tsdelbxt');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-tsdelbxt: ', ex)
+      };
+    
+
+      try {
+        let argid = 'beae-iyztb1lkblock-text',
+          args = window.BEAEARGS[argid];
+        if (!args) {
+          args = {
+            id: 'beae-iyztb1lk',
+            mode: {value: 'live'}
+          }
+        };
+        args.els = document.querySelectorAll('.beae-iyztb1lk');
+        args.el = args.els[0];
+        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
+      }  catch (ex) {
+        console.error('BEAE JS ERROR ID beae-iyztb1lk: ', ex)
+      };
+    
+
+      try {
         let argid = 'beae-udu8bzu3block-text',
           args = window.BEAEARGS[argid];
         if (!args) {
@@ -1315,18 +1375,18 @@ window.addEventListener('scroll', updateStickyState); })(args);
     
 
       try {
-        let argid = 'beae-c8r8yhilbutton-js',
+        let argid = 'beae-ao1heop0block-form',
           args = window.BEAEARGS[argid];
         if (!args) {
           args = {
-            id: 'beae-c8r8yhil',
+            id: 'beae-ao1heop0',
             mode: {value: 'live'}
           }
         };
-        args.els = document.querySelectorAll('.beae-c8r8yhil');
+        args.els = document.querySelectorAll('.beae-ao1heop0');
         args.el = args.els[0];
-        ((data) => { let buttonElm=data.el.querySelector("a.beae-button-js");buttonElm==null||buttonElm.addEventListener("click",e=>{var n,t;let extOptions={};if(data.extendOptions)try{eval("extOptions = "+data.extendOptions)}catch(o){extOptions={},console.error(o)}if(data.mode.value==="builder")return e.preventDefault(),!1;let selector=e.currentTarget.getAttribute("href");if(selector.indexOf("#")===0&&selector!=="#"){let o=document.querySelector(selector+","+selector.replace("#","."));if(o)return o.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),e.preventDefault(),!1}if(data.type==="popup"){if(window.isPreviewTemplate){let s=data.el.querySelector(".beae-content-size-chart-preview");window.BeaePopupLibrary.createPopup(s,{id:data.id,...extOptions}),e.preventDefault();return}const o=window.createLoading(e.currentTarget);let r=(t=(n=window.BEAE_HELPER)==null?void 0:n.routes)==null?void 0:t.root_url;return window.BeaePopupLibrary.lightbox({id:data.id,url:(r!=="/"?r:"")+((data==null?void 0:data.url)??"").replace("/popup/","/?view=beae-"),...extOptions}).then(s=>{s.querySelector(".beae-product-form-next")&&window.handleEventFormProductCard(s),o.remove()}),e.preventDefault(),!1}else if(data.type==="pages"&&data.lightbox){let o=data.pageContent.replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'");return window.isPreviewTemplate&&(o=data.el.querySelector(".beae-content-size-chart-preview")),window.BeaePopupLibrary.createPopup(o,{id:data.id,...extOptions}),e.preventDefault(),!1}}),data.type==="popup"&&data.lightbox&&new IntersectionObserver((t,o)=>{t.forEach(r=>{r.isIntersecting&&(o.unobserve(r.target),r.target.click())})}).observe(buttonElm) })(args);
+        ((m) => { const h=window.location.href.indexOf("contact_posted=true")!==-1,p=m.el.querySelector("form");m.el.querySelector(".beae-btn-pr");const f=m.el.querySelectorAll("input","select","button","textarea","checkbox","radio"),b=m.el.querySelector(".btn-lightbox-form > button");!h&&m.mode.value!=="builder"&&(m.el.querySelector(".beae-form-success-message").style="display: none"),h&&m.afterSubmitting=="redirect"&&m.redirect&&(m.el.querySelector(".beae-form-success-message").style="display: block",window.location.href=m.redirect);const C=[];p&&p.addEventListener("submit",g=>{g.preventDefault();for(let v=0;v<f.length;v++)C.push({fieldKey:f[v].name,fieldType:f[v].type,fieldValue:f[v].value})}),b&&(b.onclick=()=>{const g=document.createElement("div");g.innerHTML=p.outerHTML||"",window.BeaePopupLibrary.createPopup(g,{layout:"center",layoutMobile:"bottom",width:"500px",id:m.id})}) })(args);
       }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-c8r8yhil: ', ex)
+        console.error('BEAE JS ERROR ID beae-ao1heop0: ', ex)
       };
-    }; if (window.BEAEBASE) {js_8P97D166()} else {window.BEAEPAGEJS.push(js_8P97D166)} })(); 
+    }; if (window.BEAEBASE) {js_U1AEPMNO()} else {window.BEAEPAGEJS.push(js_U1AEPMNO)} })(); 

@@ -1,4 +1,3 @@
-
 (() => { if (window.BEAEPAGEJS === undefined) {
             window.BEAEPAGEJS = [];
           }
@@ -11,7 +10,7 @@
               window.beaePageSetting.pageTitle = "HirayaBag-LandingPage"; 
               window.beaePageSetting.pageType = "page";
 
-          let js_OMNKGK4I = () => { let BeaeUseHooks = {};
+          let js_T71T5QUS = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-rh3zx06psection-js',
           args = window.BEAEARGS[argid];
@@ -1390,4 +1389,4 @@ window.addEventListener('scroll', updateStickyState); })(args);
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-8eds7vvc: ', ex)
       };
-    }; if (window.BEAEBASE) {js_OMNKGK4I()} else {window.BEAEPAGEJS.push(js_OMNKGK4I)} })(); 
+    }; if (window.BEAEBASE) {js_T71T5QUS()} else {window.BEAEPAGEJS.push(js_T71T5QUS)} })(); 

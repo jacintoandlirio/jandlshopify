@@ -11,7 +11,7 @@
               window.beaePageSetting.pageTitle = "HirayaBag-LandingPage"; 
               window.beaePageSetting.pageType = "page";
 
-          let js_I6O6MKTJ = () => { let BeaeUseHooks = {};
+          let js_I2J4V2U4 = () => { let BeaeUseHooks = {};
       try {
         let argid = 'beae-nglrtwm6section-js',
           args = window.BEAEARGS[argid];
@@ -957,23 +957,6 @@ window.addEventListener('scroll', updateStickyState); })(args);
     
 
       try {
-        let argid = 'beae-ptdlvej1block-text',
-          args = window.BEAEARGS[argid];
-        if (!args) {
-          args = {
-            id: 'beae-ptdlvej1',
-            mode: {value: 'live'}
-          }
-        };
-        args.els = document.querySelectorAll('.beae-ptdlvej1');
-        args.el = args.els[0];
-        ((O) => { var z;let H=(z=O.el)==null?void 0:z.querySelectorAll(".beae-x-text a");H==null||H.forEach(I=>{let E=I==null?void 0:I.getAttribute("href");I&&O.mode.value!=="builder"&&(E!=null&&E.includes("#"))&&I.addEventListener("click",A=>{let D=document.querySelector(E+","+(E==null?void 0:E.replace("#",".")));if(D)return D.scrollIntoView({behavior:"smooth",block:"center",inline:"center"}),A.preventDefault(),!1})}) })(args);
-      }  catch (ex) {
-        console.error('BEAE JS ERROR ID beae-ptdlvej1: ', ex)
-      };
-    
-
-      try {
         let argid = 'beae-56gisi1msection-js',
           args = window.BEAEARGS[argid];
         if (!args) {
@@ -1390,4 +1373,4 @@ window.addEventListener('scroll', updateStickyState); })(args);
       }  catch (ex) {
         console.error('BEAE JS ERROR ID beae-4fpygbi7: ', ex)
       };
-    }; if (window.BEAEBASE) {js_I6O6MKTJ()} else {window.BEAEPAGEJS.push(js_I6O6MKTJ)} })(); 
+    }; if (window.BEAEBASE) {js_I2J4V2U4()} else {window.BEAEPAGEJS.push(js_I2J4V2U4)} })(); 

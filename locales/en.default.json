@@ -463,7 +463,15 @@
       "be1675388953_html": "Message",
       "be1730553738_html": "Add content here",
       "be783514851_html": "Featured product",
-      "be242786539_html": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review."
+      "be242786539_html": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+      "be849688199_html": "Save {sale}%",
+      "be42255992_html": "Show more",
+      "be42216636_html": "Show less",
+      "be641729472_html": "In stock ({quantity} units)",
+      "be361065167_html": "Low stock ({quantity} units)",
+      "be782190693_html": "Very low stock ({quantity} units)",
+      "be1819699109_html": "Share:",
+      "be762197622_html": "Link copied"
     },
     "beae-preview-template-home": {
       "be76480_html": "N/A",

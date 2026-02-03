@@ -1,0 +1,311 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {font-family: \"luna itc\"; font-size: 50px; text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ss_instafeed_2_BmLU9n": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_3RGAV6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/advertising_and_marketing_slider.png",
+            "url": ""
+          }
+        },
+        "slide_FtR4AC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/taroaox.png",
+            "url": ""
+          }
+        },
+        "slide_n8YPzd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pocket_rocket_baaa3734-852c-42f0-a4e3-9049e5885dd6.png",
+            "url": ""
+          }
+        },
+        "slide_479jN7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banking_and_finance_slider.png",
+            "url": ""
+          }
+        },
+        "slide_WaPkNV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Bank_of_the_Philippine_Islands_logo_svg_b5d30b7b-ba8f-4d6e-9e0a-c7a879c2843e.png",
+            "url": ""
+          }
+        },
+        "slide_Md663d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/metrobank_adf3e0d6-96f1-4194-8c44-b2b554bfdeff.png",
+            "url": ""
+          }
+        },
+        "slide_78brL6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/emsavvil.png",
+            "url": ""
+          }
+        },
+        "slide_LCF3tG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/actuarial_socofthephilippines_f88f60d2-7d33-4fd6-ac15-b620575e5f5c.png",
+            "url": ""
+          }
+        },
+        "slide_An7GBX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/agriculture_slider.png",
+            "url": ""
+          }
+        },
+        "slide_V99ULY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/leadsAgriLogo.png",
+            "url": ""
+          }
+        },
+        "slide_RRVUmY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/atlasFertilizerCorp.png",
+            "url": ""
+          }
+        },
+        "slide_WQX4xC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/gaia_south_inc_4aaaec9d-2993-4fba-bc98-e276adeae814.png",
+            "url": ""
+          }
+        },
+        "slide_PUzMyC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/telecommunications_slider.png",
+            "url": ""
+          }
+        },
+        "slide_WA8Udi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Globe-logo.png",
+            "url": ""
+          }
+        },
+        "slide_iec9PA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/automotive_slider.png",
+            "url": ""
+          }
+        },
+        "slide_Ey3Thh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hyundai.png",
+            "url": ""
+          }
+        },
+        "slide_HqAJEN": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_GwFLt3": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_eXCCU6": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_3f773k": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_izbFKU": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_L4gpQh": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_hkkEgi": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        },
+        "slide_mQqKGk": {
+          "type": "slide",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_3RGAV6",
+        "slide_FtR4AC",
+        "slide_n8YPzd",
+        "slide_479jN7",
+        "slide_WaPkNV",
+        "slide_Md663d",
+        "slide_78brL6",
+        "slide_LCF3tG",
+        "slide_An7GBX",
+        "slide_V99ULY",
+        "slide_RRVUmY",
+        "slide_WQX4xC",
+        "slide_PUzMyC",
+        "slide_WA8Udi",
+        "slide_iec9PA",
+        "slide_Ey3Thh",
+        "slide_HqAJEN",
+        "slide_GwFLt3",
+        "slide_eXCCU6",
+        "slide_3f773k",
+        "slide_izbFKU",
+        "slide_L4gpQh",
+        "slide_hkkEgi",
+        "slide_mQqKGk"
+      ],
+      "name": "SS - Instafeed #2",
+      "settings": {
+        "top": "INDUSTRY PARTNERS",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 29,
+        "top_height": 90,
+        "top_align": "center",
+        "heading": "ECO-WARRIOR CLIENTS",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "<h3>Do you also want to add our CSR to yours?</h3>",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "6",
+        "slider_row_mobile": "1",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#ffffff",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "featured_collection_iCbeq9": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        "h2 {border-bottom: dashed 1px;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_GVNnMy": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact Us",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_instafeed_2_BmLU9n",
+    "featured_collection_iCbeq9",
+    "contact_form_GVNnMy"
+  ]
+}

@@ -859,6 +859,78 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "17702816207104806b": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_8Gf3Gx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3pppfT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Travel Smart Plan Beautifully",
+            "heading_size": "h1"
+          }
+        },
+        "text_i6VwGj": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Introducing the Jacinto & Lirio Family Travel Planner & Passport Holder—an eco-friendly, multifunctional travel wallet that combines a passport organizer, card holder, and A5 refillable open-dated planner in one stylish zippered clutch. Featuring exclusive Philippine tourist spot designs, it’s made for travel-loving families, jet-setting professionals, and planner enthusiasts.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_X3bjaD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3pppfT",
+        "text_i6VwGj",
+        "button_X3bjaD"
+      ],
+      "name": "Heading Section 1",
+      "settings": {
+        "image": "shopify://shop_images/a8414182-37d3-40fe-b6df-2e5390699a7a.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_dRd6rd": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "Features of the Product",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -874,6 +946,9 @@
     "rich_text_J67Bff",
     "multicolumn_jMicRg",
     "1712193503b0b2c3bf",
-    "related-products"
+    "related-products",
+    "17702816207104806b",
+    "image_with_text_8Gf3Gx",
+    "featured_blog_dRd6rd"
   ]
 }

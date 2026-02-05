@@ -11,20 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_liquid_4gjkbL": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".icon {width: 100px; margin: 10px; border-radius: 12px; transition: 0.3s; /* Smooth effect */}",
-        ".icon:hover {transform: scale(1.1); /* Icon enlarges */ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Adds shadow */}",
-        ".footer-icons,.social-icons {display: flex; justify-content: center; flex-wrap: wrap; /* Ensures responsive alignment */}"
-      ],
-      "settings": {
-        "custom_liquid": "<!-- Footer Icons Section -->\n<div class=\"footer-icons\" style=\"text-align: center; margin-bottom: 20px;\">\n  <!-- Shopee Icon -->\n  <a href=\"https://shopee.ph/jacintoandlirio\" target=\"_blank\">\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/shopee_jacinto_lirio.png?v=1733820939\" alt=\"Shopee\">\n  </a>\n  \n  <!-- Lazada Icon -->\n  <a href=\"https://www.lazada.com.ph/shop/jacinto-lirio-/?path=index.htm\" target=\"_blank\">\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/lazada_jacinto_lirio.png?v=1733820957\" alt=\"Lazada\">\n  </a>\n\n  <!-- GrabMart Icon -->\n  <a href=\"https://mart.grab.com/ph/zh/merchant/2-C36XRUDFNNBJCJ\" target=\"_blank\">\n    <img class=\"icon\" src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/grab_mart_jacinto_lirio.png?v=1733820990\" alt=\"GrabMart\">\n  </a>\n</div>\n\n<!-- Social Media Icons Section -->\n<div class=\"social-icons\" style=\"text-align: center;\">\n  <!-- Facebook Icon -->\n  <a href=\"https://www.facebook.com/JacintoandLirio\" target=\"_blank\">\n    <img class=\"social-icon\" src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/facebook_jacinto_lirio.png?v=1733831680\" alt=\"Facebook\">\n  </a>\n\n  <!-- Twitter Icon -->\n  <a href=\"https://x.com/jacintoandlirio\" target=\"_blank\">\n    <img class=\"social-icon\" src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/twitter_jacinto_lirio.png?v=1733831681\" alt=\"Twitter\">\n  </a>\n\n  <!-- Instagram Icon -->\n  <a href=\"https://www.instagram.com/jacintoandlirio/\" target=\"_blank\">\n    <img class=\"social-icon\" src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/instagram_jacinto_lirio.png?v=1733831680\" alt=\"Instagram\">\n  </a>\n\n  <!-- TikTok Icon -->\n  <a href=\"https://www.tiktok.com/@jacintoandlirio\" target=\"_blank\">\n    <img class=\"social-icon\" src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/tiktok_jacinto_lirio.png?v=1733821069\" alt=\"TikTok\">\n  </a>\n\n  <!-- YouTube Icon -->\n  <a href=\"https://www.youtube.com/@JacintoandLirioPH\" target=\"_blank\">\n    <img class=\"social-icon\" src=\"https://cdn.shopify.com/s/files/1/0054/5996/8113/files/youtube_jacinto_lirio.png?v=1733831680\" alt=\"YouTube\">\n  </a>\n</div>\n\n<!-- CSS -->\n<style>\n  /* General Icon Styling for Footer */\n  .icon {\n    width: 100px;                /* Icon size for footer icons */\n    margin: 10px;                /* Spacing between icons */\n    border-radius: 12px;         /* Optional: Rounded corners for a softer look */\n    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */\n  }\n\n  /* Smaller Icon Styling for Social Media */\n  .social-icon {\n    width: 70px;                /* Smaller size for social media icons */\n    margin: 10px;                /* Spacing between social media icons */\n    border-radius: 12px;         /* Optional: Rounded corners for a softer look */\n    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */\n  }\n\n  /* Hover Effects */\n  .icon:hover, .social-icon:hover {\n    transform: scale(1.1);       /* Slight enlargement on hover */\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Shadow effect on hover */\n  }\n\n  /* Center Alignment for Icons */\n  .footer-icons, .social-icons {\n    display: flex;               /* Use flexbox for alignment */\n    justify-content: center;     /* Center the icons horizontally */\n    flex-wrap: wrap;             /* Wrap icons if they exceed one line */\n  }\n</style>",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -63,6 +49,7 @@
         "link_list_DRmL8Y",
         "text_mPjx6e"
       ],
+      "disabled": true,
       "custom_css": [
         ".footer-block__heading {font-size: 24px;}",
         ".footer-block__details-content {font-size: 13px;}"
@@ -121,7 +108,6 @@
     }
   },
   "order": [
-    "custom_liquid_4gjkbL",
     "footer",
     "newsletter_ByhRMK"
   ]

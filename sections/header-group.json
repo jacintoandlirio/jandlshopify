@@ -13,6 +13,7 @@
   "sections": {
     "header": {
       "type": "header",
+      "disabled": true,
       "custom_css": [
         "header {height: 180px;}",
         ".image-with-text__heading {font-size: 40px; color: #926f2b;}",

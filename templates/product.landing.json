@@ -14,6 +14,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -21,14 +22,17 @@
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {}
         },
         "price_HrNzUY": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "text_GGrbeM": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Philippine Made Water Hyacinth Vegan Leather",
             "text_style": "body"
@@ -36,6 +40,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -43,10 +48,12 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons_8XJJDD": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
@@ -54,12 +61,14 @@
         },
         "custom_liquid_4xnYLk": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{%if product.tags contains \"Request quote\" or product.tags contains \"MTO\"%}\n  <style>\n    \n   .quantity__label{\n   display:none;\n}\n  \n  </style>\n  <label>Min. Qty</label>\n{%endif%}"
           }
         },
         "essential_trust_badges_app_block_UpUnR7": {
           "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "disabled": true,
           "settings": {
             "banner_display": "all",
             "banner_id": "00a7a421-9dc4-4d6a-b19f-5e7a60bcbcc7"
@@ -67,6 +76,7 @@
         },
         "text_MHzQNc": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.custom.description_title.value }}",
             "text_style": "body"
@@ -74,6 +84,7 @@
         },
         "custom_liquid_fAJeVf": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{{product.metafields.custom.video_embed_link.value}}\n\n<style>\n.responsive-video {\naspect-ratio:16/9;\nwidth:100%;\nheight:auto;\n}\n</style>"
           }
@@ -100,6 +111,7 @@
         },
         "collapsible_tab_CkXfJg": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Specifications",
             "icon": "clipboard",
@@ -109,6 +121,7 @@
         },
         "collapsible_tab_BNcJ3p": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Personalization",
             "icon": "eye",
@@ -118,6 +131,7 @@
         },
         "collapsible_tab_C9dk6J": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Package Contents",
             "icon": "shirt",
@@ -127,6 +141,7 @@
         },
         "collapsible_tab_gwTwWg": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -136,6 +151,7 @@
         },
         "collapsible_tab_qwQNcQ": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Corporate Giveaways",
             "icon": "leaf",
@@ -150,18 +166,21 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
         },
         "custom_liquid_gCgtYY": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<script>\nconst variantSelects = (document.querySelector('variant-selects')) ? document.querySelector('variant-selects') : document.querySelector('variant-radios');\nconst pickerType = (variantSelects.querySelectorAll('fieldset').length > 0) ? 'radios' : 'selects';\nconst fieldsets = (pickerType == 'radios') ? Array.from(variantSelects.querySelectorAll('fieldset')) : Array.from(variantSelects.querySelectorAll('.product-form__input--dropdown'));\nconst productJson = JSON.parse(variantSelects.querySelector('[type=\"application/json\"]').textContent);\nlet selectedOptions = [];\nvariantSelects.addEventListener('change', rebuildOptions);\nthis.rebuildOptions();\n\nfunction validCombo(inputValue, optionLevel) {\n  for(let i = 0; i < productJson.length; i++) {\n    if(optionLevel == 1){\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == inputValue) {  return true; }\n    } else {\n      if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == selectedOptions[1] && productJson[i].option3 == inputValue) {  return true; }\n    }\n  }\n}\n\nfunction rebuildOptions() {\n    selectedOptions = fieldsets.map((fieldset) => {\n        return (pickerType == 'radios') ? Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value : Array.from(fieldset.querySelectorAll('select'), (select) => select.value);\n    });\n    for(let optionLevel = 1, n = fieldsets.length; optionLevel < n; optionLevel++) {\n        const inputs = (pickerType == 'radios') ? fieldsets[optionLevel].querySelectorAll('input') : fieldsets[optionLevel].querySelectorAll('option');\n\n        inputs.forEach(input => {\n        input.disabled = (validCombo(input.value,optionLevel)) ? false : true;\n        if(pickerType == 'radios'){\n            const label = fieldsets[optionLevel].querySelector(`label[for=\"${input.id}\"]`);\n\n            label.style.display = (input.disabled) ? \"none\" : \"\"; //Hide the option, or comment this line out and use the following lines to style it..\n            //label.style.opacity = (input.disabled) ? 0.5 : 1;\n            //label.style.borderStyle = (input.disabled) ? \"dashed\" : \"solid\";\n            //label.style.textDecoration = (input.disabled) ? \"none\" : \"\";\n        } else {\n            input.hidden = (validCombo(input.value,optionLevel)) ? false : true;\n        }\n        });\n    }\n    for (let optionLevel = 1, fieldsetsLength = fieldsets.length, change = false; optionLevel < fieldsetsLength && !change; optionLevel++) {\n        if(pickerType == 'radios'){\n        if(fieldsets[optionLevel].querySelector('input:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('input:not(:disabled)').checked = true);\n        }\n        } else {\n        if(fieldsets[optionLevel].querySelector('option:checked').disabled === true) {\n            change = (fieldsets[optionLevel].querySelector('option:not(:disabled)').selected = \"selected\");\n        }\n        }\n        if(change) variantSelects.dispatchEvent(new Event('change', { bubbles: true }));\n    }\n}\n</script>"
           }
         },
         "text_kxHrGD": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_style": "body"
@@ -192,6 +211,7 @@
         "custom_liquid_gCgtYY",
         "text_kxHrGD"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
@@ -268,6 +288,7 @@
       "block_order": [
         "heading_E7dEk8"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -485,6 +506,7 @@
         "row_rtGNpe",
         "row_HDzewD"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -515,6 +537,7 @@
       "block_order": [
         "heading_x3Cdbi"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -526,6 +549,7 @@
     },
     "image_banner_RBQPxq": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/viber_image_2024-02-28_09-32-00-667.jpg",
         "image_overlay_opacity": 0,
@@ -561,6 +585,7 @@
         "heading_iP3DjD",
         "text_39bGPA"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -634,6 +659,7 @@
         "text_78Ygf3",
         "button_NbxDUJ"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -770,6 +796,7 @@
         "column_z6wmhD",
         "column_DnJgMQ"
       ],
+      "disabled": true,
       "custom_css": [
         ".inline-richtext {font-size: 24px;}"
       ],
@@ -816,6 +843,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",

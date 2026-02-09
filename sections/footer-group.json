@@ -94,6 +94,7 @@
         "paragraph_zJza3D",
         "email_form_AYKqcD"
       ],
+      "disabled": true,
       "custom_css": [
         ".field__input {font-family: \"Montserrat\" !important;}"
       ],

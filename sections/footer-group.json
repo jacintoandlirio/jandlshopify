@@ -49,7 +49,6 @@
         "link_list_DRmL8Y",
         "text_mPjx6e"
       ],
-      "disabled": true,
       "custom_css": [
         ".footer-block__heading {font-size: 24px;}",
         ".footer-block__details-content {font-size: 13px;}"
@@ -95,7 +94,6 @@
         "paragraph_zJza3D",
         "email_form_AYKqcD"
       ],
-      "disabled": true,
       "custom_css": [
         ".field__input {font-family: \"Montserrat\" !important;}"
       ],

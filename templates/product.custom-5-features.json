@@ -283,7 +283,7 @@
         "column_cjUhDt": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_1.value }}",
+            "image": "shopify://shop_images/21_2.png",
             "title": "{{ product.metafields.custom.product_use_title_1.value }}",
             "text": "",
             "link_label": "",
@@ -293,7 +293,7 @@
         "column_XHBnfU": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_2.value }}",
+            "image": "shopify://shop_images/6_eb6571c0-fac6-4f08-ab12-0b6f33c8282c.png",
             "title": "{{ product.metafields.custom.product_use_title_2.value }}",
             "text": "",
             "link_label": "",
@@ -303,7 +303,7 @@
         "column_dDdKMk": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_3.value }}",
+            "image": "shopify://shop_images/19_f79e5744-0a9c-483e-9f47-4cb90e1ab566.png",
             "title": "{{ product.metafields.custom.product_use_title_3.value }}",
             "text": "",
             "link_label": "",
@@ -313,7 +313,7 @@
         "column_tqF6TH": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_4.value }}",
+            "image": "shopify://shop_images/21_1.png",
             "title": "{{ product.metafields.custom.product_use_title_4.value }}",
             "text": "",
             "link_label": "",
@@ -323,7 +323,7 @@
         "column_gWncUN": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_5.value }}",
+            "image": "shopify://shop_images/22_6ab05b4c-bc04-45e9-91f3-cd36d262a28d.png",
             "title": "{{ product.metafields.custom.product_use_title_5.value }}",
             "text": "",
             "link_label": "",
@@ -333,7 +333,7 @@
         "column_nCzgab": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_6.value }}",
+            "image": "shopify://shop_images/23_9182cf56-442e-4904-b8e9-c79f8c83ba7c.png",
             "title": "{{ product.metafields.custom.product_use_title_6.value }}",
             "text": "",
             "link_label": "",
@@ -343,7 +343,7 @@
         "column_iAeztU": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_7.value }}",
+            "image": "shopify://shop_images/12_f36f68c5-e1be-4751-8ff4-65f177f0f13a.png",
             "title": "{{ product.metafields.custom.product_title_7.value }}",
             "text": "",
             "link_label": "",
@@ -353,7 +353,7 @@
         "column_ANBR4n": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_8.value }}",
+            "image": "shopify://shop_images/25_01a050e3-f826-4308-ac51-8141eb5fd090.png",
             "title": "{{ product.metafields.custom.product_use_title_8.value }}",
             "text": "",
             "link_label": "",
@@ -363,18 +363,8 @@
         "column_X6bhJF": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_9.value }}",
+            "image": "shopify://shop_images/11_9d68bbdf-d6c5-4c49-937a-e71a563313fc.png",
             "title": "{{ product.metafields.custom.product_use_title_9.value }}",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_gH8axE": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.custom.product_use_img_10.value }}",
-            "title": "{{ product.metafields.custom.product_use_title_10.value }}",
             "text": "",
             "link_label": "",
             "link": ""
@@ -390,8 +380,7 @@
         "column_nCzgab",
         "column_iAeztU",
         "column_ANBR4n",
-        "column_X6bhJF",
-        "column_gH8axE"
+        "column_X6bhJF"
       ],
       "settings": {
         "title": "",
@@ -461,10 +450,10 @@
         "row_E9tXrN": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.lorikeet_img_3.value }}",
+            "image": "shopify://shop_images/PROD9.webp",
             "caption": "",
-            "heading": "{{ product.metafields.custom.feature_title_3.value }}",
-            "text": "<p>{{ product.metafields.custom.feature_description_3 | metafield_tag }}</p>",
+            "heading": "7 CARD SLOTS WHICH CAN HOLD 14 CARDS",
+            "text": "<p>You can insert the cards vertically to hold up to 14 cards or tickets, so you can bring all the cards you need when going on a trip.<br/><br/></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -833,11 +822,6 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "pagefly-product-section": {
-      "type": "pagefly-product-section",
-      "disabled": true,
-      "settings": {}
     }
   },
   "order": [
@@ -855,7 +839,6 @@
     "rich_text_J67Bff",
     "multicolumn_jMicRg",
     "1712193503b0b2c3bf",
-    "related-products",
-    "pagefly-product-section"
+    "related-products"
   ]
 }

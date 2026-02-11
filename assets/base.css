@@ -3703,50 +3703,52 @@ button {
 
 @media screen and (max-width: 990px){
 
-  .disclosure__item .disclosure__link .country{
-  font-family: "Montserrat", sans-serif !important;
-}
-  .inline-richtext{
-  font-family: "luna itc", sans-serif !important;
-}
+    .disclosure__item .disclosure__link .country{
+      font-family: "Montserrat", sans-serif !important;
+      }
+        .inline-richtext{
+          font-family: "luna itc", sans-serif !important;
+          }
 
- .__seguno-banner-text{
-  font-family: "Montserrat", sans-serif !important;
-} 
+           .__seguno-banner-text{
+             font-family: "Montserrat", sans-serif !important;
+             } 
 
-.h2{
-  font-family: "luna itc", sans-serif !important;
-}
- 
-  .image-with-text__content .quick-add__submit{
-  font-family: "luna itc", sans-serif !important;
-}
+             .h2{
+               font-family: "luna itc", sans-serif !important;
+               }
+                
+                  .image-with-text__content .quick-add__submit{
+                    font-family: "luna itc", sans-serif !important;
+                    }
 
-.footer-block__details-content .link--text{
-  font-family: "Montserrat", sans-serif !important;
-}
-  .disclosure__button {
-  font-family: "Montserrat", sans-serif !important;
-}
-/* Change Hulk title ONLY for Lakbay Travel Bundle */
+                    .footer-block__details-content .link--text{
+                      font-family: "Montserrat", sans-serif !important;
+                      }
+                        .disclosure__button {
+                          font-family: "Montserrat", sans-serif !important;
+                          }
 
-body.product-lakbay-travel-essentials-kit .hulkapps-product-options-title,
-body.product-lakbay-travel-essentials-kit .hpoption-title,
-body.product-lakbay-travel-essentials-kit .hulk-option-title {
-  font-size: 0 !important;
-  line-height: 0 !important;
-}
+                          }
+                          /* Change Hulk title ONLY for Lakbay Travel Bundle */
 
-body.product-lakbay-travel-essentials-kit .hulkapps-product-options-title::after,
-body.product-lakbay-travel-essentials-kit .hpoption-title::after,
-body.product-lakbay-travel-essentials-kit .hulk-option-title::after {
-  content: "Choose your Bundle" !important;
-  font-size: 18px !important;
-  font-weight: 700 !important;
-  line-height: normal !important;
-  display: inline-block !important;
-}
+                          body.product-lakbay-travel-essentials-kit .hulkapps-product-options-title,
+                          body.product-lakbay-travel-essentials-kit .hpoption-title,
+                          body.product-lakbay-travel-essentials-kit .hulk-option-title {
+                            font-size: 0 !important;
+                              line-height: 0 !important;
+                              }
 
+                              body.product-lakbay-travel-essentials-kit .hulkapps-product-options-title::after,
+                              body.product-lakbay-travel-essentials-kit .hpoption-title::after,
+                              body.product-lakbay-travel-essentials-kit .hulk-option-title::after {
+                                content: "Choose your Bundle" !important;
+                                  font-size: 18px !important;
+                                    font-weight: 700 !important;
+                                      line-height: normal !important;
+                                        display: inline-block !important;
+                                        }
+}
 
 
 

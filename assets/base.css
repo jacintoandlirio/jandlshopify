@@ -3728,6 +3728,24 @@ button {
   .disclosure__button {
   font-family: "Montserrat", sans-serif !important;
 }
+/* Change Hulk title ONLY for Lakbay Travel Bundle */
+
+body.product-lakbay-travel-essentials-kit .hulkapps-product-options-title,
+body.product-lakbay-travel-essentials-kit .hpoption-title,
+body.product-lakbay-travel-essentials-kit .hulk-option-title {
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+body.product-lakbay-travel-essentials-kit .hulkapps-product-options-title::after,
+body.product-lakbay-travel-essentials-kit .hpoption-title::after,
+body.product-lakbay-travel-essentials-kit .hulk-option-title::after {
+  content: "Choose your Bundle" !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  display: inline-block !important;
+}
 
 }
 

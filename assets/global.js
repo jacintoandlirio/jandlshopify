@@ -1065,35 +1065,78 @@ class VariantSelects extends HTMLElement {
   }
 
   updateVariantStatuses() {
-    const selectedOptionOneVariants = this.variantData.filter(
-      (variant) => this.querySelector(':checked').value === variant.option1
-    );
-    const inputWrappers = [...this.querySelectorAll('.product-form__input')];
-    inputWrappers.forEach((option, index) => {
-      if (index === 0) return;
-      const optionInputs = [...option.querySelectorAll('input[type="radio"], option')];
-      const previousOptionSelected = inputWrappers[index - 1].querySelector(':checked').value;
-      const availableOptionInputsValue = selectedOptionOneVariants
-        .filter((variant) => variant.available && variant[`option${index}`] === previousOptionSelected)
-        .map((variantOption) => variantOption[`option${index + 1}`]);
-      this.setInputAvailability(optionInputs, availableOptionInputsValue);
+  // Make sure we have latest selected values (selects or radios)
+  if (!this.options) this.updateOptions();
+  if (!this.variantData) this.getVariantData();
+
+  const selected = this.options; // array in option order: [option1, option2, option3...]
+
+  const inputWrappers = [...this.querySelectorAll('.product-form__input')];
+
+  inputWrappers.forEach((wrapper, index) => {
+    // index 0 = option1 wrapper; we only update availability for option2+ wrappers
+    if (index === 0) return;
+
+    // Build a list of the UI elements we need to update:
+    // - radio inputs (button/pill)
+    // - <option> tags (dropdown)
+    const optionInputs = [
+      ...wrapper.querySelectorAll('input[type="radio"]'),
+      ...wrapper.querySelectorAll('option'),
+    ].filter((el) => {
+      // Skip placeholder options like "Choose..." that may have empty value
+      const v = el.getAttribute('value');
+      return v !== null && v !== '';
     });
-  }
 
-  setInputAvailability(elementList, availableValuesList) {
-    elementList.forEach((element) => {
-      const value = element.getAttribute('value');
-      const availableElement = availableValuesList.includes(value);
+    // Determine which values are available for this option index,
+    // given ALL previously-selected options (0..index-1).
+    const availableValues = this.variantData
+      .filter((variant) => {
+        if (!variant.available) return false;
 
-      if (element.tagName === 'INPUT') {
-        element.classList.toggle('disabled', !availableElement);
-      } else if (element.tagName === 'OPTION') {
-        element.innerText = availableElement
-          ? value
-          : window.variantStrings.unavailable_with_option.replace('[value]', value);
+        // Must match every previously selected option
+        for (let i = 0; i < index; i++) {
+          if (selected[i] == null) return false; // if something isn't selected yet
+          if (variant.options[i] !== selected[i]) return false;
+        }
+        return true;
+      })
+      .map((variant) => variant.options[index]);
+
+    // Deduplicate (avoids unnecessary repeats)
+    const uniqueAvailableValues = [...new Set(availableValues)];
+
+    this.setInputAvailability(optionInputs, uniqueAvailableValues);
+  });
+}
+
+setInputAvailability(elementList, availableValuesList) {
+  elementList.forEach((element) => {
+    const value = element.getAttribute('value');
+    const isAvailable = availableValuesList.includes(value);
+
+    if (element.tagName === 'INPUT') {
+      // Radio buttons (button/pill)
+      element.classList.toggle('disabled', !isAvailable);
+      element.disabled = !isAvailable;
+
+      // If a disabled radio is currently checked, uncheck it
+      if (!isAvailable && element.checked) {
+        element.checked = false;
       }
-    });
-  }
+    } else if (element.tagName === 'OPTION') {
+      // Dropdown <option>
+      element.disabled = !isAvailable;
+
+      // Keep label stable; replace with "Unavailable" text only when disabled
+      element.textContent = isAvailable
+        ? value
+        : window.variantStrings.unavailable_with_option.replace('[value]', value);
+    }
+  });
+}
+
 
   updatePickupAvailability() {
     const pickUpAvailability = document.querySelector('pickup-availability');

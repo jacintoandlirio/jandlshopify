@@ -1063,98 +1063,37 @@ class VariantSelects extends HTMLElement {
       input.dispatchEvent(new Event('change', { bubbles: true }));
     });
   }
-updateVariantStatuses() {
-  // Ensure selected options + variant data exist
-  this.updateOptions();
-  this.getVariantData();
 
-  // Guard to prevent infinite change loops
-  if (this._updatingVariantStatuses) return;
-  this._updatingVariantStatuses = true;
+  updateVariantStatuses() {
+    const selectedOptionOneVariants = this.variantData.filter(
+      (variant) => this.querySelector(':checked').value === variant.option1
+    );
+    const inputWrappers = [...this.querySelectorAll('.product-form__input')];
+    inputWrappers.forEach((option, index) => {
+      if (index === 0) return;
+      const optionInputs = [...option.querySelectorAll('input[type="radio"], option')];
+      const previousOptionSelected = inputWrappers[index - 1].querySelector(':checked').value;
+      const availableOptionInputsValue = selectedOptionOneVariants
+        .filter((variant) => variant.available && variant[`option${index}`] === previousOptionSelected)
+        .map((variantOption) => variantOption[`option${index + 1}`]);
+      this.setInputAvailability(optionInputs, availableOptionInputsValue);
+    });
+  }
 
-  try {
-    const selected = this.options; // [option1, option2, option3...]
+  setInputAvailability(elementList, availableValuesList) {
+    elementList.forEach((element) => {
+      const value = element.getAttribute('value');
+      const availableElement = availableValuesList.includes(value);
 
-    const wrappers = [...this.querySelectorAll('.product-form__input')];
-
-    wrappers.forEach((wrapper, index) => {
-      if (index === 0) return; // don't change option1 availability here
-
-      // Identify the SELECT inside this wrapper (dropdown type)
-      const selectEl = wrapper.querySelector('select');
-
-      // All UI elements for this option level
-      const radioInputs = [...wrapper.querySelectorAll('input[type="radio"]')];
-      const optionEls = selectEl ? [...selectEl.querySelectorAll('option')] : [];
-
-      // Compute which values are valid for this option index, based on all previous selections
-      const availableValues = this.variantData
-        .filter((variant) => {
-          if (!variant.available) return false;
-
-          // Must match all previously selected options: 0..index-1
-          for (let i = 0; i < index; i++) {
-            if (!selected[i]) return false;
-            if (variant.options[i] !== selected[i]) return false;
-          }
-          return true;
-        })
-        .map((variant) => variant.options[index]);
-
-      const uniqueAvailableValues = [...new Set(availableValues)];
-
-      // Apply availability to radios + dropdown options
-      this.setInputAvailability(radioInputs, optionEls, uniqueAvailableValues);
-
-      // IMPORTANT: If dropdown currently has an unavailable value selected, switch to first available
-      if (selectEl) {
-        const currentValue = selectEl.value;
-        if (currentValue && !uniqueAvailableValues.includes(currentValue)) {
-          const firstAvailable = uniqueAvailableValues[0];
-          if (firstAvailable) {
-            selectEl.value = firstAvailable;
-            // Update internal options + trigger full variant recalculation
-            selectEl.dispatchEvent(new Event('change', { bubbles: true }));
-          }
-        }
-      } else {
-        // If radios: if checked radio is unavailable, uncheck it (prevents invalid state)
-        const checked = wrapper.querySelector('input[type="radio"]:checked');
-        if (checked && !uniqueAvailableValues.includes(checked.value)) {
-          checked.checked = false;
-        }
+      if (element.tagName === 'INPUT') {
+        element.classList.toggle('disabled', !availableElement);
+      } else if (element.tagName === 'OPTION') {
+        element.innerText = availableElement
+          ? value
+          : window.variantStrings.unavailable_with_option.replace('[value]', value);
       }
     });
-  } finally {
-    this._updatingVariantStatuses = false;
   }
-}
-
-setInputAvailability(radioInputs, optionEls, availableValuesList) {
-  // Radios (pill/button)
-  radioInputs.forEach((input) => {
-    const isAvailable = availableValuesList.includes(input.value);
-    input.classList.toggle('disabled', !isAvailable);
-    input.disabled = !isAvailable;
-  });
-
-  // Dropdown <option>
-  optionEls.forEach((opt) => {
-    const value = opt.value;
-    if (!value) return; // skip placeholder options if any
-
-    const isAvailable = availableValuesList.includes(value);
-
-    opt.disabled = !isAvailable;
-
-    // Keep readable text; don't permanently overwrite labels if you can avoid it
-    // (but your theme expects this string behavior, so we keep it consistent)
-    opt.textContent = isAvailable
-      ? value
-      : window.variantStrings.unavailable_with_option.replace('[value]', value);
-  });
-}
-
 
   updatePickupAvailability() {
     const pickUpAvailability = document.querySelector('pickup-availability');

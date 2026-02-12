@@ -1063,74 +1063,37 @@ class VariantSelects extends HTMLElement {
       input.dispatchEvent(new Event('change', { bubbles: true }));
     });
   }
-updateVariantStatuses() {
-  this.getVariantData();
-  if (!this.options) this.updateOptions();
 
-  const option1Selected = this.options[0];
-  if (!option1Selected) return;
+  updateVariantStatuses() {
+    const selectedOptionOneVariants = this.variantData.filter(
+      (variant) => this.querySelector(':checked').value === variant.option1
+    );
+    const inputWrappers = [...this.querySelectorAll('.product-form__input')];
+    inputWrappers.forEach((option, index) => {
+      if (index === 0) return;
+      const optionInputs = [...option.querySelectorAll('input[type="radio"], option')];
+      const previousOptionSelected = inputWrappers[index - 1].querySelector(':checked').value;
+      const availableOptionInputsValue = selectedOptionOneVariants
+        .filter((variant) => variant.available && variant[`option${index}`] === previousOptionSelected)
+        .map((variantOption) => variantOption[`option${index + 1}`]);
+      this.setInputAvailability(optionInputs, availableOptionInputsValue);
+    });
+  }
 
-  // Only variants matching option1
-  const option1Variants = this.variantData.filter(
-    (variant) => variant.available && variant.option1 === option1Selected
-  );
+  setInputAvailability(elementList, availableValuesList) {
+    elementList.forEach((element) => {
+      const value = element.getAttribute('value');
+      const availableElement = availableValuesList.includes(value);
 
-  const inputWrappers = [...this.querySelectorAll('.product-form__input')];
-
-  inputWrappers.forEach((wrapper, index) => {
-    // index 0 = option1 wrapper; we update option2+ wrappers
-    if (index === 0) return;
-
-    // What is selected in the previous option group?
-    const prevSelected = this.options[index - 1];
-    if (!prevSelected) return;
-
-    // Figure out which values are available for the current option group
-    // Example:
-    // index=1 -> we are updating option2 values; prevSelected refers to option1 value
-    // index=2 -> we are updating option3 values; prevSelected refers to option2 value
-    const availableValues = option1Variants
-      .filter((variant) => variant[`option${index}`] === prevSelected)
-      .map((variant) => variant[`option${index + 1}`]);
-
-    const uniqueAvailableValues = [...new Set(availableValues)];
-
-    const radioInputs = [...wrapper.querySelectorAll('input[type="radio"]')];
-    const optionEls = [...wrapper.querySelectorAll('option')];
-
-    this.setInputAvailability(radioInputs, optionEls, uniqueAvailableValues);
-  });
-}
-
-
-
-setInputAvailability(radioInputs, optionEls, availableValuesList) {
-  // Radios (pill/button)
-  radioInputs.forEach((input) => {
-    const isAvailable = availableValuesList.includes(input.value);
-    input.classList.toggle('disabled', !isAvailable);
-    input.disabled = !isAvailable;
-
-    // Prevent a "dead" selection
-    if (!isAvailable && input.checked) input.checked = false;
-  });
-
-  // Dropdown <option>
-  optionEls.forEach((opt) => {
-    const value = opt.value;
-    if (!value) return;
-
-    const isAvailable = availableValuesList.includes(value);
-    opt.disabled = !isAvailable;
-
-    opt.textContent = isAvailable
-      ? value
-      : window.variantStrings.unavailable_with_option.replace('[value]', value);
-  });
-}
-
-
-
+      if (element.tagName === 'INPUT') {
+        element.classList.toggle('disabled', !availableElement);
+      } else if (element.tagName === 'OPTION') {
+        element.innerText = availableElement
+          ? value
+          : window.variantStrings.unavailable_with_option.replace('[value]', value);
+      }
+    });
+  }
 
   updatePickupAvailability() {
     const pickUpAvailability = document.querySelector('pickup-availability');

@@ -1111,7 +1111,7 @@ class VariantSelects extends HTMLElement {
   });
 }
 
-setInputAvailability(elementList, availableValuesList) {
+  setInputAvailability(elementList, availableValuesList) {
   elementList.forEach((element) => {
     const value = element.getAttribute('value');
     const isAvailable = availableValuesList.includes(value);
@@ -1136,7 +1136,6 @@ setInputAvailability(elementList, availableValuesList) {
     }
   });
 }
-
 
   updatePickupAvailability() {
     const pickUpAvailability = document.querySelector('pickup-availability');

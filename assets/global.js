@@ -1063,37 +1063,59 @@ class VariantSelects extends HTMLElement {
       input.dispatchEvent(new Event('change', { bubbles: true }));
     });
   }
+updateVariantStatuses() {
+  this.getVariantData();
+  this.updateOptions();
 
-  updateVariantStatuses() {
-    const selectedOptionOneVariants = this.variantData.filter(
-      (variant) => this.querySelector(':checked').value === variant.option1
-    );
-    const inputWrappers = [...this.querySelectorAll('.product-form__input')];
-    inputWrappers.forEach((option, index) => {
-      if (index === 0) return;
-      const optionInputs = [...option.querySelectorAll('input[type="radio"], option')];
-      const previousOptionSelected = inputWrappers[index - 1].querySelector(':checked').value;
-      const availableOptionInputsValue = selectedOptionOneVariants
-        .filter((variant) => variant.available && variant[`option${index}`] === previousOptionSelected)
-        .map((variantOption) => variantOption[`option${index + 1}`]);
-      this.setInputAvailability(optionInputs, availableOptionInputsValue);
+  const wrappers = [...this.querySelectorAll('.product-form__input')];
+
+  wrappers.forEach((wrapper, index) => {
+    if (index === 0) return;
+
+    const previousSelectedValue = this.options[index - 1];
+    const variantsMatchingPrevious = this.variantData.filter((variant) => {
+      if (!variant.available) return false;
+      return variant.options[index - 1] === previousSelectedValue;
     });
-  }
 
-  setInputAvailability(elementList, availableValuesList) {
-    elementList.forEach((element) => {
-      const value = element.getAttribute('value');
-      const availableElement = availableValuesList.includes(value);
+    // All values that are available at this option level (index)
+    const availableValues = variantsMatchingPrevious.map((variant) => variant.options[index]);
 
-      if (element.tagName === 'INPUT') {
-        element.classList.toggle('disabled', !availableElement);
-      } else if (element.tagName === 'OPTION') {
-        element.innerText = availableElement
-          ? value
-          : window.variantStrings.unavailable_with_option.replace('[value]', value);
-      }
-    });
-  }
+    // Get inputs/options inside this wrapper
+    const radios = [...wrapper.querySelectorAll('input[type="radio"]')];
+    const options = [...wrapper.querySelectorAll('option')];
+
+    this.setInputAvailability(radios, options, [...new Set(availableValues)]);
+  });
+}
+
+
+setInputAvailability(radioInputs, optionEls, availableValuesList) {
+  // Radios (pill/button)
+  radioInputs.forEach((input) => {
+    const isAvailable = availableValuesList.includes(input.value);
+    input.classList.toggle('disabled', !isAvailable);
+    input.disabled = !isAvailable;
+
+    // If a disabled radio is checked, uncheck it (prevents broken state)
+    if (!isAvailable && input.checked) input.checked = false;
+  });
+
+  // Dropdown <option>
+  optionEls.forEach((opt) => {
+    const value = opt.value;
+    if (!value) return;
+
+    const isAvailable = availableValuesList.includes(value);
+    opt.disabled = !isAvailable;
+
+    opt.textContent = isAvailable
+      ? value
+      : window.variantStrings.unavailable_with_option.replace('[value]', value);
+  });
+}
+
+
 
   updatePickupAvailability() {
     const pickUpAvailability = document.querySelector('pickup-availability');

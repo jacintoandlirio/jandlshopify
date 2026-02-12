@@ -1065,29 +1065,43 @@ class VariantSelects extends HTMLElement {
   }
 updateVariantStatuses() {
   this.getVariantData();
-  this.updateOptions();
+  if (!this.options) this.updateOptions();
 
-  const wrappers = [...this.querySelectorAll('.product-form__input')];
+  const option1Selected = this.options[0];
+  if (!option1Selected) return;
 
-  wrappers.forEach((wrapper, index) => {
+  // Only variants matching option1
+  const option1Variants = this.variantData.filter(
+    (variant) => variant.available && variant.option1 === option1Selected
+  );
+
+  const inputWrappers = [...this.querySelectorAll('.product-form__input')];
+
+  inputWrappers.forEach((wrapper, index) => {
+    // index 0 = option1 wrapper; we update option2+ wrappers
     if (index === 0) return;
 
-    const previousSelectedValue = this.options[index - 1];
-    const variantsMatchingPrevious = this.variantData.filter((variant) => {
-      if (!variant.available) return false;
-      return variant.options[index - 1] === previousSelectedValue;
-    });
+    // What is selected in the previous option group?
+    const prevSelected = this.options[index - 1];
+    if (!prevSelected) return;
 
-    // All values that are available at this option level (index)
-    const availableValues = variantsMatchingPrevious.map((variant) => variant.options[index]);
+    // Figure out which values are available for the current option group
+    // Example:
+    // index=1 -> we are updating option2 values; prevSelected refers to option1 value
+    // index=2 -> we are updating option3 values; prevSelected refers to option2 value
+    const availableValues = option1Variants
+      .filter((variant) => variant[`option${index}`] === prevSelected)
+      .map((variant) => variant[`option${index + 1}`]);
 
-    // Get inputs/options inside this wrapper
-    const radios = [...wrapper.querySelectorAll('input[type="radio"]')];
-    const options = [...wrapper.querySelectorAll('option')];
+    const uniqueAvailableValues = [...new Set(availableValues)];
 
-    this.setInputAvailability(radios, options, [...new Set(availableValues)]);
+    const radioInputs = [...wrapper.querySelectorAll('input[type="radio"]')];
+    const optionEls = [...wrapper.querySelectorAll('option')];
+
+    this.setInputAvailability(radioInputs, optionEls, uniqueAvailableValues);
   });
 }
+
 
 
 setInputAvailability(radioInputs, optionEls, availableValuesList) {
@@ -1097,7 +1111,7 @@ setInputAvailability(radioInputs, optionEls, availableValuesList) {
     input.classList.toggle('disabled', !isAvailable);
     input.disabled = !isAvailable;
 
-    // If a disabled radio is checked, uncheck it (prevents broken state)
+    // Prevent a "dead" selection
     if (!isAvailable && input.checked) input.checked = false;
   });
 
@@ -1114,6 +1128,7 @@ setInputAvailability(radioInputs, optionEls, availableValuesList) {
       : window.variantStrings.unavailable_with_option.replace('[value]', value);
   });
 }
+
 
 
 

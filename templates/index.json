@@ -579,7 +579,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/517902859_1146130677554523_8283051715070889832_n.png",
+        "image": "shopify://shop_images/enhance_4.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -934,7 +934,7 @@
         "column_W9gnGq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/E_SDG-goals_icons-individual-rgb-05-1024x1024.png",
+            "image": "shopify://shop_images/Sustainable_Development_Goal_13Climate_svg.png",
             "title": "<strong>CLIMATE ACTION</strong>",
             "text": "<p>By using water hyacinth, an invasive plant, we help mitigate its environmental impact on waterways, contributing to climate action and biodiversity conservation.</p>",
             "link_label": "",

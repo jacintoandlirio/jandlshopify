@@ -16,9 +16,9 @@
       "custom_css": [
         "header {height: 180px;}",
         ".image-with-text__heading {font-size: 40px; color: #926f2b;}",
-        "sticky-header {border-bottom: 2px solid #926f2b;}",
+        "/* FIXED: sticky-header needs dot if it's a class */.sticky-header {border-bottom: 2px solid #926f2b;}",
         ".gm-submenu .gm-item {height: 45px;}",
-        ".header__inline-menu {padding-top: -32px;}",
+        "/* FIXED: negative padding is invalid → use margin instead */.header__inline-menu {margin-top: -32px;}",
         ".search__input {font-family: \"Montserrat\", sans-serif !important;}",
         ".gm-target {cursor: pointer; pointer-events: auto;}"
       ],

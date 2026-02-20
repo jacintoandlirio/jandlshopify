@@ -15,7 +15,7 @@
         "slide_VF4bMU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Water_Hyacinth_Vegan_Leathergoods.jpg",
+            "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
             "image_link": "shopify://pages/jacinto-lirio-how-to-order-eco-friendly-corporate-giveaways",
             "heading": "<strong>ECO-FILIPINO CORPORATE GIFTS WITH A HEART</strong>",
             "heading_size": "h1",
@@ -1143,6 +1143,22 @@
         "show_text_below": true
       }
     },
+    "video_xAwLYh": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "END TO END CORPORATE GIFTING SERVICE",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https://www.youtube.com/watch?v=p-VIFBNPqxo",
+        "cover_image": "shopify://shop_images/Layout_7_1_ae190e1e-987b-42d3-acb3-917224995069.jpg",
+        "description": "END TO END CORPORATE GIFTING SERVICE",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_UWrfNG": {
       "type": "multicolumn",
       "blocks": {
@@ -1656,22 +1672,6 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_xAwLYh": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "END TO END CORPORATE GIFTING SERVICE",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video_url": "https://www.youtube.com/watch?v=p-VIFBNPqxo",
-        "cover_image": "shopify://shop_images/Layout_7_1_ae190e1e-987b-42d3-acb3-917224995069.jpg",
-        "description": "END TO END CORPORATE GIFTING SERVICE",
-        "full_width": true,
-        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }

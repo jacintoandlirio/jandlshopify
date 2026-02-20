@@ -50,7 +50,7 @@
           "settings": {
             "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
             "image_link": "shopify://pages/jacinto-lirio-how-to-order-eco-friendly-corporate-giveaways",
-            "heading": "<strong>ECO- CORPORATE GIFTS WITH A HEART</strong>",
+            "heading": "<strong>ECO-FILIPINO CORPORATE GIFTS WITH A HEART</strong>",
             "heading_size": "h1",
             "subheading": "End-to-end corporate gifting solutions that protect the environment, empower Filipino communities, and help organizations meet their CSR and green procurement goals.",
             "button_label": "REQUEST FOR QUOTE",
@@ -1107,7 +1107,7 @@
         ".multicolumn-card__info a {font-family: \"button font\" !important;}"
       ],
       "settings": {
-        "title": "Why Organizations Choose Us for Corporate Gifting: WE DO IT BETTER",
+        "title": "Why Orgs Choose Us for Corporate Gifting",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",

@@ -1454,7 +1454,7 @@
         ".banner__buttons .button {font-size: 19px; font-family: \"button font\" !important;}"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": true,

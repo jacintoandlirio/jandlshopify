@@ -133,54 +133,6 @@
             "image": "shopify://shop_images/hyundai.png",
             "url": ""
           }
-        },
-        "slide_HqAJEN": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_GwFLt3": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_eXCCU6": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_3f773k": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_izbFKU": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_L4gpQh": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_hkkEgi": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
-        },
-        "slide_mQqKGk": {
-          "type": "slide",
-          "settings": {
-            "url": ""
-          }
         }
       },
       "block_order": [
@@ -199,15 +151,7 @@
         "slide_PUzMyC",
         "slide_WA8Udi",
         "slide_iec9PA",
-        "slide_Ey3Thh",
-        "slide_HqAJEN",
-        "slide_GwFLt3",
-        "slide_eXCCU6",
-        "slide_3f773k",
-        "slide_izbFKU",
-        "slide_L4gpQh",
-        "slide_hkkEgi",
-        "slide_mQqKGk"
+        "slide_Ey3Thh"
       ],
       "name": "SS - Instafeed #2",
       "settings": {

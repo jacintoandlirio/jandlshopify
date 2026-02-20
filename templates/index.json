@@ -9,46 +9,13 @@
  */
 {
   "sections": {
-    "rich_text_cGb6gm": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_QkCDA3": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<strong>ECO- CORPORATE GIFTS WITH A HEART</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_FTiafA": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>End-to-end corporate gifting solutions that protect the environment, empower Filipino communities, and help organizations meet their CSR and green procurement goals.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_QkCDA3",
-        "text_FTiafA"
-      ],
-      "custom_css": [],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 44
-      }
-    },
     "slideshow_ri7rcw": {
       "type": "slideshow",
       "blocks": {
         "slide_VF4bMU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Virtual_Event_Kit.jpg",
+            "image": "shopify://shop_images/Water_Hyacinth_Vegan_Leathergoods.jpg",
             "image_link": "shopify://pages/jacinto-lirio-how-to-order-eco-friendly-corporate-giveaways",
             "heading": "<strong>ECO-FILIPINO CORPORATE GIFTS WITH A HEART</strong>",
             "heading_size": "h1",
@@ -1692,10 +1659,25 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "video_xAwLYh": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "END TO END CORPORATE GIFTING SERVICE",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https://www.youtube.com/watch?v=p-VIFBNPqxo",
+        "cover_image": "shopify://shop_images/Layout_7_1_ae190e1e-987b-42d3-acb3-917224995069.jpg",
+        "description": "END TO END CORPORATE GIFTING SERVICE",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "rich_text_cGb6gm",
     "slideshow_ri7rcw",
     "background_video_Gthhgi",
     "ss_instafeed_2_3RqEpe",
@@ -1713,6 +1695,7 @@
     "rich_text_aewJAB",
     "multicolumn_ymLrV7",
     "image_banner_HyQkcC",
+    "video_xAwLYh",
     "multicolumn_UWrfNG",
     "multirow_wmBax8",
     "slideshow_AGJPzh",

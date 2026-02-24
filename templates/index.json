@@ -1145,6 +1145,7 @@
     },
     "video_xAwLYh": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "END TO END CORPORATE GIFTING SERVICE",
